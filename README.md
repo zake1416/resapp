@@ -4,6 +4,10 @@ This is the new AI-agent workflow.
 
 You paste a job description into `job_description.txt`, run one command, and Codex agents build the tailored resume from your experience JSONs.
 
+## First-Time Setup
+
+New machine or new collaborator? Start with [`SETUP.md`](SETUP.md) for Python, Codex CLI, authentication, and troubleshooting instructions.
+
 ## Main Workflow
 
 ```powershell
