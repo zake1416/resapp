@@ -1,0 +1,112 @@
+{
+  "summary": "Operations and AI automation analyst with financial controls, CRM-adjacent workflow governance, data-quality discipline, and stakeholder partnership experience. Improves organized workflows, reporting cadence, approvals, and delivery visibility across client, finance, product, and technology teams.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Built financial operations governance across global AR approvals, strengthening control accuracy for 11+ stakeholders.",
+        "Maintained meticulous approval data and threshold changes across AMER, EMEA, APAC, and Resellers, processing 15+ approver updates and 6 payment-plan levels to improve audit readiness and global consistency.",
+        "Designed async coordination workflows, eliminating 12+ meeting hours while keeping multi-team operations moving.",
+        "Created a Business Process Analyst operating model with responsibilities, reporting cadence, success metrics, and 30-60-90 planning to convert ambiguity into execution visibility for leadership and stakeholders.",
+        "Applied AI to standardize update templates, roadmaps, and Q&A workflows for clearer stakeholder communication.",
+        "Operationalized recurring process audits across 4 AR business groups, using a 5-step methodology to find gaps, validate workflows, and reduce documentation risk at scale."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Coordinated organized multi-deadline execution across product, development, sales, marketing, CTO, and CSO priorities.",
+        "Translated stakeholder needs into functional specifications for a real estate analytics platform, improving workflow clarity, client decision-making, and user experience by 20% across buyer-seller workflows during product planning.",
+        "Bridged executive priorities with team execution, improving progress visibility, risk communication, and operational alignment."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Documented client, sales, and developer requirements, improving product accuracy and user experience by 20%.",
+        "Aligned platform functionality with client expectations by converting stakeholder feedback into product requirements, reducing usability friction and strengthening adoption potential across analytics workflows and product planning cycles.",
+        "Coordinated development, sales, marketing, CTO, and CSO stakeholders to accelerate new-feature execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Launched a 0-to-1 AI predictive analytics product, supporting $1M in client revenue growth.",
+        "Modernized service operations by connecting AI, analytics, automation, and client-service workflows into a scalable operating approach for technology-driven business growth and repeatable future delivery.",
+        "Managed scope, budget, resources, timelines, and risks while aligning priorities with executive leadership.",
+        "Advised leadership on AI use cases and analytics integration, improving adoption readiness and translating emerging technology concepts into practical service-growth opportunities for long-term business strategy."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Executed meticulous ETL validation for migration data accuracy, improving defect detection by 60%.",
+        "Prioritized client-critical defects in a financially sensitive reinsurance application, reducing business risk and improving client satisfaction by 20% through sharper issue triage and validation discipline.",
+        "Improved Agile delivery workflows through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Owned quality assurance for a business-critical reinsurance application, strengthening functional accuracy, release readiness, defect management, and user satisfaction across client-facing delivery and operational support."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "Automation use-case identification",
+      "AI product launch",
+      "Executive AI enablement"
+    ],
+    "Systems, Workflow & Governance": [
+      "Workflow improvement",
+      "Approval governance",
+      "Data quality validation",
+      "Process audits",
+      "File and threshold management"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "Financial operations reporting",
+      "Predictive analytics",
+      "Defect reporting",
+      "Execution visibility dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Stakeholder partnership",
+      "Requirements documentation",
+      "Roadmap planning",
+      "Risk tracking",
+      "Cross-functional execution"
+    ],
+    "Tools": [
+      "Excel",
+      "CRM-adjacent workflow governance",
+      "Slack",
+      "AI tools",
+      "Agile Scrum",
+      "ETL validation"
+    ]
+  }
+}

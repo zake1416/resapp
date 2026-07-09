@@ -1,0 +1,768 @@
+{
+  "experience_source": "Vista Research Services",
+  "experience_type": "Base Resume Point Bank",
+  "points": [
+    {
+      "id": "VISTA_001",
+      "point_title": "0-to-1 AI Product Launch",
+      "base_resume_point": "Spearheaded the 0-to-1 launch of a B2B AI-driven SaaS product for predictive analytics, translating client survey-data challenges into a scalable product vision, roadmap, and execution plan that supported stronger analytics, decision-making, and revenue growth.",
+      "tags": {
+        "core_competency": [
+          "AI Product Development",
+          "Digital Transformation",
+          "Product Strategy",
+          "Business Innovation"
+        ],
+        "functional_skill": [
+          "Product roadmap creation",
+          "Product vision",
+          "Stakeholder alignment",
+          "Execution planning",
+          "AI solution development"
+        ],
+        "business_outcome": [
+          "New revenue enablement",
+          "Improved client analytics capability",
+          "Product-led business growth"
+        ],
+        "evidence_proof": [
+          "Led product from concept to launch",
+          "Built AI-driven SaaS solution for predictive analytics",
+          "Supported $1M increase in client revenue"
+        ],
+        "metric_placeholder": [
+          "$1M revenue increase",
+          "Number of clients supported",
+          "Product launch timeline",
+          "Adoption rate"
+        ],
+        "best_fit_roles": [
+          "AI Transformation Analyst",
+          "AI Operations Analyst",
+          "Product Operations Analyst",
+          "Digital Transformation Analyst",
+          "Program Associate, AI"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Strategy & Operations Associate",
+          "Solutions Analyst",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For AI roles, frame as AI solution delivery and adoption.",
+          "For product ops, frame as roadmap-to-execution.",
+          "For transformation roles, frame as moving the business toward AI-enabled services."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_002",
+      "point_title": "Product Roadmap and Execution Ownership",
+      "base_resume_point": "Owned end-to-end product execution by defining requirements, prioritizing the roadmap, coordinating development activities, and managing delivery milestones to convert a business opportunity into a scalable analytics platform.",
+      "tags": {
+        "core_competency": [
+          "Product Operations",
+          "Program Execution",
+          "Roadmap Management",
+          "Cross-Functional Delivery"
+        ],
+        "functional_skill": [
+          "Requirements definition",
+          "Backlog prioritization",
+          "Milestone tracking",
+          "Sprint planning",
+          "Stakeholder coordination"
+        ],
+        "business_outcome": [
+          "Faster execution",
+          "Better product alignment",
+          "Stronger delivery discipline"
+        ],
+        "evidence_proof": [
+          "Managed product roadmap",
+          "Led sprint planning",
+          "Handled backlog prioritization",
+          "Managed timelines",
+          "Tracked execution through JIRA"
+        ],
+        "metric_placeholder": [
+          "Number of sprints",
+          "Number of features shipped",
+          "Delivery timeline",
+          "Backlog size",
+          "Cycle-time improvement"
+        ],
+        "best_fit_roles": [
+          "Product Operations Analyst",
+          "Program Analyst",
+          "Program Coordinator",
+          "Business Systems Analyst"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Implementation Analyst",
+          "Operations Associate, AI",
+          "Strategy & Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For program roles, emphasize milestones, dependencies, and delivery tracking.",
+          "For product operations, emphasize roadmap execution and backlog management.",
+          "For business systems roles, emphasize requirements and system workflows."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_003",
+      "point_title": "AI Fraud Detection Model Development",
+      "base_resume_point": "Developed an AI-enabled fraud detection model using Python and Streamlit to identify survey-response quality issues, including duplicate responses, straight-lining, short durations, red herrings, and numeric anomalies, improving data reliability and fraud mitigation for client research.",
+      "tags": {
+        "core_competency": [
+          "AI Operations",
+          "Data Quality",
+          "Fraud Detection",
+          "Analytics Automation"
+        ],
+        "functional_skill": [
+          "Python",
+          "Streamlit",
+          "Anomaly detection",
+          "Data validation",
+          "Rule-based modeling",
+          "Survey analytics"
+        ],
+        "business_outcome": [
+          "Improved data quality",
+          "Reduced fraudulent responses",
+          "Stronger client trust",
+          "Better decision-making"
+        ],
+        "evidence_proof": [
+          "Built model to flag duplicate responses",
+          "Built model to flag straight-lining",
+          "Built model to flag short durations",
+          "Built model to flag red herrings",
+          "Built model to flag numeric anomalies"
+        ],
+        "metric_placeholder": [
+          "Fraud cases detected",
+          "Percentage of invalid responses flagged",
+          "Review time reduced",
+          "Data-quality improvement"
+        ],
+        "best_fit_roles": [
+          "AI Operations Analyst",
+          "AI Enablement Analyst",
+          "Operations Associate, AI",
+          "Business Systems Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Research Operations Associate",
+          "Process Improvement Analyst",
+          "Solutions Analyst",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For AI operations, frame as operationalizing AI for quality control.",
+          "For research operations, frame as improving survey-data integrity.",
+          "For business systems, frame as building a lightweight internal tool to support data validation."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_004",
+      "point_title": "Client-Facing Analytics and Visualization",
+      "base_resume_point": "Built client-facing data visualizations that translated fraud-detection outputs and survey analytics into clear, actionable insights, enabling clients to interpret response-quality risks and make more confident business decisions.",
+      "tags": {
+        "core_competency": [
+          "Data Visualization",
+          "Client Analytics",
+          "Insight Generation",
+          "Decision Support"
+        ],
+        "functional_skill": [
+          "Dashboarding",
+          "Visual storytelling",
+          "Data interpretation",
+          "Client reporting",
+          "Analytics communication"
+        ],
+        "business_outcome": [
+          "Better client decision-making",
+          "Improved insight visibility",
+          "Stronger value delivery"
+        ],
+        "evidence_proof": [
+          "Created visualizations for fraud detection",
+          "Created visualizations for survey-response insights"
+        ],
+        "metric_placeholder": [
+          "Number of dashboards",
+          "Number of client reports",
+          "Reduction in manual analysis time",
+          "Client adoption rate"
+        ],
+        "best_fit_roles": [
+          "Customer Value Analyst",
+          "Solutions Analyst",
+          "Research Operations Associate",
+          "Business Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Product Operations Analyst",
+          "Customer Success Operations Analyst",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer value roles, frame as insight delivery and client decision support.",
+          "For solutions roles, frame as translating technical outputs into usable client-facing solutions.",
+          "For AI roles, frame as making AI outputs interpretable and actionable."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_005",
+      "point_title": "Workflow Automation and User Experience Improvement",
+      "base_resume_point": "Refined and automated product workflows to simplify how internal teams and external clients interacted with the analytics platform, improving usability, reducing manual friction, and creating a smoother end-to-end user experience.",
+      "tags": {
+        "core_competency": [
+          "Process Improvement",
+          "Workflow Automation",
+          "Product Operations",
+          "User Experience Optimization"
+        ],
+        "functional_skill": [
+          "Workflow mapping",
+          "Automation",
+          "User journey improvement",
+          "Process simplification",
+          "Operational design"
+        ],
+        "business_outcome": [
+          "Improved usability",
+          "Reduced friction",
+          "Stronger user satisfaction",
+          "Better retention potential"
+        ],
+        "evidence_proof": [
+          "Automated platform workflows",
+          "Simplified platform workflows for internal teams",
+          "Simplified platform workflows for external clients"
+        ],
+        "metric_placeholder": [
+          "Time saved",
+          "Manual steps reduced",
+          "User satisfaction improvement",
+          "Retention improvement",
+          "Workflow completion rate"
+        ],
+        "best_fit_roles": [
+          "Process Improvement Analyst",
+          "Product Operations Analyst",
+          "AI Operations Analyst",
+          "Digital Transformation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Implementation Analyst",
+          "Customer Success Operations Analyst",
+          "Business Systems Analyst"
+        ],
+        "adaptation_direction": [
+          "For process roles, emphasize bottleneck removal and workflow standardization.",
+          "For product ops, emphasize usability and internal/external user experience.",
+          "For AI ops, frame as making AI-enabled workflows easier to use and adopt."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_006",
+      "point_title": "Agile Project Management and Delivery Governance",
+      "base_resume_point": "Managed agile delivery operations by leading sprint planning, prioritizing the backlog, tracking timelines, and coordinating execution through JIRA to keep product development aligned with business priorities and delivery goals.",
+      "tags": {
+        "core_competency": [
+          "Agile Project Management",
+          "Program Coordination",
+          "Delivery Management",
+          "Execution Governance"
+        ],
+        "functional_skill": [
+          "JIRA",
+          "Sprint planning",
+          "Backlog management",
+          "Timeline tracking",
+          "Task coordination",
+          "Prioritization"
+        ],
+        "business_outcome": [
+          "Stronger execution visibility",
+          "Improved delivery discipline",
+          "Better alignment between technical work and business goals"
+        ],
+        "evidence_proof": [
+          "Led sprint planning",
+          "Handled backlog prioritization",
+          "Managed timeline tracking",
+          "Used JIRA-based execution tracking"
+        ],
+        "metric_placeholder": [
+          "Number of sprints managed",
+          "Delivery timelines met",
+          "Backlog items completed",
+          "Cycle-time reduction"
+        ],
+        "best_fit_roles": [
+          "Program Analyst",
+          "Program Coordinator",
+          "Product Operations Analyst",
+          "Implementation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Business Operations Associate",
+          "Operations Associate, AI",
+          "Business Systems Analyst"
+        ],
+        "adaptation_direction": [
+          "For program roles, frame as execution tracking and delivery coordination.",
+          "For implementation roles, frame as managing timelines and launch readiness.",
+          "For product operations, frame as agile operating rhythm and backlog governance."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_007",
+      "point_title": "Budget, Scope, Resource, and Risk Management",
+      "base_resume_point": "Managed project scope, budgeting, resource allocation, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, and execution capacity.",
+      "tags": {
+        "core_competency": [
+          "Program Management",
+          "Strategic Operations",
+          "Risk Management",
+          "Executive Stakeholder Management"
+        ],
+        "functional_skill": [
+          "Budgeting",
+          "Resource planning",
+          "Scope definition",
+          "Risk tracking",
+          "Priority negotiation",
+          "Executive communication"
+        ],
+        "business_outcome": [
+          "Better resource alignment",
+          "Reduced execution risk",
+          "Stronger leadership visibility",
+          "Improved decision-making"
+        ],
+        "evidence_proof": [
+          "Managed budget",
+          "Managed resource allocation",
+          "Managed scope",
+          "Managed timelines",
+          "Managed risk",
+          "Negotiated priorities with Vista’s president"
+        ],
+        "metric_placeholder": [
+          "Budget size",
+          "Resources managed",
+          "Number of workstreams",
+          "Timeline accuracy",
+          "Risk reduction"
+        ],
+        "best_fit_roles": [
+          "Strategy & Operations Associate",
+          "Program Analyst",
+          "Program Coordinator",
+          "Business Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "AI Transformation Analyst",
+          "Digital Transformation Analyst",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For strategy and operations, emphasize executive alignment and resource tradeoffs.",
+          "For program roles, emphasize scope, risk, and timeline governance.",
+          "For transformation roles, emphasize managing change under resource constraints."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_008",
+      "point_title": "Client Relationship and Service Pitching",
+      "base_resume_point": "Supported client growth by pitching analytics and research services, managing client relationships, and aligning product capabilities with client needs to strengthen engagement, trust, and long-term partnership opportunities.",
+      "tags": {
+        "core_competency": [
+          "Client Strategy",
+          "Customer Success",
+          "GTM Support",
+          "Relationship Management"
+        ],
+        "functional_skill": [
+          "Client pitching",
+          "Needs discovery",
+          "Relationship management",
+          "Service positioning",
+          "Consultative communication"
+        ],
+        "business_outcome": [
+          "Increased client engagement",
+          "Stronger partnership opportunities",
+          "Improved service adoption"
+        ],
+        "evidence_proof": [
+          "Pitched services",
+          "Managed client relationships",
+          "Supported long-term partnerships"
+        ],
+        "metric_placeholder": [
+          "Number of clients supported",
+          "Renewal rate",
+          "Engagement increase",
+          "Revenue influenced",
+          "Partnership length"
+        ],
+        "best_fit_roles": [
+          "Customer Success Operations Analyst",
+          "Customer Value Analyst",
+          "Solutions Analyst",
+          "GTM Operations Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Strategy & Operations Associate",
+          "Implementation Analyst",
+          "Product Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer success roles, frame as client engagement and retention support.",
+          "For solutions roles, frame as matching client needs to platform capabilities.",
+          "For GTM roles, frame as service positioning and revenue support."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_009",
+      "point_title": "Outreach Strategy and Thought Leadership",
+      "base_resume_point": "Strengthened Vista’s market positioning by creating newsletters, refining outreach strategy, and shaping service messaging to communicate product value, increase client engagement, and support thought leadership in the research-services market.",
+      "tags": {
+        "core_competency": [
+          "GTM Operations",
+          "Market Positioning",
+          "Strategic Communication",
+          "Client Engagement"
+        ],
+        "functional_skill": [
+          "Newsletter creation",
+          "Outreach strategy",
+          "Messaging",
+          "Market research",
+          "Content development"
+        ],
+        "business_outcome": [
+          "Stronger brand visibility",
+          "Improved client engagement",
+          "Better market positioning"
+        ],
+        "evidence_proof": [
+          "Created newsletters",
+          "Refined outreach strategy",
+          "Shaped Vista’s service narrative"
+        ],
+        "metric_placeholder": [
+          "Email open rate",
+          "Engagement rate",
+          "Lead conversion",
+          "Newsletter frequency",
+          "Client responses"
+        ],
+        "best_fit_roles": [
+          "GTM Operations Analyst",
+          "Customer Success Operations Analyst",
+          "Customer Value Analyst",
+          "Strategy & Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Research Operations Associate",
+          "Product Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For GTM ops, emphasize outreach systems, messaging, and market positioning.",
+          "For customer value, emphasize communicating value and increasing engagement.",
+          "For strategy roles, frame as business narrative and market differentiation."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_010",
+      "point_title": "Market Research and Business Analysis",
+      "base_resume_point": "Conducted market research and business analysis to identify client needs, refine service positioning, and inform product and outreach decisions that improved Vista’s ability to align solutions with market demand.",
+      "tags": {
+        "core_competency": [
+          "Business Analysis",
+          "Market Research",
+          "Strategy Support",
+          "Customer Insight"
+        ],
+        "functional_skill": [
+          "Market analysis",
+          "Client-needs analysis",
+          "Competitive positioning",
+          "Research synthesis",
+          "Insight generation"
+        ],
+        "business_outcome": [
+          "Better product-market alignment",
+          "Stronger service positioning",
+          "Improved strategic decision-making"
+        ],
+        "evidence_proof": [
+          "Deep involvement in market research",
+          "Supported analysis",
+          "Supported outreach strategy",
+          "Supported service positioning"
+        ],
+        "metric_placeholder": [
+          "Number of research reports",
+          "Client segments analyzed",
+          "Market opportunities identified",
+          "Campaign impact"
+        ],
+        "best_fit_roles": [
+          "Research Operations Associate",
+          "Strategy & Operations Associate",
+          "Business Operations Associate",
+          "Customer Value Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "GTM Operations Analyst",
+          "Solutions Analyst",
+          "Business Systems Analyst"
+        ],
+        "adaptation_direction": [
+          "For research ops, emphasize structured analysis and research execution.",
+          "For strategy roles, emphasize insight-to-action.",
+          "For customer value, frame as understanding client needs and shaping value delivery."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_011",
+      "point_title": "AI Enablement for Executive Leadership",
+      "base_resume_point": "Advised executive leadership on emerging technologies, AI use cases, and advanced analytics opportunities, helping leadership understand how AI could be integrated into Vista’s core services and long-term growth strategy.",
+      "tags": {
+        "core_competency": [
+          "AI Enablement",
+          "Executive Advisory",
+          "Digital Transformation",
+          "Strategic Communication"
+        ],
+        "functional_skill": [
+          "AI education",
+          "Stakeholder enablement",
+          "Technology research",
+          "Executive communication",
+          "Use-case identification"
+        ],
+        "business_outcome": [
+          "Improved leadership understanding of AI",
+          "Stronger technology adoption readiness",
+          "Clearer transformation direction"
+        ],
+        "evidence_proof": [
+          "Educated Vista’s president on emerging technologies",
+          "Educated Vista’s president on AI integration opportunities",
+          "Educated Vista’s president on analytics integration opportunities"
+        ],
+        "metric_placeholder": [
+          "Number of AI use cases identified",
+          "Tools evaluated",
+          "Leadership sessions conducted",
+          "Initiatives influenced"
+        ],
+        "best_fit_roles": [
+          "AI Enablement Analyst",
+          "AI Transformation Analyst",
+          "Digital Transformation Analyst",
+          "Program Associate, AI"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Strategy & Operations Associate",
+          "Operations Associate, AI",
+          "Business Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For AI enablement, frame as educating stakeholders and building AI adoption readiness.",
+          "For transformation roles, frame as influencing leadership toward AI-enabled business strategy.",
+          "For operations roles, frame as translating AI concepts into practical business use cases."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_012",
+      "point_title": "Tech-Driven Business Model Transformation",
+      "base_resume_point": "Helped shift Vista toward a more technology-driven business model by connecting AI, analytics, workflow automation, and client-service improvements into a scalable operating approach for future growth.",
+      "tags": {
+        "core_competency": [
+          "Business Transformation",
+          "Operating Model Improvement",
+          "AI Strategy",
+          "Scalable Operations"
+        ],
+        "functional_skill": [
+          "Transformation planning",
+          "Operating model design",
+          "Technology integration",
+          "Workflow improvement",
+          "Strategic alignment"
+        ],
+        "business_outcome": [
+          "Stronger scalability",
+          "Improved workflow efficiency",
+          "Better alignment with modern tools and technologies"
+        ],
+        "evidence_proof": [
+          "Supported company pivot toward a tech-driven model through AI product development",
+          "Supported company pivot toward a tech-driven model through automation",
+          "Supported company pivot toward a tech-driven model through analytics",
+          "Supported company pivot toward a tech-driven model through executive advisory"
+        ],
+        "metric_placeholder": [
+          "Revenue growth",
+          "Workflow efficiency improvement",
+          "Number of tech-enabled services launched",
+          "Client adoption"
+        ],
+        "best_fit_roles": [
+          "AI Transformation Analyst",
+          "Digital Transformation Analyst",
+          "Strategy & Operations Associate",
+          "Business Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Product Operations Analyst",
+          "Operations Associate, AI",
+          "Process Improvement Analyst"
+        ],
+        "adaptation_direction": [
+          "For transformation roles, emphasize modernization and business-model shift.",
+          "For strategy ops, emphasize scalable operating model.",
+          "For AI ops, emphasize operationalizing AI and analytics into repeatable business workflows."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_013",
+      "point_title": "Client-Centric Product and Service Improvement",
+      "base_resume_point": "Applied a customer-first approach to improve platform usability, service delivery, and client experience by aligning product workflows, analytics outputs, and communication strategies with client needs and decision-making behaviors.",
+      "tags": {
+        "core_competency": [
+          "Customer Value",
+          "Product Operations",
+          "Client Experience",
+          "Service Optimization"
+        ],
+        "functional_skill": [
+          "Client-needs analysis",
+          "User experience improvement",
+          "Workflow refinement",
+          "Service alignment",
+          "Feedback interpretation"
+        ],
+        "business_outcome": [
+          "Improved client satisfaction",
+          "Stronger retention potential",
+          "Better product adoption"
+        ],
+        "evidence_proof": [
+          "Simplified user experience",
+          "Improved product usability",
+          "Managed client relationships",
+          "Created client-facing insights"
+        ],
+        "metric_placeholder": [
+          "Client satisfaction score",
+          "Retention rate",
+          "Adoption rate",
+          "Support requests reduced",
+          "Usage frequency"
+        ],
+        "best_fit_roles": [
+          "Customer Value Analyst",
+          "Customer Success Operations Analyst",
+          "Product Operations Analyst",
+          "Solutions Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Implementation Analyst",
+          "GTM Operations Analyst",
+          "AI Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer value roles, emphasize client outcomes and value realization.",
+          "For product ops, emphasize usability and adoption.",
+          "For implementation roles, emphasize making the platform easier for users to adopt and operate."
+        ]
+      }
+    },
+    {
+      "id": "VISTA_014",
+      "point_title": "Future Product Roadmap Expansion",
+      "base_resume_point": "Shaped the future product roadmap by identifying opportunities to expand analytics capabilities through predictive modeling and sentiment analysis, creating a foundation for deeper customer insight, stronger product differentiation, and future revenue opportunities.",
+      "tags": {
+        "core_competency": [
+          "Product Strategy",
+          "AI Roadmapping",
+          "Predictive Analytics",
+          "Innovation Planning"
+        ],
+        "functional_skill": [
+          "Roadmap planning",
+          "Opportunity identification",
+          "AI use-case design",
+          "Feature prioritization",
+          "Strategic planning"
+        ],
+        "business_outcome": [
+          "Future revenue potential",
+          "Stronger product differentiation",
+          "Expanded analytics capability"
+        ],
+        "evidence_proof": [
+          "Planned predictive modeling features for survey respondents",
+          "Planned sentiment analysis features for survey respondents"
+        ],
+        "metric_placeholder": [
+          "Projected revenue opportunity",
+          "Number of planned features",
+          "Expected adoption",
+          "Client demand signals"
+        ],
+        "best_fit_roles": [
+          "AI Transformation Analyst",
+          "Product Operations Analyst",
+          "AI Enablement Analyst",
+          "Digital Transformation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Strategy & Operations Associate",
+          "Program Associate, AI",
+          "Solutions Analyst",
+          "Research Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For resumes, phrase this as roadmap shaping, opportunity identification, or planned capability expansion unless the feature was actually launched.",
+          "Do not present it as completed implementation unless it has been built."
+        ]
+      }
+    }
+  ]
+}

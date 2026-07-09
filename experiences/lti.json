@@ -1,0 +1,768 @@
+{
+  "experience_source": "LTIMindtree",
+  "experience_type": "Base Resume Point Bank",
+  "points": [
+    {
+      "id": "LTIM_001",
+      "point_title": "Enterprise Application Quality Ownership",
+      "base_resume_point": "Owned quality assurance for a critical reinsurance-based web application, ensuring application reliability, functional accuracy, and user satisfaction across testing, defect management, release readiness, and client-facing delivery activities.",
+      "tags": {
+        "core_competency": [
+          "Quality Engineering",
+          "Application Reliability",
+          "Business Systems Support",
+          "Operational Excellence"
+        ],
+        "functional_skill": [
+          "Functional testing",
+          "Regression testing",
+          "Defect validation",
+          "Release support",
+          "Application quality assurance"
+        ],
+        "business_outcome": [
+          "Improved application reliability",
+          "Stronger user satisfaction",
+          "Reduced production risk",
+          "Smoother product releases"
+        ],
+        "evidence_proof": [
+          "Supported reinsurance web application for Marsh and McLennan under Guy Carpenter",
+          "Ensured quality and performance of a business-critical platform"
+        ],
+        "metric_placeholder": [
+          "User satisfaction improvement",
+          "Defect reduction",
+          "Release success rate",
+          "Production issue reduction"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Process Improvement Analyst",
+          "Business Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "Program Analyst",
+          "Program Coordinator",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For business systems roles, frame as application support and system quality.",
+          "For implementation roles, frame as release readiness and defect validation.",
+          "For operations roles, frame as reliability, issue tracking, and business continuity."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_002",
+      "point_title": "Data Migration Quality Assurance",
+      "base_resume_point": "Oversaw quality assurance for data migration across 22 projects using Azure DevOps, validating ETL processes, data accuracy, and migration correctness to protect data integrity and ensure seamless transition into the new environment.",
+      "tags": {
+        "core_competency": [
+          "Data Migration",
+          "Quality Assurance",
+          "ETL Validation",
+          "Business Systems Transformation"
+        ],
+        "functional_skill": [
+          "Azure DevOps",
+          "ETL testing",
+          "Data validation",
+          "Migration testing",
+          "Data reconciliation",
+          "Issue tracking"
+        ],
+        "business_outcome": [
+          "Improved data integrity",
+          "Reduced migration errors",
+          "Stronger system reliability",
+          "Smoother environment transition"
+        ],
+        "evidence_proof": [
+          "Supported migration of 22 projects",
+          "Assured accuracy, quality, and correctness of migrated data"
+        ],
+        "metric_placeholder": [
+          "22 projects migrated",
+          "Migration error reduction",
+          "Data accuracy rate",
+          "Defect detection improvement"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Digital Transformation Analyst",
+          "Process Improvement Analyst"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Business Operations Associate",
+          "Program Analyst",
+          "Product Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For business systems roles, frame as data integrity and migration validation.",
+          "For implementation roles, frame as transition readiness and deployment quality.",
+          "For transformation roles, frame as supporting system modernization through controlled migration."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_003",
+      "point_title": "ETL Testing and Defect Detection Improvement",
+      "base_resume_point": "Led ETL testing and validation activities to identify data inconsistencies, system defects, and migration risks, improving defect detection and strengthening confidence in the application’s post-migration performance.",
+      "tags": {
+        "core_competency": [
+          "ETL Testing",
+          "Data Quality",
+          "Defect Detection",
+          "Risk Mitigation"
+        ],
+        "functional_skill": [
+          "ETL validation",
+          "Test execution",
+          "Data comparison",
+          "Defect identification",
+          "Migration risk analysis"
+        ],
+        "business_outcome": [
+          "Better defect visibility",
+          "Improved data reliability",
+          "Reduced post-migration risk",
+          "Stronger application performance"
+        ],
+        "evidence_proof": [
+          "Conducted meticulous ETL testing during migration",
+          "Improved defect detection by 60%"
+        ],
+        "metric_placeholder": [
+          "60% defect detection improvement",
+          "Number of defects identified",
+          "Defect leakage reduction",
+          "Validation accuracy"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Process Improvement Analyst",
+          "Research Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "AI Operations Analyst",
+          "Solutions Analyst",
+          "Product Operations Analyst",
+          "Business Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For systems roles, frame as data validation and system assurance.",
+          "For process roles, frame as improving defect detection workflow.",
+          "For AI operations, frame as quality-control logic and data integrity support."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_004",
+      "point_title": "Test Documentation and Traceability",
+      "base_resume_point": "Created comprehensive QA documentation, including test cases, test scenarios, defect reports, and validation records, improving traceability, issue transparency, and alignment across testing, development, and client teams.",
+      "tags": {
+        "core_competency": [
+          "Documentation",
+          "Quality Governance",
+          "Process Standardization",
+          "Requirements Traceability"
+        ],
+        "functional_skill": [
+          "Test case creation",
+          "Test scenario design",
+          "Bug reporting",
+          "Documentation management",
+          "Traceability mapping"
+        ],
+        "business_outcome": [
+          "Improved issue visibility",
+          "Stronger team alignment",
+          "Faster defect resolution",
+          "Better audit readiness"
+        ],
+        "evidence_proof": [
+          "Drafted test cases",
+          "Drafted test scenarios",
+          "Created bug tracking reports",
+          "Created issue documentation"
+        ],
+        "metric_placeholder": [
+          "Number of test cases created",
+          "Number of scenarios documented",
+          "Documentation completeness",
+          "Defect traceability rate"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Program Analyst",
+          "Program Coordinator",
+          "Implementation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Process Improvement Analyst",
+          "Product Operations Analyst",
+          "Business Operations Associate",
+          "Research Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For business analyst roles, frame as requirements and traceability documentation.",
+          "For program roles, frame as structured tracking and status visibility.",
+          "For implementation roles, frame as launch documentation and issue readiness."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_005",
+      "point_title": "Defect Management and Bug Resolution Acceleration",
+      "base_resume_point": "Managed defect tracking and prioritization by identifying, documenting, and escalating critical bugs to development teams, reducing defect density and accelerating issue resolution across product release cycles.",
+      "tags": {
+        "core_competency": [
+          "Defect Management",
+          "Issue Prioritization",
+          "Release Quality",
+          "Cross-Functional Execution"
+        ],
+        "functional_skill": [
+          "Bug tracking",
+          "Defect prioritization",
+          "Issue escalation",
+          "Root cause coordination",
+          "Developer collaboration"
+        ],
+        "business_outcome": [
+          "Reduced defect density",
+          "Faster bug resolution",
+          "Smoother releases",
+          "Improved application quality"
+        ],
+        "evidence_proof": [
+          "Prioritized critical bugs",
+          "Coordinated with development teams for resolution",
+          "Reduced defect density by 30%",
+          "Improved bug resolution time by 50%"
+        ],
+        "metric_placeholder": [
+          "30% defect density reduction",
+          "50% bug resolution improvement",
+          "Number of bugs resolved",
+          "Release defect rate"
+        ],
+        "best_fit_roles": [
+          "Product Operations Analyst",
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Process Improvement Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Program Analyst",
+          "Program Coordinator",
+          "Customer Success Operations Analyst",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For product ops, frame as release quality and defect prioritization.",
+          "For implementation roles, frame as go-live issue management.",
+          "For process roles, frame as reducing defect density through structured issue workflows."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_006",
+      "point_title": "Automation Testing and Testing Framework Support",
+      "base_resume_point": "Supported automation testing using Citrix and VB while contributing to structured testing frameworks that improved bug identification, testing speed, and consistency across recurring validation activities.",
+      "tags": {
+        "core_competency": [
+          "Test Automation",
+          "Quality Engineering",
+          "Workflow Automation",
+          "Process Efficiency"
+        ],
+        "functional_skill": [
+          "Citrix",
+          "VB",
+          "Automation testing",
+          "Testing framework development",
+          "Recurring validation"
+        ],
+        "business_outcome": [
+          "Faster bug identification",
+          "Improved testing consistency",
+          "Reduced manual testing effort",
+          "Stronger QA efficiency"
+        ],
+        "evidence_proof": [
+          "Used Citrix and VB for automation testing",
+          "Supported testing framework development"
+        ],
+        "metric_placeholder": [
+          "Testing time reduced",
+          "Automation coverage",
+          "Manual effort reduced",
+          "Bug identification speed"
+        ],
+        "best_fit_roles": [
+          "Process Improvement Analyst",
+          "Business Systems Analyst",
+          "AI Operations Analyst",
+          "Digital Transformation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Implementation Analyst",
+          "Product Operations Analyst",
+          "Operations Associate, AI",
+          "Program Analyst"
+        ],
+        "adaptation_direction": [
+          "For process improvement, frame as reducing manual testing effort.",
+          "For business systems, frame as automated validation support.",
+          "For AI or automation roles, frame as operational automation and repeatable quality checks."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_007",
+      "point_title": "Client-Aligned Testing and Business Risk Prioritization",
+      "base_resume_point": "Aligned testing priorities with client needs and business risk by identifying high-impact defects, prioritizing critical issues, and ensuring the reinsurance application met quality expectations in a financially sensitive operating environment.",
+      "tags": {
+        "core_competency": [
+          "Client Alignment",
+          "Risk Prioritization",
+          "Business-Critical Systems",
+          "Quality Strategy"
+        ],
+        "functional_skill": [
+          "Client communication",
+          "Defect prioritization",
+          "Business impact analysis",
+          "Risk assessment",
+          "Stakeholder alignment"
+        ],
+        "business_outcome": [
+          "Improved client satisfaction",
+          "Reduced business risk",
+          "Stronger application reliability",
+          "Better issue prioritization"
+        ],
+        "evidence_proof": [
+          "Collaborated directly with client",
+          "Prioritized critical bugs where downtime or errors could have financial consequences",
+          "Improved client satisfaction by 20%"
+        ],
+        "metric_placeholder": [
+          "20% client satisfaction improvement",
+          "Critical defects resolved",
+          "Downtime reduction",
+          "Risk reduction"
+        ],
+        "best_fit_roles": [
+          "Customer Success Operations Analyst",
+          "Customer Value Analyst",
+          "Business Systems Analyst",
+          "Solutions Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Implementation Analyst",
+          "Business Operations Associate",
+          "Product Operations Analyst",
+          "Program Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer success roles, frame as protecting client experience and satisfaction.",
+          "For business systems roles, frame as aligning system quality with business-critical needs.",
+          "For solutions roles, frame as translating client risk into technical priorities."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_008",
+      "point_title": "Agile SDLC and Scrum Process Improvement",
+      "base_resume_point": "Supported Agile SDLC execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving delivery rhythm, stakeholder alignment, and overall process efficiency.",
+      "tags": {
+        "core_competency": [
+          "Agile Delivery",
+          "SDLC Optimization",
+          "Scrum Execution",
+          "Program Coordination"
+        ],
+        "functional_skill": [
+          "Sprint planning",
+          "Backlog prioritization",
+          "Scrum practices",
+          "Risk management",
+          "Stakeholder coordination"
+        ],
+        "business_outcome": [
+          "Faster development cycles",
+          "Improved process efficiency",
+          "Stronger delivery alignment",
+          "Better cross-functional execution"
+        ],
+        "evidence_proof": [
+          "Led sprint planning",
+          "Handled backlog prioritization",
+          "Led risk management activities",
+          "Implemented Scrum practices",
+          "Improved process efficiency by 60%"
+        ],
+        "metric_placeholder": [
+          "60% process efficiency improvement",
+          "Sprint velocity",
+          "Cycle time reduction",
+          "Backlog completion rate"
+        ],
+        "best_fit_roles": [
+          "Program Analyst",
+          "Program Coordinator",
+          "Product Operations Analyst",
+          "Implementation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Strategy & Operations Associate",
+          "Business Systems Analyst",
+          "Process Improvement Analyst"
+        ],
+        "adaptation_direction": [
+          "For program roles, frame as sprint coordination, risk tracking, and execution cadence.",
+          "For product operations, frame as backlog prioritization and delivery rhythm.",
+          "For process improvement, frame as SDLC workflow optimization."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_009",
+      "point_title": "Cross-Functional Stakeholder Coordination",
+      "base_resume_point": "Facilitated cross-functional coordination between business unit managers, development teams, testing teams, and clients to align priorities, communicate issues, and ensure teams worked toward shared application-quality and delivery goals.",
+      "tags": {
+        "core_competency": [
+          "Stakeholder Management",
+          "Cross-Functional Collaboration",
+          "Communication",
+          "Execution Alignment"
+        ],
+        "functional_skill": [
+          "Stakeholder communication",
+          "Meeting facilitation",
+          "Issue alignment",
+          "Team coordination",
+          "Priority management"
+        ],
+        "business_outcome": [
+          "Better team alignment",
+          "Faster issue resolution",
+          "Improved delivery clarity",
+          "Stronger client confidence"
+        ],
+        "evidence_proof": [
+          "Communicated with business unit managers",
+          "Communicated with development teams",
+          "Communicated with testing teams",
+          "Communicated with clients throughout QA and delivery cycles"
+        ],
+        "metric_placeholder": [
+          "Number of stakeholders coordinated",
+          "Number of teams supported",
+          "Issue resolution speed",
+          "Alignment cadence"
+        ],
+        "best_fit_roles": [
+          "Program Coordinator",
+          "Program Analyst",
+          "Business Operations Associate",
+          "Customer Success Operations Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Implementation Analyst",
+          "Product Operations Analyst",
+          "Strategy & Operations Associate",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For program roles, frame as coordination across workstreams.",
+          "For business operations, frame as improving execution alignment.",
+          "For customer success, frame as bridging client and internal teams to resolve issues."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_010",
+      "point_title": "Tableau Reporting and Root Cause Analysis",
+      "base_resume_point": "Developed Tableau-based visualizations and root cause analysis to help clients understand system issues, performance bottlenecks, and quality trends, enabling more informed decisions and targeted application improvements.",
+      "tags": {
+        "core_competency": [
+          "Data Visualization",
+          "Root Cause Analysis",
+          "Performance Insights",
+          "Decision Support"
+        ],
+        "functional_skill": [
+          "Tableau",
+          "Dashboarding",
+          "Root cause analysis",
+          "Issue analysis",
+          "Performance reporting"
+        ],
+        "business_outcome": [
+          "Improved insight visibility",
+          "Better bottleneck identification",
+          "Stronger decision-making",
+          "Enhanced application performance"
+        ],
+        "evidence_proof": [
+          "Used Tableau to provide clients with data visualizations",
+          "Used root cause analysis for system issues and bottlenecks"
+        ],
+        "metric_placeholder": [
+          "Number of dashboards",
+          "Bottlenecks identified",
+          "Reporting time reduced",
+          "Projected $1M revenue impact"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Research Operations Associate",
+          "Customer Value Analyst",
+          "Solutions Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Product Operations Analyst",
+          "Process Improvement Analyst",
+          "Customer Success Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For business systems, frame as system performance insights.",
+          "For customer value, frame as client-facing analytics and value realization.",
+          "For research operations, frame as structured analysis and insight delivery."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_011",
+      "point_title": "Revenue-Linked Quality and Performance Improvement",
+      "base_resume_point": "Connected quality engineering, root cause analysis, and performance insights to client business outcomes by identifying system bottlenecks and improvement opportunities that contributed to stronger application performance and projected revenue growth.",
+      "tags": {
+        "core_competency": [
+          "Business Impact Analysis",
+          "Quality Strategy",
+          "Performance Optimization",
+          "Value Realization"
+        ],
+        "functional_skill": [
+          "Root cause analysis",
+          "Performance analysis",
+          "Tableau reporting",
+          "Issue prioritization",
+          "Client insight delivery"
+        ],
+        "business_outcome": [
+          "Projected revenue growth",
+          "Improved application performance",
+          "Stronger client value",
+          "Better operational decision-making"
+        ],
+        "evidence_proof": [
+          "Presented insights on system issues and bottlenecks",
+          "Contributed to projected $1M revenue increase for the client"
+        ],
+        "metric_placeholder": [
+          "Projected $1M revenue increase",
+          "Performance improvement",
+          "Bottlenecks reduced",
+          "Client value impact"
+        ],
+        "best_fit_roles": [
+          "Customer Value Analyst",
+          "Strategy & Operations Associate",
+          "Business Operations Associate",
+          "Product Operations Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Revenue Operations Analyst",
+          "Customer Success Operations Analyst",
+          "Solutions Analyst",
+          "Business Systems Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer value roles, frame as connecting technical improvements to business outcomes.",
+          "For strategy roles, frame as insight-driven operational improvement.",
+          "For RevOps, frame carefully as revenue impact influenced by quality and performance improvements, not direct sales ownership."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_012",
+      "point_title": "Release Readiness and Production Risk Reduction",
+      "base_resume_point": "Strengthened release readiness by validating defects, coordinating issue resolution, supporting testing cycles, and ensuring application changes met business and client quality standards before deployment.",
+      "tags": {
+        "core_competency": [
+          "Release Management",
+          "Production Readiness",
+          "Quality Control",
+          "Risk Reduction"
+        ],
+        "functional_skill": [
+          "Release validation",
+          "Defect triage",
+          "Test cycle support",
+          "Deployment readiness",
+          "Quality checks"
+        ],
+        "business_outcome": [
+          "Smoother releases",
+          "Reduced production defects",
+          "Lower deployment risk",
+          "Improved client trust"
+        ],
+        "evidence_proof": [
+          "Supported bug identification",
+          "Supported bug prioritization",
+          "Supported bug resolution",
+          "Supported testing documentation",
+          "Supported product release quality"
+        ],
+        "metric_placeholder": [
+          "Release success rate",
+          "Production defects reduced",
+          "Deployment issues reduced",
+          "Test cycle completion rate"
+        ],
+        "best_fit_roles": [
+          "Implementation Analyst",
+          "Product Operations Analyst",
+          "Business Systems Analyst",
+          "Program Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Program Coordinator",
+          "Process Improvement Analyst",
+          "Business Operations Associate",
+          "Customer Success Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For implementation roles, frame as deployment readiness and go-live quality.",
+          "For product operations, frame as release quality and defect coordination.",
+          "For systems roles, frame as reducing production risk through validation."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_013",
+      "point_title": "Testing Process Standardization",
+      "base_resume_point": "Standardized testing processes by creating repeatable documentation, validation workflows, defect reports, and testing practices that improved consistency, traceability, and quality across application delivery cycles.",
+      "tags": {
+        "core_competency": [
+          "Process Standardization",
+          "Quality Governance",
+          "Workflow Improvement",
+          "Operational Consistency"
+        ],
+        "functional_skill": [
+          "Process documentation",
+          "Validation workflow design",
+          "Defect reporting",
+          "Testing standards",
+          "Quality controls"
+        ],
+        "business_outcome": [
+          "Improved consistency",
+          "Better traceability",
+          "Reduced defects",
+          "Stronger process discipline"
+        ],
+        "evidence_proof": [
+          "Created test cases",
+          "Created test scenarios",
+          "Created bug tracking reports",
+          "Created structured testing frameworks"
+        ],
+        "metric_placeholder": [
+          "Defect density reduction",
+          "Documentation coverage",
+          "Testing consistency improvement",
+          "Process adherence"
+        ],
+        "best_fit_roles": [
+          "Process Improvement Analyst",
+          "Business Operations Associate",
+          "Business Systems Analyst",
+          "Program Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "Implementation Analyst",
+          "Program Coordinator",
+          "Operations Associate, AI"
+        ],
+        "adaptation_direction": [
+          "For process roles, frame as standardizing workflows and reducing variability.",
+          "For operations roles, frame as improving consistency and execution discipline.",
+          "For business systems, frame as creating traceable testing and validation processes."
+        ]
+      }
+    },
+    {
+      "id": "LTIM_014",
+      "point_title": "Technology-Enabled QA Modernization",
+      "base_resume_point": "Improved QA operations by combining Azure DevOps, Tableau, Citrix, VB, Compare, and structured testing practices to modernize validation workflows, improve defect visibility, and support more efficient software delivery.",
+      "tags": {
+        "core_competency": [
+          "QA Modernization",
+          "Tool-Enabled Operations",
+          "Digital Operations",
+          "Process Automation"
+        ],
+        "functional_skill": [
+          "Azure DevOps",
+          "Tableau",
+          "Citrix",
+          "VB",
+          "Compare",
+          "Testing tools",
+          "Workflow optimization"
+        ],
+        "business_outcome": [
+          "Improved defect visibility",
+          "Faster testing workflows",
+          "Stronger delivery efficiency",
+          "Better operational control"
+        ],
+        "evidence_proof": [
+          "Used Azure DevOps for migration tracking",
+          "Used Tableau for visualization",
+          "Used Citrix and VB for automation testing",
+          "Used Compare for documentation and validation support"
+        ],
+        "metric_placeholder": [
+          "Process efficiency improvement",
+          "Testing cycle reduction",
+          "Defect visibility improvement",
+          "Tool adoption"
+        ],
+        "best_fit_roles": [
+          "Digital Transformation Analyst",
+          "AI Operations Analyst",
+          "Business Systems Analyst",
+          "Process Improvement Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Implementation Analyst",
+          "Product Operations Analyst",
+          "Operations Associate, AI",
+          "Program Analyst"
+        ],
+        "adaptation_direction": [
+          "For digital transformation roles, frame as tool-enabled modernization.",
+          "For AI operations, frame as structured automation and operational quality control.",
+          "For systems roles, frame as using tools to improve validation, visibility, and delivery."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "summary": "Project/program manager with experience in project planning, status reporting, risk management, workflow improvement, Agile delivery, stakeholder coordination, dashboards, governance, and AI-enabled automation across revenue operations, product execution, analytics, and systems delivery.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Maintained execution plans, reporting cadence, and risk tracking through a measurable BPA 30-60-90 roadmap structure.",
+        "Coordinated multi-team process updates through three Slack channels, structured updates, and async guidance, eliminating 12+ meeting hours across stakeholders while preserving delivery velocity and autonomy.",
+        "Governed global AR approval controls across four regions, coordinating 11+ stakeholders and SVP approval.",
+        "Operationalized AI-assisted knowledge workflows with SME validation, metadata tagging, publishing templates, and link correction, reducing turnaround 80% across roughly 80 articles while improving content discoverability.",
+        "Managed global process-map updates across AR groups, driving Bad Debt documentation to 100% completion.",
+        "Built BPA operating cadences with weekly reporting, success metrics, risk reviews, and recommendations, improving leadership visibility into completed work, impact, quarterly priorities, and next actions."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Maintained JIRA-based sprint plans and project tracking, aligning stakeholders on timelines, deliverables, goals, and delivery risks.",
+        "Coordinated development, product, sales, marketing, and leadership teams to remove blockers, sustain execution clarity, and keep strategic initiatives aligned with company priorities and delivery goals.",
+        "Translated executive priorities into actionable project plans, communicating technical progress, risks, and business impact to decision-makers."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Coordinated JIRA-based project lifecycles, sprint planning, milestones, and deliverables to keep product initiatives moving.",
+        "Aligned development, sales, marketing, CTO, and CSO stakeholders across new features and initiatives, bridging technical delivery with business priorities to accelerate execution and decisions.",
+        "Documented client, sales, and developer requirements into functional specifications, contributing to 20% user-experience improvement."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Maintained roadmap, backlog, JIRA tracking, sprint plans, and milestones to improve execution visibility and delivery control.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities to balance business needs, technical feasibility, execution capacity, and leadership visibility through clearer project tradeoff discussions.",
+        "Coordinated Agile delivery through sprint planning, backlog prioritization, and JIRA-based timelines aligned to business priorities.",
+        "Led 0-to-1 AI SaaS execution from client survey-data challenges to roadmap, launch plan, and predictive analytics product supporting $1M revenue growth."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Supported Agile SDLC execution through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Standardized validation workflows, defect reporting, testing documentation, quality controls, and repeatable testing practices to improve consistency, traceability, and governance across application delivery cycles with structured process discipline standards.",
+        "Developed Tableau reporting and root-cause analysis to improve visibility into system issues and bottlenecks.",
+        "Modernized QA workflows using Azure DevOps, Tableau, Citrix, VB, Compare, and structured testing practices, improving defect visibility, validation consistency, delivery efficiency, operational control, and software release readiness."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow optimization",
+      "Human-in-the-loop validation",
+      "Knowledge automation",
+      "Predictive analytics product execution",
+      "Automation testing support"
+    ],
+    "Systems, Workflow & Governance": [
+      "Workflow improvement",
+      "Process governance",
+      "Approval controls",
+      "Lifecycle-stage tracking",
+      "Documentation governance",
+      "Quality validation"
+    ],
+    "Analytics & Reporting": [
+      "Status reporting",
+      "Risk reporting",
+      "Dashboarding",
+      "Tableau",
+      "Root-cause analysis",
+      "Execution visibility"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Project planning",
+      "Program coordination",
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Stakeholder management",
+      "Roadmap execution",
+      "Risk management"
+    ],
+    "Tools": [
+      "JIRA",
+      "Slack",
+      "Tableau",
+      "Azure DevOps",
+      "Promapp",
+      "Quip",
+      "Shakespeare AI",
+      "Citrix",
+      "VB",
+      "Compare"
+    ]
+  }
+}

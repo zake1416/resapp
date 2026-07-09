@@ -1,0 +1,1609 @@
+STDOUT:
+{
+  "summary": "Operations and AI automation analyst with financial controls, CRM-adjacent workflow governance, data-quality discipline, and stakeholder partnership experience. Improves organized workflows, reporting cadence, approvals, and delivery visibility across client, finance, product, and technology teams.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Built financial operations governance across global AR approvals, strengthening control accuracy for 11+ stakeholders.",
+        "Maintained meticulous approval data and threshold changes across AMER, EMEA, APAC, and Resellers, processing 15+ approver updates and 6 payment-plan levels to improve audit readiness and global consistency.",
+        "Designed async coordination workflows, eliminating 12+ meeting hours while keeping multi-team operations moving.",
+        "Created a Business Process Analyst operating model with responsibilities, reporting cadence, success metrics, and 30-60-90 planning to convert ambiguity into execution visibility for leadership and stakeholders.",
+        "Applied AI to standardize update templates, roadmaps, and Q&A workflows for clearer stakeholder communication.",
+        "Operationalized recurring process audits across 4 AR business groups, using a 5-step methodology to find gaps, validate workflows, and reduce documentation risk at scale."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Coordinated organized multi-deadline execution across product, development, sales, marketing, CTO, and CSO priorities.",
+        "Translated stakeholder needs into functional specifications for a real estate analytics platform, improving workflow clarity, client decision-making, and user experience by 20% across buyer-seller workflows during product planning.",
+        "Bridged executive priorities with team execution, improving progress visibility, risk communication, and operational alignment."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Documented client, sales, and developer requirements, improving product accuracy and user experience by 20%.",
+        "Aligned platform functionality with client expectations by converting stakeholder feedback into product requirements, reducing usability friction and strengthening adoption potential across analytics workflows and product planning cycles.",
+        "Coordinated development, sales, marketing, CTO, and CSO stakeholders to accelerate new-feature execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Launched a 0-to-1 AI predictive analytics product, supporting $1M in client revenue growth.",
+        "Modernized service operations by connecting AI, analytics, automation, and client-service workflows into a scalable operating approach for technology-driven business growth and repeatable future delivery.",
+        "Managed scope, budget, resources, timelines, and risks while aligning priorities with executive leadership.",
+        "Advised leadership on AI use cases and analytics integration, improving adoption readiness and translating emerging technology concepts into practical service-growth opportunities for long-term business strategy."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Executed meticulous ETL validation for migration data accuracy, improving defect detection by 60%.",
+        "Prioritized client-critical defects in a financially sensitive reinsurance application, reducing business risk and improving client satisfaction by 20% through sharper issue triage and validation discipline.",
+        "Improved Agile delivery workflows through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Owned quality assurance for a business-critical reinsurance application, strengthening functional accuracy, release readiness, defect management, and user satisfaction across client-facing delivery and operational support."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "Automation use-case identification",
+      "AI product launch",
+      "Executive AI enablement"
+    ],
+    "Systems, Workflow & Governance": [
+      "Workflow improvement",
+      "Approval governance",
+      "Data quality validation",
+      "Process audits",
+      "File and threshold management"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "Financial operations reporting",
+      "Predictive analytics",
+      "Defect reporting",
+      "Execution visibility dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Stakeholder partnership",
+      "Requirements documentation",
+      "Roadmap planning",
+      "Risk tracking",
+      "Cross-functional execution"
+    ],
+    "Tools": [
+      "Excel",
+      "CRM-adjacent workflow governance",
+      "Slack",
+      "AI tools",
+      "Agile Scrum",
+      "ETL validation"
+    ]
+  }
+}
+
+STDERR:
+OpenAI Codex v0.142.5
+--------
+workdir: C:\Users\Abhishek\Downloads\resapp
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f478b-d9c5-7102-8f18-6abe93d2b595
+--------
+user
+
+Revise this resume JSON to fix the validation issues. Return ONLY valid JSON in the same shape.
+
+Keep the same selected evidence. Do not invent claims. Preserve strong JD alignment.
+Short bullets must be 13-18 words. Long bullets must be 24-30 words.
+Required counts must be exact. Summary must be 45 words or fewer.
+Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities.
+Remove any unsupported direct tool claims flagged in validation. If HubSpot or another JD tool is unsupported by selected evidence, convert it to truthful transferable language such as CRM automation, lead routing, lifecycle workflows, reporting, data quality, integrations, or revenue operations.
+
+VALIDATION ISSUES:
+{
+  "status": "needs_review",
+  "summary_word_count": 35,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      14,
+      29,
+      14,
+      28,
+      15,
+      25
+    ],
+    "marketmaker_pm": [
+      14,
+      23,
+      14
+    ],
+    "marketmaker_ba": [
+      14,
+      23,
+      13
+    ],
+    "vista": [
+      15,
+      22,
+      13,
+      22
+    ],
+    "ltimindtree": [
+      12,
+      23,
+      14,
+      23
+    ]
+  },
+  "issues": [
+    "marketmaker_pm bullet 2 has 23 words; target is 28.",
+    "marketmaker_ba bullet 2 has 23 words; target is 28.",
+    "vista bullet 2 has 22 words; target is 28.",
+    "vista bullet 4 has 22 words; target is 28.",
+    "ltimindtree bullet 1 has 12 words; target is 15.",
+    "ltimindtree bullet 2 has 23 words; target is 28.",
+    "ltimindtree bullet 4 has 23 words; target is 28."
+  ]
+}
+
+JD PROFILE:
+{
+  "role_title": "",
+  "company_name": "the",
+  "core_competencies": [
+    "Workflow Improvement",
+    "AI & Automation",
+    "Stakeholder Partnership"
+  ],
+  "required_tools_keywords": [
+    "Excel",
+    "CRM"
+  ],
+  "keywords": [
+    "financial",
+    "advisors",
+    "professional",
+    "administrative",
+    "benefits",
+    "clear",
+    "clients",
+    "elite",
+    "industry",
+    "keep",
+    "lincoln",
+    "looking",
+    "management",
+    "master",
+    "ne",
+    "new",
+    "operations",
+    "processor",
+    "services",
+    "skills",
+    "ability",
+    "absolute",
+    "accuracy",
+    "alongside",
+    "backbone",
+    "baseline",
+    "bring",
+    "busines",
+    "career",
+    "client",
+    "collaborating",
+    "collaborative",
+    "communication",
+    "communicator",
+    "commute",
+    "company",
+    "compensation",
+    "compliance",
+    "concepts",
+    "crm",
+    "culture",
+    "data",
+    "deadlines",
+    "deep",
+    "depending"
+  ],
+  "responsibility_phrases": [
+    "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+    "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+    "Workflow Master: The ability to juggle multiple deadlines, prioritize urgent tasks, and keep operations perfectly organized.",
+    "Position Details & Benefits",
+    "Generous Paid Time Off (PTO)"
+  ],
+  "priority_jd_responsibilities": [
+    "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+    "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+    "Position Details & Benefits",
+    "Generous Paid Time Off (PTO)"
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
+
+SELECTED EVIDENCE:
+{
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "target_count": 6,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+        "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+        "Position Details & Benefits",
+        "Generous Paid Time Off (PTO)"
+      ],
+      "selected_points": [
+        {
+          "id": "SFDC_001",
+          "point_title": "Global AR Governance Transformation",
+          "base_resume_point": "Owned the end-to-end governance cycle for the Global AR Approval Matrix, coordinating regional threshold updates, approver changes, stakeholder reviews, SVP approval, and publication across global AR operations.",
+          "core_competency": [
+            "Governance Transformation",
+            "Financial Controls",
+            "Operational Excellence",
+            "Global Process Management"
+          ],
+          "functional_skill": [
+            "Approval matrix management",
+            "Stakeholder coordination",
+            "Threshold validation",
+            "Governance review",
+            "Executive approval tracking"
+          ],
+          "business_outcome": [
+            "Improved audit readiness",
+            "Reduced governance gaps",
+            "Strengthened approval control",
+            "Improved global consistency"
+          ],
+          "evidence_proof": [
+            "Owned Global AR Approval Matrix cycle across AMER, EMEA, APAC, and Resellers",
+            "Coordinated 11+ global stakeholders",
+            "Secured SVP approval",
+            "Processed 15+ approver changes",
+            "Managed 6 new Payment Plan threshold levels"
+          ],
+          "metrics": [
+            "11+ stakeholders",
+            "11",
+            "4",
+            "15",
+            "6",
+            "0"
+          ],
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as governance operating model ownership.",
+            "For Business Systems Analyst roles, frame as translating policy into system-ready controls.",
+            "For Process Improvement Analyst roles, frame as standardizing global approval workflows."
+          ],
+          "score": 34.0,
+          "matched_keywords": [
+            "financial",
+            "management",
+            "new",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [
+            "Excel"
+          ]
+        },
+        {
+          "id": "SFDC_014",
+          "point_title": "Async-First Coordination Model",
+          "base_resume_point": "Built an async-first coordination model using dedicated Slack channels, structured updates, and publish-without-waiting guidance to reduce meeting load while maintaining progress across multi-team process updates.",
+          "core_competency": [
+            "Operating Model Design",
+            "Workflow Optimization",
+            "Cross-Functional Coordination",
+            "Operational Efficiency"
+          ],
+          "functional_skill": [
+            "Async communication",
+            "Slack channel design",
+            "Stakeholder updates",
+            "Meeting reduction",
+            "Coordination playbook design"
+          ],
+          "business_outcome": [
+            "Reduced meeting hours",
+            "Maintained delivery velocity",
+            "Improved team autonomy",
+            "Improved coordination scalability"
+          ],
+          "evidence_proof": [
+            "Created three dedicated Slack channels",
+            "Eliminated 12+ hours of meetings",
+            "Maintained progress velocity",
+            "Recommended team-wide async coordination playbook"
+          ],
+          "metrics": [
+            "12"
+          ],
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as improving operating rhythm.",
+            "For Program Coordinator roles, frame as scalable coordination.",
+            "For Process Improvement Analyst roles, frame as reducing non-value-added meeting time."
+          ],
+          "score": 32.0,
+          "matched_keywords": [
+            "communication",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_014",
+          "point_title": "Async-First Coordination Model",
+          "base_resume_point": "Built an async-first coordination model using dedicated Slack channels, structured updates, and publish-without-waiting guidance to reduce meeting load while maintaining progress across multi-team process updates.",
+          "core_competency": [
+            "Operating Model Design",
+            "Workflow Optimization",
+            "Cross-Functional Coordination",
+            "Operational Efficiency"
+          ],
+          "functional_skill": [
+            "Async communication",
+            "Slack channel design",
+            "Stakeholder updates",
+            "Meeting reduction",
+            "Coordination playbook design"
+          ],
+          "business_outcome": [
+            "Reduced meeting hours",
+            "Maintained delivery velocity",
+            "Improved team autonomy",
+            "Improved coordination scalability"
+          ],
+          "evidence_proof": [
+            "Created three dedicated Slack channels",
+            "Eliminated 12+ hours of meetings",
+            "Maintained progress velocity",
+            "Recommended team-wide async coordination playbook"
+          ],
+          "metrics": [
+            "12"
+          ],
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as improving operating rhythm.",
+            "For Program Coordinator roles, frame as scalable coordination.",
+            "For Process Improvement Analyst roles, frame as reducing non-value-added meeting time."
+          ],
+          "score": 32.0,
+          "matched_keywords": [
+            "communication",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_021",
+          "point_title": "BPA Operating Model Design",
+          "base_resume_point": "Built the operating model for a new Business Process Analyst function by defining role responsibilities, task categories, timelines, reporting cadence, success metrics, and quarterly planning structure from an initially ambiguous mandate.",
+          "core_competency": [
+            "Operating Model Design",
+            "Role Structuring",
+            "Strategic Planning",
+            "Process Ownership"
+          ],
+          "functional_skill": [
+            "30-60-90 planning",
+            "Role framework design",
+            "Weekly operating docs",
+            "Success metric definition",
+            "Planning cadence design"
+          ],
+          "business_outcome": [
+            "Converted ambiguity into structure",
+            "Improved stakeholder alignment",
+            "Created measurable execution plan",
+            "Established proactive reporting cadence"
+          ],
+          "evidence_proof": [
+            "Created role responsibilities framework",
+            "Built 30-60-90 roadmap",
+            "Maintained weekly 1:1 operating doc",
+            "Tracked Work Completed, Impact Created, Success Metrics, Risks, and Recommendations",
+            "Recommended async model scaling, quarterly audits, AI optimization expansion, and SME enablement toolkit"
+          ],
+          "metrics": [
+            "100%",
+            "50%",
+            "80 articles",
+            "30",
+            "60",
+            "90",
+            "100",
+            "80"
+          ],
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as building an operating system from ambiguity.",
+            "For Business Operations Associate roles, frame as creating process structure and cadence.",
+            "For AI Enablement Analyst roles, frame as using AI to structure scalable operating workflows."
+          ],
+          "score": 32.0,
+          "matched_keywords": [
+            "new",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_022",
+          "point_title": "AI-Enabled Operating Infrastructure",
+          "base_resume_point": "Applied AI as a force multiplier to design operating frameworks, executive communication templates, stakeholder update rhythms, strategic roadmaps, and process documentation standards that improved clarity, scalability, and leadership visibility.",
+          "core_competency": [
+            "AI Enablement",
+            "Operating Model Design",
+            "Strategic Communication",
+            "Digital Transformation"
+          ],
+          "functional_skill": [
+            "AI-assisted planning",
+            "Template design",
+            "Executive update design",
+            "Roadmap creation",
+            "Structured communication"
+          ],
+          "business_outcome": [
+            "Improved communication consistency",
+            "Reduced ad-hoc work",
+            "Improved leadership visibility",
+            "Increased process scalability"
+          ],
+          "evidence_proof": [
+            "Used AI to design BPA role structure",
+            "Used AI to design stakeholder update templates",
+            "Used AI to design pre-1:1 snapshots",
+            "Used AI to design async Q&A docs",
+            "Used AI to build 30-60-90 strategic roadmap"
+          ],
+          "metrics": [
+            "1",
+            "30",
+            "60",
+            "90"
+          ],
+          "adaptation_direction": [
+            "For AI Enablement Analyst roles, frame as practical AI adoption for business workflows.",
+            "For AI Operations Analyst roles, frame as AI-supported operating infrastructure.",
+            "For Strategy & Operations Associate roles, frame as improving executive communication and scalable execution."
+          ],
+          "score": 32.0,
+          "matched_keywords": [
+            "communication",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_004",
+          "point_title": "Recurring Process Audit Program Design",
+          "base_resume_point": "Designed and operationalized a recurring AR process audit program across four business groups, standardizing a root-cause-first methodology to compare documented processes against operational reality and identify gaps, risks, and improvement opportunities.",
+          "core_competency": [
+            "Process Audit",
+            "Operational Excellence",
+            "Root Cause Analysis",
+            "Quality Governance"
+          ],
+          "functional_skill": [
+            "Audit framework design",
+            "Gap analysis",
+            "SOP-vs-reality comparison",
+            "SME engagement",
+            "Process validation"
+          ],
+          "business_outcome": [
+            "Improved audit discipline",
+            "Surfaced control gaps",
+            "Reduced documentation risk",
+            "Created scalable review cadence"
+          ],
+          "evidence_proof": [
+            "Designed recurring process audit program across Collections, Cash App, Credit and Bad Debt, and Customer Service",
+            "Standardized 5-step audit methodology",
+            "Integrated GBS QA Checklist and Coaching Template",
+            "Applied SOP-vs-reality comparison across business groups"
+          ],
+          "metrics": [
+            "4",
+            "5"
+          ],
+          "adaptation_direction": [
+            "For Process Improvement Analyst roles, frame as audit methodology and gap identification.",
+            "For Program Analyst roles, frame as recurring governance cadence.",
+            "For Business Systems Analyst roles, frame as validating documented process against system reality."
+          ],
+          "score": 28.0,
+          "matched_keywords": [],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [
+            "Excel"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "title": "Automation, Product & Operations Analyst",
+      "target_count": 3,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+        "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+        "Position Details & Benefits",
+        "Generous Paid Time Off (PTO)"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_PROMO_010",
+          "point_title": "Cross-Functional Leadership Across Product, Development, Sales, and Marketing",
+          "base_resume_point": "Coordinated cross-functional execution across development, product management, sales, marketing, and leadership teams, ensuring stakeholders remained aligned on timelines, priorities, risks, and strategic goals.",
+          "core_competency": [
+            "Cross-Functional Collaboration",
+            "Program Coordination",
+            "Stakeholder Management",
+            "Execution Alignment"
+          ],
+          "functional_skill": [
+            "Team coordination",
+            "Stakeholder communication",
+            "Sprint planning",
+            "Risk management",
+            "Project tracking"
+          ],
+          "business_outcome": [
+            "Better team alignment",
+            "Smoother execution",
+            "Faster decision-making",
+            "Stronger delivery clarity"
+          ],
+          "evidence_proof": [
+            "Coordinated with development teams",
+            "Coordinated with product management teams",
+            "Coordinated with sales teams",
+            "Coordinated with marketing teams",
+            "Coordinated with CTO and CSO",
+            "Kept projects aligned with company goals"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Coordinator roles, frame as coordinating deadlines, teams, and risks.",
+            "For Program Analyst roles, frame as tracking execution across workstreams.",
+            "For GTM Operations Analyst roles, frame as aligning product, sales, and marketing around new initiatives."
+          ],
+          "score": 35.0,
+          "matched_keywords": [
+            "communication",
+            "company",
+            "deadlines",
+            "management",
+            "new",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_PROMO_002",
+          "point_title": "Business Requirements and Platform Usability Improvement",
+          "base_resume_point": "Gathered and defined business requirements for MarketMaker’s flagship real estate data analytics platform, translating stakeholder needs into functional specifications that improved usability and helped buyers and sellers make more informed decisions.",
+          "core_competency": [
+            "Business Analysis",
+            "Requirements Gathering",
+            "Product Discovery",
+            "Stakeholder Alignment"
+          ],
+          "functional_skill": [
+            "Requirements documentation",
+            "Stakeholder interviews",
+            "Functional specification writing",
+            "User-needs analysis",
+            "Client-developer translation"
+          ],
+          "business_outcome": [
+            "Improved platform usability",
+            "Better product alignment",
+            "Stronger client decision-making",
+            "Enhanced user experience"
+          ],
+          "evidence_proof": [
+            "Gathered business requirements for flagship analytics platform",
+            "Translated user needs into functional specifications",
+            "Improved platform usability",
+            "Contributed to 20% enhancement in user experience"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as translating stakeholder needs into platform requirements.",
+            "For Product Operations Analyst roles, frame as improving product usability through requirements alignment.",
+            "For Solutions Analyst roles, frame as connecting user problems to platform capabilities."
+          ],
+          "score": 25.5,
+          "matched_keywords": [
+            "client",
+            "data",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_PROMO_013",
+          "point_title": "Business and Technical Liaison Between Executives and Teams",
+          "base_resume_point": "Served as a liaison between senior executives and cross-functional teams, translating leadership priorities into actionable project plans while communicating technical progress, risks, and business impact back to decision-makers.",
+          "core_competency": [
+            "Executive Communication",
+            "Technical-Business Translation",
+            "Stakeholder Alignment",
+            "Strategic Operations"
+          ],
+          "functional_skill": [
+            "Leadership reporting",
+            "Project communication",
+            "Priority translation",
+            "Risk communication",
+            "Cross-functional facilitation"
+          ],
+          "business_outcome": [
+            "Faster decision-making",
+            "Improved executive visibility",
+            "Stronger team alignment",
+            "Clearer execution priorities"
+          ],
+          "evidence_proof": [
+            "Worked alongside CTO",
+            "Worked alongside CSO",
+            "Worked with senior leaders",
+            "Facilitated communication between executives and teams",
+            "Kept projects aligned with company goals"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as bridging executive priorities with team execution.",
+            "For Program Analyst roles, frame as translating goals into workstream plans.",
+            "For Business Systems Analyst roles, frame as connecting system requirements and leadership objectives."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "alongside",
+            "communication",
+            "company",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "target_count": 3,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+        "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+        "Position Details & Benefits",
+        "Generous Paid Time Off (PTO)"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_001",
+          "point_title": "Business Requirements and Functional Specification",
+          "base_resume_point": "Gathered and documented business requirements from clients, sales teams, and internal developers, translating complex user needs into functional specifications that shaped product development for a real estate data analytics platform.",
+          "core_competency": [
+            "Business Analysis",
+            "Requirements Gathering",
+            "Product Discovery",
+            "Stakeholder Alignment"
+          ],
+          "functional_skill": [
+            "Requirements documentation",
+            "Stakeholder interviews",
+            "Functional specification writing",
+            "User-needs analysis",
+            "Client-developer translation"
+          ],
+          "business_outcome": [
+            "Better product alignment",
+            "Improved user experience",
+            "Clearer development direction",
+            "Stronger client fit"
+          ],
+          "evidence_proof": [
+            "Collected requirements from clients",
+            "Collected requirements from sales teams",
+            "Collected requirements from internal developers",
+            "Translated user needs into functional specifications",
+            "Contributed to 20% user experience improvement"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as translating business needs into system requirements.",
+            "For Product Operations Analyst roles, frame as improving product development alignment.",
+            "For Solutions Analyst roles, frame as connecting client problems to platform capabilities."
+          ],
+          "score": 27.0,
+          "matched_keywords": [
+            "client",
+            "clients",
+            "data",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_002",
+          "point_title": "User Experience and Product Alignment Improvement",
+          "base_resume_point": "Improved product usability by aligning platform functionality with client expectations, using stakeholder feedback and business requirements to make the real estate analytics platform more intuitive and user-centered.",
+          "core_competency": [
+            "Product Operations",
+            "User Experience Improvement",
+            "Client Alignment",
+            "Product Optimization"
+          ],
+          "functional_skill": [
+            "User feedback analysis",
+            "Product requirement refinement",
+            "Usability improvement",
+            "Stakeholder collaboration",
+            "Feature alignment"
+          ],
+          "business_outcome": [
+            "Improved user experience",
+            "Stronger product adoption potential",
+            "Better client satisfaction",
+            "Reduced usability friction"
+          ],
+          "evidence_proof": [
+            "Helped shape platform functionality around client expectations",
+            "Used stakeholder feedback to improve product alignment",
+            "Contributed to 20% improvement in user experience"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "adaptation_direction": [
+            "For customer value roles, frame as improving client outcomes through usability.",
+            "For product operations, frame as turning feedback into product improvements.",
+            "For implementation roles, frame as making the platform easier to adopt and use."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "client",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_012",
+          "point_title": "Cross-Functional Team Leadership",
+          "base_resume_point": "Coordinated cross-functional execution across development, sales, marketing, and leadership teams, serving as a bridge between technical delivery and business priorities to improve alignment and accelerate project execution.",
+          "core_competency": [
+            "Cross-Functional Collaboration",
+            "Execution Alignment",
+            "Stakeholder Management",
+            "Operational Leadership"
+          ],
+          "functional_skill": [
+            "Team coordination",
+            "Stakeholder communication",
+            "Technical-business translation",
+            "Priority alignment",
+            "Initiative tracking"
+          ],
+          "business_outcome": [
+            "Faster execution",
+            "Smoother decision-making",
+            "Stronger team alignment",
+            "Improved delivery clarity"
+          ],
+          "evidence_proof": [
+            "Worked with development teams",
+            "Worked with sales teams",
+            "Worked with marketing teams",
+            "Worked with CTO",
+            "Worked with CSO",
+            "Supported execution of new features and initiatives"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Coordinator roles, frame as cross-functional tracking and execution support.",
+            "For Business Operations Associate roles, frame as improving operating alignment.",
+            "For Strategy & Operations Associate roles, frame as connecting leadership priorities with team execution."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "communication",
+            "management",
+            "new",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+        "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+        "Position Details & Benefits",
+        "Generous Paid Time Off (PTO)"
+      ],
+      "selected_points": [
+        {
+          "id": "VISTA_001",
+          "point_title": "0-to-1 AI Product Launch",
+          "base_resume_point": "Spearheaded the 0-to-1 launch of a B2B AI-driven SaaS product for predictive analytics, translating client survey-data challenges into a scalable product vision, roadmap, and execution plan that supported stronger analytics, decision-making, and revenue growth.",
+          "core_competency": [
+            "AI Product Development",
+            "Digital Transformation",
+            "Product Strategy",
+            "Business Innovation"
+          ],
+          "functional_skill": [
+            "Product roadmap creation",
+            "Product vision",
+            "Stakeholder alignment",
+            "Execution planning",
+            "AI solution development"
+          ],
+          "business_outcome": [
+            "New revenue enablement",
+            "Improved client analytics capability",
+            "Product-led business growth"
+          ],
+          "evidence_proof": [
+            "Led product from concept to launch",
+            "Built AI-driven SaaS solution for predictive analytics",
+            "Supported $1M increase in client revenue"
+          ],
+          "metrics": [
+            "$1M",
+            "0",
+            "1"
+          ],
+          "adaptation_direction": [
+            "For AI roles, frame as AI solution delivery and adoption.",
+            "For product ops, frame as roadmap-to-execution.",
+            "For transformation roles, frame as moving the business toward AI-enabled services."
+          ],
+          "score": 31.0,
+          "matched_keywords": [
+            "client",
+            "clients",
+            "new",
+            "services"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [
+            "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development."
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "VISTA_012",
+          "point_title": "Tech-Driven Business Model Transformation",
+          "base_resume_point": "Helped shift Vista toward a more technology-driven business model by connecting AI, analytics, workflow automation, and client-service improvements into a scalable operating approach for future growth.",
+          "core_competency": [
+            "Business Transformation",
+            "Operating Model Improvement",
+            "AI Strategy",
+            "Scalable Operations"
+          ],
+          "functional_skill": [
+            "Transformation planning",
+            "Operating model design",
+            "Technology integration",
+            "Workflow improvement",
+            "Strategic alignment"
+          ],
+          "business_outcome": [
+            "Stronger scalability",
+            "Improved workflow efficiency",
+            "Better alignment with modern tools and technologies"
+          ],
+          "evidence_proof": [
+            "Supported company pivot toward a tech-driven model through AI product development",
+            "Supported company pivot toward a tech-driven model through automation",
+            "Supported company pivot toward a tech-driven model through analytics",
+            "Supported company pivot toward a tech-driven model through executive advisory"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For transformation roles, emphasize modernization and business-model shift.",
+            "For strategy ops, emphasize scalable operating model.",
+            "For AI ops, emphasize operationalizing AI and analytics into repeatable business workflows."
+          ],
+          "score": 28.0,
+          "matched_keywords": [
+            "client",
+            "company",
+            "operations",
+            "services"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation"
+          ],
+          "matched_jd_phrases": [
+            "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development."
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "VISTA_007",
+          "point_title": "Budget, Scope, Resource, and Risk Management",
+          "base_resume_point": "Managed project scope, budgeting, resource allocation, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, and execution capacity.",
+          "core_competency": [
+            "Program Management",
+            "Strategic Operations",
+            "Risk Management",
+            "Executive Stakeholder Management"
+          ],
+          "functional_skill": [
+            "Budgeting",
+            "Resource planning",
+            "Scope definition",
+            "Risk tracking",
+            "Priority negotiation",
+            "Executive communication"
+          ],
+          "business_outcome": [
+            "Better resource alignment",
+            "Reduced execution risk",
+            "Stronger leadership visibility",
+            "Improved decision-making"
+          ],
+          "evidence_proof": [
+            "Managed budget",
+            "Managed resource allocation",
+            "Managed scope",
+            "Managed timelines",
+            "Managed risk",
+            "Negotiated priorities with Vista’s president"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For strategy and operations, emphasize executive alignment and resource tradeoffs.",
+            "For program roles, emphasize scope, risk, and timeline governance.",
+            "For transformation roles, emphasize managing change under resource constraints."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "accuracy",
+            "communication",
+            "management",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "VISTA_011",
+          "point_title": "AI Enablement for Executive Leadership",
+          "base_resume_point": "Advised executive leadership on emerging technologies, AI use cases, and advanced analytics opportunities, helping leadership understand how AI could be integrated into Vista’s core services and long-term growth strategy.",
+          "core_competency": [
+            "AI Enablement",
+            "Executive Advisory",
+            "Digital Transformation",
+            "Strategic Communication"
+          ],
+          "functional_skill": [
+            "AI education",
+            "Stakeholder enablement",
+            "Technology research",
+            "Executive communication",
+            "Use-case identification"
+          ],
+          "business_outcome": [
+            "Improved leadership understanding of AI",
+            "Stronger technology adoption readiness",
+            "Clearer transformation direction"
+          ],
+          "evidence_proof": [
+            "Educated Vista’s president on emerging technologies",
+            "Educated Vista’s president on AI integration opportunities",
+            "Educated Vista’s president on analytics integration opportunities"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For AI enablement, frame as educating stakeholders and building AI adoption readiness.",
+            "For transformation roles, frame as influencing leadership toward AI-enabled business strategy.",
+            "For operations roles, frame as translating AI concepts into practical business use cases."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "communication",
+            "concepts",
+            "operations",
+            "services"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Career Growth: Gain deep, hands-on experience in the financial services industry with clear pathways for professional development.",
+        "Meticulous Eye for Detail: A personal standard of zero-mistake data entry and file management.",
+        "Position Details & Benefits",
+        "Generous Paid Time Off (PTO)"
+      ],
+      "selected_points": [
+        {
+          "id": "LTIM_003",
+          "point_title": "ETL Testing and Defect Detection Improvement",
+          "base_resume_point": "Led ETL testing and validation activities to identify data inconsistencies, system defects, and migration risks, improving defect detection and strengthening confidence in the application’s post-migration performance.",
+          "core_competency": [
+            "ETL Testing",
+            "Data Quality",
+            "Defect Detection",
+            "Risk Mitigation"
+          ],
+          "functional_skill": [
+            "ETL validation",
+            "Test execution",
+            "Data comparison",
+            "Defect identification",
+            "Migration risk analysis"
+          ],
+          "business_outcome": [
+            "Better defect visibility",
+            "Improved data reliability",
+            "Reduced post-migration risk",
+            "Stronger application performance"
+          ],
+          "evidence_proof": [
+            "Conducted meticulous ETL testing during migration",
+            "Improved defect detection by 60%"
+          ],
+          "metrics": [
+            "60%",
+            "60"
+          ],
+          "adaptation_direction": [
+            "For systems roles, frame as data validation and system assurance.",
+            "For process roles, frame as improving defect detection workflow.",
+            "For AI operations, frame as quality-control logic and data integrity support."
+          ],
+          "score": 25.5,
+          "matched_keywords": [
+            "accuracy",
+            "data",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "AI & Automation"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "LTIM_007",
+          "point_title": "Client-Aligned Testing and Business Risk Prioritization",
+          "base_resume_point": "Aligned testing priorities with client needs and business risk by identifying high-impact defects, prioritizing critical issues, and ensuring the reinsurance application met quality expectations in a financially sensitive operating environment.",
+          "core_competency": [
+            "Client Alignment",
+            "Risk Prioritization",
+            "Business-Critical Systems",
+            "Quality Strategy"
+          ],
+          "functional_skill": [
+            "Client communication",
+            "Defect prioritization",
+            "Business impact analysis",
+            "Risk assessment",
+            "Stakeholder alignment"
+          ],
+          "business_outcome": [
+            "Improved client satisfaction",
+            "Reduced business risk",
+            "Stronger application reliability",
+            "Better issue prioritization"
+          ],
+          "evidence_proof": [
+            "Collaborated directly with client",
+            "Prioritized critical bugs where downtime or errors could have financial consequences",
+            "Improved client satisfaction by 20%"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "adaptation_direction": [
+            "For customer success roles, frame as protecting client experience and satisfaction.",
+            "For business systems roles, frame as aligning system quality with business-critical needs.",
+            "For solutions roles, frame as translating client risk into technical priorities."
+          ],
+          "score": 25.5,
+          "matched_keywords": [
+            "client",
+            "communication",
+            "financial"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "LTIM_008",
+          "point_title": "Agile SDLC and Scrum Process Improvement",
+          "base_resume_point": "Supported Agile SDLC execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving delivery rhythm, stakeholder alignment, and overall process efficiency.",
+          "core_competency": [
+            "Agile Delivery",
+            "SDLC Optimization",
+            "Scrum Execution",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "Sprint planning",
+            "Backlog prioritization",
+            "Scrum practices",
+            "Risk management",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster development cycles",
+            "Improved process efficiency",
+            "Stronger delivery alignment",
+            "Better cross-functional execution"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Led risk management activities",
+            "Implemented Scrum practices",
+            "Improved process efficiency by 60%"
+          ],
+          "metrics": [
+            "60%",
+            "60"
+          ],
+          "adaptation_direction": [
+            "For program roles, frame as sprint coordination, risk tracking, and execution cadence.",
+            "For product operations, frame as backlog prioritization and delivery rhythm.",
+            "For process improvement, frame as SDLC workflow optimization."
+          ],
+          "score": 24.0,
+          "matched_keywords": [
+            "management",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "LTIM_001",
+          "point_title": "Enterprise Application Quality Ownership",
+          "base_resume_point": "Owned quality assurance for a critical reinsurance-based web application, ensuring application reliability, functional accuracy, and user satisfaction across testing, defect management, release readiness, and client-facing delivery activities.",
+          "core_competency": [
+            "Quality Engineering",
+            "Application Reliability",
+            "Business Systems Support",
+            "Operational Excellence"
+          ],
+          "functional_skill": [
+            "Functional testing",
+            "Regression testing",
+            "Defect validation",
+            "Release support",
+            "Application quality assurance"
+          ],
+          "business_outcome": [
+            "Improved application reliability",
+            "Stronger user satisfaction",
+            "Reduced production risk",
+            "Smoother product releases"
+          ],
+          "evidence_proof": [
+            "Supported reinsurance web application for Marsh and McLennan under Guy Carpenter",
+            "Ensured quality and performance of a business-critical platform"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For business systems roles, frame as application support and system quality.",
+            "For implementation roles, frame as release readiness and defect validation.",
+            "For operations roles, frame as reliability, issue tracking, and business continuity."
+          ],
+          "score": 21.5,
+          "matched_keywords": [
+            "accuracy",
+            "management",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [
+            "Excel"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+CURRENT RESUME JSON:
+{
+  "summary": "Operations and AI automation analyst with financial controls, CRM-adjacent workflow governance, data-quality discipline, and stakeholder partnership experience. Improves organized workflows, reporting cadence, approvals, and delivery visibility across client, finance, product, and technology teams.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Built financial operations governance across global AR approvals, strengthening control accuracy for 11+ stakeholders.",
+        "Maintained meticulous approval data and threshold changes across AMER, EMEA, APAC, and Resellers, processing 15+ approver updates and 6 payment-plan levels to improve audit readiness and global consistency.",
+        "Designed async coordination workflows, eliminating 12+ meeting hours while keeping multi-team operations moving.",
+        "Created a Business Process Analyst operating model with responsibilities, reporting cadence, success metrics, and 30-60-90 planning to convert ambiguity into execution visibility for leadership and stakeholders.",
+        "Applied AI to standardize update templates, roadmaps, and Q&A workflows for clearer stakeholder communication.",
+        "Operationalized recurring process audits across 4 AR business groups, using a 5-step methodology to find gaps, validate workflows, and reduce documentation risk at scale."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Coordinated organized multi-deadline execution across product, development, sales, marketing, CTO, and CSO priorities.",
+        "Translated stakeholder needs into functional specifications for a real estate analytics platform, improving workflow clarity, client decision-making, and user experience by 20%.",
+        "Bridged executive priorities with team execution, improving progress visibility, risk communication, and operational alignment."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Documented client, sales, and developer requirements, improving product accuracy and user experience by 20%.",
+        "Aligned platform functionality with client expectations by converting stakeholder feedback into product requirements, reducing usability friction and strengthening adoption potential across analytics workflows.",
+        "Coordinated development, sales, marketing, CTO, and CSO stakeholders to accelerate new-feature execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Launched a 0-to-1 AI predictive analytics product, supporting $1M in client revenue growth.",
+        "Modernized service operations by connecting AI, analytics, automation, and client-service workflows into a scalable operating approach for technology-driven business growth.",
+        "Managed scope, budget, resources, timelines, and risks while aligning priorities with executive leadership.",
+        "Advised leadership on AI use cases and analytics integration, improving adoption readiness and translating emerging technology concepts into practical service-growth opportunities."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Executed meticulous ETL validation for migration accuracy, improving defect detection by 60%.",
+        "Prioritized client-critical defects in a financially sensitive reinsurance application, reducing business risk and improving client satisfaction by 20% through sharper issue triage.",
+        "Improved Agile delivery workflows through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Owned quality assurance for a business-critical reinsurance application, strengthening functional accuracy, release readiness, defect management, and user satisfaction across client-facing delivery."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "Automation use-case identification",
+      "AI product launch",
+      "Executive AI enablement"
+    ],
+    "Systems, Workflow & Governance": [
+      "Workflow improvement",
+      "Approval governance",
+      "Data quality validation",
+      "Process audits",
+      "File and threshold management"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "Financial operations reporting",
+      "Predictive analytics",
+      "Defect reporting",
+      "Execution visibility dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Stakeholder partnership",
+      "Requirements documentation",
+      "Roadmap planning",
+      "Risk tracking",
+      "Cross-functional execution"
+    ],
+    "Tools": [
+      "Excel",
+      "CRM workflows",
+      "Slack",
+      "AI tools",
+      "Agile Scrum",
+      "ETL validation"
+    ]
+  }
+}
+
+codex
+{
+  "summary": "Operations and AI automation analyst with financial controls, CRM-adjacent workflow governance, data-quality discipline, and stakeholder partnership experience. Improves organized workflows, reporting cadence, approvals, and delivery visibility across client, finance, product, and technology teams.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Built financial operations governance across global AR approvals, strengthening control accuracy for 11+ stakeholders.",
+        "Maintained meticulous approval data and threshold changes across AMER, EMEA, APAC, and Resellers, processing 15+ approver updates and 6 payment-plan levels to improve audit readiness and global consistency.",
+        "Designed async coordination workflows, eliminating 12+ meeting hours while keeping multi-team operations moving.",
+        "Created a Business Process Analyst operating model with responsibilities, reporting cadence, success metrics, and 30-60-90 planning to convert ambiguity into execution visibility for leadership and stakeholders.",
+        "Applied AI to standardize update templates, roadmaps, and Q&A workflows for clearer stakeholder communication.",
+        "Operationalized recurring process audits across 4 AR business groups, using a 5-step methodology to find gaps, validate workflows, and reduce documentation risk at scale."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Coordinated organized multi-deadline execution across product, development, sales, marketing, CTO, and CSO priorities.",
+        "Translated stakeholder needs into functional specifications for a real estate analytics platform, improving workflow clarity, client decision-making, and user experience by 20% across buyer-seller workflows during product planning.",
+        "Bridged executive priorities with team execution, improving progress visibility, risk communication, and operational alignment."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Documented client, sales, and developer requirements, improving product accuracy and user experience by 20%.",
+        "Aligned platform functionality with client expectations by converting stakeholder feedback into product requirements, reducing usability friction and strengthening adoption potential across analytics workflows and product planning cycles.",
+        "Coordinated development, sales, marketing, CTO, and CSO stakeholders to accelerate new-feature execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Launched a 0-to-1 AI predictive analytics product, supporting $1M in client revenue growth.",
+        "Modernized service operations by connecting AI, analytics, automation, and client-service workflows into a scalable operating approach for technology-driven business growth and repeatable future delivery.",
+        "Managed scope, budget, resources, timelines, and risks while aligning priorities with executive leadership.",
+        "Advised leadership on AI use cases and analytics integration, improving adoption readiness and translating emerging technology concepts into practical service-growth opportunities for long-term business strategy."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Executed meticulous ETL validation for migration data accuracy, improving defect detection by 60%.",
+        "Prioritized client-critical defects in a financially sensitive reinsurance application, reducing business risk and improving client satisfaction by 20% through sharper issue triage and validation discipline.",
+        "Improved Agile delivery workflows through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Owned quality assurance for a business-critical reinsurance application, strengthening functional accuracy, release readiness, defect management, and user satisfaction across client-facing delivery and operational support."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "Automation use-case identification",
+      "AI product launch",
+      "Executive AI enablement"
+    ],
+    "Systems, Workflow & Governance": [
+      "Workflow improvement",
+      "Approval governance",
+      "Data quality validation",
+      "Process audits",
+      "File and threshold management"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "Financial operations reporting",
+      "Predictive analytics",
+      "Defect reporting",
+      "Execution visibility dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Stakeholder partnership",
+      "Requirements documentation",
+      "Roadmap planning",
+      "Risk tracking",
+      "Cross-functional execution"
+    ],
+    "Tools": [
+      "Excel",
+      "CRM-adjacent workflow governance",
+      "Slack",
+      "AI tools",
+      "Agile Scrum",
+      "ETL validation"
+    ]
+  }
+}
+tokens used
+19,723

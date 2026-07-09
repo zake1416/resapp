@@ -1,0 +1,118 @@
+{
+  "summary": "Analyst with strong quantitative aptitude, financial governance experience, workflow improvement, AI automation, and stakeholder partnership across financial operations, data quality, reporting, and project execution. Skilled at converting complex processes into structured models, dashboards, controls, and measurable operating cadences.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Finance Operations, Governance & Risk Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Applied strong quantitative rigor to structure 30-60-90 operating metrics, risks, and recommendations for measurable execution visibility.",
+        "Applied exceptional detail to financial governance by coordinating 11+ stakeholders, validating thresholds, securing SVP approval, and standardizing controls across AMER, EMEA, APAC, and Resellers operations.",
+        "Reduced cross-functional meeting load by 12+ hours through structured async coordination and dedicated Slack channels.",
+        "Improved AI-enabled operating infrastructure by designing executive templates, stakeholder updates, Q&A documents, and a 30-60-90 roadmap that increased leadership visibility and reduced ad hoc planning friction.",
+        "Consolidated 41 AR knowledge articles into one source, improving workflow consistency and internal navigation.",
+        "Built a new Business Process Analyst operating model with role responsibilities, planning cadence, success metrics, and reporting structure to convert ambiguity into measurable execution."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Financial Modeling & Investment Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Applied strong attention to detail while aligning development, product, sales, marketing, and leadership workstreams.",
+        "Applied detail-oriented project planning to translate executive priorities, communicate technical progress, risks, and business impact, and support faster decisions across CTO, CSO, and teams.",
+        "Built a 0-to-1 SharePoint intranet to centralize documents, communication, and project tracking."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Analysis & Financial Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Applied quantitative attention to translate complex requirements into specifications, driving 20% user experience improvement.",
+        "Partnered with CTO and CSO leadership to align technical roadmaps, product development, and go-to-market priorities with long-term business strategy and execution focus.",
+        "Created a 0-to-1 SharePoint workspace supporting document management, communication, and cross-functional project visibility."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Risk & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Applied quantitative rigor to fraud-detection logic identifying duplicate responses, straight-lining, short durations, and anomalies.",
+        "Owned product execution by defining requirements, prioritizing roadmap items, coordinating development, and tracking milestones in JIRA to convert an opportunity into analytics platform delivery.",
+        "Advised executive leadership on AI and analytics use cases, strengthening technology adoption readiness.",
+        "Connected AI, analytics, automation, and client-service improvements into a scalable operating approach that supported Vista's shift toward a technology-driven business model and future growth."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Data Quality, BI & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Applied detail-oriented Agile execution by leading sprint planning, backlog prioritization, risk management, and Scrum practices.",
+        "Led ETL testing and validation during migration, identifying inconsistencies, system defects, and migration risks while improving defect detection by 60% and strengthening post-migration confidence.",
+        "Supported automation testing with Citrix and VB, improving recurring validation consistency and testing speed.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices by creating repeatable test cases, scenarios, and tracking reports that strengthened application delivery governance."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-enabled operating workflows",
+      "Fraud detection logic",
+      "Analytics automation",
+      "AI use-case identification",
+      "Automation testing"
+    ],
+    "Systems, Workflow & Governance": [
+      "Financial governance",
+      "Approval controls",
+      "Workflow improvement",
+      "Process standardization",
+      "Data quality validation",
+      "Knowledge management"
+    ],
+    "Analytics & Reporting": [
+      "Operating metrics",
+      "Risk tracking",
+      "Executive reporting",
+      "Defect reporting",
+      "Survey-response quality analysis",
+      "Milestone tracking"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Cross-functional coordination",
+      "Roadmap execution",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Requirements documentation",
+      "Executive communication"
+    ],
+    "Tools": [
+      "Excel",
+      "SharePoint",
+      "Slack",
+      "JIRA",
+      "Python",
+      "Streamlit",
+      "Citrix",
+      "VB"
+    ]
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "experience_source": "MarketMaker CRE",
+  "experience_type": "Base Resume Point Bank",
+  "points": [
+    {
+      "id": "MMCRE_001",
+      "point_title": "Business Requirements and Functional Specification",
+      "base_resume_point": "Gathered and documented business requirements from clients, sales teams, and internal developers, translating complex user needs into functional specifications that shaped product development for a real estate data analytics platform.",
+      "tags": {
+        "core_competency": [
+          "Business Analysis",
+          "Requirements Gathering",
+          "Product Discovery",
+          "Stakeholder Alignment"
+        ],
+        "functional_skill": [
+          "Requirements documentation",
+          "Stakeholder interviews",
+          "Functional specification writing",
+          "User-needs analysis",
+          "Client-developer translation"
+        ],
+        "business_outcome": [
+          "Better product alignment",
+          "Improved user experience",
+          "Clearer development direction",
+          "Stronger client fit"
+        ],
+        "evidence_proof": [
+          "Collected requirements from clients",
+          "Collected requirements from sales teams",
+          "Collected requirements from internal developers",
+          "Translated user needs into functional specifications",
+          "Contributed to 20% user experience improvement"
+        ],
+        "metric_placeholder": [
+          "20% user experience improvement",
+          "Number of requirements documented",
+          "Number of stakeholders engaged",
+          "Number of features influenced"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Product Operations Analyst",
+          "Implementation Analyst",
+          "Solutions Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Customer Success Operations Analyst",
+          "Program Analyst",
+          "Customer Value Analyst"
+        ],
+        "adaptation_direction": [
+          "For Business Systems Analyst roles, frame as translating business needs into system requirements.",
+          "For Product Operations Analyst roles, frame as improving product development alignment.",
+          "For Solutions Analyst roles, frame as connecting client problems to platform capabilities."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_002",
+      "point_title": "User Experience and Product Alignment Improvement",
+      "base_resume_point": "Improved product usability by aligning platform functionality with client expectations, using stakeholder feedback and business requirements to make the real estate analytics platform more intuitive and user-centered.",
+      "tags": {
+        "core_competency": [
+          "Product Operations",
+          "User Experience Improvement",
+          "Client Alignment",
+          "Product Optimization"
+        ],
+        "functional_skill": [
+          "User feedback analysis",
+          "Product requirement refinement",
+          "Usability improvement",
+          "Stakeholder collaboration",
+          "Feature alignment"
+        ],
+        "business_outcome": [
+          "Improved user experience",
+          "Stronger product adoption potential",
+          "Better client satisfaction",
+          "Reduced usability friction"
+        ],
+        "evidence_proof": [
+          "Helped shape platform functionality around client expectations",
+          "Used stakeholder feedback to improve product alignment",
+          "Contributed to 20% improvement in user experience"
+        ],
+        "metric_placeholder": [
+          "20% user experience improvement",
+          "Adoption rate",
+          "User feedback score",
+          "Support request reduction"
+        ],
+        "best_fit_roles": [
+          "Product Operations Analyst",
+          "Customer Value Analyst",
+          "Customer Success Operations Analyst",
+          "Solutions Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Business Operations Associate",
+          "Process Improvement Analyst"
+        ],
+        "adaptation_direction": [
+          "For customer value roles, frame as improving client outcomes through usability.",
+          "For product operations, frame as turning feedback into product improvements.",
+          "For implementation roles, frame as making the platform easier to adopt and use."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_003",
+      "point_title": "SQL-Based Property Data Analysis",
+      "base_resume_point": "Analyzed commercial real estate property data using SQL to identify trends, improve customer alignment with property listings, and support leadership decisions through data-backed insights.",
+      "tags": {
+        "core_competency": [
+          "Data Analysis",
+          "Business Intelligence",
+          "Customer Insight",
+          "Decision Support"
+        ],
+        "functional_skill": [
+          "SQL",
+          "Trend analysis",
+          "Property data analysis",
+          "Data interpretation",
+          "Insight generation"
+        ],
+        "business_outcome": [
+          "Improved customer-property matching",
+          "Stronger retention",
+          "Better strategic decision-making",
+          "Enhanced client alignment"
+        ],
+        "evidence_proof": [
+          "Used SQL to analyze property-data trends",
+          "Improved customer alignment with listings",
+          "Contributed to 22% increase in customer retention"
+        ],
+        "metric_placeholder": [
+          "22% customer retention increase",
+          "Number of datasets analyzed",
+          "Number of insights delivered",
+          "Matching accuracy improvement"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Customer Value Analyst",
+          "Revenue Operations Analyst",
+          "Strategy & Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Product Operations Analyst",
+          "Research Operations Associate",
+          "GTM Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For Business Systems Analyst roles, frame as analyzing platform data to support system and product decisions.",
+          "For Customer Value Analyst roles, frame as improving retention through better customer-property alignment.",
+          "For Revenue Operations Analyst roles, frame as data analysis supporting retention and revenue protection."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_004",
+      "point_title": "Visual Reporting for Leadership Decision-Making",
+      "base_resume_point": "Created visual reports from property-data analysis to communicate trends, customer insights, and product opportunities to senior leadership, supporting strategic planning and faster decision-making.",
+      "tags": {
+        "core_competency": [
+          "Data Visualization",
+          "Executive Reporting",
+          "Strategic Analysis",
+          "Decision Support"
+        ],
+        "functional_skill": [
+          "Visual reporting",
+          "Dashboarding",
+          "Data storytelling",
+          "Insight presentation",
+          "Leadership communication"
+        ],
+        "business_outcome": [
+          "Stronger leadership visibility",
+          "Better strategic planning",
+          "Faster decision-making",
+          "Clearer product direction"
+        ],
+        "evidence_proof": [
+          "Presented insights to the CTO",
+          "Presented insights to the leadership team",
+          "Supported strategic planning with visual reports"
+        ],
+        "metric_placeholder": [
+          "Number of reports created",
+          "Number of leadership decisions supported",
+          "Reporting time reduced",
+          "Insights delivered"
+        ],
+        "best_fit_roles": [
+          "Strategy & Operations Associate",
+          "Business Operations Associate",
+          "Customer Value Analyst",
+          "Research Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Business Systems Analyst",
+          "Product Operations Analyst",
+          "GTM Operations Analyst",
+          "Revenue Operations Analyst"
+        ],
+        "adaptation_direction": [
+          "For Strategy & Operations Associate roles, frame as turning analysis into executive decision support.",
+          "For Business Operations Associate roles, frame as improving operating visibility.",
+          "For Customer Value Analyst roles, frame as surfacing customer and market insights."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_005",
+      "point_title": "Software Testing and Quality Assurance",
+      "base_resume_point": "Developed and executed test scripts to validate system accuracy, data flows, calculations, and platform functionality, helping maintain a reliable and error-free SaaS product experience for clients.",
+      "tags": {
+        "core_competency": [
+          "Quality Assurance",
+          "System Validation",
+          "Product Reliability",
+          "Business Systems Support"
+        ],
+        "functional_skill": [
+          "Test script development",
+          "Functional testing",
+          "Data-flow validation",
+          "Calculation validation",
+          "QA execution"
+        ],
+        "business_outcome": [
+          "Improved platform reliability",
+          "Reduced product errors",
+          "Smoother client experience",
+          "Stronger product quality"
+        ],
+        "evidence_proof": [
+          "Developed test scripts",
+          "Executed test scripts",
+          "Validated system accuracy",
+          "Validated data flows",
+          "Validated calculations",
+          "Validated platform functionality"
+        ],
+        "metric_placeholder": [
+          "Number of test scripts created",
+          "Defects identified",
+          "Test coverage",
+          "Error reduction",
+          "Release success rate"
+        ],
+        "best_fit_roles": [
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Product Operations Analyst",
+          "Process Improvement Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Solutions Analyst",
+          "Customer Success Operations Analyst",
+          "Program Analyst",
+          "Business Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For Business Systems Analyst roles, frame as validating systems and data accuracy.",
+          "For Implementation Analyst roles, frame as ensuring launch readiness.",
+          "For Product Operations Analyst roles, frame as maintaining product quality across release cycles."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_006",
+      "point_title": "0-to-1 SharePoint Intranet Development",
+      "base_resume_point": "Led the 0-to-1 development of a SharePoint intranet system, creating a centralized internal workspace for document management, communication, and project tracking across product, sales, and marketing teams.",
+      "tags": {
+        "core_competency": [
+          "Digital Transformation",
+          "Internal Operations",
+          "Knowledge Management",
+          "Collaboration Systems"
+        ],
+        "functional_skill": [
+          "SharePoint",
+          "Intranet development",
+          "Document management",
+          "Internal communication design",
+          "Project tracking setup"
+        ],
+        "business_outcome": [
+          "Improved internal collaboration",
+          "Centralized information access",
+          "Stronger project visibility",
+          "Better cross-functional efficiency"
+        ],
+        "evidence_proof": [
+          "Built SharePoint intranet from scratch",
+          "Created internal space for departments to manage documents",
+          "Created internal space for departments to communicate",
+          "Created internal space for departments to track project progress"
+        ],
+        "metric_placeholder": [
+          "Number of teams onboarded",
+          "Documents centralized",
+          "Time saved",
+          "Collaboration improvement",
+          "Adoption rate"
+        ],
+        "best_fit_roles": [
+          "Digital Transformation Analyst",
+          "Business Operations Associate",
+          "Business Systems Analyst",
+          "Product Operations Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Program Coordinator",
+          "Program Analyst",
+          "Process Improvement Analyst",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For Digital Transformation Analyst roles, frame as creating a digital collaboration system.",
+          "For Business Operations Associate roles, frame as improving internal workflows.",
+          "For Business Systems Analyst roles, frame as implementing a system to support organizational processes."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_007",
+      "point_title": "Internal Workflow and Collaboration Improvement",
+      "base_resume_point": "Improved internal workflows by centralizing communication, document access, and project tracking through the SharePoint intranet, enabling stronger collaboration across product development, sales, and marketing teams.",
+      "tags": {
+        "core_competency": [
+          "Workflow Improvement",
+          "Cross-Functional Collaboration",
+          "Operational Efficiency",
+          "Process Optimization"
+        ],
+        "functional_skill": [
+          "Workflow mapping",
+          "Collaboration design",
+          "Document centralization",
+          "Communication improvement",
+          "Process coordination"
+        ],
+        "business_outcome": [
+          "Improved efficiency",
+          "Reduced information silos",
+          "Better team coordination",
+          "Faster project execution"
+        ],
+        "evidence_proof": [
+          "Centralized communication through SharePoint intranet",
+          "Centralized document access through SharePoint intranet",
+          "Centralized project tracking through SharePoint intranet",
+          "Improved collaboration across product development, sales, and marketing teams"
+        ],
+        "metric_placeholder": [
+          "Time saved",
+          "Number of workflows centralized",
+          "Adoption rate",
+          "Communication delays reduced",
+          "Project tracking improvement"
+        ],
+        "best_fit_roles": [
+          "Process Improvement Analyst",
+          "Business Operations Associate",
+          "Program Coordinator",
+          "Digital Transformation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "Business Systems Analyst",
+          "Implementation Analyst",
+          "Strategy & Operations Associate"
+        ],
+        "adaptation_direction": [
+          "For Process Improvement Analyst roles, frame as reducing workflow friction and information silos.",
+          "For Program Coordinator roles, frame as improving project tracking and visibility.",
+          "For Digital Transformation Analyst roles, frame as digitizing internal collaboration."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_008",
+      "point_title": "Project Lifecycle and JIRA-Based Delivery Management",
+      "base_resume_point": "Managed multiple projects from conception to execution using JIRA, leading sprint planning, setting milestones, tracking deliverables, and aligning teams on deadlines to keep product and business initiatives on track.",
+      "tags": {
+        "core_competency": [
+          "Program Coordination",
+          "Agile Delivery",
+          "Project Execution",
+          "Delivery Management"
+        ],
+        "functional_skill": [
+          "JIRA",
+          "Sprint planning",
+          "Milestone tracking",
+          "Project lifecycle management",
+          "Deliverable tracking"
+        ],
+        "business_outcome": [
+          "Improved execution visibility",
+          "Stronger deadline management",
+          "Smoother delivery",
+          "Better team alignment"
+        ],
+        "evidence_proof": [
+          "Managed multiple projects",
+          "Led sprint planning",
+          "Set project milestones",
+          "Used JIRA to manage project lifecycle",
+          "Tracked deadlines and deliverables"
+        ],
+        "metric_placeholder": [
+          "Number of projects managed",
+          "Number of sprints supported",
+          "Milestone completion rate",
+          "Delivery timeline improvement"
+        ],
+        "best_fit_roles": [
+          "Program Analyst",
+          "Program Coordinator",
+          "Product Operations Analyst",
+          "Implementation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Business Operations Associate",
+          "Strategy & Operations Associate",
+          "Business Systems Analyst",
+          "Process Improvement Analyst"
+        ],
+        "adaptation_direction": [
+          "For Program Analyst roles, frame as milestone tracking and delivery execution.",
+          "For Program Coordinator roles, frame as coordinating deadlines, deliverables, and teams.",
+          "For Product Operations Analyst roles, frame as supporting product delivery rhythm and roadmap execution."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_009",
+      "point_title": "Executive Stakeholder Alignment with CTO and CSO",
+      "base_resume_point": "Partnered directly with CTO and CSO leadership to align technical roadmap execution with business priorities, ensuring product development, go-to-market needs, and long-term strategy remained connected.",
+      "tags": {
+        "core_competency": [
+          "Executive Stakeholder Management",
+          "Strategic Operations",
+          "Product Strategy",
+          "Cross-Functional Alignment"
+        ],
+        "functional_skill": [
+          "Executive communication",
+          "Roadmap alignment",
+          "Priority management",
+          "Technical-business translation",
+          "Leadership reporting"
+        ],
+        "business_outcome": [
+          "Stronger business-technology alignment",
+          "Faster decision-making",
+          "Clearer strategic direction",
+          "Improved execution focus"
+        ],
+        "evidence_proof": [
+          "Worked directly with CTO",
+          "Worked directly with CSO",
+          "Aligned technical roadmap with long-term business goals",
+          "Connected product development with go-to-market priorities"
+        ],
+        "metric_placeholder": [
+          "Number of roadmap initiatives supported",
+          "Leadership reviews supported",
+          "Strategic decisions influenced",
+          "Execution delays reduced"
+        ],
+        "best_fit_roles": [
+          "Strategy & Operations Associate",
+          "Product Operations Analyst",
+          "Business Operations Associate",
+          "Program Analyst"
+        ],
+        "secondary_fit_roles": [
+          "GTM Operations Analyst",
+          "Revenue Operations Analyst",
+          "Business Systems Analyst",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For Strategy & Operations Associate roles, frame as business-technology alignment.",
+          "For Product Operations Analyst roles, frame as roadmap execution support.",
+          "For GTM Operations Analyst roles, frame as connecting product development with sales and market needs."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_010",
+      "point_title": "Financial Modeling and Business Case Support",
+      "base_resume_point": "Supported financial modeling by analyzing revenues, expenses, and profitability to help senior leadership assess the business impact of new projects, product developments, and strategic initiatives.",
+      "tags": {
+        "core_competency": [
+          "Financial Analysis",
+          "Business Case Development",
+          "Strategic Planning",
+          "Revenue Insight"
+        ],
+        "functional_skill": [
+          "Revenue analysis",
+          "Expense analysis",
+          "Profitability analysis",
+          "Financial modeling",
+          "Business impact assessment"
+        ],
+        "business_outcome": [
+          "Better investment decisions",
+          "Clearer profitability visibility",
+          "Stronger project prioritization",
+          "Improved strategic planning"
+        ],
+        "evidence_proof": [
+          "Analyzed company revenues",
+          "Analyzed company expenses",
+          "Analyzed company profitability",
+          "Helped senior management understand financial implications of projects",
+          "Helped senior management understand financial implications of product development"
+        ],
+        "metric_placeholder": [
+          "Revenue analyzed",
+          "Expense categories reviewed",
+          "Profitability improvement",
+          "Number of business cases supported"
+        ],
+        "best_fit_roles": [
+          "Strategy & Operations Associate",
+          "Revenue Operations Analyst",
+          "Business Operations Associate",
+          "Product Operations Analyst"
+        ],
+        "secondary_fit_roles": [
+          "GTM Operations Analyst",
+          "Customer Value Analyst",
+          "Program Analyst",
+          "Business Systems Analyst"
+        ],
+        "adaptation_direction": [
+          "For Strategy & Operations Associate roles, frame as business-case and investment-decision support.",
+          "For Revenue Operations Analyst roles, frame as revenue, profitability, and performance analysis.",
+          "For Product Operations Analyst roles, frame as evaluating product-development impact."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_011",
+      "point_title": "Process Optimization and Workflow Charting",
+      "base_resume_point": "Identified process optimization opportunities and created workflow charts to clarify system processes, reduce operational complexity, and improve execution efficiency across internal teams.",
+      "tags": {
+        "core_competency": [
+          "Process Improvement",
+          "Workflow Design",
+          "Operational Efficiency",
+          "Business Process Analysis"
+        ],
+        "functional_skill": [
+          "Workflow charting",
+          "Process mapping",
+          "Process documentation",
+          "Bottleneck identification",
+          "Operational analysis"
+        ],
+        "business_outcome": [
+          "Improved process clarity",
+          "Reduced workflow complexity",
+          "Stronger execution consistency",
+          "Better operational efficiency"
+        ],
+        "evidence_proof": [
+          "Identified areas for process optimization",
+          "Contributed to workflow charts",
+          "Made system processes more efficient"
+        ],
+        "metric_placeholder": [
+          "Process steps reduced",
+          "Workflow cycle time improvement",
+          "Number of workflows mapped",
+          "Efficiency improvement"
+        ],
+        "best_fit_roles": [
+          "Process Improvement Analyst",
+          "Business Operations Associate",
+          "Business Systems Analyst",
+          "Digital Transformation Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "Program Analyst",
+          "Program Coordinator",
+          "Implementation Analyst"
+        ],
+        "adaptation_direction": [
+          "For Process Improvement Analyst roles, frame as mapping and optimizing workflows.",
+          "For Business Systems Analyst roles, frame as documenting system processes.",
+          "For Digital Transformation Analyst roles, frame as redesigning workflows for scalable operations."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_012",
+      "point_title": "Cross-Functional Team Leadership",
+      "base_resume_point": "Coordinated cross-functional execution across development, sales, marketing, and leadership teams, serving as a bridge between technical delivery and business priorities to improve alignment and accelerate project execution.",
+      "tags": {
+        "core_competency": [
+          "Cross-Functional Collaboration",
+          "Execution Alignment",
+          "Stakeholder Management",
+          "Operational Leadership"
+        ],
+        "functional_skill": [
+          "Team coordination",
+          "Stakeholder communication",
+          "Technical-business translation",
+          "Priority alignment",
+          "Initiative tracking"
+        ],
+        "business_outcome": [
+          "Faster execution",
+          "Smoother decision-making",
+          "Stronger team alignment",
+          "Improved delivery clarity"
+        ],
+        "evidence_proof": [
+          "Worked with development teams",
+          "Worked with sales teams",
+          "Worked with marketing teams",
+          "Worked with CTO",
+          "Worked with CSO",
+          "Supported execution of new features and initiatives"
+        ],
+        "metric_placeholder": [
+          "Number of teams coordinated",
+          "Number of initiatives supported",
+          "Execution speed improvement",
+          "Decision cycle reduction"
+        ],
+        "best_fit_roles": [
+          "Program Coordinator",
+          "Program Analyst",
+          "Business Operations Associate",
+          "Strategy & Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Product Operations Analyst",
+          "GTM Operations Analyst",
+          "Customer Success Operations Analyst",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For Program Coordinator roles, frame as cross-functional tracking and execution support.",
+          "For Business Operations Associate roles, frame as improving operating alignment.",
+          "For Strategy & Operations Associate roles, frame as connecting leadership priorities with team execution."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_013",
+      "point_title": "Product, Sales, and Marketing Alignment",
+      "base_resume_point": "Improved alignment between product development, sales, and marketing teams by coordinating feature execution, communicating priorities, and ensuring new initiatives supported both platform capabilities and go-to-market objectives.",
+      "tags": {
+        "core_competency": [
+          "GTM Operations",
+          "Product-GTM Alignment",
+          "Cross-Functional Execution",
+          "Strategic Communication"
+        ],
+        "functional_skill": [
+          "Sales collaboration",
+          "Marketing coordination",
+          "Feature communication",
+          "Priority alignment",
+          "Launch support"
+        ],
+        "business_outcome": [
+          "Better go-to-market alignment",
+          "Smoother feature execution",
+          "Stronger sales enablement",
+          "Improved market readiness"
+        ],
+        "evidence_proof": [
+          "Collaborated with development teams",
+          "Collaborated with sales teams",
+          "Collaborated with marketing teams",
+          "Supported execution of new features",
+          "Supported execution of new initiatives"
+        ],
+        "metric_placeholder": [
+          "Number of initiatives launched",
+          "Sales enablement improvement",
+          "Feature adoption rate",
+          "Launch timeline improvement"
+        ],
+        "best_fit_roles": [
+          "GTM Operations Analyst",
+          "Product Operations Analyst",
+          "Strategy & Operations Associate",
+          "Business Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "Customer Success Operations Analyst",
+          "Customer Value Analyst",
+          "Program Analyst",
+          "Solutions Analyst"
+        ],
+        "adaptation_direction": [
+          "For GTM Operations Analyst roles, frame as aligning product capabilities with sales and marketing execution.",
+          "For Product Operations Analyst roles, frame as coordinating feature delivery across business teams.",
+          "For Customer Value Analyst roles, frame as improving market and client readiness for new features."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_014",
+      "point_title": "SaaS Startup Operating Model Support",
+      "base_resume_point": "Supported a fast-paced SaaS startup operating environment by taking ownership of business analysis, product delivery, internal systems, financial analysis, and cross-functional execution across technical and growth initiatives.",
+      "tags": {
+        "core_competency": [
+          "Startup Operations",
+          "Business Operations",
+          "Product Operations",
+          "Strategic Execution"
+        ],
+        "functional_skill": [
+          "Business analysis",
+          "Project coordination",
+          "Product support",
+          "Financial analysis",
+          "Cross-functional execution"
+        ],
+        "business_outcome": [
+          "Stronger operating structure",
+          "Faster execution",
+          "Improved leadership support",
+          "Better scalability"
+        ],
+        "evidence_proof": [
+          "Expanded from Business Analyst Intern responsibilities into broader project ownership",
+          "Supported product initiatives",
+          "Supported operations initiatives",
+          "Supported finance initiatives",
+          "Supported internal systems initiatives"
+        ],
+        "metric_placeholder": [
+          "Number of projects owned",
+          "Number of teams supported",
+          "Process efficiency improvement",
+          "Leadership initiatives supported"
+        ],
+        "best_fit_roles": [
+          "Business Operations Associate",
+          "Strategy & Operations Associate",
+          "Product Operations Analyst",
+          "Program Analyst"
+        ],
+        "secondary_fit_roles": [
+          "Program Coordinator",
+          "GTM Operations Analyst",
+          "Revenue Operations Analyst",
+          "Digital Transformation Analyst"
+        ],
+        "adaptation_direction": [
+          "For Business Operations Associate roles, frame as broad operating support across startup functions.",
+          "For Strategy & Operations Associate roles, frame as supporting leadership priorities and scalable growth.",
+          "For Product Operations Analyst roles, frame as bridging product delivery and business execution."
+        ]
+      }
+    },
+    {
+      "id": "MMCRE_015",
+      "point_title": "Future Product Analytics Roadmap",
+      "base_resume_point": "Identified future analytics opportunities, including predictive modeling and sentiment analysis, to expand product capabilities, deepen client insights, and create potential new revenue opportunities.",
+      "tags": {
+        "core_competency": [
+          "Product Strategy",
+          "Advanced Analytics",
+          "Innovation Planning",
+          "AI Roadmapping"
+        ],
+        "functional_skill": [
+          "Predictive modeling planning",
+          "Sentiment analysis planning",
+          "Roadmap ideation",
+          "Analytics use-case design",
+          "Opportunity identification"
+        ],
+        "business_outcome": [
+          "Future revenue potential",
+          "Stronger product differentiation",
+          "Expanded analytics capability",
+          "Deeper client insight"
+        ],
+        "evidence_proof": [
+          "Planned future analytics features intended to enhance client insight",
+          "Planned future analytics features intended to expand product value"
+        ],
+        "metric_placeholder": [
+          "Number of planned features",
+          "Projected revenue opportunity",
+          "Expected adoption",
+          "Client demand signals"
+        ],
+        "best_fit_roles": [
+          "AI Transformation Analyst",
+          "Product Operations Analyst",
+          "Digital Transformation Analyst",
+          "Strategy & Operations Associate"
+        ],
+        "secondary_fit_roles": [
+          "AI Enablement Analyst",
+          "Program Associate, AI",
+          "Solutions Analyst",
+          "Customer Value Analyst"
+        ],
+        "adaptation_direction": [
+          "For AI Transformation Analyst roles, frame as identifying AI-enabled product expansion opportunities.",
+          "For Product Operations Analyst roles, frame as roadmap planning.",
+          "For Strategy & Operations Associate roles, frame as future growth and revenue opportunity identification.",
+          "Do not present this as completed unless it was actually built or launched."
+        ]
+      }
+    }
+  ]
+}
