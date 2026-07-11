@@ -1,0 +1,1182 @@
+{
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "target_count": 6,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "• Monitor project risks and implement mitigation strategies",
+        "• Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "SFDC_001",
+          "point_title": "Global AR Governance Transformation",
+          "base_resume_point": "Owned the end-to-end governance cycle for the Global AR Approval Matrix, coordinating regional threshold updates, approver changes, stakeholder reviews, SVP approval, and publication across global AR operations.",
+          "core_competency": [
+            "Governance Transformation",
+            "Financial Controls",
+            "Operational Excellence",
+            "Global Process Management"
+          ],
+          "functional_skill": [
+            "Approval matrix management",
+            "Stakeholder coordination",
+            "Threshold validation",
+            "Governance review",
+            "Executive approval tracking"
+          ],
+          "business_outcome": [
+            "Improved audit readiness",
+            "Reduced governance gaps",
+            "Strengthened approval control",
+            "Improved global consistency"
+          ],
+          "evidence_proof": [
+            "Owned Global AR Approval Matrix cycle across AMER, EMEA, APAC, and Resellers",
+            "Coordinated 11+ global stakeholders",
+            "Secured SVP approval",
+            "Processed 15+ approver changes",
+            "Managed 6 new Payment Plan threshold levels"
+          ],
+          "metrics": [
+            "11+ stakeholders",
+            "11",
+            "4",
+            "15",
+            "6",
+            "0"
+          ],
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as governance operating model ownership.",
+            "For Business Systems Analyst roles, frame as translating policy into system-ready controls.",
+            "For Process Improvement Analyst roles, frame as standardizing global approval workflows."
+          ],
+          "score": 51.5,
+          "matched_keywords": [
+            "business",
+            "executive",
+            "governance",
+            "management",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [
+            "Excel"
+          ]
+        },
+        {
+          "id": "SFDC_014",
+          "point_title": "Async-First Coordination Model",
+          "base_resume_point": "Built an async-first coordination model using dedicated Slack channels, structured updates, and publish-without-waiting guidance to reduce meeting load while maintaining progress across multi-team process updates.",
+          "core_competency": [
+            "Operating Model Design",
+            "Workflow Optimization",
+            "Cross-Functional Coordination",
+            "Operational Efficiency"
+          ],
+          "functional_skill": [
+            "Async communication",
+            "Slack channel design",
+            "Stakeholder updates",
+            "Meeting reduction",
+            "Coordination playbook design"
+          ],
+          "business_outcome": [
+            "Reduced meeting hours",
+            "Maintained delivery velocity",
+            "Improved team autonomy",
+            "Improved coordination scalability"
+          ],
+          "evidence_proof": [
+            "Created three dedicated Slack channels",
+            "Eliminated 12+ hours of meetings",
+            "Maintained progress velocity",
+            "Recommended team-wide async coordination playbook"
+          ],
+          "metrics": [
+            "12"
+          ],
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as improving operating rhythm.",
+            "For Program Coordinator roles, frame as scalable coordination.",
+            "For Process Improvement Analyst roles, frame as reducing non-value-added meeting time."
+          ],
+          "score": 44.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "delivery",
+            "while"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_014",
+          "point_title": "Async-First Coordination Model",
+          "base_resume_point": "Built an async-first coordination model using dedicated Slack channels, structured updates, and publish-without-waiting guidance to reduce meeting load while maintaining progress across multi-team process updates.",
+          "core_competency": [
+            "Operating Model Design",
+            "Workflow Optimization",
+            "Cross-Functional Coordination",
+            "Operational Efficiency"
+          ],
+          "functional_skill": [
+            "Async communication",
+            "Slack channel design",
+            "Stakeholder updates",
+            "Meeting reduction",
+            "Coordination playbook design"
+          ],
+          "business_outcome": [
+            "Reduced meeting hours",
+            "Maintained delivery velocity",
+            "Improved team autonomy",
+            "Improved coordination scalability"
+          ],
+          "evidence_proof": [
+            "Created three dedicated Slack channels",
+            "Eliminated 12+ hours of meetings",
+            "Maintained progress velocity",
+            "Recommended team-wide async coordination playbook"
+          ],
+          "metrics": [
+            "12"
+          ],
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as improving operating rhythm.",
+            "For Program Coordinator roles, frame as scalable coordination.",
+            "For Process Improvement Analyst roles, frame as reducing non-value-added meeting time."
+          ],
+          "score": 44.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "delivery",
+            "while"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_022",
+          "point_title": "AI-Enabled Operating Infrastructure",
+          "base_resume_point": "Applied AI as a force multiplier to design operating frameworks, executive communication templates, stakeholder update rhythms, strategic roadmaps, and process documentation standards that improved clarity, scalability, and leadership visibility.",
+          "core_competency": [
+            "AI Enablement",
+            "Operating Model Design",
+            "Strategic Communication",
+            "Digital Transformation"
+          ],
+          "functional_skill": [
+            "AI-assisted planning",
+            "Template design",
+            "Executive update design",
+            "Roadmap creation",
+            "Structured communication"
+          ],
+          "business_outcome": [
+            "Improved communication consistency",
+            "Reduced ad-hoc work",
+            "Improved leadership visibility",
+            "Increased process scalability"
+          ],
+          "evidence_proof": [
+            "Used AI to design BPA role structure",
+            "Used AI to design stakeholder update templates",
+            "Used AI to design pre-1:1 snapshots",
+            "Used AI to design async Q&A docs",
+            "Used AI to build 30-60-90 strategic roadmap"
+          ],
+          "metrics": [
+            "1",
+            "30",
+            "60",
+            "90"
+          ],
+          "adaptation_direction": [
+            "For AI Enablement Analyst roles, frame as practical AI adoption for business workflows.",
+            "For AI Operations Analyst roles, frame as AI-supported operating infrastructure.",
+            "For Strategy & Operations Associate roles, frame as improving executive communication and scalable execution."
+          ],
+          "score": 35.0,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "execution",
+            "executive"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_008",
+          "point_title": "AI-Powered Knowledge Management Optimization",
+          "base_resume_point": "Built and executed an AI-assisted knowledge management workflow that combined AI-generated drafts with SME validation, structured metadata tagging, link correction, and publishing-ready templates to improve content quality, speed, and discoverability.",
+          "core_competency": [
+            "AI Enablement",
+            "Knowledge Management",
+            "Content Governance",
+            "Digital Transformation"
+          ],
+          "functional_skill": [
+            "Shakespeare AI",
+            "AI-assisted drafting",
+            "SME validation",
+            "Metadata tagging",
+            "Content optimization",
+            "Broken-link correction"
+          ],
+          "business_outcome": [
+            "Reduced article turnaround time",
+            "Improved content discoverability",
+            "Improved agent self-service",
+            "Reduced knowledge-base fragmentation"
+          ],
+          "evidence_proof": [
+            "Optimized about 80 Knowledge Articles using Shakespeare AI",
+            "Reduced article turnaround time by 80%",
+            "Tagged 100% of articles with structured content metadata",
+            "Corrected broken links across the knowledge base",
+            "Documented AI optimization in QBR deliverables"
+          ],
+          "metrics": [
+            "80%",
+            "100%",
+            "80 articles",
+            "80",
+            "100"
+          ],
+          "adaptation_direction": [
+            "For AI Enablement Analyst roles, frame as human-in-the-loop AI adoption.",
+            "For AI Operations Analyst roles, frame as operationalizing AI for scalable content workflows.",
+            "For Digital Transformation Analyst roles, frame as modernizing knowledge management."
+          ],
+          "score": 33.5,
+          "matched_keywords": [
+            "deliverables",
+            "governance",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "SFDC_013",
+          "point_title": "Global Process Map Update Program",
+          "base_resume_point": "Managed a global process map update program across AR business groups and regions, coordinating SMEs and content writers to refresh process documentation after major platform and workflow changes.",
+          "core_competency": [
+            "Process Mapping",
+            "Program Coordination",
+            "Global Operations",
+            "Documentation Governance"
+          ],
+          "functional_skill": [
+            "Promapp",
+            "Quip",
+            "Slack",
+            "SME coordination",
+            "Process map validation",
+            "Regional update tracking"
+          ],
+          "business_outcome": [
+            "Improved onboarding accuracy",
+            "Reduced cross-regional confusion",
+            "Improved process visibility",
+            "Strengthened documentation reliability"
+          ],
+          "evidence_proof": [
+            "Coordinated CS process map updates",
+            "Coordinated Bad Debt process map updates",
+            "Coordinated Cash App process map updates",
+            "Supported AMER, EMEA, and APAC regions",
+            "Drove Bad Debt to 100% completion"
+          ],
+          "metrics": [
+            "100%",
+            "100"
+          ],
+          "adaptation_direction": [
+            "For Process Improvement Analyst roles, frame as maintaining accurate current-state workflows.",
+            "For Program Analyst roles, frame as coordinating global process update cycles.",
+            "For Business Systems Analyst roles, frame as aligning process documentation with platform changes."
+          ],
+          "score": 33.5,
+          "matched_keywords": [
+            "business",
+            "governance",
+            "onboarding"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "target_count": 3,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "• Monitor project risks and implement mitigation strategies",
+        "• Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_PROMO_010",
+          "point_title": "Cross-Functional Leadership Across Product, Development, Sales, and Marketing",
+          "base_resume_point": "Coordinated cross-functional execution across development, product management, sales, marketing, and leadership teams, ensuring stakeholders remained aligned on timelines, priorities, risks, and strategic goals.",
+          "core_competency": [
+            "Cross-Functional Collaboration",
+            "Program Coordination",
+            "Stakeholder Management",
+            "Execution Alignment"
+          ],
+          "functional_skill": [
+            "Team coordination",
+            "Stakeholder communication",
+            "Sprint planning",
+            "Risk management",
+            "Project tracking"
+          ],
+          "business_outcome": [
+            "Better team alignment",
+            "Smoother execution",
+            "Faster decision-making",
+            "Stronger delivery clarity"
+          ],
+          "evidence_proof": [
+            "Coordinated with development teams",
+            "Coordinated with product management teams",
+            "Coordinated with sales teams",
+            "Coordinated with marketing teams",
+            "Coordinated with CTO and CSO",
+            "Kept projects aligned with company goals"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Coordinator roles, frame as coordinating deadlines, teams, and risks.",
+            "For Program Analyst roles, frame as tracking execution across workstreams.",
+            "For GTM Operations Analyst roles, frame as aligning product, sales, and marketing around new initiatives."
+          ],
+          "score": 42.0,
+          "matched_keywords": [
+            "communication",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "management",
+            "project",
+            "projects",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_PROMO_009",
+          "point_title": "JIRA-Based Sprint Planning and Project Tracking",
+          "base_resume_point": "Led sprint planning, project tracking, and risk management through JIRA, aligning stakeholders on timelines, deliverables, and project goals across multiple strategic initiatives.",
+          "core_competency": [
+            "Agile Delivery",
+            "Project Execution",
+            "Risk Management",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "JIRA",
+            "Sprint planning",
+            "Project tracking",
+            "Risk management",
+            "Milestone tracking",
+            "Deadline management"
+          ],
+          "business_outcome": [
+            "Stronger execution visibility",
+            "Reduced project risk",
+            "Improved deadline management",
+            "Smoother initiative delivery"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Managed project tracking through JIRA",
+            "Aligned stakeholders on timelines",
+            "Aligned stakeholders on project goals",
+            "Managed delivery risks"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Analyst roles, frame as risk, milestone, and execution tracking.",
+            "For Program Coordinator roles, frame as coordinating timelines, deliverables, and stakeholders.",
+            "For Product Operations Analyst roles, frame as supporting product delivery cadence and roadmap execution."
+          ],
+          "score": 38.0,
+          "matched_keywords": [
+            "deliverables",
+            "delivery",
+            "execution",
+            "management",
+            "project",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ]
+        },
+        {
+          "id": "MMCRE_PROMO_014",
+          "point_title": "Strategic Pivot Toward Tech-Driven Solutions",
+          "base_resume_point": "Helped guide MarketMaker’s strategic pivot toward more efficient, technology-driven solutions by aligning technology infrastructure, product workflows, internal systems, and leadership priorities with evolving business needs.",
+          "core_competency": [
+            "Business Transformation",
+            "Digital Operations",
+            "Strategic Execution",
+            "Scalable Operations"
+          ],
+          "functional_skill": [
+            "Operating model support",
+            "Workflow optimization",
+            "Leadership alignment",
+            "Technology adoption",
+            "Cross-functional execution"
+          ],
+          "business_outcome": [
+            "Better scalability",
+            "Improved workflow efficiency",
+            "Stronger operating structure",
+            "Increased readiness for growth"
+          ],
+          "evidence_proof": [
+            "Aligned technology infrastructure with business needs",
+            "Supported tech-driven solution planning",
+            "Improved internal systems",
+            "Supported workflow optimization",
+            "Collaborated with CTO and CSO"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Digital Transformation Analyst roles, frame as supporting business modernization.",
+            "For Business Operations Associate roles, frame as improving systems and workflows for scale.",
+            "For Product Operations Analyst roles, frame as connecting product delivery with scalable internal execution."
+          ],
+          "score": 36.0,
+          "matched_keywords": [
+            "business",
+            "cross-functional",
+            "delivery",
+            "execution"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "title": "Business Systems & Revenue Data Analyst",
+      "target_count": 3,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "• Monitor project risks and implement mitigation strategies",
+        "• Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_008",
+          "point_title": "Project Lifecycle and JIRA-Based Delivery Management",
+          "base_resume_point": "Managed multiple projects from conception to execution using JIRA, leading sprint planning, setting milestones, tracking deliverables, and aligning teams on deadlines to keep product and business initiatives on track.",
+          "core_competency": [
+            "Program Coordination",
+            "Agile Delivery",
+            "Project Execution",
+            "Delivery Management"
+          ],
+          "functional_skill": [
+            "JIRA",
+            "Sprint planning",
+            "Milestone tracking",
+            "Project lifecycle management",
+            "Deliverable tracking"
+          ],
+          "business_outcome": [
+            "Improved execution visibility",
+            "Stronger deadline management",
+            "Smoother delivery",
+            "Better team alignment"
+          ],
+          "evidence_proof": [
+            "Managed multiple projects",
+            "Led sprint planning",
+            "Set project milestones",
+            "Used JIRA to manage project lifecycle",
+            "Tracked deadlines and deliverables"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Analyst roles, frame as milestone tracking and delivery execution.",
+            "For Program Coordinator roles, frame as coordinating deadlines, deliverables, and teams.",
+            "For Product Operations Analyst roles, frame as supporting product delivery rhythm and roadmap execution."
+          ],
+          "score": 39.5,
+          "matched_keywords": [
+            "business",
+            "deliverables",
+            "delivery",
+            "execution",
+            "management",
+            "project",
+            "projects"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ]
+        },
+        {
+          "id": "MMCRE_012",
+          "point_title": "Cross-Functional Team Leadership",
+          "base_resume_point": "Coordinated cross-functional execution across development, sales, marketing, and leadership teams, serving as a bridge between technical delivery and business priorities to improve alignment and accelerate project execution.",
+          "core_competency": [
+            "Cross-Functional Collaboration",
+            "Execution Alignment",
+            "Stakeholder Management",
+            "Operational Leadership"
+          ],
+          "functional_skill": [
+            "Team coordination",
+            "Stakeholder communication",
+            "Technical-business translation",
+            "Priority alignment",
+            "Initiative tracking"
+          ],
+          "business_outcome": [
+            "Faster execution",
+            "Smoother decision-making",
+            "Stronger team alignment",
+            "Improved delivery clarity"
+          ],
+          "evidence_proof": [
+            "Worked with development teams",
+            "Worked with sales teams",
+            "Worked with marketing teams",
+            "Worked with CTO",
+            "Worked with CSO",
+            "Supported execution of new features and initiatives"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For Program Coordinator roles, frame as cross-functional tracking and execution support.",
+            "For Business Operations Associate roles, frame as improving operating alignment.",
+            "For Strategy & Operations Associate roles, frame as connecting leadership priorities with team execution."
+          ],
+          "score": 36.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "management",
+            "project"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        },
+        {
+          "id": "MMCRE_006",
+          "point_title": "0-to-1 SharePoint Intranet Development",
+          "base_resume_point": "Led the 0-to-1 development of a SharePoint intranet system, creating a centralized internal workspace for document management, communication, and project tracking across product, sales, and marketing teams.",
+          "core_competency": [
+            "Digital Transformation",
+            "Internal Operations",
+            "Knowledge Management",
+            "Collaboration Systems"
+          ],
+          "functional_skill": [
+            "SharePoint",
+            "Intranet development",
+            "Document management",
+            "Internal communication design",
+            "Project tracking setup"
+          ],
+          "business_outcome": [
+            "Improved internal collaboration",
+            "Centralized information access",
+            "Stronger project visibility",
+            "Better cross-functional efficiency"
+          ],
+          "evidence_proof": [
+            "Built SharePoint intranet from scratch",
+            "Created internal space for departments to manage documents",
+            "Created internal space for departments to communicate",
+            "Created internal space for departments to track project progress"
+          ],
+          "metrics": [
+            "0",
+            "1"
+          ],
+          "adaptation_direction": [
+            "For Digital Transformation Analyst roles, frame as creating a digital collaboration system.",
+            "For Business Operations Associate roles, frame as improving internal workflows.",
+            "For Business Systems Analyst roles, frame as implementing a system to support organizational processes."
+          ],
+          "score": 28.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "management",
+            "project"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "title": "Analytics, Automation & Operations Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "• Monitor project risks and implement mitigation strategies",
+        "• Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "VISTA_002",
+          "point_title": "Product Roadmap and Execution Ownership",
+          "base_resume_point": "Owned end-to-end product execution by defining requirements, prioritizing the roadmap, coordinating development activities, and managing delivery milestones to convert a business opportunity into a scalable analytics platform.",
+          "core_competency": [
+            "Product Operations",
+            "Program Execution",
+            "Roadmap Management",
+            "Cross-Functional Delivery"
+          ],
+          "functional_skill": [
+            "Requirements definition",
+            "Backlog prioritization",
+            "Milestone tracking",
+            "Sprint planning",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster execution",
+            "Better product alignment",
+            "Stronger delivery discipline"
+          ],
+          "evidence_proof": [
+            "Managed product roadmap",
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Managed timelines",
+            "Tracked execution through JIRA"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For program roles, emphasize milestones, dependencies, and delivery tracking.",
+            "For product operations, emphasize roadmap execution and backlog management.",
+            "For business systems roles, emphasize requirements and system workflows."
+          ],
+          "score": 52.5,
+          "matched_keywords": [
+            "business",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ]
+        },
+        {
+          "id": "VISTA_007",
+          "point_title": "Budget, Scope, Resource, and Risk Management",
+          "base_resume_point": "Managed project scope, budgeting, resource allocation, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, and execution capacity.",
+          "core_competency": [
+            "Program Management",
+            "Strategic Operations",
+            "Risk Management",
+            "Executive Stakeholder Management"
+          ],
+          "functional_skill": [
+            "Budgeting",
+            "Resource planning",
+            "Scope definition",
+            "Risk tracking",
+            "Priority negotiation",
+            "Executive communication"
+          ],
+          "business_outcome": [
+            "Better resource alignment",
+            "Reduced execution risk",
+            "Stronger leadership visibility",
+            "Improved decision-making"
+          ],
+          "evidence_proof": [
+            "Managed budget",
+            "Managed resource allocation",
+            "Managed scope",
+            "Managed timelines",
+            "Managed risk",
+            "Negotiated priorities with Vista’s president"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For strategy and operations, emphasize executive alignment and resource tradeoffs.",
+            "For program roles, emphasize scope, risk, and timeline governance.",
+            "For transformation roles, emphasize managing change under resource constraints."
+          ],
+          "score": 47.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "delivery",
+            "execution",
+            "executive",
+            "governance",
+            "management",
+            "project",
+            "while"
+          ],
+          "matched_core_competencies": [
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "• Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "VISTA_006",
+          "point_title": "Agile Project Management and Delivery Governance",
+          "base_resume_point": "Managed agile delivery operations by leading sprint planning, prioritizing the backlog, tracking timelines, and coordinating execution through JIRA to keep product development aligned with business priorities and delivery goals.",
+          "core_competency": [
+            "Agile Project Management",
+            "Program Coordination",
+            "Delivery Management",
+            "Execution Governance"
+          ],
+          "functional_skill": [
+            "JIRA",
+            "Sprint planning",
+            "Backlog management",
+            "Timeline tracking",
+            "Task coordination",
+            "Prioritization"
+          ],
+          "business_outcome": [
+            "Stronger execution visibility",
+            "Improved delivery discipline",
+            "Better alignment between technical work and business goals"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Managed timeline tracking",
+            "Used JIRA-based execution tracking"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For program roles, frame as execution tracking and delivery coordination.",
+            "For implementation roles, frame as managing timelines and launch readiness.",
+            "For product operations, frame as agile operating rhythm and backlog governance."
+          ],
+          "score": 39.5,
+          "matched_keywords": [
+            "business",
+            "delivery",
+            "execution",
+            "governance",
+            "implementation",
+            "management",
+            "project"
+          ],
+          "matched_core_competencies": [
+            "Portfolio Governance",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ]
+        },
+        {
+          "id": "VISTA_013",
+          "point_title": "Client-Centric Product and Service Improvement",
+          "base_resume_point": "Applied a customer-first approach to improve platform usability, service delivery, and client experience by aligning product workflows, analytics outputs, and communication strategies with client needs and decision-making behaviors.",
+          "core_competency": [
+            "Customer Value",
+            "Product Operations",
+            "Client Experience",
+            "Service Optimization"
+          ],
+          "functional_skill": [
+            "Client-needs analysis",
+            "User experience improvement",
+            "Workflow refinement",
+            "Service alignment",
+            "Feedback interpretation"
+          ],
+          "business_outcome": [
+            "Improved client satisfaction",
+            "Stronger retention potential",
+            "Better product adoption"
+          ],
+          "evidence_proof": [
+            "Simplified user experience",
+            "Improved product usability",
+            "Managed client relationships",
+            "Created client-facing insights"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For customer value roles, emphasize client outcomes and value realization.",
+            "For product ops, emphasize usability and adoption.",
+            "For implementation roles, emphasize making the platform easier for users to adopt and operate."
+          ],
+          "score": 30.5,
+          "matched_keywords": [
+            "communication",
+            "delivery",
+            "implementation"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": []
+        }
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "title": "BI, Data Quality & Systems Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "• Monitor project risks and implement mitigation strategies",
+        "• Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "LTIM_008",
+          "point_title": "Agile SDLC and Scrum Process Improvement",
+          "base_resume_point": "Supported Agile SDLC execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving delivery rhythm, stakeholder alignment, and overall process efficiency.",
+          "core_competency": [
+            "Agile Delivery",
+            "SDLC Optimization",
+            "Scrum Execution",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "Sprint planning",
+            "Backlog prioritization",
+            "Scrum practices",
+            "Risk management",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster development cycles",
+            "Improved process efficiency",
+            "Stronger delivery alignment",
+            "Better cross-functional execution"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Led risk management activities",
+            "Implemented Scrum practices",
+            "Improved process efficiency by 60%"
+          ],
+          "metrics": [
+            "60%",
+            "60"
+          ],
+          "adaptation_direction": [
+            "For program roles, frame as sprint coordination, risk tracking, and execution cadence.",
+            "For product operations, frame as backlog prioritization and delivery rhythm.",
+            "For process improvement, frame as SDLC workflow optimization."
+          ],
+          "score": 47.0,
+          "matched_keywords": [
+            "cross-functional",
+            "delivery",
+            "execution",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "LTIM_013",
+          "point_title": "Testing Process Standardization",
+          "base_resume_point": "Standardized testing processes by creating repeatable documentation, validation workflows, defect reports, and testing practices that improved consistency, traceability, and quality across application delivery cycles.",
+          "core_competency": [
+            "Process Standardization",
+            "Quality Governance",
+            "Workflow Improvement",
+            "Operational Consistency"
+          ],
+          "functional_skill": [
+            "Process documentation",
+            "Validation workflow design",
+            "Defect reporting",
+            "Testing standards",
+            "Quality controls"
+          ],
+          "business_outcome": [
+            "Improved consistency",
+            "Better traceability",
+            "Reduced defects",
+            "Stronger process discipline"
+          ],
+          "evidence_proof": [
+            "Created test cases",
+            "Created test scenarios",
+            "Created bug tracking reports",
+            "Created structured testing frameworks"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For process roles, frame as standardizing workflows and reducing variability.",
+            "For operations roles, frame as improving consistency and execution discipline.",
+            "For business systems, frame as creating traceable testing and validation processes."
+          ],
+          "score": 44.0,
+          "matched_keywords": [
+            "business",
+            "delivery",
+            "execution",
+            "governance"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": []
+        },
+        {
+          "id": "LTIM_001",
+          "point_title": "Enterprise Application Quality Ownership",
+          "base_resume_point": "Owned quality assurance for a critical reinsurance-based web application, ensuring application reliability, functional accuracy, and user satisfaction across testing, defect management, release readiness, and client-facing delivery activities.",
+          "core_competency": [
+            "Quality Engineering",
+            "Application Reliability",
+            "Business Systems Support",
+            "Operational Excellence"
+          ],
+          "functional_skill": [
+            "Functional testing",
+            "Regression testing",
+            "Defect validation",
+            "Release support",
+            "Application quality assurance"
+          ],
+          "business_outcome": [
+            "Improved application reliability",
+            "Stronger user satisfaction",
+            "Reduced production risk",
+            "Smoother product releases"
+          ],
+          "evidence_proof": [
+            "Supported reinsurance web application for Marsh and McLennan under Guy Carpenter",
+            "Ensured quality and performance of a business-critical platform"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For business systems roles, frame as application support and system quality.",
+            "For implementation roles, frame as release readiness and defect validation.",
+            "For operations roles, frame as reliability, issue tracking, and business continuity."
+          ],
+          "score": 36.5,
+          "matched_keywords": [
+            "business",
+            "delivery",
+            "enterprise",
+            "implementation",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "Excel"
+          ]
+        },
+        {
+          "id": "LTIM_009",
+          "point_title": "Cross-Functional Stakeholder Coordination",
+          "base_resume_point": "Facilitated cross-functional coordination between business unit managers, development teams, testing teams, and clients to align priorities, communicate issues, and ensure teams worked toward shared application-quality and delivery goals.",
+          "core_competency": [
+            "Stakeholder Management",
+            "Cross-Functional Collaboration",
+            "Communication",
+            "Execution Alignment"
+          ],
+          "functional_skill": [
+            "Stakeholder communication",
+            "Meeting facilitation",
+            "Issue alignment",
+            "Team coordination",
+            "Priority management"
+          ],
+          "business_outcome": [
+            "Better team alignment",
+            "Faster issue resolution",
+            "Improved delivery clarity",
+            "Stronger client confidence"
+          ],
+          "evidence_proof": [
+            "Communicated with business unit managers",
+            "Communicated with development teams",
+            "Communicated with testing teams",
+            "Communicated with clients throughout QA and delivery cycles"
+          ],
+          "metrics": [],
+          "adaptation_direction": [
+            "For program roles, frame as coordination across workstreams.",
+            "For business operations, frame as improving execution alignment.",
+            "For customer success, frame as bridging client and internal teams to resolve issues."
+          ],
+          "score": 34.0,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "delivery",
+            "ensure",
+            "execution",
+            "management",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": []
+        }
+      ]
+    }
+  ]
+}

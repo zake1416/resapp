@@ -1,0 +1,87 @@
+{
+  "summary": "Project manager with enterprise implementation, Agile delivery, governance, risk tracking, stakeholder communication, workflow improvement, JIRA, Excel, automation, and reporting experience across software, operations, finance, analytics, and business systems environments.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Led global process-update delivery after platform changes, coordinating SMEs to improve onboarding accuracy and workflow visibility.",
+        "Monitored governance risks across Global AR approvals, coordinating 11+ stakeholders, 15+ approver changes, and 6 threshold levels to strengthen controls, audit readiness, and global consistency.",
+        "Improved cross-functional communication through three Slack channels, eliminating 12+ meeting hours while maintaining delivery velocity.",
+        "Drove continuous process improvement with AI-assisted roadmaps, executive updates, and async Q&A templates, improving leadership visibility, execution clarity, and scalable stakeholder governance across operating rhythms.",
+        "Operationalized AI knowledge workflows for 80 articles, reducing turnaround time 80% and strengthening discoverability.",
+        "Managed governance updates across AMER, EMEA, APAC, and Resellers, securing SVP approval while translating policy changes into controlled, publication-ready operating guidance."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Led software execution planning across product, development, sales, marketing, and leadership teams to align delivery priorities.",
+        "Monitored delivery risks through JIRA sprint planning and project tracking, aligning stakeholders on timelines, deliverables, goals, and mitigation needs across strategic initiatives.",
+        "Improved technology-driven workflows by aligning infrastructure, internal systems, and leadership priorities with evolving business needs."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Managed project lifecycles in JIRA, setting milestones and tracking deliverables to improve execution visibility.",
+        "Coordinated cross-functional execution across development, sales, marketing, CTO, and CSO stakeholders, bridging technical delivery with business priorities to accelerate project execution.",
+        "Built a 0-to-1 SharePoint intranet centralizing documents, communication, and project tracking across departments."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Led product execution planning through requirements, roadmap prioritization, sprint planning, and JIRA-based milestone tracking.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs and execution capacity.",
+        "Strengthened Agile delivery governance through backlog prioritization, timeline tracking, and JIRA-based execution coordination.",
+        "Improved client adoption readiness by aligning product workflows, analytics outputs, usability improvements, and communication strategies with client decision-making needs."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Supported Agile SDLC execution through sprint planning, backlog prioritization, risk management, and Scrum process improvements.",
+        "Standardized testing governance with repeatable documentation, validation workflows, defect reports, and structured testing frameworks to improve traceability and delivery consistency.",
+        "Owned QA for a business-critical reinsurance web application, strengthening release readiness and production risk control.",
+        "Coordinated business managers, developers, testers, and clients through QA cycles, aligning priorities, communicating issues, and supporting shared application-quality goals."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "AI knowledge optimization",
+      "Template automation",
+      "Human-in-the-loop validation"
+    ],
+    "Systems, Workflow & Governance": [
+      "Enterprise implementation support",
+      "Workflow improvement",
+      "Approval governance",
+      "Process documentation",
+      "Testing standardization"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "JIRA reporting",
+      "Delivery tracking",
+      "Executive updates",
+      "Operational dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Sprint planning",
+      "Risk management",
+      "Roadmap execution",
+      "Backlog prioritization",
+      "Cross-functional coordination"
+    ],
+    "Tools": [
+      "JIRA",
+      "Excel",
+      "SharePoint",
+      "Slack",
+      "Quip",
+      "Promapp"
+    ]
+  }
+}

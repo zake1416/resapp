@@ -1,0 +1,112 @@
+{
+  "summary": "Project manager with enterprise implementation, Agile delivery, governance, risk tracking, stakeholder communication, workflow improvement, JIRA, Excel, automation, and reporting experience across software, operations, finance, analytics, and business systems environments.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Led global process-update delivery after platform changes, coordinating SMEs to improve onboarding accuracy and workflow visibility.",
+        "Monitored governance risks across Global AR approvals, coordinating 11+ stakeholders, 15+ approver changes, and 6 threshold levels to strengthen controls, audit readiness, and global consistency.",
+        "Improved cross-functional communication through three Slack channels, eliminating 12+ meeting hours while maintaining delivery velocity.",
+        "Drove continuous process improvement with AI-assisted roadmaps, executive updates, and async Q&A templates, improving leadership visibility, execution clarity, and scalable stakeholder governance across operating rhythms.",
+        "Operationalized AI knowledge workflows for 80 articles, reducing turnaround time 80% and strengthening discoverability.",
+        "Managed governance updates across AMER, EMEA, APAC, and Resellers, securing SVP approval while translating policy changes into controlled, publication-ready operating guidance for global AR teams and stakeholders worldwide."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Led software execution planning across product, development, sales, marketing, and leadership teams to align delivery priorities.",
+        "Monitored delivery risks through JIRA sprint planning and project tracking, aligning stakeholders on timelines, deliverables, goals, mitigation needs, ownership, and decision points across strategic initiatives and portfolio workstreams.",
+        "Improved technology-driven workflows by aligning infrastructure, internal systems, and leadership priorities with evolving business needs."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Managed project lifecycles in JIRA, setting milestones and tracking deliverables to improve execution visibility.",
+        "Coordinated cross-functional execution across development, sales, marketing, CTO, and CSO stakeholders, bridging technical delivery with business priorities to accelerate project execution, feature delivery, and initiative alignment.",
+        "Built a 0-to-1 SharePoint intranet centralizing documents, communication, and project tracking across departments."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Led product execution planning through requirements, roadmap prioritization, sprint planning, and JIRA-based milestone tracking.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, resource constraints, and execution capacity.",
+        "Strengthened Agile delivery governance through backlog prioritization, timeline tracking, and JIRA-based execution coordination.",
+        "Improved client adoption readiness by aligning product workflows, analytics outputs, usability improvements, service delivery, and communication strategies with client decision-making needs, platform usage, and operating expectations."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Supported Agile SDLC execution through sprint planning, backlog prioritization, risk management, and Scrum process improvements.",
+        "Standardized testing governance with repeatable documentation, validation workflows, defect reports, and structured testing frameworks to improve traceability, quality controls, delivery consistency, and application release discipline.",
+        "Owned QA for a business-critical reinsurance web application, strengthening release readiness and production risk control.",
+        "Coordinated business managers, developers, testers, and clients through QA cycles, aligning priorities, communicating issues, resolving blockers, and supporting shared application-quality and delivery goals."
+      ]
+    }
+  ],
+  "skills": {
+    "Enterprise AI & Automation": [
+      "AI-assisted workflow design",
+      "AI knowledge optimization",
+      "Template automation",
+      "Human-in-the-loop validation"
+    ],
+    "Systems, Workflow & Governance": [
+      "Enterprise implementation support",
+      "Workflow improvement",
+      "Approval governance",
+      "Process documentation",
+      "Testing standardization"
+    ],
+    "Analytics & Reporting": [
+      "Excel",
+      "JIRA reporting",
+      "Delivery tracking",
+      "Executive updates",
+      "Operational dashboards"
+    ],
+    "Product, PMO & Stakeholder Operations": [
+      "Sprint planning",
+      "Risk management",
+      "Roadmap execution",
+      "Backlog prioritization",
+      "Cross-functional coordination"
+    ],
+    "Tools": [
+      "JIRA",
+      "Excel",
+      "SharePoint",
+      "Slack",
+      "Quip",
+      "Promapp"
+    ]
+  }
+}
