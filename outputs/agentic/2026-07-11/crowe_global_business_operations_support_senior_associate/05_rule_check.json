@@ -1,5 +1,5 @@
 {
-  "status": "pass",
+  "status": "needs_review",
   "summary_word_count": 35,
   "bullet_counts": {
     "salesforce": 6,
@@ -11,34 +11,36 @@
   "bullet_word_counts": {
     "salesforce": [
       14,
-      28,
-      15,
       24,
+      13,
+      29,
       14,
-      26
+      25
     ],
     "marketmaker_pm": [
       13,
       24,
-      15
+      14
     ],
     "marketmaker_ba": [
-      13,
-      24,
+      14,
+      25,
       14
     ],
     "vista": [
-      13,
+      19,
       24,
       14,
-      24
+      29
     ],
     "ltimindtree": [
-      14,
+      13,
       24,
       13,
-      27
+      26
     ]
   },
-  "issues": []
+  "issues": [
+    "vista bullet 1 has 19 words; target is 15."
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "role_title": "Job Role: Project Manager",
+  "role_title": "Project Manager",
   "company_name": "",
   "role_families": [
     "implementation",
@@ -78,14 +78,14 @@
     "housing"
   ],
   "responsibility_phrases": [
-    "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-    "• Monitor project risks and implement mitigation strategies",
-    "• Drive project governance, communication, and continuous process improvements"
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
   ],
   "priority_jd_responsibilities": [
-    "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-    "• Monitor project risks and implement mitigation strategies",
-    "• Drive project governance, communication, and continuous process improvements"
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
   ],
   "metric_themes": [
     "visibility",

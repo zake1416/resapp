@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "summary_word_count": 35,
+  "summary_word_count": 37,
   "bullet_counts": {
     "salesforce": 6,
     "marketmaker_pm": 3,
@@ -10,17 +10,17 @@
   },
   "bullet_word_counts": {
     "salesforce": [
-      14,
-      28,
+      15,
+      25,
       15,
       24,
       14,
-      26
+      25
     ],
     "marketmaker_pm": [
-      13,
+      15,
       24,
-      15
+      13
     ],
     "marketmaker_ba": [
       13,
@@ -29,15 +29,15 @@
     ],
     "vista": [
       13,
-      24,
+      26,
       14,
       24
     ],
     "ltimindtree": [
-      14,
-      24,
       13,
-      27
+      24,
+      14,
+      28
     ]
   },
   "issues": []

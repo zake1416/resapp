@@ -1,3 +1,167 @@
+
+You are writing a tailored resume from already-selected evidence. Keep it simple and high quality.
+
+Goal:
+- Use the job description's responsibilities, keywords, tools, and core competencies.
+- Use only the selected truthful evidence from the candidate JSONs.
+- Rewrite each selected point into a strong resume bullet.
+
+Bullet formula:
+Strong action verb + JD-aligned impact + quantification/metric when available + business result.
+
+Length rules:
+- Alternate bullets within each experience: 15 words, 28 words, 15 words, 28 words, 15 words, 28 words.
+- Acceptable ranges: short bullets 13-18 words; long bullets 24-30 words.
+- Do not break grammar to hit the count.
+
+Required bullet counts:
+- Salesforce: 6
+- Market Maker CRE Financial Modeling & Strategic Operations Analyst: 3
+- Market Maker CRE Business Analysis & Financial Data Analyst: 3
+- Vista Research Services: 4
+- LTIMindtree: 4
+
+JD-direct bullet rules:
+- Salesforce bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by Salesforce evidence.
+- Market Maker CRE PM bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by MarketMaker PM evidence.
+- MarketMaker BA, Vista, and LTIMindtree bullet 1 must be built directly from the most important JD responsibility, then backed by that experience's evidence.
+- "Direct from JD" means start with the JD responsibility/competency as the sentence idea, then attach truthful evidence and metrics. Do not start those bullets from the old base resume wording.
+- For direct JD bullets, mirror responsibility intent like connect tools/data/workflows, lead-to-revenue process, CRM automation, lifecycle stages, member/customer journeys, campaign operations, reporting, clean data, reduce delays, handoffs, governance, AI automation, adoption, dashboards, planning, roadmaps, execution tracking, dependencies, risks, and progress.
+- Do not write phrases like "Led HubSpot Automation" unless selected evidence explicitly proves HubSpot. Use "strengthened CRM automation workflows" or "improved lead-management operating cadence" instead.
+
+Strict rules:
+- Summary must be 45 words or fewer and use JD language.
+- No Projects section.
+- No placeholders.
+- Do not claim direct ownership/use of JD tools unless selected evidence explicitly proves that tool. This includes HubSpot, ServiceNow, Power BI, ZoomInfo, Cvent, GA4, Monday.com, ON24, SAP, location, W2, visa, or certifications.
+- If a priority JD responsibility contains an unsupported tool such as HubSpot, translate it truthfully into transferable language: CRM automation, lead-management workflows, lifecycle-stage governance, audience/list logic, reporting, data quality, handoffs, integrations, and revenue operations.
+- You may use transferable language such as dashboards, reporting, workflow automation, intake-to-delivery visibility, tool adoption, governance, CRM processes, lifecycle stages, lead routing, and execution tracking when evidence supports it.
+- Prefer real metrics from evidence: percentages, dollar values, counts, teams, workflows, projects, articles, apps.
+- Every bullet should visibly connect to at least one JD responsibility or core competency.
+- Job titles in the LaTeX are intentionally functional/JD-aligned titles reflecting actual work, not necessarily HR-paper titles.
+- Skills must sound like a human resume, not an AI-generated taxonomy.
+- Use plain category names: Methods, Operations, Analytics, Tools.
+- Skills should be specific and defensible from evidence. Avoid vague phrases like "enterprise AI", "strategic transformation", or "stakeholder excellence" unless the JD/evidence directly supports them.
+- Tools should be software/platform names only. Methods should be ways of working. Operations should be business/system domains. Analytics should be reporting, data, testing, and measurement skills.
+
+Return ONLY valid JSON with this exact shape:
+{
+  "summary": "",
+  "experiences": [
+    {"key": "salesforce", "bullets": []},
+    {"key": "marketmaker_pm", "bullets": []},
+    {"key": "marketmaker_ba", "bullets": []},
+    {"key": "vista", "bullets": []},
+    {"key": "ltimindtree", "bullets": []}
+  ],
+  "skills": {
+    "Methods": [],
+    "Operations": [],
+    "Analytics": [],
+    "Tools": []
+  }
+}
+
+JD PROFILE:
+{
+  "role_title": "Project Manager",
+  "company_name": "",
+  "role_families": [
+    "implementation",
+    "program",
+    "business_systems",
+    "process_improvement"
+  ],
+  "target_evidence_types": [
+    "program_governance",
+    "stakeholder_management",
+    "risk_mitigation",
+    "business_systems",
+    "implementation",
+    "analytics_reporting",
+    "compliance_controls",
+    "digital_transformation",
+    "process_improvement",
+    "solutions"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "Workflow Improvement",
+    "Portfolio Governance",
+    "Stakeholder Partnership",
+    "Agile Delivery"
+  ],
+  "required_tools_keywords": [
+    "JIRA",
+    "Excel"
+  ],
+  "keywords": [
+    "project",
+    "enterprise",
+    "software",
+    "implementation",
+    "management",
+    "manager",
+    "business",
+    "communication",
+    "cross-functional",
+    "drive",
+    "lead",
+    "onboarding",
+    "projects",
+    "stakeholders",
+    "strong",
+    "while",
+    "years",
+    "ability",
+    "administration",
+    "applicable",
+    "atlanta",
+    "bachelor",
+    "collaborating",
+    "compliance",
+    "continuous",
+    "contract",
+    "coordinate",
+    "days",
+    "degree",
+    "deliverables",
+    "delivery",
+    "develop",
+    "duration",
+    "ensure",
+    "excellent",
+    "execution",
+    "executive",
+    "experienced",
+    "field",
+    "final",
+    "finance",
+    "ga",
+    "governance",
+    "high-impact",
+    "housing"
+  ],
+  "responsibility_phrases": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "priority_jd_responsibilities": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
+
+SELECTED EVIDENCE:
 {
   "experiences": [
     {
@@ -7,9 +171,9 @@
       "target_count": 6,
       "jd_first_slots": 2,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -178,9 +342,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -354,9 +518,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -550,9 +714,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -759,9 +923,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -924,8 +1088,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1106,8 +1270,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1134,9 +1298,9 @@
       "target_count": 3,
       "jd_first_slots": 2,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1227,7 +1391,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1329,7 +1493,7 @@
             "Workflow Improvement"
           ],
           "matched_jd_phrases": [
-            "• Drive project governance, communication, and continuous process improvements"
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1437,7 +1601,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1459,9 +1623,9 @@
       "target_count": 3,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1548,7 +1712,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1744,7 +1908,7 @@
             "Workflow Improvement"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1766,9 +1930,9 @@
       "target_count": 4,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1859,7 +2023,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1966,8 +2130,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2178,9 +2342,9 @@
       "target_count": 4,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -2368,7 +2532,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2467,7 +2631,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2566,7 +2730,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "Excel"

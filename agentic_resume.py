@@ -19,11 +19,13 @@ import shutil
 import subprocess
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 from typing import Any
 
 
 DEFAULT_OUTPUT_DIR = Path("outputs/agentic")
+SKILL_CATEGORIES = ["Methods", "Operations", "Analytics", "Systems & Stack", "Tools"]
 
 EXPERIENCES = [
     {
@@ -104,6 +106,66 @@ COMPETENCY_PATTERNS = {
     "Agile Delivery": ["agile", "sprint", "scrum", "backlog", "delivery", "execution tracking"],
 }
 
+ROLE_FAMILY_ALIASES = {
+    "ai_enablement": ["ai enablement analyst", "ai enablement", "enable ai", "ai adoption", "ai training"],
+    "ai_operations": ["ai operations analyst", "ai operations", "ai ops", "agent operations", "model operations"],
+    "ai_transformation": ["ai transformation analyst", "ai transformation", "agentic", "agentforce", "digital ai"],
+    "product_operations": ["product operations analyst", "product operations", "product ops", "roadmap", "backlog", "launch"],
+    "business_operations": ["business operations associate", "business operations", "bizops", "operating rhythm"],
+    "strategy_operations": ["strategy & operations", "strategy and operations", "strategic operations", "business strategy"],
+    "program": ["program analyst", "program coordinator", "project manager", "program manager", "pmo", "project"],
+    "business_systems": ["business systems analyst", "business systems", "requirements", "uat", "systems analyst"],
+    "customer_success_ops": ["customer success operations", "customer success ops", "customer operations"],
+    "implementation": ["implementation analyst", "implementation", "onboarding", "go-live", "cutover", "deployment"],
+    "solutions": ["solutions analyst", "solution analyst", "solutions", "client solution"],
+    "gtm_operations": ["gtm operations", "go-to-market", "sales operations", "marketing operations"],
+    "revenue_operations": ["revenue operations", "revops", "quote-to-cash", "lead-to-cash", "billing", "collections"],
+    "process_improvement": ["process improvement", "continuous improvement", "lean", "six sigma", "bpi", "workflow"],
+    "digital_transformation": ["digital transformation", "transformation", "systems transformation", "modernization"],
+    "research_operations": ["research operations", "research", "survey", "market research"],
+    "program_ai": ["program associate, ai", "ai program", "program associate ai"],
+    "operations_ai": ["operations associate, ai", "operations associate ai", "ai operations associate"],
+    "customer_value": ["customer value", "value analyst", "client value", "customer outcomes"],
+}
+
+EVIDENCE_TYPE_PATTERNS = {
+    "ai_enablement": ["ai enablement", "ai fluency", "training", "agentforce", "responsible ai", "adoption"],
+    "ai_operations": ["ai operations", "agent", "monitoring", "quality", "source content", "automation", "model"],
+    "automation": ["automation", "automated", "agentforce", "einstein", "workflow automation", "manual work"],
+    "product_roadmap": ["roadmap", "backlog", "feature", "launch", "product", "prioritization"],
+    "business_operations": ["operating rhythm", "business operations", "cadence", "ownership", "capacity"],
+    "strategy_planning": ["strategy", "strategic", "v2mom", "portfolio", "prioritization", "business case"],
+    "program_governance": ["program", "project", "pmo", "governance", "milestone", "dependency", "deliverable"],
+    "business_systems": ["requirements", "systems", "uat", "validation", "functional", "system"],
+    "customer_success": ["customer success", "customer experience", "case deflection", "support friction"],
+    "implementation": ["implementation", "go-live", "readiness", "deployment", "release", "cutover", "onboarding"],
+    "solutions": ["solution", "client need", "platform capability", "requirements", "use case"],
+    "gtm_operations": ["gtm", "go-to-market", "seller", "sales operations", "marketing", "campaign"],
+    "revenue_operations": ["revenue operations", "billing", "collections", "quote-to-cash", "lead-to-cash", "cash flow", "aov"],
+    "process_improvement": ["process improvement", "bpi", "workflow", "dmaic", "lean", "audit", "gap", "standardiz"],
+    "digital_transformation": ["digital transformation", "erp", "marketing cloud", "revenue cloud", "migration", "transformation"],
+    "research_operations": ["research", "survey", "analytics", "fraud detection", "respondent"],
+    "customer_value": ["customer value", "client value", "retention", "adoption", "insight", "decision"],
+    "analytics_reporting": ["dashboard", "reporting", "kpi", "metrics", "tableau", "excel", "insights"],
+    "risk_mitigation": ["risk", "mitigation", "blocker", "issue", "escalation", "defect", "fraud", "continuity"],
+    "compliance_controls": ["compliance", "sox", "control", "audit", "policy", "regulated"],
+    "change_enablement": ["change", "enablement", "training", "adoption", "sponsor", "communications"],
+    "stakeholder_management": ["stakeholder", "cross-functional", "executive", "sme", "leadership", "partner"],
+    "data_quality": ["data quality", "data validation", "etl", "accuracy", "migration data", "integrity"],
+    "client_facing": ["client", "customer-facing", "customer", "seller", "account executive"],
+}
+
+ALIGNMENT_TO_EVIDENCE = {
+    "project_planning_execution": "program_governance",
+    "enterprise_software_implementation": "implementation",
+    "testing_release_readiness": "business_systems",
+    "risk_mitigation": "risk_mitigation",
+    "program_governance_compliance": "compliance_controls",
+    "cross_functional_stakeholder_management": "stakeholder_management",
+    "continuous_process_improvement": "process_improvement",
+    "duplicate_reference_only": "duplicate_reference_only",
+}
+
 
 @dataclass(frozen=True)
 class AgentResult:
@@ -155,9 +217,116 @@ def unique(values: list[str], limit: int | None = None) -> list[str]:
     return out
 
 
+def canonical_key(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
+
+
+def weighted_term_hits(text: str, patterns: dict[str, list[str]]) -> dict[str, int]:
+    lower = text.lower()
+    hits: dict[str, int] = {}
+    for key, needles in patterns.items():
+        count = sum(1 for needle in needles if needle.lower() in lower)
+        if count:
+            hits[key] = count
+    return hits
+
+
+def infer_role_families_from_text(text: str) -> list[str]:
+    hits = weighted_term_hits(text, ROLE_FAMILY_ALIASES)
+    return [key for key, _ in sorted(hits.items(), key=lambda item: (-item[1], item[0]))]
+
+
+def infer_evidence_types_from_text(text: str) -> list[str]:
+    hits = weighted_term_hits(text, EVIDENCE_TYPE_PATTERNS)
+    return [key for key, _ in sorted(hits.items(), key=lambda item: (-item[1], item[0]))]
+
+
+def role_name_to_family(role_name: str) -> str | None:
+    normalized = role_name.lower()
+    for family, aliases in ROLE_FAMILY_ALIASES.items():
+        if any(alias in normalized for alias in aliases):
+            return family
+    key = canonical_key(role_name)
+    return key if key in ROLE_FAMILY_ALIASES else None
+
+
+def selection_profile_from_point(
+    point: dict[str, Any],
+    tags: dict[str, Any],
+    searchable: str,
+    evidence_text: str,
+) -> dict[str, Any]:
+    explicit = point.get("selection_profile") or tags.get("selection_profile") or {}
+    role_scores: dict[str, int] = {}
+
+    for role in tags.get("best_fit_roles", []) or []:
+        family = role_name_to_family(str(role))
+        if family:
+            role_scores[family] = max(role_scores.get(family, 0), 5)
+    for role in tags.get("secondary_fit_roles", []) or []:
+        family = role_name_to_family(str(role))
+        if family:
+            role_scores[family] = max(role_scores.get(family, 0), 3)
+    role_hint_text = clean_text([
+        point.get("point_title"),
+        point.get("base_resume_point"),
+        tags.get("best_fit_roles"),
+        tags.get("secondary_fit_roles"),
+    ])
+    for family in infer_role_families_from_text(role_hint_text):
+        role_scores[family] = max(role_scores.get(family, 0), 2)
+
+    explicit_scores = explicit.get("role_family_scores", {}) if isinstance(explicit, dict) else {}
+    if isinstance(explicit_scores, dict):
+        for key, value in explicit_scores.items():
+            family = canonical_key(str(key))
+            try:
+                score = int(value)
+            except (TypeError, ValueError):
+                continue
+            role_scores[family] = max(role_scores.get(family, 0), score)
+
+    evidence_types = infer_evidence_types_from_text(evidence_text)
+    explicit_evidence = explicit.get("evidence_types", []) if isinstance(explicit, dict) else []
+    evidence_types.extend(str(item) for item in explicit_evidence or [])
+    evidence_types = unique([canonical_key(item) for item in evidence_types if item], 20)
+
+    text = searchable.lower()
+    strength = str(explicit.get("strength", "")).lower() if isinstance(explicit, dict) else ""
+    if not strength:
+        if any(term in text for term in ["$1m", "$180m", "$500k", "$120k", "50,000", "100%", "85%", "75%", "60%", "30%", "22%", "20%"]):
+            strength = "high"
+        elif point.get("duplicate_of") or "duplicate_reference_only" in evidence_types:
+            strength = "duplicate"
+        elif any(term in text for term in ["volunteer", "credential", "completed corporate training", "check-in"]):
+            strength = "low"
+        else:
+            strength = "medium"
+
+    resume_use = str(explicit.get("resume_use", "")).lower() if isinstance(explicit, dict) else ""
+    if not resume_use:
+        resume_use = "reference" if point.get("duplicate_of") else ("supporting" if strength == "low" else "primary")
+
+    return {
+        "role_family_scores": role_scores,
+        "evidence_types": evidence_types,
+        "strength": strength,
+        "resume_use": resume_use,
+    }
+
+
 def slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
     return slug or "resume"
+
+
+def markdown_escape(value: Any) -> str:
+    text = clean_text(value)
+    return text.replace("|", "\\|").replace("\n", " ").strip()
+
+
+def strip_leading_marker(text: str) -> str:
+    return re.sub(r"^(?:(?:[^\x00-\x7F]+)|[^\w$])+\s*", "", text).strip()
 
 
 def extract_metrics(text: str) -> list[str]:
@@ -177,6 +346,7 @@ def extract_jd_phrases(jd_text: str) -> list[str]:
     phrases: list[str] = []
     for line in jd_text.splitlines():
         clean = re.sub(r"\s+", " ", line).strip(" -?\t")
+        clean = strip_leading_marker(clean)
         if 4 <= len(clean.split()) <= 18:
             lower = clean.lower()
             if any(k in lower for k in [
@@ -186,6 +356,20 @@ def extract_jd_phrases(jd_text: str) -> list[str]:
             ]):
                 phrases.append(clean)
     return unique(phrases, 35)
+
+
+def extract_jd_header(jd_text: str) -> dict[str, str]:
+    header = {"company_name": "", "role_title": ""}
+    lines = [line.strip() for line in jd_text.splitlines()[:30] if line.strip()]
+    for line in lines:
+        company = re.match(r"^(?:company|organization|employer|client)\s*:\s*(.+)$", line, flags=re.IGNORECASE)
+        if company and not header["company_name"]:
+            header["company_name"] = company.group(1).strip(" .-")
+            continue
+        role = re.match(r"^(?:job\s*)?(?:role|title|position)\s*:\s*(.+)$", line, flags=re.IGNORECASE)
+        if role and not header["role_title"]:
+            header["role_title"] = role.group(1).strip(" .-")
+    return header
 
 
 def analyze_jd(jd_text: str) -> dict[str, Any]:
@@ -200,13 +384,18 @@ def analyze_jd(jd_text: str) -> dict[str, Any]:
         counts[token] = counts.get(token, 0) + 1
     keywords = [word for word, _ in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:45]]
     phrases = extract_jd_phrases(jd_text)
-    title = ""
+    header = extract_jd_header(jd_text)
+    title = header["role_title"]
     for line in jd_text.splitlines()[:20]:
-        if re.search(r"analyst|manager|associate|specialist|consultant", line, re.IGNORECASE):
+        if title:
+            break
+        if re.search(r"analyst|manager|associate|specialist|consultant|coordinator", line, re.IGNORECASE):
             title = line.strip(" -:")
             break
-    company_name = ""
+    company_name = header["company_name"]
     for line in jd_text.splitlines()[:30]:
+        if company_name:
+            break
         m = re.search(r"about\s+([A-Za-z0-9&.'-]+)", line, re.IGNORECASE)
         if m:
             company_name = m.group(1).strip(" .-")
@@ -219,9 +408,13 @@ def analyze_jd(jd_text: str) -> dict[str, Any]:
             "execution tracking", "dependencies", "risks", "progress",
         ])
     ], 12)
+    role_families = infer_role_families_from_text(jd_text)
+    target_evidence_types = infer_evidence_types_from_text(jd_text)
     return {
         "role_title": title,
         "company_name": company_name,
+        "role_families": role_families[:6],
+        "target_evidence_types": target_evidence_types[:10],
         "core_competencies": competencies,
         "required_tools_keywords": required_tools,
         "keywords": keywords,
@@ -328,10 +521,22 @@ def load_experience_points(experience_dir: Path, config: dict[str, Any]) -> list
             tags.get("business_outcome"),
             tags.get("evidence_proof"),
             tags.get("metric_placeholder"),
+            tags.get("best_fit_roles"),
+            tags.get("secondary_fit_roles"),
             tags.get("adaptation_direction"),
+            tags.get("target_role_alignment"),
+            point.get("selection_profile"),
         ])
+        evidence_text = clean_text([
+            point.get("point_title"),
+            point.get("base_resume_point"),
+            tags.get("evidence_proof"),
+        ])
+        selection_profile = selection_profile_from_point(point, tags, searchable, evidence_text)
         normalized.append({
             "id": point.get("id", ""),
+            "legacy_id": point.get("legacy_id", ""),
+            "duplicate_of": point.get("duplicate_of", ""),
             "point_title": point.get("point_title", ""),
             "base_resume_point": point.get("base_resume_point", ""),
             "core_competency": tags.get("core_competency", []),
@@ -339,6 +544,10 @@ def load_experience_points(experience_dir: Path, config: dict[str, Any]) -> list
             "business_outcome": tags.get("business_outcome", []),
             "evidence_proof": tags.get("evidence_proof", []),
             "metrics": extract_metrics(clean_text(tags.get("metric_placeholder", [])) + " " + searchable),
+            "best_fit_roles": tags.get("best_fit_roles", []),
+            "secondary_fit_roles": tags.get("secondary_fit_roles", []),
+            "target_role_alignment": tags.get("target_role_alignment", []),
+            "selection_profile": selection_profile,
             "adaptation_direction": tags.get("adaptation_direction", []),
             "searchable": searchable,
         })
@@ -373,13 +582,134 @@ def score_point(point: dict[str, Any], jd_profile: dict[str, Any]) -> dict[str, 
         score += 3
     if point.get("evidence_proof"):
         score += 2
+
+    profile = point.get("selection_profile", {}) or {}
+    role_scores = profile.get("role_family_scores", {}) or {}
+    jd_role_families = jd_profile.get("role_families", []) or []
+    matched_role_families = [
+        family for family in jd_role_families
+        if int(role_scores.get(family, 0) or 0) > 0
+    ]
+    for family in matched_role_families:
+        score += min(5, int(role_scores.get(family, 0) or 0)) * 2.5
+
+    point_evidence_types = profile.get("evidence_types", []) or []
+    jd_evidence_types = jd_profile.get("target_evidence_types", []) or []
+    matched_evidence_types = [
+        evidence_type for evidence_type in jd_evidence_types
+        if evidence_type in point_evidence_types
+    ]
+    score += len(matched_evidence_types) * 4
+
+    strength = str(profile.get("strength", "")).lower()
+    if strength == "high":
+        score += 4
+    elif strength == "low":
+        score -= 5
+    elif strength == "duplicate":
+        score -= 8
+
+    resume_use = str(profile.get("resume_use", "")).lower()
+    if resume_use == "primary":
+        score += 2
+    elif resume_use == "supporting":
+        score -= 2
+    elif resume_use == "reference":
+        score -= 10
+
+    if point.get("duplicate_of"):
+        score -= 12
+
     return {
         "score": round(score, 2),
         "matched_keywords": overlap[:20],
         "matched_core_competencies": unique(matched_competencies, 8),
         "matched_jd_phrases": unique(matched_phrases, 8),
         "matched_tools": unique(matched_tools, 8),
+        "matched_role_families": unique(matched_role_families, 8),
+        "matched_evidence_types": unique(matched_evidence_types, 10),
     }
+
+
+def evidence_priority_for_jd(jd_profile: dict[str, Any]) -> list[str]:
+    role_families = jd_profile.get("role_families", []) or []
+    priorities = list(jd_profile.get("target_evidence_types", []) or [])
+    role_defaults = {
+        "ai_enablement": ["ai_enablement", "automation", "change_enablement", "stakeholder_management"],
+        "ai_operations": ["ai_operations", "automation", "data_quality", "analytics_reporting"],
+        "ai_transformation": ["ai_enablement", "digital_transformation", "automation", "strategy_planning"],
+        "product_operations": ["product_roadmap", "program_governance", "analytics_reporting", "stakeholder_management"],
+        "business_operations": ["business_operations", "process_improvement", "program_governance", "analytics_reporting"],
+        "strategy_operations": ["strategy_planning", "analytics_reporting", "program_governance", "stakeholder_management"],
+        "program": ["program_governance", "implementation", "risk_mitigation", "stakeholder_management"],
+        "business_systems": ["business_systems", "implementation", "data_quality", "stakeholder_management"],
+        "customer_success_ops": ["customer_success", "customer_value", "analytics_reporting", "process_improvement"],
+        "implementation": ["implementation", "business_systems", "risk_mitigation", "change_enablement"],
+        "solutions": ["solutions", "business_systems", "client_facing", "customer_value"],
+        "gtm_operations": ["gtm_operations", "analytics_reporting", "stakeholder_management", "customer_value"],
+        "revenue_operations": ["revenue_operations", "analytics_reporting", "process_improvement", "compliance_controls"],
+        "process_improvement": ["process_improvement", "analytics_reporting", "implementation", "compliance_controls"],
+        "digital_transformation": ["digital_transformation", "implementation", "automation", "change_enablement"],
+        "research_operations": ["research_operations", "analytics_reporting", "data_quality", "customer_value"],
+        "program_ai": ["ai_enablement", "program_governance", "automation", "change_enablement"],
+        "operations_ai": ["ai_operations", "business_operations", "automation", "process_improvement"],
+        "customer_value": ["customer_value", "client_facing", "analytics_reporting", "customer_success"],
+    }
+    for family in role_families:
+        priorities.extend(role_defaults.get(family, []))
+    priorities.extend(["stakeholder_management", "analytics_reporting", "process_improvement"])
+    return unique(priorities, 10)
+
+
+def select_balanced_points(scored: list[dict[str, Any]], count: int, jd_profile: dict[str, Any]) -> list[dict[str, Any]]:
+    if count <= 0:
+        return []
+    candidates = sorted(scored, key=lambda p: p["score"], reverse=True)
+    selected: list[dict[str, Any]] = []
+    selected_ids: set[str] = set()
+    selected_canonicals: set[str] = set()
+
+    def canonical_id(point: dict[str, Any]) -> str:
+        return str(point.get("duplicate_of") or point.get("id") or "")
+
+    def can_take(point: dict[str, Any]) -> bool:
+        point_id = str(point.get("id", ""))
+        canonical = canonical_id(point)
+        if point_id in selected_ids or canonical in selected_canonicals:
+            return False
+        if point.get("duplicate_of") and len([p for p in candidates if p.get("id") == point.get("duplicate_of")]) > 0:
+            return False
+        return True
+
+    def take(point: dict[str, Any]) -> None:
+        selected.append(point)
+        selected_ids.add(str(point.get("id", "")))
+        selected_canonicals.add(canonical_id(point))
+
+    for evidence_type in evidence_priority_for_jd(jd_profile):
+        if len(selected) >= count:
+            break
+        options = [
+            point for point in candidates
+            if can_take(point) and evidence_type in (point.get("selection_profile", {}).get("evidence_types", []) or [])
+        ]
+        if options:
+            take(options[0])
+
+    for point in candidates:
+        if len(selected) >= count:
+            break
+        if can_take(point):
+            take(point)
+
+    if len(selected) < count:
+        for point in candidates:
+            if len(selected) >= count:
+                break
+            if str(point.get("id", "")) not in selected_ids:
+                take(point)
+
+    return selected[:count]
 
 
 def select_evidence(jd_profile: dict[str, Any], experience_dir: Path) -> dict[str, Any]:
@@ -390,7 +720,7 @@ def select_evidence(jd_profile: dict[str, Any], experience_dir: Path) -> dict[st
             score = score_point(point, jd_profile)
             scored.append({**point, **score})
         scored.sort(key=lambda p: p["score"], reverse=True)
-        chosen = scored[: config["count"]]
+        chosen = select_balanced_points(scored, config["count"], jd_profile)
         selected.append({
             "key": config["key"],
             "company": config["company"],
@@ -404,6 +734,69 @@ def select_evidence(jd_profile: dict[str, Any], experience_dir: Path) -> dict[st
             ],
         })
     return {"experiences": selected}
+
+
+def point_selection_reason(point: dict[str, Any]) -> str:
+    reasons: list[str] = []
+    if point.get("matched_core_competencies"):
+        reasons.append("matches core competencies: " + ", ".join(map(str, point["matched_core_competencies"][:3])))
+    if point.get("matched_evidence_types"):
+        reasons.append("covers evidence types: " + ", ".join(map(str, point["matched_evidence_types"][:3])))
+    if point.get("matched_role_families"):
+        reasons.append("fits role family: " + ", ".join(map(str, point["matched_role_families"][:2])))
+    if point.get("matched_tools"):
+        reasons.append("proves requested tools: " + ", ".join(map(str, point["matched_tools"][:3])))
+    if point.get("metrics"):
+        reasons.append("has proof/metrics: " + ", ".join(map(str, point["metrics"][:3])))
+    if point.get("duplicate_of"):
+        reasons.append(f"reference duplicate of {point['duplicate_of']}")
+    return "; ".join(reasons) or "selected as the strongest available transferable evidence for this experience"
+
+
+def render_evidence_markdown(jd_profile: dict[str, Any], selected_evidence: dict[str, Any]) -> str:
+    company = jd_profile.get("company_name") or "Company not provided"
+    role = jd_profile.get("role_title") or "Role not provided"
+    lines = [
+        f"# Evidence Rationale - {markdown_escape(company)} / {markdown_escape(role)}",
+        "",
+        "This file explains which source points were selected for the tailored resume and why they fit the job description.",
+        "",
+        "## JD Signals",
+        "",
+        f"- Company: {markdown_escape(company)}",
+        f"- Role: {markdown_escape(role)}",
+        f"- Role families: {markdown_escape(', '.join(jd_profile.get('role_families', []) or [])) or 'None detected'}",
+        f"- Evidence priorities: {markdown_escape(', '.join(evidence_priority_for_jd(jd_profile))) or 'None detected'}",
+        f"- Required tools found in JD: {markdown_escape(', '.join(jd_profile.get('required_tools_keywords', []) or [])) or 'None detected'}",
+        "",
+    ]
+    priorities = jd_profile.get("priority_jd_responsibilities", []) or []
+    if priorities:
+        lines.extend(["## Priority JD Responsibilities", ""])
+        lines.extend([f"- {markdown_escape(item)}" for item in priorities[:10]])
+        lines.append("")
+
+    for exp in selected_evidence.get("experiences", []) or []:
+        lines.extend([
+            f"## {markdown_escape(exp.get('company'))} - {markdown_escape(exp.get('title'))}",
+            "",
+            "| ID | Score | Point Title | Why selected | Resume source point |",
+            "|---|---:|---|---|---|",
+        ])
+        for point in exp.get("selected_points", []) or []:
+            lines.append(
+                "| "
+                + " | ".join([
+                    markdown_escape(point.get("id")),
+                    markdown_escape(point.get("score")),
+                    markdown_escape(point.get("point_title")),
+                    markdown_escape(point_selection_reason(point)),
+                    markdown_escape(point.get("base_resume_point")),
+                ])
+                + " |"
+            )
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 
 
@@ -430,6 +823,17 @@ def unsupported_claims(content: dict[str, Any], unsupported_tools: list[str]) ->
         if tool.lower() in resume_text:
             claims.append(tool)
     return claims
+
+
+def normalize_skill_values(values: Any, limit: int = 5) -> list[str]:
+    if not isinstance(values, list):
+        return []
+    cleaned = []
+    for value in values:
+        text = re.sub(r"\s+", " ", str(value)).strip(" ,;")
+        if text:
+            cleaned.append(text)
+    return unique(cleaned, limit)
 
 
 def codex_path() -> str | None:
@@ -543,6 +947,13 @@ Strict rules:
 - Prefer real metrics from evidence: percentages, dollar values, counts, teams, workflows, projects, articles, apps.
 - Every bullet should visibly connect to at least one JD responsibility or core competency.
 - Job titles in the LaTeX are intentionally functional/JD-aligned titles reflecting actual work, not necessarily HR-paper titles.
+- Skills must sound like a human resume, not an AI-generated taxonomy.
+- Use exactly five plain category names: Methods, Operations, Analytics, Systems & Stack, Tools.
+- Put exactly five skills in each category.
+- Skills should be specific and defensible from evidence. Avoid vague phrases like "enterprise AI", "strategic transformation", or "stakeholder excellence" unless the JD/evidence directly supports them.
+- Prioritize tools, methodologies, platforms, and stack language mentioned in the JD when the selected evidence supports them.
+- If a JD tool is not proven by selected evidence, do not list it directly; use truthful transferable stack language instead.
+- Tools should be software/platform names only. Methods should be ways of working. Operations should be business/system domains. Analytics should be reporting, data, testing, and measurement skills. Systems & Stack should capture supported business systems, SaaS/GTM/revenue stack, CRM, PLG, AI workflow, and implementation-stack concepts.
 
 Return ONLY valid JSON with this exact shape:
 {{
@@ -555,10 +966,10 @@ Return ONLY valid JSON with this exact shape:
     {{"key": "ltimindtree", "bullets": []}}
   ],
   "skills": {{
-    "Enterprise AI & Automation": [],
-    "Systems, Workflow & Governance": [],
-    "Analytics & Reporting": [],
-    "Product, PMO & Stakeholder Operations": [],
+    "Methods": [],
+    "Operations": [],
+    "Analytics": [],
+    "Systems & Stack": [],
     "Tools": []
   }}
 }}
@@ -580,6 +991,7 @@ Short bullets must be 13-18 words. Long bullets must be 24-30 words.
 Required counts must be exact. Summary must be 45 words or fewer.
 Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities.
 Remove any unsupported direct tool claims flagged in validation. If HubSpot or another JD tool is unsupported by selected evidence, convert it to truthful transferable language such as CRM automation, lead routing, lifecycle workflows, reporting, data quality, integrations, or revenue operations.
+Keep skills in exactly five human resume categories only: Methods, Operations, Analytics, Systems & Stack, Tools. Keep exactly five items per category.
 
 VALIDATION ISSUES:
 {json.dumps(rule_check, indent=2, ensure_ascii=False)}
@@ -609,7 +1021,18 @@ def normalize_resume_content(content: dict[str, Any], jd_profile: dict[str, Any]
             "continuation": bool(config.get("continuation")),
             "bullets": bullets,
         })
-    skills = content.get("skills") or {}
+    raw_skills = content.get("skills") or {}
+    operations = list(raw_skills.get("Operations", []) or raw_skills.get("Systems, Workflow & Governance", []) or [])
+    systems_stack = list(raw_skills.get("Systems & Stack", []) or [])
+    skills = {
+        "Methods": normalize_skill_values(raw_skills.get("Methods", []) or raw_skills.get("Product, PMO & Stakeholder Operations", [])),
+        "Operations": normalize_skill_values(operations),
+        "Analytics": normalize_skill_values(raw_skills.get("Analytics", []) or raw_skills.get("Analytics & Reporting", [])),
+        "Systems & Stack": normalize_skill_values(systems_stack or operations),
+        "Tools": normalize_skill_values(raw_skills.get("Tools", [])),
+    }
+    if not skills["Operations"] and raw_skills.get("Enterprise AI & Automation"):
+        skills["Operations"] = normalize_skill_values(raw_skills.get("Enterprise AI & Automation", []))
     return {
         "summary": str(content.get("summary", "")).strip(),
         "experiences": experiences,
@@ -639,6 +1062,11 @@ def validate(content: dict[str, Any], unsupported_tools: list[str] | None = None
             low, high, target = (13, 18, 15) if is_short else (24, 30, 28)
             if not low <= wc <= high:
                 issues.append(f"{config['key']} bullet {index + 1} has {wc} words; target is {target}.")
+    skills = content.get("skills", {}) or {}
+    for category in SKILL_CATEGORIES:
+        items = skills.get(category, []) or []
+        if len(items) != 5:
+            issues.append(f"Skills category {category} has {len(items)} items; required 5.")
     return {
         "status": "pass" if not issues else "needs_review",
         "summary_word_count": summary_words,
@@ -738,6 +1166,7 @@ def render_latex(content: dict[str, Any]) -> str:
     for exp in content.get("experiences", []):
         company = "" if exp.get("continuation") else exp["company"]
         location = "" if exp.get("continuation") else exp["location"]
+        after_space = r"\vspace{-12pt}" if str(exp.get("key", "")) == "marketmaker_pm" else r"\vspace{-2pt}"
         lines.extend([
             r"\resumeSubheading",
             f"{{{latex_escape(company)}}}{{{latex_escape(location)}}}",
@@ -746,7 +1175,7 @@ def render_latex(content: dict[str, Any]) -> str:
             *render_items(exp.get("bullets", [])),
             r"\resumeItemListEnd",
             "",
-            r"\vspace{-2pt}",
+            after_space,
             "",
         ])
     lines.extend([
@@ -755,10 +1184,7 @@ def render_latex(content: dict[str, Any]) -> str:
         r"\section{Skills}",
         r"\begin{itemize}[leftmargin=0.0in, label={}]",
         r"    \small{\item{",
-        skill_line("Enterprise AI & Automation"),
-        skill_line("Systems, Workflow & Governance"),
-        skill_line("Analytics & Reporting"),
-        skill_line("Product, PMO & Stakeholder Operations"),
+        *[skill_line(label) for label in SKILL_CATEGORIES[:-1]],
         f"    \\textbf{{Tools:}} {latex_escape(', '.join(map(str, skills.get('Tools', []) or [])))}",
         r"    }}",
         r"\end{itemize}",
@@ -776,6 +1202,14 @@ def render_latex(content: dict[str, Any]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def build_output_dir(base_output_dir: Path, jd_profile: dict[str, Any], run_date: str | None = None) -> Path:
+    run_date = run_date or date.today().isoformat()
+    company = jd_profile.get("company_name") or "company_not_provided"
+    role = jd_profile.get("role_title") or "role_not_provided"
+    run_name = slugify("_".join([company, role]))
+    return base_output_dir / run_date / run_name
+
+
 def run_pipeline(args: argparse.Namespace) -> list[AgentResult]:
     base_output_dir = Path(args.output_dir)
     base_output_dir.mkdir(parents=True, exist_ok=True)
@@ -785,8 +1219,7 @@ def run_pipeline(args: argparse.Namespace) -> list[AgentResult]:
         raise ValueError(f"Job description is empty: {args.jd}")
 
     jd_profile = analyze_jd(jd_text)
-    run_name = slugify("_".join(part for part in [jd_profile.get("company_name", ""), jd_profile.get("role_title", "")] if part))
-    output_dir = base_output_dir / run_name
+    output_dir = build_output_dir(base_output_dir, jd_profile, args.run_date)
     if output_dir.exists() and not args.no_clean:
         shutil.rmtree(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -795,6 +1228,7 @@ def run_pipeline(args: argparse.Namespace) -> list[AgentResult]:
 
     selected = select_evidence(jd_profile, Path(args.experiences))
     write_text(output_dir / "02_selected_evidence.json", json.dumps(selected, indent=2, ensure_ascii=False))
+    write_text(output_dir / "02b_evidence_rationale.md", render_evidence_markdown(jd_profile, selected))
 
     results: list[AgentResult] = []
     writer = run_codex_json(
@@ -840,6 +1274,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", default=None)
     parser.add_argument("--revision-attempts", type=int, default=2)
     parser.add_argument("--no-clean", action="store_true")
+    parser.add_argument("--run-date", default=None, help="Date folder for this application run, default YYYY-MM-DD today.")
     return parser.parse_args()
 
 
@@ -850,6 +1285,7 @@ def main() -> int:
     print("Resume pipeline complete:")
     for result in results:
         print(f"- {result.name}: {result.output_path}")
+    print(f"- evidence_rationale: {resolved_dir / '02b_evidence_rationale.md'}")
     print(f"- rule_check: {resolved_dir / '05_rule_check.json'}")
     print(f"- final_resume: {resolved_dir / '04_final_resume.tex'}")
     return 0

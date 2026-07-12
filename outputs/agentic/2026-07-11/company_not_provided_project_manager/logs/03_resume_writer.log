@@ -1,3 +1,276 @@
+STDOUT:
+{
+  "summary": "Project Manager with experience in enterprise implementation readiness, risk mitigation, governance communication, Agile delivery, workflow improvement, testing coordination, and stakeholder alignment across software, finance operations, analytics platforms, and business systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Led implementation readiness planning for PAYGO and UE+ expansion, coordinating systems dependencies across $180M ACV.",
+        "Monitored transformation risks across dual-system operations, fragmented data, manual workarounds, skill gaps, and competing programs, improving readiness and reducing delivery disruption for enterprise software changes.",
+        "Drove governance for Org62-to-OrgSS migration, surfacing dependencies, controls, adoption needs, and stakeholder requirements.",
+        "Coordinated approved BPI implementations with operations leaders, Business and Systems teams, SMEs, and frontline stakeholders, strengthening ownership, adoption readiness, and execution visibility across process-improvement workstreams.",
+        "Validated Credit and Collections continuity readiness, ownership, dependencies, recovery requirements, and stakeholder responsibilities.",
+        "Developed data-backed BPI recommendations, process maps, controls, implementation plans, success measures, and executive readouts aligned with SOX, operating priorities, and scalability requirements for stronger decision quality."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Led JIRA-based sprint planning and project tracking, aligning stakeholders on timelines, deliverables, risks, and goals.",
+        "Monitored delivery risks through JIRA and centralized SharePoint communication, improving governance, documentation, project visibility, and cross-functional collaboration across strategic initiatives for smoother execution across departments.",
+        "Coordinated product, development, sales, marketing, and leadership teams around priorities, timelines, risks, and strategy."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Led JIRA-based project lifecycles from conception to execution, tracking milestones, deliverables, deadlines, and teams.",
+        "Translated stakeholder feedback and business requirements into platform usability improvements, aligning real estate analytics workflows with client expectations and improving user experience 20% overall.",
+        "Executed test scripts validating data flows, calculations, system accuracy, and functionality for reliable SaaS delivery."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Led roadmap planning, sprint execution, backlog prioritization, and JIRA tracking for scalable analytics-platform delivery.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities, improving governance, resource alignment, and decision quality under execution constraints for product workstreams.",
+        "Built Python and Streamlit fraud-detection controls flagging duplicate responses, straight-lining, short durations, and anomalies.",
+        "Aligned product workflows, analytics outputs, and client communication with user needs, improving platform usability, service delivery, client relationships, and adoption potential across research operations."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Led migration QA across 22 projects, validating ETL accuracy, data quality, and transition readiness.",
+        "Monitored Agile delivery risks through sprint planning, backlog prioritization, Scrum practices, and stakeholder coordination, improving SDLC process efficiency by 60% and strengthening implementation cadence.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices for traceable application delivery.",
+        "Owned quality assurance for a business-critical reinsurance web application, supporting functional accuracy, defect management, release readiness, and reliable client-facing delivery for Marsh and McLennan."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Scrum practices",
+      "Risk mitigation",
+      "Stakeholder coordination",
+      "Roadmap planning",
+      "Process mapping",
+      "Change readiness"
+    ],
+    "Operations": [
+      "Enterprise software implementation",
+      "Project governance",
+      "Business systems",
+      "Revenue operations",
+      "Finance operations",
+      "Data migration",
+      "Business continuity",
+      "Release readiness",
+      "Workflow improvement"
+    ],
+    "Analytics": [
+      "Project status reporting",
+      "Data validation",
+      "ETL testing",
+      "QA testing",
+      "Defect tracking",
+      "Success measures",
+      "Fraud detection",
+      "Executive readouts"
+    ],
+    "Tools": [
+      "JIRA",
+      "Excel",
+      "SharePoint",
+      "Azure DevOps",
+      "Python",
+      "Streamlit"
+    ]
+  }
+}
+
+STDERR:
+2026-07-11T09:47:42.926146Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.codex\plugins\cache\openai-primary-runtime\template-creator\26.630.12135\.codex-plugin/plugin.json
+2026-07-11T09:47:42.930050Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.codex\plugins\cache\openai-primary-runtime\template-creator\26.630.12135\.codex-plugin/plugin.json
+2026-07-11T09:47:42.937151Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+OpenAI Codex v0.142.5
+--------
+workdir: C:\Users\Abhishek\Downloads\resapp
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f5093-5d6e-79c1-a19a-1f2395a63d1f
+--------
+user
+
+You are writing a tailored resume from already-selected evidence. Keep it simple and high quality.
+
+Goal:
+- Use the job description's responsibilities, keywords, tools, and core competencies.
+- Use only the selected truthful evidence from the candidate JSONs.
+- Rewrite each selected point into a strong resume bullet.
+
+Bullet formula:
+Strong action verb + JD-aligned impact + quantification/metric when available + business result.
+
+Length rules:
+- Alternate bullets within each experience: 15 words, 28 words, 15 words, 28 words, 15 words, 28 words.
+- Acceptable ranges: short bullets 13-18 words; long bullets 24-30 words.
+- Do not break grammar to hit the count.
+
+Required bullet counts:
+- Salesforce: 6
+- Market Maker CRE Financial Modeling & Strategic Operations Analyst: 3
+- Market Maker CRE Business Analysis & Financial Data Analyst: 3
+- Vista Research Services: 4
+- LTIMindtree: 4
+
+JD-direct bullet rules:
+- Salesforce bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by Salesforce evidence.
+- Market Maker CRE PM bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by MarketMaker PM evidence.
+- MarketMaker BA, Vista, and LTIMindtree bullet 1 must be built directly from the most important JD responsibility, then backed by that experience's evidence.
+- "Direct from JD" means start with the JD responsibility/competency as the sentence idea, then attach truthful evidence and metrics. Do not start those bullets from the old base resume wording.
+- For direct JD bullets, mirror responsibility intent like connect tools/data/workflows, lead-to-revenue process, CRM automation, lifecycle stages, member/customer journeys, campaign operations, reporting, clean data, reduce delays, handoffs, governance, AI automation, adoption, dashboards, planning, roadmaps, execution tracking, dependencies, risks, and progress.
+- Do not write phrases like "Led HubSpot Automation" unless selected evidence explicitly proves HubSpot. Use "strengthened CRM automation workflows" or "improved lead-management operating cadence" instead.
+
+Strict rules:
+- Summary must be 45 words or fewer and use JD language.
+- No Projects section.
+- No placeholders.
+- Do not claim direct ownership/use of JD tools unless selected evidence explicitly proves that tool. This includes HubSpot, ServiceNow, Power BI, ZoomInfo, Cvent, GA4, Monday.com, ON24, SAP, location, W2, visa, or certifications.
+- If a priority JD responsibility contains an unsupported tool such as HubSpot, translate it truthfully into transferable language: CRM automation, lead-management workflows, lifecycle-stage governance, audience/list logic, reporting, data quality, handoffs, integrations, and revenue operations.
+- You may use transferable language such as dashboards, reporting, workflow automation, intake-to-delivery visibility, tool adoption, governance, CRM processes, lifecycle stages, lead routing, and execution tracking when evidence supports it.
+- Prefer real metrics from evidence: percentages, dollar values, counts, teams, workflows, projects, articles, apps.
+- Every bullet should visibly connect to at least one JD responsibility or core competency.
+- Job titles in the LaTeX are intentionally functional/JD-aligned titles reflecting actual work, not necessarily HR-paper titles.
+- Skills must sound like a human resume, not an AI-generated taxonomy.
+- Use plain category names: Methods, Operations, Analytics, Tools.
+- Skills should be specific and defensible from evidence. Avoid vague phrases like "enterprise AI", "strategic transformation", or "stakeholder excellence" unless the JD/evidence directly supports them.
+- Tools should be software/platform names only. Methods should be ways of working. Operations should be business/system domains. Analytics should be reporting, data, testing, and measurement skills.
+
+Return ONLY valid JSON with this exact shape:
+{
+  "summary": "",
+  "experiences": [
+    {"key": "salesforce", "bullets": []},
+    {"key": "marketmaker_pm", "bullets": []},
+    {"key": "marketmaker_ba", "bullets": []},
+    {"key": "vista", "bullets": []},
+    {"key": "ltimindtree", "bullets": []}
+  ],
+  "skills": {
+    "Methods": [],
+    "Operations": [],
+    "Analytics": [],
+    "Tools": []
+  }
+}
+
+JD PROFILE:
+{
+  "role_title": "Project Manager",
+  "company_name": "",
+  "role_families": [
+    "implementation",
+    "program",
+    "business_systems",
+    "process_improvement"
+  ],
+  "target_evidence_types": [
+    "program_governance",
+    "stakeholder_management",
+    "risk_mitigation",
+    "business_systems",
+    "implementation",
+    "analytics_reporting",
+    "compliance_controls",
+    "digital_transformation",
+    "process_improvement",
+    "solutions"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "Workflow Improvement",
+    "Portfolio Governance",
+    "Stakeholder Partnership",
+    "Agile Delivery"
+  ],
+  "required_tools_keywords": [
+    "JIRA",
+    "Excel"
+  ],
+  "keywords": [
+    "project",
+    "enterprise",
+    "software",
+    "implementation",
+    "management",
+    "manager",
+    "business",
+    "communication",
+    "cross-functional",
+    "drive",
+    "lead",
+    "onboarding",
+    "projects",
+    "stakeholders",
+    "strong",
+    "while",
+    "years",
+    "ability",
+    "administration",
+    "applicable",
+    "atlanta",
+    "bachelor",
+    "collaborating",
+    "compliance",
+    "continuous",
+    "contract",
+    "coordinate",
+    "days",
+    "degree",
+    "deliverables",
+    "delivery",
+    "develop",
+    "duration",
+    "ensure",
+    "excellent",
+    "execution",
+    "executive",
+    "experienced",
+    "field",
+    "final",
+    "finance",
+    "ga",
+    "governance",
+    "high-impact",
+    "housing"
+  ],
+  "responsibility_phrases": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "priority_jd_responsibilities": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
+
+SELECTED EVIDENCE:
 {
   "experiences": [
     {
@@ -7,9 +280,9 @@
       "target_count": 6,
       "jd_first_slots": 2,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -178,9 +451,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -354,9 +627,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -550,9 +823,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -759,9 +1032,9 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Monitor project risks and implement mitigation strategies",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -924,8 +1197,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1106,8 +1379,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1134,9 +1407,9 @@
       "target_count": 3,
       "jd_first_slots": 2,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1227,7 +1500,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1329,7 +1602,7 @@
             "Workflow Improvement"
           ],
           "matched_jd_phrases": [
-            "• Drive project governance, communication, and continuous process improvements"
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1437,7 +1710,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1459,9 +1732,9 @@
       "target_count": 3,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1548,7 +1821,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1744,7 +2017,7 @@
             "Workflow Improvement"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -1766,9 +2039,9 @@
       "target_count": 4,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -1859,7 +2132,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "JIRA"
@@ -1966,8 +2239,8 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-            "• Drive project governance, communication, and continuous process improvements"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2178,9 +2451,9 @@
       "target_count": 4,
       "jd_first_slots": 1,
       "priority_jd_responsibilities": [
-        "• Lead planning, execution, testing, and successful delivery of enterprise software implementation",
-        "• Monitor project risks and implement mitigation strategies",
-        "• Drive project governance, communication, and continuous process improvements"
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
       ],
       "selected_points": [
         {
@@ -2368,7 +2641,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2467,7 +2740,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [],
           "matched_role_families": [
@@ -2566,7 +2839,7 @@
             "Agile Delivery"
           ],
           "matched_jd_phrases": [
-            "• Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
           ],
           "matched_tools": [
             "Excel"
@@ -2588,3 +2861,131 @@
     }
   ]
 }
+
+2026-07-11T09:47:43.053140Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime\plugins\template-creator\.codex-plugin/plugin.json
+2026-07-11T09:47:43.089606Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\Abhishek\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-11T09:47:43.156808Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.156841Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.158180Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.158239Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.159926Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.159963Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.161534Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.161559Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.163072Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.163093Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.164381Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.164401Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:43.311127Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.codex\plugins\cache\openai-primary-runtime\template-creator\26.630.12135\.codex-plugin/plugin.json
+2026-07-11T09:47:43.313568Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.codex\plugins\cache\openai-primary-runtime\template-creator\26.630.12135\.codex-plugin/plugin.json
+2026-07-11T09:47:43.480923Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\Abhishek\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-11T09:47:43.483816Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\Abhishek\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-11T09:47:44.280955Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt: maximum of 3 prompts is supported path=C:\Users\Abhishek\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime\plugins\template-creator\.codex-plugin/plugin.json
+2026-07-11T09:47:44.297684Z  WARN codex_core_plugins::manifest: ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters path=C:\Users\Abhishek\.codex\.tmp\plugins\plugins\ngs-analysis\.codex-plugin/plugin.json
+2026-07-11T09:47:44.359502Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.359530Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.360660Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.360744Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.362864Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.362910Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.365561Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.365634Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.367774Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.367811Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.370202Z  WARN codex_core_skills::loader: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-07-11T09:47:44.370269Z  WARN codex_core_skills::loader: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+codex
+{
+  "summary": "Project Manager with experience in enterprise implementation readiness, risk mitigation, governance communication, Agile delivery, workflow improvement, testing coordination, and stakeholder alignment across software, finance operations, analytics platforms, and business systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Led implementation readiness planning for PAYGO and UE+ expansion, coordinating systems dependencies across $180M ACV.",
+        "Monitored transformation risks across dual-system operations, fragmented data, manual workarounds, skill gaps, and competing programs, improving readiness and reducing delivery disruption for enterprise software changes.",
+        "Drove governance for Org62-to-OrgSS migration, surfacing dependencies, controls, adoption needs, and stakeholder requirements.",
+        "Coordinated approved BPI implementations with operations leaders, Business and Systems teams, SMEs, and frontline stakeholders, strengthening ownership, adoption readiness, and execution visibility across process-improvement workstreams.",
+        "Validated Credit and Collections continuity readiness, ownership, dependencies, recovery requirements, and stakeholder responsibilities.",
+        "Developed data-backed BPI recommendations, process maps, controls, implementation plans, success measures, and executive readouts aligned with SOX, operating priorities, and scalability requirements for stronger decision quality."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Led JIRA-based sprint planning and project tracking, aligning stakeholders on timelines, deliverables, risks, and goals.",
+        "Monitored delivery risks through JIRA and centralized SharePoint communication, improving governance, documentation, project visibility, and cross-functional collaboration across strategic initiatives for smoother execution across departments.",
+        "Coordinated product, development, sales, marketing, and leadership teams around priorities, timelines, risks, and strategy."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Led JIRA-based project lifecycles from conception to execution, tracking milestones, deliverables, deadlines, and teams.",
+        "Translated stakeholder feedback and business requirements into platform usability improvements, aligning real estate analytics workflows with client expectations and improving user experience 20% overall.",
+        "Executed test scripts validating data flows, calculations, system accuracy, and functionality for reliable SaaS delivery."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Led roadmap planning, sprint execution, backlog prioritization, and JIRA tracking for scalable analytics-platform delivery.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities, improving governance, resource alignment, and decision quality under execution constraints for product workstreams.",
+        "Built Python and Streamlit fraud-detection controls flagging duplicate responses, straight-lining, short durations, and anomalies.",
+        "Aligned product workflows, analytics outputs, and client communication with user needs, improving platform usability, service delivery, client relationships, and adoption potential across research operations."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Led migration QA across 22 projects, validating ETL accuracy, data quality, and transition readiness.",
+        "Monitored Agile delivery risks through sprint planning, backlog prioritization, Scrum practices, and stakeholder coordination, improving SDLC process efficiency by 60% and strengthening implementation cadence.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices for traceable application delivery.",
+        "Owned quality assurance for a business-critical reinsurance web application, supporting functional accuracy, defect management, release readiness, and reliable client-facing delivery for Marsh and McLennan."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Scrum practices",
+      "Risk mitigation",
+      "Stakeholder coordination",
+      "Roadmap planning",
+      "Process mapping",
+      "Change readiness"
+    ],
+    "Operations": [
+      "Enterprise software implementation",
+      "Project governance",
+      "Business systems",
+      "Revenue operations",
+      "Finance operations",
+      "Data migration",
+      "Business continuity",
+      "Release readiness",
+      "Workflow improvement"
+    ],
+    "Analytics": [
+      "Project status reporting",
+      "Data validation",
+      "ETL testing",
+      "QA testing",
+      "Defect tracking",
+      "Success measures",
+      "Fraud detection",
+      "Executive readouts"
+    ],
+    "Tools": [
+      "JIRA",
+      "Excel",
+      "SharePoint",
+      "Azure DevOps",
+      "Python",
+      "Streamlit"
+    ]
+  }
+}
+2026-07-11T09:48:37.850465Z  WARN codex_core::hook_runtime: after_agent hook failed; continuing turn_id=019f5093-5e27-7c61-a9b0-58eec4592e1a hook_name=legacy_notify error=The filename or extension is too long. (os error 206)
+tokens used
+30,126

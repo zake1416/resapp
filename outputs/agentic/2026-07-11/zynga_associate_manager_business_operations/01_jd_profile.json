@@ -1,0 +1,98 @@
+{
+  "role_title": "Associate Manager, Business Operations",
+  "company_name": "Zynga",
+  "role_families": [
+    "business_operations",
+    "business_systems",
+    "implementation",
+    "process_improvement",
+    "program"
+  ],
+  "target_evidence_types": [
+    "business_systems",
+    "stakeholder_management",
+    "business_operations",
+    "process_improvement",
+    "program_governance",
+    "risk_mitigation",
+    "strategy_planning",
+    "analytics_reporting",
+    "change_enablement",
+    "compliance_controls"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "Workflow Improvement",
+    "AI & Automation",
+    "Stakeholder Partnership"
+  ],
+  "required_tools_keywords": [
+    "JIRA",
+    "Excel",
+    "SAP"
+  ],
+  "keywords": [
+    "zynga",
+    "global",
+    "compliance",
+    "workflows",
+    "not",
+    "operational",
+    "operations",
+    "position",
+    "any",
+    "between",
+    "management",
+    "other",
+    "program",
+    "ability",
+    "business",
+    "central",
+    "corporate",
+    "data",
+    "drive",
+    "game",
+    "manage",
+    "process",
+    "project",
+    "slots",
+    "software",
+    "status",
+    "studios",
+    "tools",
+    "tracking",
+    "contact",
+    "diverse",
+    "employment",
+    "financial",
+    "fonts",
+    "games",
+    "if",
+    "initiatives",
+    "legal",
+    "may",
+    "operator",
+    "opportunity",
+    "over",
+    "pay",
+    "play",
+    "player"
+  ],
+  "responsibility_phrases": [
+    "Process-Oriented: Experience managing high-volume intake workflows, meticulously tracking approvals, and maintaining flawless documentation.",
+    "Technical Proficiency: Hands-on experience with Google Workspace (Docs, Sheets, Slides), Airtable, and Atlassian tools (Jira/Confluence).",
+    "Bonus Points: Familiarity with generative AI tools (like Gemini) to optimize daily operations and workflows."
+  ],
+  "priority_jd_responsibilities": [
+    "Process-Oriented: Experience managing high-volume intake workflows, meticulously tracking approvals, and maintaining flawless documentation.",
+    "Technical Proficiency: Hands-on experience with Google Workspace (Docs, Sheets, Slides), Airtable, and Atlassian tools (Jira/Confluence).",
+    "Bonus Points: Familiarity with generative AI tools (like Gemini) to optimize daily operations and workflows."
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "role_title": "Business Operations & Strategy Manager",
+  "company_name": "Tailscale",
+  "role_families": [
+    "business_systems",
+    "ai_enablement",
+    "business_operations",
+    "process_improvement",
+    "program",
+    "revenue_operations"
+  ],
+  "target_evidence_types": [
+    "business_systems",
+    "customer_value",
+    "program_governance",
+    "ai_operations",
+    "change_enablement",
+    "process_improvement",
+    "stakeholder_management",
+    "strategy_planning",
+    "ai_enablement",
+    "automation"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "Workflow Improvement",
+    "AI & Automation",
+    "Enablement & Adoption",
+    "Stakeholder Partnership",
+    "Analytics & Reporting"
+  ],
+  "required_tools_keywords": [
+    "Salesforce",
+    "SAFe"
+  ],
+  "keywords": [
+    "company",
+    "tailscale",
+    "strategy",
+    "business",
+    "operations",
+    "own",
+    "projects",
+    "analysis",
+    "compensation",
+    "cross-functional",
+    "gtm",
+    "new",
+    "people",
+    "please",
+    "pricing",
+    "re",
+    "salary",
+    "advantage",
+    "all",
+    "any",
+    "base",
+    "can",
+    "commercial",
+    "data",
+    "expansion",
+    "have",
+    "hiring",
+    "how",
+    "if",
+    "infrastructure",
+    "international",
+    "internet",
+    "leave",
+    "life",
+    "more",
+    "off",
+    "only",
+    "opportunities",
+    "paid",
+    "parents",
+    "process",
+    "program",
+    "range",
+    "roles",
+    "similar"
+  ],
+  "responsibility_phrases": [
+    "Driving cross-company AI adoption initiatives",
+    "Partnering with RevOps to mature our GTM infrastructure",
+    "Familiarity with SaaS business models, GTM systems, and how a B2B company generates and retains revenue",
+    "High tolerance for ambiguity, paired with the judgment to know when to move and when to ask",
+    "Comfort with AI-assisted workflows and an instinct for where automation creates real leverage versus noise"
+  ],
+  "priority_jd_responsibilities": [
+    "Driving cross-company AI adoption initiatives",
+    "Familiarity with SaaS business models, GTM systems, and how a B2B company generates and retains revenue",
+    "High tolerance for ambiguity, paired with the judgment to know when to move and when to ask",
+    "Comfort with AI-assisted workflows and an instinct for where automation creates real leverage versus noise"
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
