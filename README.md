@@ -21,6 +21,12 @@ Final output:
 outputs/agentic/latest/04_final_resume.tex
 ```
 
+To also compile a PDF:
+
+```powershell
+python agentic_resume.py --compile-pdf
+```
+
 QA report:
 
 ```text
@@ -63,6 +69,16 @@ outputs/agentic/latest/
 
 The `prompts/`, `raw/`, and `logs/` folders make the process inspectable. If an agent produces something wrong, you can see exactly what it was asked and what it answered.
 
+## Resume Quality Rules
+
+Every generated resume, including feedback revisions, is checked for:
+
+- Strong action verbs at the start of every bullet
+- Distinct bullets without repeated keyword stuffing
+- High-impact quantification beyond percentages, such as dollars, counts, teams, projects, workflows, controls, platforms, risk, compliance, or customer impact
+- Compact skill categories that fit cleanly on one resume line
+- Truthful claims grounded in the selected evidence
+
 ## Why This Replaces The Old System
 
 The old `resume_matcher.py` was mostly deterministic scoring and templating. It could move fast, but it could also feel fake because it was not deeply rethinking the JD.
@@ -99,6 +115,63 @@ Keep existing output folder contents:
 
 ```powershell
 python agentic_resume.py --no-clean
+```
+
+## Feedback Loop
+
+After a resume is generated, give feedback against the generated folder. The script revises the structured resume JSON, re-renders LaTeX, runs validation, and compiles the final PDF.
+
+```powershell
+python agentic_resume.py `
+  --resume-dir outputs\agentic\2026-07-13\carmax_business_operations_associate `
+  --feedback "Remove advanced PC wording, make Salesforce less compliance-heavy, and make bullets sound more natural."
+```
+
+For longer feedback, put notes in a text file:
+
+```powershell
+notepad feedback.txt
+python agentic_resume.py `
+  --resume-dir outputs\agentic\2026-07-13\carmax_business_operations_associate `
+  --feedback-file feedback.txt
+```
+
+Feedback outputs update these files in the same folder:
+
+```text
+03_resume_content.json
+04_final_resume.tex
+04_final_resume.pdf
+05_rule_check.json
+feedback_latest.txt
+```
+
+## Interactive Workflow Studio
+
+Run the local visual workflow UI:
+
+```powershell
+python resume_workflow_server.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:8765
+```
+
+The studio gives you a simple n8n/NiFi-style flow:
+
+- Paste job description
+- Run the agentic resume workflow
+- Open generated LaTeX/PDF
+- Paste feedback
+- Regenerate final LaTeX/PDF
+
+Generated UI runs are stored under:
+
+```text
+outputs/agentic_ui/
 ```
 
 ## Legacy

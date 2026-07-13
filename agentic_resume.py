@@ -26,6 +26,21 @@ from typing import Any
 
 DEFAULT_OUTPUT_DIR = Path("outputs/agentic")
 SKILL_CATEGORIES = ["Methods", "Operations", "Analytics", "Systems & Stack", "Tools"]
+STRONG_ACTION_VERBS = {
+    "Accelerated", "Activated", "Advanced", "Aligned", "Analyzed", "Architected", "Audited",
+    "Balanced", "Built", "Centralized", "Clarified", "Connected", "Consolidated", "Controlled",
+    "Converted", "Coordinated", "Created", "Defined", "Delivered", "Designed", "Detected",
+    "Developed", "Diagnosed", "Directed", "Documented", "Drove", "Enabled", "Established",
+    "Executed", "Expanded", "Facilitated", "Governed", "Guided", "Improved", "Integrated",
+    "Launched", "Led", "Mapped", "Managed", "Measured", "Modernized", "Monitored", "Optimized",
+    "Orchestrated", "Owned", "Prioritized", "Processed", "Produced", "Reconciled", "Reduced",
+    "Refined", "Resolved", "Sequenced", "Shipped", "Simplified", "Standardized", "Strengthened",
+    "Streamlined", "Supported", "Synthesized", "Tracked", "Translated", "Validated",
+}
+WEAK_BULLET_STARTS = {
+    "Applied", "Assisted", "Contributed", "Helped", "Participated", "Performed", "Responsible",
+    "Tasked", "Used", "Utilized", "Worked",
+}
 
 EXPERIENCES = [
     {
@@ -347,15 +362,46 @@ def extract_jd_phrases(jd_text: str) -> list[str]:
     for line in jd_text.splitlines():
         clean = re.sub(r"\s+", " ", line).strip(" -?\t")
         clean = strip_leading_marker(clean)
-        if 4 <= len(clean.split()) <= 18:
+        if 4 <= len(clean.split()) <= 32:
             lower = clean.lower()
             if any(k in lower for k in [
                 "connect", "visibility", "reduce", "single view", "governance", "ai", "automation",
                 "adoption", "training", "templates", "partner", "workflow", "dashboard", "intake", "delivery",
-                "planning", "roadmaps", "execution", "dependencies", "risks", "progress",
+                "planning", "roadmaps", "execution", "dependencies", "risks", "progress", "scope",
+                "metrics", "exit criteria", "deliverables", "system", "inputs", "decisions", "outputs",
+                "ambiguity", "v1", "pilot", "requirements", "documentation", "tradeoffs",
             ]):
                 phrases.append(clean)
     return unique(phrases, 35)
+
+
+def select_priority_jd_phrases(phrases: list[str], limit: int = 12) -> list[str]:
+    """Prefer a diverse set of JD priorities instead of over-focusing on one repeated keyword."""
+    priority_groups = [
+        ["scope", "success metrics", "exit criteria", "deliverables", "operating cadence", "outcomes"],
+        ["ambiguous", "ambiguity", "system", "inputs", "decisions", "outputs", "named owners"],
+        ["prototype", "v1", "pilot", "usage feedback", "iterate"],
+        ["cross-functional", "ownership", "dependency", "follow-through", "escalation"],
+        ["communication", "decision memos", "narrative updates", "tradeoffs", "documentation"],
+        ["adoption", "handoff", "buy-in", "path of least resistance"],
+        ["analysis", "sql", "bi", "validate metrics", "data quality", "measure"],
+        ["jira", "confluence", "dashboard", "repeatable cadence"],
+    ]
+    selected: list[str] = []
+    lower_pairs = [(phrase, phrase.lower()) for phrase in phrases]
+    for terms in priority_groups:
+        for phrase, lower in lower_pairs:
+            if phrase not in selected and any(term in lower for term in terms):
+                selected.append(phrase)
+                break
+        if len(selected) >= limit:
+            break
+    for phrase in phrases:
+        if len(selected) >= limit:
+            break
+        if phrase not in selected:
+            selected.append(phrase)
+    return unique(selected, limit)
 
 
 def extract_jd_header(jd_text: str) -> dict[str, str]:
@@ -400,14 +446,17 @@ def analyze_jd(jd_text: str) -> dict[str, Any]:
         if m:
             company_name = m.group(1).strip(" .-")
             break
-    priority_phrases = unique([
+    priority_candidates = unique([
         phrase for phrase in phrases
         if any(term in phrase.lower() for term in [
             "connect", "intake", "delivery", "visibility", "single view", "reduce duplication",
             "manual effort", "governance", "ai", "automation", "adoption", "planning", "roadmaps",
-            "execution tracking", "dependencies", "risks", "progress",
+            "execution tracking", "dependencies", "risks", "progress", "scope", "metrics",
+            "exit criteria", "deliverables", "system", "inputs", "decisions", "outputs",
+            "ambiguity", "v1", "pilot", "requirements", "documentation", "tradeoffs",
         ])
-    ], 12)
+    ], 35)
+    priority_phrases = select_priority_jd_phrases(priority_candidates, 12)
     role_families = infer_role_families_from_text(jd_text)
     target_evidence_types = infer_evidence_types_from_text(jd_text)
     return {
@@ -825,6 +874,110 @@ def unsupported_claims(content: dict[str, Any], unsupported_tools: list[str]) ->
     return claims
 
 
+def normalized_terms(text: str) -> set[str]:
+    weak_terms = STOPWORDS | {
+        "improved", "aligned", "created", "built", "managed", "led", "drove", "used",
+        "through", "across", "support", "supporting", "business", "operations",
+    }
+    return {token for token in tokens(text) if token not in weak_terms and len(token) > 3}
+
+
+def starts_with_strong_action(text: str) -> bool:
+    first = re.match(r"^\s*([A-Za-z]+)", text or "")
+    if not first:
+        return False
+    verb = first.group(1)
+    return verb in STRONG_ACTION_VERBS and verb not in WEAK_BULLET_STARTS
+
+
+def quantification_profile(bullets: list[str]) -> dict[str, int]:
+    profile = {"percent": 0, "money": 0, "count": 0, "scope": 0}
+    scope_terms = [
+        "team", "teams", "department", "departments", "stakeholder", "stakeholders",
+        "workflow", "workflows", "project", "projects", "platform", "platforms",
+        "client", "clients", "control", "controls", "report", "reports", "sprint", "sprints",
+    ]
+    for bullet in bullets:
+        lower = bullet.lower()
+        if re.search(r"\b\d+(?:\.\d+)?%", bullet):
+            profile["percent"] += 1
+        if re.search(r"\$\d", bullet):
+            profile["money"] += 1
+        if re.search(r"\b\d+\+?\s?(?:projects|apps|applications|teams|stakeholders|workflows|dashboards|articles|cases|clients|users|reports|sprints|initiatives|pages|risks|departments|controls)\b", bullet, re.IGNORECASE):
+            profile["count"] += 1
+        if any(term in lower for term in scope_terms):
+            profile["scope"] += 1
+    return profile
+
+
+def quality_issues(content: dict[str, Any]) -> list[str]:
+    issues: list[str] = []
+    bullets: list[tuple[str, int, str]] = []
+    for exp in content.get("experiences", []) or []:
+        key = str(exp.get("key", "experience"))
+        for index, bullet in enumerate(exp.get("bullets", []) or [], start=1):
+            bullets.append((key, index, str(bullet)))
+
+    awkward_phrases = [
+        "adoption handoffs",
+        "adoption potential",
+        "handoff durability",
+        "without adding informal follow-up burden",
+        "daily execution across departments for teams",
+        "decision-making behaviors, and relationships",
+    ]
+    for key, index, bullet in bullets:
+        lower = bullet.lower()
+        if not starts_with_strong_action(bullet):
+            first = re.match(r"^\s*([A-Za-z]+)", bullet or "")
+            verb = first.group(1) if first else "unknown"
+            issues.append(f"{key} bullet {index} should start with a stronger action verb; found '{verb}'.")
+        for phrase in awkward_phrases:
+            if phrase in lower:
+                issues.append(f"{key} bullet {index} contains awkward phrase: {phrase}.")
+
+    repeated_terms = ["adoption", "handoff", "workflow", "governance", "alignment"]
+    for term in repeated_terms:
+        count = sum(1 for _, _, bullet in bullets if re.search(rf"\b{re.escape(term)}\w*\b", bullet, re.IGNORECASE))
+        limit = 3 if term in {"adoption", "workflow", "governance"} else 2
+        if count > limit:
+            issues.append(f"Resume repeats '{term}' in {count} bullets; reduce keyword stuffing.")
+
+    for i, (key_a, index_a, bullet_a) in enumerate(bullets):
+        terms_a = normalized_terms(bullet_a)
+        if len(terms_a) < 4:
+            continue
+        for key_b, index_b, bullet_b in bullets[i + 1:]:
+            terms_b = normalized_terms(bullet_b)
+            if len(terms_b) < 4:
+                continue
+            overlap = terms_a & terms_b
+            similarity = len(overlap) / max(1, min(len(terms_a), len(terms_b)))
+            if similarity >= 0.58:
+                issues.append(
+                    f"{key_a} bullet {index_a} is too similar to {key_b} bullet {index_b}; "
+                    f"shared terms: {', '.join(sorted(overlap)[:6])}."
+                )
+
+    bullet_texts = [bullet for _, _, bullet in bullets]
+    quant = quantification_profile(bullet_texts)
+    if bullet_texts and quant["percent"] > 0 and quant["money"] + quant["count"] + quant["scope"] <= quant["percent"]:
+        issues.append("Quantification relies too heavily on percentages; add dollar, count, scale, scope, or business-impact context from evidence.")
+    if bullet_texts and quant["money"] + quant["count"] + quant["scope"] < 4:
+        issues.append("Resume needs more non-percentage impact context such as dollar value, counts, teams, projects, workflows, controls, or platforms.")
+
+    skills = content.get("skills", {}) or {}
+    for category in SKILL_CATEGORIES:
+        items = list(skills.get(category, []) or [])
+        line = f"{category}: {', '.join(map(str, items))}"
+        if len(line) > 112:
+            issues.append(f"Skills category {category} is too long for one line; shorten skill names.")
+        long_items = [str(item) for item in items if len(str(item)) > 28]
+        if long_items:
+            issues.append(f"Skills category {category} has overly long skill labels: {', '.join(long_items[:3])}.")
+    return issues
+
+
 def normalize_skill_values(values: Any, limit: int = 5) -> list[str]:
     if not isinstance(values, list):
         return []
@@ -916,6 +1069,8 @@ Goal:
 
 Bullet formula:
 Strong action verb + JD-aligned impact + quantification/metric when available + business result.
+- Start every bullet with a strong action verb. Avoid weak starts like Applied, Used, Utilized, Helped, Assisted, Responsible for, Worked on, or Performed.
+- Use varied verbs across the resume; do not start many bullets with the same verb.
 
 Length rules:
 - Alternate bullets within each experience: 15 words, 28 words, 15 words, 28 words, 15 words, 28 words.
@@ -934,7 +1089,8 @@ JD-direct bullet rules:
 - Market Maker CRE PM bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by MarketMaker PM evidence.
 - MarketMaker BA, Vista, and LTIMindtree bullet 1 must be built directly from the most important JD responsibility, then backed by that experience's evidence.
 - "Direct from JD" means start with the JD responsibility/competency as the sentence idea, then attach truthful evidence and metrics. Do not start those bullets from the old base resume wording.
-- For direct JD bullets, mirror responsibility intent like connect tools/data/workflows, lead-to-revenue process, CRM automation, lifecycle stages, member/customer journeys, campaign operations, reporting, clean data, reduce delays, handoffs, governance, AI automation, adoption, dashboards, planning, roadmaps, execution tracking, dependencies, risks, and progress.
+- For direct JD bullets, mirror a diverse responsibility mix: scope/metrics/exit criteria, system inputs and owners, v1 launch/pilots, cross-functional execution, executive documentation, analysis/data quality, adoption/handoff, operating cadence.
+- Do not force the same JD phrase into multiple experiences. Across the whole resume, use "adoption" in at most 3 bullets and "handoff" in at most 2 bullets.
 - Do not write phrases like "Led HubSpot Automation" unless selected evidence explicitly proves HubSpot. Use "strengthened CRM automation workflows" or "improved lead-management operating cadence" instead.
 
 Strict rules:
@@ -944,12 +1100,17 @@ Strict rules:
 - Do not claim direct ownership/use of JD tools unless selected evidence explicitly proves that tool. This includes HubSpot, ServiceNow, Power BI, ZoomInfo, Cvent, GA4, Monday.com, ON24, SAP, location, W2, visa, or certifications.
 - If a priority JD responsibility contains an unsupported tool such as HubSpot, translate it truthfully into transferable language: CRM automation, lead-management workflows, lifecycle-stage governance, audience/list logic, reporting, data quality, handoffs, integrations, and revenue operations.
 - You may use transferable language such as dashboards, reporting, workflow automation, intake-to-delivery visibility, tool adoption, governance, CRM processes, lifecycle stages, lead routing, and execution tracking when evidence supports it.
-- Prefer real metrics from evidence: percentages, dollar values, counts, teams, workflows, projects, articles, apps.
+- Prefer real metrics from evidence: dollar values, counts, teams, workflows, projects, articles, apps, controls, platforms, and percentages.
+- Quantification must not be only percentages. Add high-impact context such as scale, volume, dollar value, number of projects/teams/workflows/controls, risk reduction, customer impact, compliance impact, or decision speed when evidence supports it.
 - Every bullet should visibly connect to at least one JD responsibility or core competency.
+- Every bullet must have a distinct main idea. Do not create multiple bullets that all say adoption, handoff, governance, alignment, or workflow in different words.
+- Avoid awkward AI phrases and noun piles such as "adoption handoffs", "adoption potential", "handoff durability", "daily execution across departments for teams", or "decision-making behaviors and relationships".
+- Use plain resume language. If a phrase sounds like a copied JD keyword cluster, rewrite it around the actual evidence.
 - Job titles in the LaTeX are intentionally functional/JD-aligned titles reflecting actual work, not necessarily HR-paper titles.
 - Skills must sound like a human resume, not an AI-generated taxonomy.
 - Use exactly five plain category names: Methods, Operations, Analytics, Systems & Stack, Tools.
 - Put exactly five skills in each category.
+- Keep each skill category compact enough to fit on one resume line; use short labels, not long phrases.
 - Skills should be specific and defensible from evidence. Avoid vague phrases like "enterprise AI", "strategic transformation", or "stakeholder excellence" unless the JD/evidence directly supports them.
 - Prioritize tools, methodologies, platforms, and stack language mentioned in the JD when the selected evidence supports them.
 - If a JD tool is not proven by selected evidence, do not list it directly; use truthful transferable stack language instead.
@@ -989,12 +1150,52 @@ Revise this resume JSON to fix the validation issues. Return ONLY valid JSON in 
 Keep the same selected evidence. Do not invent claims. Preserve strong JD alignment.
 Short bullets must be 13-18 words. Long bullets must be 24-30 words.
 Required counts must be exact. Summary must be 45 words or fewer.
-Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities.
+Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities, using a diverse mix of responsibilities instead of repeating adoption/handoff.
+Fix repeated wording, overlapping bullets, and awkward AI phrases. Across the whole resume, use "adoption" in at most 3 bullets and "handoff" in at most 2 bullets.
+Every bullet must start with a strong action verb. Avoid weak starts like Applied, Used, Utilized, Helped, Assisted, Responsible for, Worked on, or Performed.
+Quantification must include high-impact context beyond percentages when evidence supports it: dollar values, counts, scale, teams, projects, workflows, controls, platforms, risk, compliance, or customer impact.
 Remove any unsupported direct tool claims flagged in validation. If HubSpot or another JD tool is unsupported by selected evidence, convert it to truthful transferable language such as CRM automation, lead routing, lifecycle workflows, reporting, data quality, integrations, or revenue operations.
-Keep skills in exactly five human resume categories only: Methods, Operations, Analytics, Systems & Stack, Tools. Keep exactly five items per category.
+Keep skills in exactly five human resume categories only: Methods, Operations, Analytics, Systems & Stack, Tools. Keep exactly five items per category. Keep each category line compact enough to fit on one resume line.
 
 VALIDATION ISSUES:
 {json.dumps(rule_check, indent=2, ensure_ascii=False)}
+
+JD PROFILE:
+{json.dumps(jd_profile, indent=2, ensure_ascii=False)}
+
+SELECTED EVIDENCE:
+{json.dumps(selected_evidence, indent=2, ensure_ascii=False)}
+
+CURRENT RESUME JSON:
+{json.dumps(resume_content, indent=2, ensure_ascii=False)}
+"""
+
+
+def feedback_prompt(
+    jd_profile: dict[str, Any],
+    selected_evidence: dict[str, Any],
+    resume_content: dict[str, Any],
+    feedback: str,
+) -> str:
+    return f"""
+Revise this resume JSON using the user's feedback. Return ONLY valid JSON in the same shape.
+
+Use the same selected evidence. Do not invent claims, employers, tools, metrics, certifications, or dates.
+Keep the resume truthful, concise, and ATS-friendly.
+Implement the user's requested changes unless they conflict with evidence or resume quality.
+If feedback asks for stronger alignment, use the JD profile and selected evidence to improve wording.
+If feedback asks to remove something, remove or replace it with a defensible evidence-backed point.
+Preserve required bullet counts unless the user explicitly asks for a different count.
+Keep summary at 45 words or fewer.
+Keep skills in exactly five categories: Methods, Operations, Analytics, Systems & Stack, Tools.
+Keep exactly five items per skill category.
+Keep each skill category compact enough to fit on one resume line; use concise labels.
+Every bullet must start with a strong action verb. Avoid weak starts like Applied, Used, Utilized, Helped, Assisted, Responsible for, Worked on, or Performed.
+Quantification must include high-impact context beyond percentages when evidence supports it: dollar values, counts, scale, teams, projects, workflows, controls, platforms, risk, compliance, or customer impact.
+Avoid repeated wording, awkward AI phrases, and keyword stuffing.
+
+USER FEEDBACK:
+{feedback.strip()}
 
 JD PROFILE:
 {json.dumps(jd_profile, indent=2, ensure_ascii=False)}
@@ -1051,6 +1252,7 @@ def validate(content: dict[str, Any], unsupported_tools: list[str] | None = None
     direct_claims = unsupported_claims(content, unsupported_tools)
     for claim in direct_claims:
         issues.append(f"Unsupported direct tool claim: {claim}.")
+    issues.extend(quality_issues(content))
     for config, exp in zip(EXPERIENCES, content.get("experiences", [])):
         bullets = exp.get("bullets", []) or []
         counts[config["key"]] = len(bullets)
@@ -1108,7 +1310,6 @@ def render_latex(content: dict[str, Any]) -> str:
         r"\usepackage{fancyhdr}",
         r"\usepackage[english]{babel}",
         r"\usepackage{tabularx}",
-        r"\usepackage{fontawesome5}",
         r"\usepackage{multicol}",
         r"\setlength{\multicolsep}{-3.0pt}",
         r"\setlength{\columnsep}{-1pt}",
@@ -1148,10 +1349,10 @@ def render_latex(content: dict[str, Any]) -> str:
         "",
         r"\begin{center}",
         r"    {\Huge \scshape Aishwarya Chourasia} \\ \vspace{1pt}",
-        r"    \small \raisebox{-0.1\height}\faPhone\ +1 217-607-7336 ~ ",
-        r"    \href{mailto:aishwarya7uiuc@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ aishwarya7uiuc@gmail.com} ~ ",
-        r"    \href{https://linkedin.com/in/aishwarya-chourasia-65b381151/}{\raisebox{-0.2\height}\faLinkedin\ LinkedIn} ~",
-        r"    \href{https://aishwarya2510.github.io/portfolio_new/}{\raisebox{-0.2\height}\faBriefcase\ Portfolio}",
+        r"    \small +1 217-607-7336 ~ ",
+        r"    \href{mailto:aishwarya7uiuc@gmail.com}{aishwarya7uiuc@gmail.com} ~ ",
+        r"    \href{https://linkedin.com/in/aishwarya-chourasia-65b381151/}{LinkedIn} ~",
+        r"    \href{https://aishwarya2510.github.io/portfolio_new/}{Portfolio}",
         r"\end{center}",
         "",
         r"\section{Summary}",
@@ -1200,6 +1401,37 @@ def render_latex(content: dict[str, Any]) -> str:
         r"\end{document}",
     ])
     return "\n".join(lines) + "\n"
+
+
+def compile_pdf(tex_path: Path) -> Path:
+    if not tex_path.exists():
+        raise FileNotFoundError(f"Missing LaTeX file: {tex_path}")
+    resolved = shutil.which("pdflatex")
+    if not resolved:
+        raise RuntimeError("pdflatex was not found. Install MiKTeX/TeX Live or compile the .tex manually.")
+    completed = subprocess.run(
+        [
+            resolved,
+            "-interaction=nonstopmode",
+            "-halt-on-error",
+            tex_path.name,
+        ],
+        cwd=str(tex_path.parent),
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        capture_output=True,
+        check=False,
+    )
+    write_text(tex_path.parent / "latex_compile.log", "\n".join([
+        "STDOUT:",
+        completed.stdout,
+        "STDERR:",
+        completed.stderr,
+    ]))
+    if completed.returncode != 0:
+        raise RuntimeError(f"PDF compile failed. See {tex_path.parent / 'latex_compile.log'}")
+    return tex_path.with_suffix(".pdf")
 
 
 def build_output_dir(base_output_dir: Path, jd_profile: dict[str, Any], run_date: str | None = None) -> Path:
@@ -1262,7 +1494,79 @@ def run_pipeline(args: argparse.Namespace) -> list[AgentResult]:
         write_text(output_dir / "05_rule_check.json", json.dumps(check, indent=2, ensure_ascii=False))
 
     write_text(output_dir / "04_final_resume.tex", render_latex(content))
+    if getattr(args, "compile_pdf", False):
+        compile_pdf(output_dir / "04_final_resume.tex")
     args.resolved_output_dir = output_dir
+    return results
+
+
+def read_feedback(args: argparse.Namespace) -> str:
+    parts: list[str] = []
+    if args.feedback:
+        parts.append(str(args.feedback))
+    if args.feedback_file:
+        parts.append(read_text(Path(args.feedback_file)))
+    feedback = "\n\n".join(part.strip() for part in parts if part and part.strip()).strip()
+    if not feedback:
+        raise ValueError("Feedback mode needs --feedback or --feedback-file.")
+    return feedback
+
+
+def run_feedback_revision(args: argparse.Namespace) -> list[AgentResult]:
+    if not args.resume_dir:
+        raise ValueError("Feedback mode needs --resume-dir pointing to the generated resume folder.")
+    output_dir = Path(args.resume_dir)
+    required = [
+        output_dir / "01_jd_profile.json",
+        output_dir / "02_selected_evidence.json",
+        output_dir / "03_resume_content.json",
+    ]
+    missing = [path for path in required if not path.exists()]
+    if missing:
+        raise FileNotFoundError("Feedback mode is missing required files: " + ", ".join(map(str, missing)))
+
+    feedback = read_feedback(args)
+    write_text(output_dir / "feedback_latest.txt", feedback)
+
+    jd_profile = json.loads(read_text(output_dir / "01_jd_profile.json"))
+    selected = json.loads(read_text(output_dir / "02_selected_evidence.json"))
+    content = normalize_resume_content(json.loads(read_text(output_dir / "03_resume_content.json")), jd_profile)
+    unsupported_tools = unsupported_jd_tools(jd_profile, selected)
+
+    results: list[AgentResult] = []
+    revision = run_codex_json(
+        "06_feedback_revision",
+        feedback_prompt(jd_profile, selected, content, feedback),
+        output_dir / "03_resume_content.json",
+        output_dir,
+        args.model,
+    )
+    results.append(revision)
+    content = normalize_resume_content(json.loads(read_text(revision.output_path)), jd_profile)
+    write_text(revision.output_path, json.dumps(content, indent=2, ensure_ascii=False))
+
+    check = validate(content, unsupported_tools)
+    write_text(output_dir / "05_rule_check.json", json.dumps(check, indent=2, ensure_ascii=False))
+    for attempt in range(args.revision_attempts):
+        if check["status"] == "pass":
+            break
+        followup = run_codex_json(
+            f"06b_feedback_rule_fix_{attempt + 1}",
+            revision_prompt(jd_profile, selected, content, check),
+            output_dir / "03_resume_content.json",
+            output_dir,
+            args.model,
+        )
+        results.append(followup)
+        content = normalize_resume_content(json.loads(read_text(followup.output_path)), jd_profile)
+        write_text(followup.output_path, json.dumps(content, indent=2, ensure_ascii=False))
+        check = validate(content, unsupported_tools)
+        write_text(output_dir / "05_rule_check.json", json.dumps(check, indent=2, ensure_ascii=False))
+
+    write_text(output_dir / "04_final_resume.tex", render_latex(content))
+    pdf_path = compile_pdf(output_dir / "04_final_resume.tex")
+    args.resolved_output_dir = output_dir
+    args.resolved_pdf_path = pdf_path
     return results
 
 
@@ -1275,12 +1579,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--revision-attempts", type=int, default=2)
     parser.add_argument("--no-clean", action="store_true")
     parser.add_argument("--run-date", default=None, help="Date folder for this application run, default YYYY-MM-DD today.")
+    parser.add_argument("--compile-pdf", action="store_true", help="Compile the generated LaTeX resume to PDF.")
+    parser.add_argument("--resume-dir", default=None, help="Existing generated resume folder to revise with feedback.")
+    parser.add_argument("--feedback", default=None, help="Feedback text to apply to an existing generated resume.")
+    parser.add_argument("--feedback-file", default=None, help="Path to a text file containing feedback to apply.")
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
-    results = run_pipeline(args)
+    if args.resume_dir or args.feedback or args.feedback_file:
+        results = run_feedback_revision(args)
+    else:
+        results = run_pipeline(args)
     resolved_dir = getattr(args, "resolved_output_dir", Path(args.output_dir))
     print("Resume pipeline complete:")
     for result in results:
@@ -1288,6 +1599,9 @@ def main() -> int:
     print(f"- evidence_rationale: {resolved_dir / '02b_evidence_rationale.md'}")
     print(f"- rule_check: {resolved_dir / '05_rule_check.json'}")
     print(f"- final_resume: {resolved_dir / '04_final_resume.tex'}")
+    pdf_path = getattr(args, "resolved_pdf_path", None)
+    if pdf_path:
+        print(f"- final_pdf: {pdf_path}")
     return 0
 
 

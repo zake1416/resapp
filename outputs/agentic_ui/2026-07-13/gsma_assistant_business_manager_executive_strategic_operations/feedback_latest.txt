@@ -1,0 +1,14 @@
+1. Missing Calendar, Travel, & Expense Management (-4 Points)
+The job description explicitly states that the role includes "calendar, travel, expense, meeting, stakeholder, and project coordination" and calls out experience with platforms like Concur, Workday, or equivalent expense management platforms.
+
+The Gap: Your experience leans heavily into strategic project governance, roadmap development, and business process improvements. There is no mention of day-to-day executive logistical coordination (managing heavy travel schedules, calendar alignment, or navigating expense software).
+
+2. Missing Climate, Sustainability, & Environmental Reporting (-3 Points)
+A major, unique responsibility highlighted for this role is supporting the GSMA’s Climate & Sustainability programme, including data collection, sustainability tracking, environmental reporting, and working with external partners on CDP reporting.
+
+The Gap: While your resume proves you are an expert at data gathering, auditing, and building robust visualization tracking systems (like Tableau), it does not currently highlight any familiarity with environmental compliance, ESG metrics, or sustainability tracking.
+
+3. Missing Event Logistics & Audio-Visual (AV) Context (-2 Points)
+The position directly supports GSMA’s flagship global events (like MWC Barcelona) and internal executive meetings, explicitly calling out responsibilities for logistics, travel, AV, and briefing materials.
+
+The Gap: You have extensive experience managing software product launches, sprint milestones, and agile release readiness. However, the resume lacks terminology showing you can pivot that project management expertise to large-scale corporate event production or meeting room logistics.

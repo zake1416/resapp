@@ -1,0 +1,109 @@
+STDOUT:
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(04_final_resume.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty)
+(C:\Program Files\MiKTeX\tex/latex/preprint\fullpage.sty)
+(C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty)
+(C:\Program Files\MiKTeX\tex/latex/marvosym\marvosym.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
+fg)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.de
+f)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.l
+tx))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty)
+(C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
+y (C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty)
+ (C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
+mds.sty (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
+y) (C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+ (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty)))
+(C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\ba
+bel-english.tex)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\englis
+h.ldf))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty))
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounic
+ode.tex)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def) (04_final_resume.aux)
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (04_final_resume.out) (04_final_resume.out)
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 58.
+
+(C:\Users\Abhishek\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd)
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[1{C:/Users/Abhishek/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[2] (04_final_resume.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) <C:\Users\Abhishek\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\t
+crm0900.pk> <C:\Users\Abhishek\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1000.pk><C:/Users/Abhishek/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Abhishek/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Abhishek/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Abhishek/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/
+Abhishek/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.p
+fb><C:/Users/Abhishek/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr9.pfb><C:/Users/Abhishek/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb>
+Output written on 04_final_resume.pdf (2 pages, 113175 bytes).
+Transcript written on 04_final_resume.log.
+
+STDERR:
+pdflatex: major issue: So far, no MiKTeX administrator has checked for updates.

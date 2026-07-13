@@ -1,0 +1,112 @@
+{
+  "summary": "Business Analyst with finance operations, analytics reporting, stakeholder partnership, and AI-enabled workflow experience across SaaS, financial modeling, client services, and business-critical systems. Skilled at improving analyses, governance, dashboards, adoption, and execution cadence while adapting quickly to change.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analysis visibility by translating V2MOM, PAM, and QBR insights into governed cash-flow roadmaps.",
+        "Strengthened deadline-driven operating discipline by establishing post-implementation controls tracking adoption, KPI improvement, policy adherence, compliance, and benefits realization across changing workflows for leadership visibility and sustainable execution.",
+        "Drove customer journey adoption through referral workflows, dashboards, and teams, generating 50,000 logins in two months.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service stakeholders to resolve dependencies, clarify ownership, and keep enterprise AR initiatives moving.",
+        "Enabled AI, Data Cloud, AWS, UAT, and Tableau readiness through cross-functional training coordination.",
+        "Led global Billing Portal execution from initiation through post-launch support, aligning scope, controls, adoption, dependencies, and 14 go-live communications across customer-facing and internal audiences."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analytics workflows by translating stakeholder needs into specifications, raising user experience 20%.",
+        "Strengthened change-ready analytics planning by identifying predictive modeling and sentiment analysis opportunities to expand client insights, product capabilities, future revenue potential, and roadmap direction without claiming delivery ownership.",
+        "Built actionable reports and visualizations that improved operating visibility and client decision support."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Continuously improved analytics-platform usability by aligning functionality to client expectations, raising user experience 20%.",
+        "Protected data quality and release readiness by developing test scripts validating system accuracy, data flows, calculations, and platform functionality for reliable client experiences across changing product workflows cycles.",
+        "Identified predictive modeling and sentiment analysis use cases to expand analytics roadmap value."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved operating-model scalability by connecting AI, analytics, automation, and client-service workflows.",
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable insights, helping clients interpret response-quality risks and make more confident business decisions.",
+        "Improved client journeys by aligning product workflows, analytics outputs, and communication strategies to user needs.",
+        "Managed roadmap execution through requirements definition, backlog prioritization, sprint planning, milestones, and JIRA tracking to convert a business opportunity into a scalable analytics platform."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Improved execution cadence through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Aligned testing priorities to client needs and financial risk, prioritizing high-impact defects for a reinsurance application, improving client satisfaction by 20% while protecting quality expectations.",
+        "Connected performance insights to business outcomes, contributing to projected $1M client revenue growth.",
+        "Owned quality assurance for a business-critical reinsurance application, ensuring reliability, functional accuracy, defect management, release readiness, client-facing delivery continuity, and financially sensitive system quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Requirements gathering",
+      "Risk management"
+    ],
+    "Operations": [
+      "Finance operations",
+      "Revenue operations",
+      "Workflow automation",
+      "Program governance",
+      "Client service operations"
+    ],
+    "Analytics": [
+      "KPI tracking",
+      "Dashboard reporting",
+      "Data visualization",
+      "Financial analysis improvement",
+      "Quality assurance testing"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "SaaS implementation",
+      "AI workflow enablement",
+      "Business systems validation",
+      "Data-quality governance"
+    ],
+    "Tools": [
+      "Excel",
+      "Tableau",
+      "JIRA",
+      "AWS",
+      "Data Cloud"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "status": "needs_review",
+  "summary_word_count": 28,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      27,
+      24,
+      16,
+      24,
+      15,
+      24
+    ],
+    "marketmaker_pm": [
+      16,
+      24,
+      15
+    ],
+    "marketmaker_ba": [
+      15,
+      22,
+      14
+    ],
+    "vista": [
+      14,
+      25,
+      14,
+      22
+    ],
+    "ltimindtree": [
+      16,
+      23,
+      15,
+      22
+    ]
+  },
+  "issues": [
+    "salesforce bullet 1 has 27 words; target is 15.",
+    "marketmaker_ba bullet 2 has 22 words; target is 28.",
+    "vista bullet 4 has 22 words; target is 28.",
+    "ltimindtree bullet 2 has 23 words; target is 28.",
+    "ltimindtree bullet 4 has 22 words; target is 28."
+  ]
+}
