@@ -1,0 +1,112 @@
+{
+  "summary": "Business operations analyst with experience improving intake workflows, approval governance, documentation, JIRA-based execution tracking, CRM-adjacent process readiness, automation opportunity discovery, and cross-functional delivery across finance operations, SaaS products, analytics platforms, and enterprise application quality.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Portfolio Governance & Process Improvement Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Managed approval-governance workflows, ownership documentation, and readiness controls, strengthening financial compliance and operational continuity.",
+        "Coordinated AR Operations, Systems, and UAT requirements, validation, issue resolution, and process-readiness handoffs, improving implementation traceability, stakeholder execution, and release confidence across business-system workflows.",
+        "Identified bottlenecks, control gaps, access issues, documentation inconsistencies, and automation opportunities to improve workflow consistency.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, operational risks, and leadership objectives into measurable initiatives, governance requirements, portfolio decisions, and automation-focused roadmaps for scalable operations.",
+        "Evaluated digital-payment fraud controls, targeting self-service fraud below 10% while protecting customer access.",
+        "Led AR Approval Matrix process improvement from discovery and root-cause analysis through executive readout, leadership approval, implementation, change management, monitoring, and sustained control reinforcement."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Product Operations & Program Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Centralized communication, documentation, and project visibility through SharePoint, reducing information silos across operating departments.",
+        "Managed JIRA sprint planning, project tracking, timelines, deliverables, and delivery risks, improving stakeholder alignment across multiple strategic initiatives, execution goals, operating priorities, and dependencies through disciplined governance routines.",
+        "Expanded ownership across business analysis, product execution, cross-functional coordination, and strategic startup initiatives."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Product Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Validated system accuracy, data flows, calculations, and platform functionality through structured test scripts.",
+        "Coordinated execution across development, sales, marketing, CTO, and CSO stakeholders, connecting technical delivery with business priorities to accelerate feature delivery and improve operating alignment.",
+        "Supported SaaS startup operations across product, finance, internal systems, and cross-functional execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Product Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Managed roadmap intake, backlog prioritization, sprint planning, milestones, and JIRA execution tracking workflows.",
+        "Governed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, execution capacity, and roadmap tradeoffs under resource constraints.",
+        "Automated product workflows, reducing manual friction for internal teams and external analytics clients.",
+        "Led agile delivery operations through sprint planning, backlog prioritization, timeline tracking, and JIRA coordination, aligning product development with business priorities, delivery goals, execution dependencies, and roadmap commitments."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Agile Delivery, BI & Quality Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Standardized validation workflows, defect reports, documentation, and testing practices to improve traceability and quality.",
+        "Led sprint planning, backlog prioritization, Scrum practices, and risk management activities across Agile SDLC workflows, improving process efficiency by 60% and strengthening delivery rhythm.",
+        "Owned quality assurance for a business-critical reinsurance web application, improving release readiness.",
+        "Modernized QA operations with Azure DevOps, Tableau, Citrix, VB, Compare, and structured testing practices, improving defect visibility, validation workflows, software delivery efficiency, and operational quality control."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Root-cause analysis",
+      "Change management"
+    ],
+    "Operations": [
+      "Intake workflow management",
+      "Approval governance",
+      "Program execution tracking",
+      "Risk mitigation",
+      "Business continuity readiness"
+    ],
+    "Analytics": [
+      "KPI reporting",
+      "Data-flow validation",
+      "Defect reporting",
+      "QBR insight synthesis",
+      "Test script execution"
+    ],
+    "Systems & Stack": [
+      "CRM process readiness",
+      "SaaS product operations",
+      "Business systems validation",
+      "AI workflow readiness",
+      "Implementation handoff governance"
+    ],
+    "Tools": [
+      "JIRA",
+      "SharePoint",
+      "Azure DevOps",
+      "Tableau",
+      "Excel"
+    ]
+  }
+}

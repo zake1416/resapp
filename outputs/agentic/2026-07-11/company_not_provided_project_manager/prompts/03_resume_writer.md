@@ -1,0 +1,2754 @@
+
+You are writing a tailored resume from already-selected evidence. Keep it simple and high quality.
+
+Goal:
+- Use the job description's responsibilities, keywords, tools, and core competencies.
+- Use only the selected truthful evidence from the candidate JSONs.
+- Rewrite each selected point into a strong resume bullet.
+
+Bullet formula:
+Strong action verb + JD-aligned impact + quantification/metric when available + business result.
+
+Length rules:
+- Alternate bullets within each experience: 15 words, 28 words, 15 words, 28 words, 15 words, 28 words.
+- Acceptable ranges: short bullets 13-18 words; long bullets 24-30 words.
+- Do not break grammar to hit the count.
+
+Required bullet counts:
+- Salesforce: 6
+- Market Maker CRE Financial Modeling & Strategic Operations Analyst: 3
+- Market Maker CRE Business Analysis & Financial Data Analyst: 3
+- Vista Research Services: 4
+- LTIMindtree: 4
+
+JD-direct bullet rules:
+- Salesforce bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by Salesforce evidence.
+- Market Maker CRE PM bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by MarketMaker PM evidence.
+- MarketMaker BA, Vista, and LTIMindtree bullet 1 must be built directly from the most important JD responsibility, then backed by that experience's evidence.
+- "Direct from JD" means start with the JD responsibility/competency as the sentence idea, then attach truthful evidence and metrics. Do not start those bullets from the old base resume wording.
+- For direct JD bullets, mirror responsibility intent like connect tools/data/workflows, lead-to-revenue process, CRM automation, lifecycle stages, member/customer journeys, campaign operations, reporting, clean data, reduce delays, handoffs, governance, AI automation, adoption, dashboards, planning, roadmaps, execution tracking, dependencies, risks, and progress.
+- Do not write phrases like "Led HubSpot Automation" unless selected evidence explicitly proves HubSpot. Use "strengthened CRM automation workflows" or "improved lead-management operating cadence" instead.
+
+Strict rules:
+- Summary must be 45 words or fewer and use JD language.
+- No Projects section.
+- No placeholders.
+- Do not claim direct ownership/use of JD tools unless selected evidence explicitly proves that tool. This includes HubSpot, ServiceNow, Power BI, ZoomInfo, Cvent, GA4, Monday.com, ON24, SAP, location, W2, visa, or certifications.
+- If a priority JD responsibility contains an unsupported tool such as HubSpot, translate it truthfully into transferable language: CRM automation, lead-management workflows, lifecycle-stage governance, audience/list logic, reporting, data quality, handoffs, integrations, and revenue operations.
+- You may use transferable language such as dashboards, reporting, workflow automation, intake-to-delivery visibility, tool adoption, governance, CRM processes, lifecycle stages, lead routing, and execution tracking when evidence supports it.
+- Prefer real metrics from evidence: percentages, dollar values, counts, teams, workflows, projects, articles, apps.
+- Every bullet should visibly connect to at least one JD responsibility or core competency.
+- Job titles in the LaTeX are intentionally functional/JD-aligned titles reflecting actual work, not necessarily HR-paper titles.
+- Skills must sound like a human resume, not an AI-generated taxonomy.
+- Use plain category names: Methods, Operations, Analytics, Tools.
+- Skills should be specific and defensible from evidence. Avoid vague phrases like "enterprise AI", "strategic transformation", or "stakeholder excellence" unless the JD/evidence directly supports them.
+- Tools should be software/platform names only. Methods should be ways of working. Operations should be business/system domains. Analytics should be reporting, data, testing, and measurement skills.
+
+Return ONLY valid JSON with this exact shape:
+{
+  "summary": "",
+  "experiences": [
+    {"key": "salesforce", "bullets": []},
+    {"key": "marketmaker_pm", "bullets": []},
+    {"key": "marketmaker_ba", "bullets": []},
+    {"key": "vista", "bullets": []},
+    {"key": "ltimindtree", "bullets": []}
+  ],
+  "skills": {
+    "Methods": [],
+    "Operations": [],
+    "Analytics": [],
+    "Tools": []
+  }
+}
+
+JD PROFILE:
+{
+  "role_title": "Project Manager",
+  "company_name": "",
+  "role_families": [
+    "implementation",
+    "program",
+    "business_systems",
+    "process_improvement"
+  ],
+  "target_evidence_types": [
+    "program_governance",
+    "stakeholder_management",
+    "risk_mitigation",
+    "business_systems",
+    "implementation",
+    "analytics_reporting",
+    "compliance_controls",
+    "digital_transformation",
+    "process_improvement",
+    "solutions"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "Workflow Improvement",
+    "Portfolio Governance",
+    "Stakeholder Partnership",
+    "Agile Delivery"
+  ],
+  "required_tools_keywords": [
+    "JIRA",
+    "Excel"
+  ],
+  "keywords": [
+    "project",
+    "enterprise",
+    "software",
+    "implementation",
+    "management",
+    "manager",
+    "business",
+    "communication",
+    "cross-functional",
+    "drive",
+    "lead",
+    "onboarding",
+    "projects",
+    "stakeholders",
+    "strong",
+    "while",
+    "years",
+    "ability",
+    "administration",
+    "applicable",
+    "atlanta",
+    "bachelor",
+    "collaborating",
+    "compliance",
+    "continuous",
+    "contract",
+    "coordinate",
+    "days",
+    "degree",
+    "deliverables",
+    "delivery",
+    "develop",
+    "duration",
+    "ensure",
+    "excellent",
+    "execution",
+    "executive",
+    "experienced",
+    "field",
+    "final",
+    "finance",
+    "ga",
+    "governance",
+    "high-impact",
+    "housing"
+  ],
+  "responsibility_phrases": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "priority_jd_responsibilities": [
+    "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+    "Monitor project risks and implement mitigation strategies",
+    "Drive project governance, communication, and continuous process improvements"
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
+
+SELECTED EVIDENCE:
+{
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "target_count": 6,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "SFC_081",
+          "legacy_id": "SFDC_CHANGE_004",
+          "duplicate_of": "",
+          "point_title": "Transformation Change Risk Management",
+          "base_resume_point": "Managed change risks involving dual-system operations, legacy processes, fragmented data, manual workarounds, employee skill gaps, limited trust, competing priorities, and concurrent transformation programs.",
+          "core_competency": [
+            "Change Risk Management",
+            "Transformation Risk",
+            "Operational Readiness",
+            "Process Modernization",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Risk Management",
+            "Risk Mitigation",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "Change Management",
+            "Adoption and Enablement"
+          ],
+          "functional_skill": [
+            "Dual-system risk management",
+            "Legacy process assessment",
+            "Fragmented data risk analysis",
+            "Manual workaround identification",
+            "Skill gap assessment",
+            "Competing priority management",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery"
+          ],
+          "business_outcome": [
+            "Reduced transformation risk",
+            "Improved operational readiness",
+            "Improved trust in change execution",
+            "Reduced disruption from concurrent programs",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved adoption readiness",
+            "Reduced change saturation risk"
+          ],
+          "evidence_proof": [
+            "Managed risks from dual-system operations",
+            "Managed risks from legacy processes and fragmented data",
+            "Identified manual workarounds and employee skill gaps",
+            "Addressed limited trust and competing priorities",
+            "Managed risks across concurrent transformation programs"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Digital Transformation Analyst",
+            "Business Operations Associate",
+            "Program Analyst",
+            "Implementation Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Process Improvement Analyst",
+            "Strategy & Operations Associate",
+            "Revenue Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "Change Implementation Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "risk_mitigation",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "digital_transformation": 5,
+              "business_operations": 5,
+              "program": 5,
+              "implementation": 5,
+              "business_systems": 3,
+              "process_improvement": 3,
+              "strategy_operations": 3,
+              "revenue_operations": 3
+            },
+            "evidence_types": [
+              "automation",
+              "business_systems",
+              "change_enablement",
+              "digital_transformation",
+              "process_improvement",
+              "program_governance",
+              "risk_mitigation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Digital Transformation Analyst roles, frame as managing transformation risk across systems, data, and people.",
+            "For Business Systems Analyst roles, frame as identifying dual-system and fragmented-data risks.",
+            "For Program Analyst roles, frame as managing competing priorities and risks across concurrent programs.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout."
+          ],
+          "score": 141.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "continuous",
+            "cross-functional",
+            "deliverables",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "risk_mitigation",
+            "business_systems",
+            "digital_transformation",
+            "process_improvement"
+          ]
+        },
+        {
+          "id": "SFC_016",
+          "legacy_id": "SFDC_TRANSFORMATION_008",
+          "duplicate_of": "",
+          "point_title": "UE+ Expansion and PAYGO Implementation Support",
+          "base_resume_point": "Supported UE+ expansion representing approximately $180M in annual contract value and PAYGO implementation by coordinating Finance operations, systems dependencies, commercial-process requirements, stakeholder readiness, and revenue-collection impacts.",
+          "core_competency": [
+            "Revenue Operations",
+            "Commercial Transformation",
+            "Implementation Readiness",
+            "Finance Operations",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Risk Management",
+            "Risk Mitigation",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement"
+          ],
+          "functional_skill": [
+            "Finance operations coordination",
+            "Systems dependency tracking",
+            "Commercial requirement analysis",
+            "Stakeholder readiness",
+            "Revenue-collection impact assessment",
+            "PAYGO implementation support",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping"
+          ],
+          "business_outcome": [
+            "Supported revenue-collection readiness",
+            "Improved commercial-process alignment",
+            "Reduced implementation risk",
+            "Strengthened finance and systems coordination",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction"
+          ],
+          "evidence_proof": [
+            "Supported UE+ expansion",
+            "Supported approximately $180M in annual contract value",
+            "Supported PAYGO implementation",
+            "Coordinated Finance operations and systems dependencies",
+            "Assessed stakeholder readiness and revenue-collection impacts"
+          ],
+          "metrics": [
+            "$180M"
+          ],
+          "best_fit_roles": [
+            "Revenue Operations Analyst",
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Business Operations Associate",
+            "Enterprise Project Manager",
+            "Implementation Project Manager",
+            "Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Strategy & Operations Associate",
+            "GTM Operations Analyst",
+            "Product Operations Analyst",
+            "Program Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager"
+          ],
+          "target_role_alignment": [
+            "enterprise_software_implementation",
+            "risk_mitigation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "revenue_operations": 5,
+              "business_systems": 5,
+              "implementation": 5,
+              "business_operations": 5,
+              "program": 5,
+              "strategy_operations": 3,
+              "gtm_operations": 3,
+              "product_operations": 3,
+              "process_improvement": 2
+            },
+            "evidence_types": [
+              "business_systems",
+              "implementation",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Revenue Operations Analyst roles, frame as supporting commercial transformation and revenue-collection readiness.",
+            "For Business Systems Analyst roles, frame as coordinating systems dependencies and commercial-process requirements.",
+            "For Implementation Analyst roles, frame as readiness support for PAYGO implementation.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements."
+          ],
+          "score": 150.0,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "compliance",
+            "continuous",
+            "contract",
+            "cross-functional",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "finance",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "business_systems",
+            "implementation",
+            "solutions"
+          ]
+        },
+        {
+          "id": "SFC_015",
+          "legacy_id": "SFDC_TRANSFORMATION_007",
+          "duplicate_of": "",
+          "point_title": "NextGen Org62 to OrgSS Transformation Support",
+          "base_resume_point": "Supported NextGen transformation from Org62 to OrgSS by balancing short-term platform improvements with long-range consolidation priorities and identifying migration risks, dependencies, process impacts, controls, stakeholder requirements, and adoption needs.",
+          "core_competency": [
+            "Platform Transformation",
+            "Migration Readiness",
+            "Risk Management",
+            "Business Systems Alignment",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Risk Mitigation",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "Change Management",
+            "Adoption and Enablement"
+          ],
+          "functional_skill": [
+            "Migration risk identification",
+            "Dependency analysis",
+            "Process impact assessment",
+            "Control requirement identification",
+            "Stakeholder requirement gathering",
+            "Adoption need analysis",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery"
+          ],
+          "business_outcome": [
+            "Improved migration planning",
+            "Reduced platform transition risk",
+            "Balanced tactical and strategic priorities",
+            "Improved stakeholder readiness",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved adoption readiness",
+            "Reduced change saturation risk"
+          ],
+          "evidence_proof": [
+            "Supported NextGen transformation from Org62 to OrgSS",
+            "Balanced short-term platform improvements with long-range consolidation priorities",
+            "Identified migration risks and dependencies",
+            "Identified process impacts and controls",
+            "Identified stakeholder requirements and adoption needs"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Digital Transformation Analyst",
+            "Implementation Analyst",
+            "Program Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Revenue Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "Change Implementation Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "risk_mitigation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "digital_transformation": 5,
+              "implementation": 5,
+              "program": 5,
+              "product_operations": 3,
+              "business_operations": 3,
+              "strategy_operations": 3,
+              "revenue_operations": 3,
+              "process_improvement": 2
+            },
+            "evidence_types": [
+              "digital_transformation",
+              "ai_enablement",
+              "business_systems",
+              "change_enablement",
+              "compliance_controls",
+              "customer_value",
+              "risk_mitigation",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as identifying requirements, dependencies, and process impacts during migration.",
+            "For Digital Transformation Analyst roles, frame as supporting platform consolidation and transformation readiness.",
+            "For Program Analyst roles, frame as balancing tactical improvements with long-range migration priorities.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout."
+          ],
+          "score": 149.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "compliance",
+            "continuous",
+            "cross-functional",
+            "deliverables",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "risk_mitigation",
+            "business_systems",
+            "compliance_controls",
+            "digital_transformation",
+            "solutions"
+          ]
+        },
+        {
+          "id": "SFC_060",
+          "legacy_id": "SFDC_CONTROLS_002",
+          "duplicate_of": "",
+          "point_title": "Finance Credit and Collections Business Continuity Compliance",
+          "base_resume_point": "Sustained Finance Credit and Collections business-continuity compliance by validating operational readiness, ownership, dependencies, recovery requirements, process documentation, and stakeholder responsibilities.",
+          "core_competency": [
+            "Business Continuity",
+            "Operational Readiness",
+            "Finance Operations",
+            "Risk Governance",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Testing and Validation Governance",
+            "Release Readiness",
+            "Risk Management",
+            "Risk Mitigation",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "AI-Enabled Operations",
+            "Automation Governance"
+          ],
+          "functional_skill": [
+            "BCP validation",
+            "Readiness assessment",
+            "Ownership validation",
+            "Dependency tracking",
+            "Recovery requirement review",
+            "Stakeholder responsibility mapping",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Testing coordination",
+            "UAT support",
+            "Validation tracking",
+            "Defect and issue follow-up",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "AI use-case discovery",
+            "Automation prioritization",
+            "AI readiness assessment"
+          ],
+          "business_outcome": [
+            "Improved operational resilience",
+            "Reduced continuity risk",
+            "Clarified ownership",
+            "Strengthened recovery readiness",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Improved testing traceability",
+            "Strengthened release confidence",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved automation readiness",
+            "Strengthened AI governance discipline"
+          ],
+          "evidence_proof": [
+            "Sustained Credit and Collections continuity compliance",
+            "Validated operational readiness",
+            "Validated ownership and dependencies",
+            "Reviewed recovery requirements",
+            "Confirmed process documentation and stakeholder responsibilities"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Operations Associate",
+            "Program Analyst",
+            "Process Improvement Analyst",
+            "Revenue Operations Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Strategy & Operations Associate",
+            "Program Coordinator",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "AI Transformation Project Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "testing_release_readiness",
+            "risk_mitigation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_operations": 5,
+              "program": 5,
+              "process_improvement": 5,
+              "revenue_operations": 5,
+              "business_systems": 3,
+              "implementation": 3,
+              "strategy_operations": 3,
+              "ai_transformation": 3,
+              "digital_transformation": 2
+            },
+            "evidence_types": [
+              "business_operations",
+              "business_systems",
+              "compliance_controls",
+              "implementation",
+              "revenue_operations",
+              "risk_mitigation",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as business-continuity and operational readiness ownership.",
+            "For Program Analyst roles, frame as tracking dependencies, readiness, and stakeholder responsibilities.",
+            "For Revenue Operations Analyst roles, frame as protecting Credit and Collections continuity.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For implementation PM roles, frame as coordinating validation, UAT readiness, issue tracking, and release confidence.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For technology transformation roles, frame as AI-enabled operations planning, automation prioritization, governance, and responsible rollout readiness."
+          ],
+          "score": 148.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "compliance",
+            "continuous",
+            "cross-functional",
+            "deliverables",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "finance",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Monitor project risks and implement mitigation strategies",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "risk_mitigation",
+            "business_systems",
+            "implementation",
+            "compliance_controls",
+            "solutions"
+          ]
+        },
+        {
+          "id": "SFC_027",
+          "legacy_id": "SFDC_BPI_007",
+          "duplicate_of": "",
+          "point_title": "Data-Backed BPI Recommendations and Executive Readouts",
+          "base_resume_point": "Developed data-backed BPI recommendations, process maps, control solutions, implementation plans, success measures, monitoring requirements, and executive readouts aligned with SOX, stakeholder needs, operating priorities, and scalability requirements.",
+          "core_competency": [
+            "Data-Backed Process Improvement",
+            "Executive Communication",
+            "Control Design",
+            "Implementation Planning",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Continuous Process Improvement",
+            "Workflow Improvement"
+          ],
+          "functional_skill": [
+            "Recommendation development",
+            "Process mapping",
+            "Control solution design",
+            "Implementation planning",
+            "Success-measure definition",
+            "Executive readout creation",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping"
+          ],
+          "business_outcome": [
+            "Improved decision quality",
+            "Strengthened control design",
+            "Improved implementation readiness",
+            "Aligned improvement work with SOX and scalability",
+            "Reduced software onboarding risk",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction"
+          ],
+          "evidence_proof": [
+            "Developed data-backed BPI recommendations",
+            "Created process maps and control solutions",
+            "Created implementation plans and success measures",
+            "Defined monitoring requirements",
+            "Built executive readouts aligned with SOX, stakeholder needs, operating priorities, and scalability"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Process Improvement Analyst",
+            "Business Systems Analyst",
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Enterprise Project Manager",
+            "Implementation Project Manager",
+            "Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Program Analyst",
+            "Implementation Analyst",
+            "Revenue Operations Analyst",
+            "Research Operations Associate",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager"
+          ],
+          "target_role_alignment": [
+            "enterprise_software_implementation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "process_improvement": 5,
+              "business_systems": 5,
+              "business_operations": 5,
+              "strategy_operations": 5,
+              "program": 5,
+              "implementation": 3,
+              "revenue_operations": 3,
+              "research_operations": 3,
+              "solutions": 2
+            },
+            "evidence_types": [
+              "compliance_controls",
+              "solutions",
+              "stakeholder_management",
+              "ai_operations",
+              "business_systems",
+              "implementation",
+              "process_improvement"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Process Improvement Analyst roles, frame as data-backed BPI recommendation and monitoring design.",
+            "For Business Systems Analyst roles, frame as translating findings into requirements, controls, and implementation plans.",
+            "For Strategy & Operations Associate roles, frame as executive-ready recommendations tied to scalability.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements."
+          ],
+          "score": 146.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "compliance",
+            "continuous",
+            "cross-functional",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "business_systems",
+            "implementation",
+            "compliance_controls",
+            "process_improvement",
+            "solutions"
+          ]
+        },
+        {
+          "id": "SFC_028",
+          "legacy_id": "SFDC_BPI_008",
+          "duplicate_of": "",
+          "point_title": "Cross-Functional BPI Implementation Coordination",
+          "base_resume_point": "Coordinated implementation of approved BPI solutions with operational leaders, Business and Systems teams, change practitioners, reporting partners, subject-matter experts, process owners, and frontline stakeholders.",
+          "core_competency": [
+            "Implementation Coordination",
+            "Cross-Functional Execution",
+            "Change Enablement",
+            "Stakeholder Management",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "Project Status Reporting",
+            "Executive Reporting",
+            "Change Management",
+            "Adoption and Enablement"
+          ],
+          "functional_skill": [
+            "Implementation coordination",
+            "Operational leader engagement",
+            "Business and Systems partnership",
+            "SME coordination",
+            "Process owner alignment",
+            "Frontline stakeholder engagement",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "Status reporting",
+            "Executive update preparation",
+            "KPI and health reporting",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery"
+          ],
+          "business_outcome": [
+            "Improved implementation alignment",
+            "Strengthened stakeholder ownership",
+            "Reduced execution friction",
+            "Improved adoption readiness",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved leadership visibility",
+            "Strengthened status transparency",
+            "Reduced change saturation risk"
+          ],
+          "evidence_proof": [
+            "Coordinated approved BPI implementation",
+            "Worked with operational leaders",
+            "Partnered with Business and Systems teams",
+            "Engaged change practitioners and reporting partners",
+            "Coordinated SMEs, process owners, and frontline stakeholders"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Implementation Analyst",
+            "Program Analyst",
+            "Process Improvement Analyst",
+            "Business Operations Associate",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Program Coordinator",
+            "Strategy & Operations Associate",
+            "Customer Success Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "Change Implementation Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "implementation": 5,
+              "program": 5,
+              "process_improvement": 5,
+              "business_operations": 5,
+              "business_systems": 3,
+              "strategy_operations": 3,
+              "customer_success_ops": 3,
+              "solutions": 2
+            },
+            "evidence_types": [
+              "stakeholder_management",
+              "business_systems",
+              "analytics_reporting",
+              "change_enablement",
+              "implementation",
+              "process_improvement",
+              "solutions"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Implementation Analyst roles, frame as coordinating approved process solutions through execution.",
+            "For Program Analyst roles, frame as stakeholder coordination across implementation workstreams.",
+            "For Business Operations Associate roles, frame as aligning operational leaders and frontline teams around process change.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For Project Manager roles, frame as clear status reporting, portfolio health communication, leadership escalations, and decision support.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout."
+          ],
+          "score": 146.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "continuous",
+            "cross-functional",
+            "deliverables",
+            "delivery",
+            "enterprise",
+            "execution",
+            "executive",
+            "governance",
+            "implementation",
+            "management",
+            "manager",
+            "onboarding",
+            "project",
+            "software",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "business_systems",
+            "implementation",
+            "analytics_reporting",
+            "process_improvement",
+            "solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "target_count": 3,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_PROMO_009",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "JIRA-Based Sprint Planning and Project Tracking",
+          "base_resume_point": "Led sprint planning, project tracking, and risk management through JIRA, aligning stakeholders on timelines, deliverables, and project goals across multiple strategic initiatives.",
+          "core_competency": [
+            "Agile Delivery",
+            "Project Execution",
+            "Risk Management",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "JIRA",
+            "Sprint planning",
+            "Project tracking",
+            "Risk management",
+            "Milestone tracking",
+            "Deadline management"
+          ],
+          "business_outcome": [
+            "Stronger execution visibility",
+            "Reduced project risk",
+            "Improved deadline management",
+            "Smoother initiative delivery"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Managed project tracking through JIRA",
+            "Aligned stakeholders on timelines",
+            "Aligned stakeholders on project goals",
+            "Managed delivery risks"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Program Analyst",
+            "Program Coordinator",
+            "Product Operations Analyst",
+            "Implementation Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Business Systems Analyst",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "product_operations": 5,
+              "implementation": 5,
+              "business_operations": 3,
+              "strategy_operations": 3,
+              "business_systems": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "program_governance",
+              "risk_mitigation",
+              "stakeholder_management",
+              "strategy_planning"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Program Analyst roles, frame as risk, milestone, and execution tracking.",
+            "For Program Coordinator roles, frame as coordinating timelines, deliverables, and stakeholders.",
+            "For Product Operations Analyst roles, frame as supporting product delivery cadence and roadmap execution."
+          ],
+          "score": 103.0,
+          "matched_keywords": [
+            "business",
+            "deliverables",
+            "delivery",
+            "execution",
+            "implementation",
+            "management",
+            "project",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "stakeholder_management",
+            "risk_mitigation"
+          ]
+        },
+        {
+          "id": "MMCRE_PROMO_006",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Cross-Functional Workflow and Collaboration Improvement",
+          "base_resume_point": "Improved cross-functional workflow organization by centralizing communication, documentation, and project visibility through the intranet system, enabling smoother collaboration across departments and better day-to-day operations.",
+          "core_competency": [
+            "Workflow Improvement",
+            "Cross-Functional Collaboration",
+            "Operational Efficiency",
+            "Process Optimization"
+          ],
+          "functional_skill": [
+            "Workflow mapping",
+            "Collaboration design",
+            "Document centralization",
+            "Communication improvement",
+            "Process coordination"
+          ],
+          "business_outcome": [
+            "Improved efficiency",
+            "Reduced information silos",
+            "Better team coordination",
+            "Faster project execution"
+          ],
+          "evidence_proof": [
+            "Centralized communication through SharePoint intranet",
+            "Centralized document management",
+            "Improved workflow organization",
+            "Enhanced cross-functional collaboration across departments"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Process Improvement Analyst",
+            "Business Operations Associate",
+            "Program Coordinator",
+            "Digital Transformation Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Strategy & Operations Associate"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "process_improvement": 5,
+              "business_operations": 5,
+              "program": 5,
+              "digital_transformation": 5,
+              "product_operations": 3,
+              "business_systems": 3,
+              "implementation": 3,
+              "strategy_operations": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "process_improvement",
+              "program_governance",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Process Improvement Analyst roles, frame as reducing workflow friction and information silos.",
+            "For Program Coordinator roles, frame as improving project tracking and team visibility.",
+            "For Business Operations Associate roles, frame as improving day-to-day operating efficiency."
+          ],
+          "score": 90.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "execution",
+            "implementation",
+            "management",
+            "project"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "stakeholder_management",
+            "business_systems",
+            "process_improvement"
+          ]
+        },
+        {
+          "id": "MMCRE_PROMO_010",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Cross-Functional Leadership Across Product, Development, Sales, and Marketing",
+          "base_resume_point": "Coordinated cross-functional execution across development, product management, sales, marketing, and leadership teams, ensuring stakeholders remained aligned on timelines, priorities, risks, and strategic goals.",
+          "core_competency": [
+            "Cross-Functional Collaboration",
+            "Program Coordination",
+            "Stakeholder Management",
+            "Execution Alignment"
+          ],
+          "functional_skill": [
+            "Team coordination",
+            "Stakeholder communication",
+            "Sprint planning",
+            "Risk management",
+            "Project tracking"
+          ],
+          "business_outcome": [
+            "Better team alignment",
+            "Smoother execution",
+            "Faster decision-making",
+            "Stronger delivery clarity"
+          ],
+          "evidence_proof": [
+            "Coordinated with development teams",
+            "Coordinated with product management teams",
+            "Coordinated with sales teams",
+            "Coordinated with marketing teams",
+            "Coordinated with CTO and CSO",
+            "Kept projects aligned with company goals"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Program Coordinator",
+            "Program Analyst",
+            "Business Operations Associate",
+            "Product Operations Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Strategy & Operations Associate",
+            "GTM Operations Analyst",
+            "Customer Success Operations Analyst",
+            "Solutions Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "business_operations": 5,
+              "product_operations": 5,
+              "strategy_operations": 3,
+              "gtm_operations": 3,
+              "customer_success_ops": 3,
+              "solutions": 3
+            },
+            "evidence_types": [
+              "stakeholder_management",
+              "business_systems",
+              "gtm_operations",
+              "product_roadmap",
+              "program_governance",
+              "risk_mitigation",
+              "strategy_planning"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Program Coordinator roles, frame as coordinating deadlines, teams, and risks.",
+            "For Program Analyst roles, frame as tracking execution across workstreams.",
+            "For GTM Operations Analyst roles, frame as aligning product, sales, and marketing around new initiatives."
+          ],
+          "score": 74.0,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "management",
+            "project",
+            "projects",
+            "stakeholders"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "stakeholder_management",
+            "risk_mitigation",
+            "business_systems"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "title": "Business Systems & Revenue Data Analyst",
+      "target_count": 3,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_008",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Project Lifecycle and JIRA-Based Delivery Management",
+          "base_resume_point": "Managed multiple projects from conception to execution using JIRA, leading sprint planning, setting milestones, tracking deliverables, and aligning teams on deadlines to keep product and business initiatives on track.",
+          "core_competency": [
+            "Program Coordination",
+            "Agile Delivery",
+            "Project Execution",
+            "Delivery Management"
+          ],
+          "functional_skill": [
+            "JIRA",
+            "Sprint planning",
+            "Milestone tracking",
+            "Project lifecycle management",
+            "Deliverable tracking"
+          ],
+          "business_outcome": [
+            "Improved execution visibility",
+            "Stronger deadline management",
+            "Smoother delivery",
+            "Better team alignment"
+          ],
+          "evidence_proof": [
+            "Managed multiple projects",
+            "Led sprint planning",
+            "Set project milestones",
+            "Used JIRA to manage project lifecycle",
+            "Tracked deadlines and deliverables"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Program Analyst",
+            "Program Coordinator",
+            "Product Operations Analyst",
+            "Implementation Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Business Systems Analyst",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "product_operations": 5,
+              "implementation": 5,
+              "business_operations": 3,
+              "strategy_operations": 3,
+              "business_systems": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "program_governance",
+              "product_roadmap"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Program Analyst roles, frame as milestone tracking and delivery execution.",
+            "For Program Coordinator roles, frame as coordinating deadlines, deliverables, and teams.",
+            "For Product Operations Analyst roles, frame as supporting product delivery rhythm and roadmap execution."
+          ],
+          "score": 87.0,
+          "matched_keywords": [
+            "business",
+            "deliverables",
+            "delivery",
+            "execution",
+            "implementation",
+            "management",
+            "project",
+            "projects"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "program_governance"
+          ]
+        },
+        {
+          "id": "MMCRE_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "User Experience and Product Alignment Improvement",
+          "base_resume_point": "Improved product usability by aligning platform functionality with client expectations, using stakeholder feedback and business requirements to make the real estate analytics platform more intuitive and user-centered.",
+          "core_competency": [
+            "Product Operations",
+            "User Experience Improvement",
+            "Client Alignment",
+            "Product Optimization"
+          ],
+          "functional_skill": [
+            "User feedback analysis",
+            "Product requirement refinement",
+            "Usability improvement",
+            "Stakeholder collaboration",
+            "Feature alignment"
+          ],
+          "business_outcome": [
+            "Improved user experience",
+            "Stronger product adoption potential",
+            "Better client satisfaction",
+            "Reduced usability friction"
+          ],
+          "evidence_proof": [
+            "Helped shape platform functionality around client expectations",
+            "Used stakeholder feedback to improve product alignment",
+            "Contributed to 20% improvement in user experience"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "best_fit_roles": [
+            "Product Operations Analyst",
+            "Customer Value Analyst",
+            "Customer Success Operations Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Business Operations Associate",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "product_operations": 5,
+              "customer_value": 5,
+              "customer_success_ops": 5,
+              "solutions": 5,
+              "business_systems": 3,
+              "implementation": 3,
+              "business_operations": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "client_facing",
+              "product_roadmap",
+              "research_operations",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, frame as improving client outcomes through usability.",
+            "For product operations, frame as turning feedback into product improvements.",
+            "For implementation roles, frame as making the platform easier to adopt and use."
+          ],
+          "score": 64.5,
+          "matched_keywords": [
+            "business",
+            "implementation"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "business_systems",
+            "solutions"
+          ]
+        },
+        {
+          "id": "MMCRE_005",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Software Testing and Quality Assurance",
+          "base_resume_point": "Developed and executed test scripts to validate system accuracy, data flows, calculations, and platform functionality, helping maintain a reliable and error-free SaaS product experience for clients.",
+          "core_competency": [
+            "Quality Assurance",
+            "System Validation",
+            "Product Reliability",
+            "Business Systems Support"
+          ],
+          "functional_skill": [
+            "Test script development",
+            "Functional testing",
+            "Data-flow validation",
+            "Calculation validation",
+            "QA execution"
+          ],
+          "business_outcome": [
+            "Improved platform reliability",
+            "Reduced product errors",
+            "Smoother client experience",
+            "Stronger product quality"
+          ],
+          "evidence_proof": [
+            "Developed test scripts",
+            "Executed test scripts",
+            "Validated system accuracy",
+            "Validated data flows",
+            "Validated calculations",
+            "Validated platform functionality"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Product Operations Analyst",
+            "Process Improvement Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Solutions Analyst",
+            "Customer Success Operations Analyst",
+            "Program Analyst",
+            "Business Operations Associate"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "implementation": 5,
+              "product_operations": 5,
+              "process_improvement": 5,
+              "solutions": 3,
+              "customer_success_ops": 3,
+              "program": 3,
+              "business_operations": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "ai_operations",
+              "client_facing",
+              "data_quality",
+              "product_roadmap"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as validating systems and data accuracy.",
+            "For Implementation Analyst roles, frame as ensuring launch readiness.",
+            "For Product Operations Analyst roles, frame as maintaining product quality across release cycles."
+          ],
+          "score": 79.0,
+          "matched_keywords": [
+            "business",
+            "execution",
+            "implementation",
+            "software"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "business_systems"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "title": "Analytics, Automation & Operations Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "VISTA_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Product Roadmap and Execution Ownership",
+          "base_resume_point": "Owned end-to-end product execution by defining requirements, prioritizing the roadmap, coordinating development activities, and managing delivery milestones to convert a business opportunity into a scalable analytics platform.",
+          "core_competency": [
+            "Product Operations",
+            "Program Execution",
+            "Roadmap Management",
+            "Cross-Functional Delivery"
+          ],
+          "functional_skill": [
+            "Requirements definition",
+            "Backlog prioritization",
+            "Milestone tracking",
+            "Sprint planning",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster execution",
+            "Better product alignment",
+            "Stronger delivery discipline"
+          ],
+          "evidence_proof": [
+            "Managed product roadmap",
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Managed timelines",
+            "Tracked execution through JIRA"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Product Operations Analyst",
+            "Program Analyst",
+            "Program Coordinator",
+            "Business Systems Analyst"
+          ],
+          "secondary_fit_roles": [
+            "AI Operations Analyst",
+            "Implementation Analyst",
+            "Operations Associate, AI",
+            "Strategy & Operations Associate"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "product_operations": 5,
+              "program": 5,
+              "business_systems": 5,
+              "ai_operations": 3,
+              "implementation": 3,
+              "operations_ai": 3,
+              "strategy_operations": 3
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "business_operations",
+              "business_systems",
+              "program_governance",
+              "research_operations",
+              "solutions",
+              "strategy_planning"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For program roles, emphasize milestones, dependencies, and delivery tracking.",
+            "For product operations, emphasize roadmap execution and backlog management.",
+            "For business systems roles, emphasize requirements and system workflows."
+          ],
+          "score": 100.5,
+          "matched_keywords": [
+            "business",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "implementation",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "JIRA"
+          ],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "business_systems",
+            "solutions"
+          ]
+        },
+        {
+          "id": "VISTA_007",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Budget, Scope, Resource, and Risk Management",
+          "base_resume_point": "Managed project scope, budgeting, resource allocation, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, and execution capacity.",
+          "core_competency": [
+            "Program Management",
+            "Strategic Operations",
+            "Risk Management",
+            "Executive Stakeholder Management"
+          ],
+          "functional_skill": [
+            "Budgeting",
+            "Resource planning",
+            "Scope definition",
+            "Risk tracking",
+            "Priority negotiation",
+            "Executive communication"
+          ],
+          "business_outcome": [
+            "Better resource alignment",
+            "Reduced execution risk",
+            "Stronger leadership visibility",
+            "Improved decision-making"
+          ],
+          "evidence_proof": [
+            "Managed budget",
+            "Managed resource allocation",
+            "Managed scope",
+            "Managed timelines",
+            "Managed risk",
+            "Negotiated priorities with Vista’s president"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Strategy & Operations Associate",
+            "Program Analyst",
+            "Program Coordinator",
+            "Business Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "AI Transformation Analyst",
+            "Digital Transformation Analyst",
+            "Implementation Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "strategy_operations": 5,
+              "program": 5,
+              "business_operations": 5,
+              "product_operations": 3,
+              "ai_transformation": 3,
+              "digital_transformation": 3,
+              "implementation": 3
+            },
+            "evidence_types": [
+              "stakeholder_management",
+              "business_operations",
+              "program_governance",
+              "risk_mitigation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For strategy and operations, emphasize executive alignment and resource tradeoffs.",
+            "For program roles, emphasize scope, risk, and timeline governance.",
+            "For transformation roles, emphasize managing change under resource constraints."
+          ],
+          "score": 83.0,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "delivery",
+            "execution",
+            "executive",
+            "governance",
+            "implementation",
+            "management",
+            "project",
+            "while"
+          ],
+          "matched_core_competencies": [
+            "Portfolio Governance",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+            "Drive project governance, communication, and continuous process improvements"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "stakeholder_management",
+            "risk_mitigation"
+          ]
+        },
+        {
+          "id": "VISTA_003",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "AI Fraud Detection Model Development",
+          "base_resume_point": "Developed an AI-enabled fraud detection model using Python and Streamlit to identify survey-response quality issues, including duplicate responses, straight-lining, short durations, red herrings, and numeric anomalies, improving data reliability and fraud mitigation for client research.",
+          "core_competency": [
+            "AI Operations",
+            "Data Quality",
+            "Fraud Detection",
+            "Analytics Automation"
+          ],
+          "functional_skill": [
+            "Python",
+            "Streamlit",
+            "Anomaly detection",
+            "Data validation",
+            "Rule-based modeling",
+            "Survey analytics"
+          ],
+          "business_outcome": [
+            "Improved data quality",
+            "Reduced fraudulent responses",
+            "Stronger client trust",
+            "Better decision-making"
+          ],
+          "evidence_proof": [
+            "Built model to flag duplicate responses",
+            "Built model to flag straight-lining",
+            "Built model to flag short durations",
+            "Built model to flag red herrings",
+            "Built model to flag numeric anomalies"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "AI Operations Analyst",
+            "AI Enablement Analyst",
+            "Operations Associate, AI",
+            "Business Systems Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Research Operations Associate",
+            "Process Improvement Analyst",
+            "Solutions Analyst",
+            "Implementation Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "ai_operations": 5,
+              "ai_enablement": 5,
+              "operations_ai": 5,
+              "business_systems": 5,
+              "research_operations": 3,
+              "process_improvement": 3,
+              "solutions": 3,
+              "implementation": 3
+            },
+            "evidence_types": [
+              "research_operations",
+              "risk_mitigation",
+              "ai_operations",
+              "client_facing"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For AI operations, frame as operationalizing AI for quality control.",
+            "For research operations, frame as improving survey-data integrity.",
+            "For business systems, frame as building a lightweight internal tool to support data validation."
+          ],
+          "score": 54.5,
+          "matched_keywords": [
+            "business",
+            "implementation"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "risk_mitigation"
+          ]
+        },
+        {
+          "id": "VISTA_013",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Client-Centric Product and Service Improvement",
+          "base_resume_point": "Applied a customer-first approach to improve platform usability, service delivery, and client experience by aligning product workflows, analytics outputs, and communication strategies with client needs and decision-making behaviors.",
+          "core_competency": [
+            "Customer Value",
+            "Product Operations",
+            "Client Experience",
+            "Service Optimization"
+          ],
+          "functional_skill": [
+            "Client-needs analysis",
+            "User experience improvement",
+            "Workflow refinement",
+            "Service alignment",
+            "Feedback interpretation"
+          ],
+          "business_outcome": [
+            "Improved client satisfaction",
+            "Stronger retention potential",
+            "Better product adoption"
+          ],
+          "evidence_proof": [
+            "Simplified user experience",
+            "Improved product usability",
+            "Managed client relationships",
+            "Created client-facing insights"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Customer Value Analyst",
+            "Customer Success Operations Analyst",
+            "Product Operations Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Implementation Analyst",
+            "GTM Operations Analyst",
+            "AI Operations Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_value": 5,
+              "customer_success_ops": 5,
+              "product_operations": 5,
+              "solutions": 5,
+              "business_operations": 3,
+              "implementation": 3,
+              "gtm_operations": 3,
+              "ai_operations": 3,
+              "process_improvement": 2
+            },
+            "evidence_types": [
+              "client_facing",
+              "customer_value",
+              "analytics_reporting",
+              "process_improvement",
+              "product_roadmap",
+              "research_operations",
+              "solutions"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, emphasize client outcomes and value realization.",
+            "For product ops, emphasize usability and adoption.",
+            "For implementation roles, emphasize making the platform easier for users to adopt and operate."
+          ],
+          "score": 58.5,
+          "matched_keywords": [
+            "business",
+            "communication",
+            "delivery",
+            "implementation"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "analytics_reporting",
+            "process_improvement",
+            "solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "title": "BI, Data Quality & Systems Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Lead planning, execution, testing, and successful delivery of enterprise software implementation",
+        "Monitor project risks and implement mitigation strategies",
+        "Drive project governance, communication, and continuous process improvements"
+      ],
+      "selected_points": [
+        {
+          "id": "LTIM_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Data Migration Quality Assurance",
+          "base_resume_point": "Oversaw quality assurance for data migration across 22 projects using Azure DevOps, validating ETL processes, data accuracy, and migration correctness to protect data integrity and ensure seamless transition into the new environment.",
+          "core_competency": [
+            "Data Migration",
+            "Quality Assurance",
+            "ETL Validation",
+            "Business Systems Transformation"
+          ],
+          "functional_skill": [
+            "Azure DevOps",
+            "ETL testing",
+            "Data validation",
+            "Migration testing",
+            "Data reconciliation",
+            "Issue tracking"
+          ],
+          "business_outcome": [
+            "Improved data integrity",
+            "Reduced migration errors",
+            "Stronger system reliability",
+            "Smoother environment transition"
+          ],
+          "evidence_proof": [
+            "Supported migration of 22 projects",
+            "Assured accuracy, quality, and correctness of migrated data"
+          ],
+          "metrics": [
+            "22 projects",
+            "22"
+          ],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Digital Transformation Analyst",
+            "Process Improvement Analyst"
+          ],
+          "secondary_fit_roles": [
+            "AI Operations Analyst",
+            "Business Operations Associate",
+            "Program Analyst",
+            "Product Operations Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "implementation": 5,
+              "digital_transformation": 5,
+              "process_improvement": 5,
+              "ai_operations": 3,
+              "business_operations": 3,
+              "program": 3,
+              "product_operations": 3
+            },
+            "evidence_types": [
+              "data_quality",
+              "ai_operations",
+              "digital_transformation",
+              "program_governance"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For business systems roles, frame as data integrity and migration validation.",
+            "For implementation roles, frame as transition readiness and deployment quality.",
+            "For transformation roles, frame as supporting system modernization through controlled migration."
+          ],
+          "score": 74.0,
+          "matched_keywords": [
+            "business",
+            "ensure",
+            "implementation",
+            "projects"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "program_governance",
+            "digital_transformation"
+          ]
+        },
+        {
+          "id": "LTIM_008",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Agile SDLC and Scrum Process Improvement",
+          "base_resume_point": "Supported Agile SDLC execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving delivery rhythm, stakeholder alignment, and overall process efficiency.",
+          "core_competency": [
+            "Agile Delivery",
+            "SDLC Optimization",
+            "Scrum Execution",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "Sprint planning",
+            "Backlog prioritization",
+            "Scrum practices",
+            "Risk management",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster development cycles",
+            "Improved process efficiency",
+            "Stronger delivery alignment",
+            "Better cross-functional execution"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Led risk management activities",
+            "Implemented Scrum practices",
+            "Improved process efficiency by 60%"
+          ],
+          "metrics": [
+            "60%",
+            "60"
+          ],
+          "best_fit_roles": [
+            "Program Analyst",
+            "Program Coordinator",
+            "Product Operations Analyst",
+            "Implementation Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Business Systems Analyst",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "product_operations": 5,
+              "implementation": 5,
+              "business_operations": 3,
+              "strategy_operations": 3,
+              "business_systems": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "process_improvement",
+              "risk_mitigation",
+              "stakeholder_management",
+              "strategy_planning"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For program roles, frame as sprint coordination, risk tracking, and execution cadence.",
+            "For product operations, frame as backlog prioritization and delivery rhythm.",
+            "For process improvement, frame as SDLC workflow optimization."
+          ],
+          "score": 108.0,
+          "matched_keywords": [
+            "business",
+            "cross-functional",
+            "delivery",
+            "execution",
+            "implementation",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Stakeholder Partnership",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "risk_mitigation",
+            "process_improvement"
+          ]
+        },
+        {
+          "id": "LTIM_013",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Testing Process Standardization",
+          "base_resume_point": "Standardized testing processes by creating repeatable documentation, validation workflows, defect reports, and testing practices that improved consistency, traceability, and quality across application delivery cycles.",
+          "core_competency": [
+            "Process Standardization",
+            "Quality Governance",
+            "Workflow Improvement",
+            "Operational Consistency"
+          ],
+          "functional_skill": [
+            "Process documentation",
+            "Validation workflow design",
+            "Defect reporting",
+            "Testing standards",
+            "Quality controls"
+          ],
+          "business_outcome": [
+            "Improved consistency",
+            "Better traceability",
+            "Reduced defects",
+            "Stronger process discipline"
+          ],
+          "evidence_proof": [
+            "Created test cases",
+            "Created test scenarios",
+            "Created bug tracking reports",
+            "Created structured testing frameworks"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Process Improvement Analyst",
+            "Business Operations Associate",
+            "Business Systems Analyst",
+            "Program Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "Implementation Analyst",
+            "Program Coordinator",
+            "Operations Associate, AI"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "process_improvement": 5,
+              "business_operations": 5,
+              "business_systems": 5,
+              "program": 5,
+              "product_operations": 3,
+              "implementation": 3,
+              "operations_ai": 3
+            },
+            "evidence_types": [
+              "process_improvement",
+              "ai_operations",
+              "business_systems",
+              "risk_mitigation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For process roles, frame as standardizing workflows and reducing variability.",
+            "For operations roles, frame as improving consistency and execution discipline.",
+            "For business systems, frame as creating traceable testing and validation processes."
+          ],
+          "score": 104.5,
+          "matched_keywords": [
+            "business",
+            "delivery",
+            "execution",
+            "governance",
+            "implementation"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Workflow Improvement",
+            "Portfolio Governance",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "risk_mitigation",
+            "business_systems",
+            "process_improvement"
+          ]
+        },
+        {
+          "id": "LTIM_001",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Enterprise Application Quality Ownership",
+          "base_resume_point": "Owned quality assurance for a critical reinsurance-based web application, ensuring application reliability, functional accuracy, and user satisfaction across testing, defect management, release readiness, and client-facing delivery activities.",
+          "core_competency": [
+            "Quality Engineering",
+            "Application Reliability",
+            "Business Systems Support",
+            "Operational Excellence"
+          ],
+          "functional_skill": [
+            "Functional testing",
+            "Regression testing",
+            "Defect validation",
+            "Release support",
+            "Application quality assurance"
+          ],
+          "business_outcome": [
+            "Improved application reliability",
+            "Stronger user satisfaction",
+            "Reduced production risk",
+            "Smoother product releases"
+          ],
+          "evidence_proof": [
+            "Supported reinsurance web application for Marsh and McLennan under Guy Carpenter",
+            "Ensured quality and performance of a business-critical platform"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Process Improvement Analyst",
+            "Business Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "Program Analyst",
+            "Program Coordinator",
+            "Solutions Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "implementation": 5,
+              "process_improvement": 5,
+              "business_operations": 5,
+              "product_operations": 3,
+              "program": 3,
+              "solutions": 3
+            },
+            "evidence_types": [
+              "implementation",
+              "ai_operations",
+              "business_operations",
+              "business_systems",
+              "client_facing",
+              "data_quality",
+              "digital_transformation",
+              "risk_mitigation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For business systems roles, frame as application support and system quality.",
+            "For implementation roles, frame as release readiness and defect validation.",
+            "For operations roles, frame as reliability, issue tracking, and business continuity."
+          ],
+          "score": 99.5,
+          "matched_keywords": [
+            "business",
+            "delivery",
+            "enterprise",
+            "implementation",
+            "management"
+          ],
+          "matched_core_competencies": [
+            "Workflow Improvement",
+            "Agile Delivery"
+          ],
+          "matched_jd_phrases": [
+            "Lead planning, execution, testing, and successful delivery of enterprise software implementation"
+          ],
+          "matched_tools": [
+            "Excel"
+          ],
+          "matched_role_families": [
+            "implementation",
+            "program",
+            "business_systems",
+            "process_improvement"
+          ],
+          "matched_evidence_types": [
+            "risk_mitigation",
+            "business_systems",
+            "implementation",
+            "digital_transformation"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "summary": "Business operations analyst focused on data integrity, workflow improvement, stakeholder coordination, reporting, and adoption across complex systems. Connects teams, controls, and automation-ready processes to improve execution visibility, reduce friction, and support compliance-focused operations.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Maintained operational data integrity through governance roadmaps linking risks, compliance needs, reporting, and controls.",
+        "Improved complex operating processes by translating V2MOM priorities, PAM findings, QBR insights, and leadership objectives into measurable initiatives for cash flow and scalability planning.",
+        "Coordinated 13 enterprise teams to resolve dependencies, clarify ownership, and sustain AR execution.",
+        "Established post-implementation control plans measuring adoption, KPI improvement, policy adherence, compliance, and benefits realization to strengthen reporting visibility and operational sustainability.",
+        "Evaluated digital-payment fraud controls, targeting self-service fraud below 10% while protecting adoption.",
+        "Validated current-state operations through interviews, shadowing, report sampling, data validation, control testing, and documentation reviews, reconciling procedures with actual workflows."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Centralized SharePoint communication and documentation to improve data access, workflow visibility, and collaboration.",
+        "Built actionable reports and data visualizations from property analysis, helping internal teams and clients interpret insights, improve decisions, and strengthen operational efficiency.",
+        "Aligned technology infrastructure and internal systems with leadership priorities, improving scalability and workflow readiness."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Improved SharePoint-based project tracking, document access, and communication across product, sales, and marketing.",
+        "Analyzed property data with SQL to identify trends, improve customer-listing alignment, and support decisions contributing to a 22% retention increase.",
+        "Translated stakeholder feedback into platform improvements, increasing user experience quality by 20%."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Connected AI, analytics, automation, and client-service workflows into a more scalable operating model.",
+        "Improved client journeys by aligning product workflows, analytics outputs, and communication strategies with user needs, usability goals, and decision-making behaviors.",
+        "Automated platform workflows for internal teams and clients, reducing manual friction and improving usability.",
+        "Managed roadmap execution, sprint planning, backlog prioritization, JIRA tracking, and milestones to convert business opportunity into a scalable analytics platform."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Protected data integrity during migration through ETL validation, defect detection, and risk analysis.",
+        "Led Agile SDLC execution through sprint planning, backlog prioritization, Scrum practices, and risk management, improving process efficiency by 60%.",
+        "Standardized validation workflows, defect reports, and testing practices for stronger traceability and quality.",
+        "Presented system bottleneck insights and improvement opportunities, connecting quality engineering to better application performance and projected $1M client revenue growth."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Process mapping",
+      "Control testing"
+    ],
+    "Operations": [
+      "Business operations",
+      "Revenue operations",
+      "Program governance",
+      "Compliance readiness",
+      "Workflow improvement"
+    ],
+    "Analytics": [
+      "Data validation",
+      "KPI tracking",
+      "Executive reporting",
+      "Data visualization",
+      "Root cause analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Internal knowledge systems",
+      "SharePoint intranet workflows",
+      "AI-enabled workflow automation",
+      "ETL migration validation"
+    ],
+    "Tools": [
+      "SharePoint",
+      "SQL",
+      "Tableau",
+      "JIRA",
+      "Basecamp"
+    ]
+  }
+}

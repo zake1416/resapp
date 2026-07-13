@@ -1,0 +1,112 @@
+{
+  "summary": "Strategy and operations analyst focused on adoption, handoffs, measurement, and cross-functional execution across business systems, AI automation, reporting, and process governance, translating ambiguous inputs into clear roadmaps, operating cadence, durable workflows, and measurable outcomes.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Drove adoption handoffs by activating sponsors, clarifying ownership, and sustaining post-launch process reinforcement.",
+        "Defined post-implementation controls for adoption, KPI improvement, policy adherence, compliance, and benefits realization, making handoff durability measurable across operational workflows without adding informal follow-up burden.",
+        "Aligned AOV reporting definitions and data inputs, reducing ambiguity in Credit and Collections decisions.",
+        "Built AR Operations governance with roadmaps, milestone trackers, dependencies, executive reporting, backlog refinement, and prioritization cycles, keeping 85% of deliverables green for leadership visibility.",
+        "Led AR Approval Matrix improvement from discovery through implementation, monitoring, and control reinforcement.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, risks, and leadership objectives into roadmaps, governance requirements, and decisions around cash flow, automation, and scalability planning."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved adoption handoffs by centralizing communication, documentation, and project visibility through SharePoint intranet.",
+        "Created repeatable operating visibility by organizing workflows, documents, and cross-functional communication in one intranet system, reducing silos and improving daily execution across departments for teams.",
+        "Aligned technology infrastructure, product workflows, and leadership priorities to support scalable tech-driven operations."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Reduced product adoption friction by aligning platform functionality with client expectations, improving user experience 20%.",
+        "Used SQL to analyze property-data trends, strengthen customer-listing alignment, and support leadership decisions, contributing to a 22% increase in customer retention through data-backed insights.",
+        "Validated system accuracy, data flows, calculations, and functionality through test scripts, improving platform reliability."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Connected AI, analytics, and automation into scalable workflows supporting a technology-driven operating model.",
+        "Aligned product workflows, analytics outputs, and communication strategies with client needs, improving usability, service delivery, client-facing insights, adoption potential, decision-making behaviors, and relationships.",
+        "Managed roadmap execution, backlog priorities, sprint planning, milestones, and JIRA tracking for analytics platform delivery.",
+        "Balanced scope, budget, resources, timelines, and delivery risks with executive leadership, aligning business needs, technical feasibility, and execution capacity to improve decision-making and resource alignment."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Improved execution cadence through sprint planning, backlog prioritization, Scrum practices, and risk management, raising efficiency 60%.",
+        "Connected quality engineering, root-cause analysis, and performance insights to client outcomes by identifying bottlenecks and opportunities tied to a projected $1M revenue increase for clients.",
+        "Led ETL validation to identify data inconsistencies, defects, and migration risks, improving detection 60%.",
+        "Assured data migration quality across 22 projects using Azure DevOps, validating ETL processes, data accuracy, and transition readiness for stronger integrity and system reliability."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Scrum practices",
+      "Roadmap management",
+      "Root-cause analysis",
+      "Change management"
+    ],
+    "Operations": [
+      "Adoption and handoff",
+      "Portfolio governance",
+      "Product operations",
+      "Workflow automation",
+      "Data migration"
+    ],
+    "Analytics": [
+      "KPI tracking",
+      "SQL analysis",
+      "Data quality validation",
+      "Executive reporting",
+      "Benefits realization measurement"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Business systems implementation",
+      "AI workflow automation",
+      "SaaS product workflows",
+      "Reporting governance"
+    ],
+    "Tools": [
+      "JIRA",
+      "SQL",
+      "SharePoint",
+      "Azure DevOps",
+      "Tableau"
+    ]
+  }
+}

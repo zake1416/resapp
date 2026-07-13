@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume Workflow Studio</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>Resume Workflow Studio</h1>
+          <p>Paste a JD, generate a tailored resume, review it, then loop feedback into final LaTeX and PDF.</p>
+        </div>
+        <div class="status-pill" id="globalStatus">Idle</div>
+      </header>
+
+      <section class="workspace">
+        <div class="panel input-panel">
+          <div class="panel-header">
+            <h2>Inputs</h2>
+            <button id="generateBtn" class="primary">Run Workflow</button>
+          </div>
+          <label for="jobDescription">Job description</label>
+          <textarea id="jobDescription" spellcheck="true" placeholder="Paste the full job description here..."></textarea>
+
+          <div class="options-row">
+            <label class="check">
+              <input id="compilePdf" type="checkbox" checked />
+              Compile PDF
+            </label>
+            <label>
+              Revision attempts
+              <input id="revisionAttempts" type="number" min="0" max="5" value="2" />
+            </label>
+          </div>
+
+          <label for="feedback">Feedback for revision</label>
+          <textarea id="feedback" class="feedback-box" spellcheck="true" placeholder="Example: Remove advanced PC wording, make Salesforce less compliance-heavy, and make bullets sound more natural."></textarea>
+          <button id="feedbackBtn" class="secondary" disabled>Apply Feedback</button>
+        </div>
+
+        <div class="panel flow-panel">
+          <div class="panel-header">
+            <h2>Flow</h2>
+            <span id="jobIdLabel">No active run</span>
+          </div>
+          <div class="flow-canvas" aria-label="Resume generation flowchart">
+            <svg class="wires" viewBox="0 0 900 420" preserveAspectRatio="none">
+              <path d="M145 110 C220 110 220 110 295 110" />
+              <path d="M445 110 C520 110 520 110 595 110" />
+              <path d="M745 110 C805 110 805 215 745 215" />
+              <path d="M595 215 C520 215 520 315 445 315" />
+              <path d="M295 315 C220 315 220 215 145 215" />
+            </svg>
+            <article class="node" data-stage="queued" style="--x: 20px; --y: 55px">
+              <strong>JD Input</strong>
+              <span>Paste target role</span>
+            </article>
+            <article class="node" data-stage="generate" style="--x: 315px; --y: 55px">
+              <strong>Agentic Build</strong>
+              <span>Evidence, bullets, QA</span>
+            </article>
+            <article class="node" data-stage="review" style="--x: 610px; --y: 55px">
+              <strong>Review</strong>
+              <span>Inspect LaTeX/PDF</span>
+            </article>
+            <article class="node" data-stage="feedback" style="--x: 610px; --y: 260px">
+              <strong>Feedback Loop</strong>
+              <span>Revise with notes</span>
+            </article>
+            <article class="node" data-stage="final" style="--x: 315px; --y: 260px">
+              <strong>Final Resume</strong>
+              <span>LaTeX and PDF</span>
+            </article>
+            <article class="node" data-stage="error" style="--x: 20px; --y: 260px">
+              <strong>Fix Issues</strong>
+              <span>Logs and validation</span>
+            </article>
+          </div>
+
+          <div class="log-card">
+            <h3>Run Status</h3>
+            <p id="runMessage">Ready.</p>
+            <ul id="stepList"></ul>
+          </div>
+        </div>
+
+        <div class="panel output-panel">
+          <div class="panel-header">
+            <h2>Outputs</h2>
+            <button id="refreshBtn" class="ghost" disabled>Refresh</button>
+          </div>
+          <div id="outputLinks" class="output-links">
+            <p>No files yet. Run the workflow to generate outputs.</p>
+          </div>
+          <div class="preview-wrap">
+            <div class="preview-toolbar">
+              <div class="preview-tabs">
+                <button class="tab active" data-preview="tex">LaTeX</button>
+                <button class="tab" data-preview="rules">Rules</button>
+              </div>
+              <button id="copyLatexBtn" class="ghost copy-btn" disabled>Copy LaTeX</button>
+            </div>
+            <pre id="preview">Output preview will appear here.</pre>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

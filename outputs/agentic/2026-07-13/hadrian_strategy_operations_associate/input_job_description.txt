@@ -1,0 +1,72 @@
+Company: Hadrian
+Job Role: Strategy & Operations Associate
+
+Hadrian is building autonomous factories that help aerospace and defense companies manufacture rockets, satellites, jets, and ships up to 10x faster and up to 2x cheaper. By combining advanced software, robotics, and full-stack manufacturing, we are reinventing how America produces its most critical parts.
+
+We’re accelerating our mission with the launch of Factory 3 in Mesa, Arizona, a 290,000-square-foot facility creating 350 new jobs. We are expanding rapidly to support thousands of future hires, launching Hadrian Maritime to expand into naval production, and introducing a Factory-as-a-Service model that delivers complete systems instead of individual parts.
+
+Hadrian is backed by leading investors including T. Rowe Price, Lux Capital, Founders Fund, and Andreessen Horowitz, our fast-growing team is united around reindustrializing American manufacturing for the 21st century and beyond.
+
+The Role
+
+Hadrian is scaling and growing extremely fast and we need to execute. We can’t afford to lose time on missing context, duplicated work, or decisions made with limited data. We are building a world class Strategy and Operations team within our R&D / Special Projects group to run projects that design, launch, drive adoption, formalize, and transition the operating model to enable this hyper growth.
+
+This is an operator role with a technical bent focused on outcomes and adoption. This role rapidly designs and prototypes v1 requirements / inputs / workflows and can self-serve lightweight analysis and systems (e.g., retool automations) before handing off to other team members.
+
+What You’ll Do
+
+Project ownership and outcomes: Independently define scope, success metrics, exit criteria, and deliverables for a project; run the operating cadence; deliver measurable outcomes just process and documents
+
+System design: Translate ambiguous cross-functional problems into a sustained system with clear inputs, decisions, outputs, enforcement, and named owners
+
+Technical prototyping and measurement: Prototype simple workflows where needed, self-serve basic analysis, and define and measure KPIs so adoption and durability can be measured; partner with teammates to productionize
+
+Rapid v1 launch and iteration: Ship a v1 mechanism within 3 to 6 weeks; pilot with one to two teams; gather usage feedback and iterate to improve
+
+Cross-functional execution: Drive execution across teams through clear ownership, dependency management, follow-through, and selective escalation
+
+Executive-ready communication: Write decision memos and narrative updates with crisp recommendations and explicit tradeoffs; produce durable documentation that enables consistent execution
+
+Adoption and handoff: Drive adoption until the mechanism runs on time without “policing”
+
+Operate in ambiguity: When problems are underspecified, rapidly create structure in the first few hours (clarify the decision to be made, define constraints, propose a v1 approach, and drive to a real pilot)
+
+Be a factory teammate when needed: for example: help install a machine or ship a part
+
+What We’re Looking For
+
+Ideal profile: Top-tier consultant or equivalent operator with 1-4 years of experience and demonstrated implementation and scrappy system builder instincts
+
+Experience: 1–3 years post-grad in top-tier consulting (MBB, Strategy&, ATK, LEK, etc.) with evidence of implementation, or Strategy and Operations / Business Operations / Chief of Staff-type roles at high-tempo orgs, or high-growth startup operator roles (program ops, planning, bizops) particularly in Defense Tech
+
+Ability to run a workstream: Can independently set scope, define metrics and exit criteria, align stakeholders, ship v1 quickly, and drive adoption through handoff
+
+Communication: Strong verbal and written communication; able to communicate effectively across all levels
+
+Analytical self-serve: Strong Excel or Google Sheets; working comfort with tools like SQL, BI, retool, etc. is preferred to pilot, validate metrics, diagnose issues, and measure adoption; interest in automating manual processes
+
+Measurement mindset: Can define what must be logged and timestamped so adoption rate and handoff durability are measurable
+
+Technical partnership: Can write clear requirements, outputs, and identify and discuss data quality with teammates
+
+Operating system fluency: Comfortable working across Jira, Confluence, calendars, and dashboard tools to create repeatable cadence and documentation
+
+Mission alignment: Strong interest in manufacturing and Hadrian, with the ability to learn and succeed in a fast-moving environment
+
+Comfort with ambiguity and pace: Demonstrated ability to take a messy problem with unclear inputs, create a plan fast, and deliver a usable v1 without waiting for perfect data or complete direction
+
+Low-ego, high-ownership “help anywhere” mindset: Willing to do whatever it takes to meet the mission, including hands-on operational support when required
+
+What Will Set You Apart
+
+System-first operator: You enjoy getting your hands dirty and improving operations, not theoretical frameworks or deck-only recommendations
+
+Strong judgment: You know when to be scrappy and when to formalize, and you can define “good enough” v1
+
+Adoption leadership: You can create buy-in, remove friction, and make the “right” process the path of least resistance
+
+Systems thinking: You can translate messy reality and competing priorities into a system that links inputs to decisions to actions to accountability
+
+Shop floor curiosity: You enjoy learning from engineers and factory technicians to ground systems in reality; you find manufacturing fascinating and want to sit on the shop floor every day
+
+Ability to operate in ambiguity

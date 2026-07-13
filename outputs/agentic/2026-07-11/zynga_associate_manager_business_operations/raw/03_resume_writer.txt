@@ -1,0 +1,87 @@
+{
+  "summary": "Business operations analyst with experience improving intake workflows, approval governance, documentation, JIRA-based execution tracking, CRM-adjacent process readiness, AI/automation opportunity discovery, and cross-functional delivery across finance operations, SaaS products, analytics platforms, and enterprise application quality.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Managed approval-governance workflows and documentation controls, strengthening financial compliance, ownership clarity, and operational readiness.",
+        "Connected AR Operations, Systems, and UAT workflows by coordinating requirements, validation, issue resolution, and process readiness, improving traceability across implementation handoffs, stakeholder execution, and release confidence.",
+        "Identified bottlenecks, control gaps, access issues, and automation opportunities to improve workflow consistency.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, operational risks, and leadership objectives into roadmaps, measurable initiatives, governance requirements, and portfolio decisions.",
+        "Evaluated digital-payment fraud controls, targeting self-service fraud below 10% while protecting customer access.",
+        "Led AR Approval Matrix process improvement from discovery and root-cause analysis through executive readout, leadership approval, implementation, change management, monitoring, and control reinforcement."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Centralized communication, documentation, and project visibility through SharePoint, reducing silos across departments.",
+        "Managed JIRA sprint planning, project tracking, timelines, deliverables, and delivery risks, improving stakeholder alignment across multiple strategic initiatives and execution goals.",
+        "Expanded ownership across business analysis, product execution, cross-functional coordination, and strategic startup initiatives."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Validated system accuracy, data flows, calculations, and platform functionality through structured test scripts.",
+        "Coordinated execution across development, sales, marketing, CTO, and CSO stakeholders, connecting technical delivery with business priorities to accelerate feature delivery.",
+        "Supported SaaS startup operations across product, finance, internal systems, and cross-functional execution."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Managed roadmap intake, backlog prioritization, sprint planning, milestones, and JIRA execution tracking.",
+        "Governed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs and technical feasibility.",
+        "Automated product workflows, reducing manual friction for internal teams and external analytics clients.",
+        "Led agile delivery operations through sprint planning, backlog prioritization, timeline tracking, and JIRA coordination, aligning product development with business goals."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Standardized validation workflows, defect reports, documentation, and testing practices to improve traceability.",
+        "Led sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving Agile SDLC process efficiency by 60%.",
+        "Owned quality assurance for a business-critical reinsurance web application, improving release readiness.",
+        "Modernized QA operations with Azure DevOps, Tableau, Citrix, VB, Compare, and structured testing practices, improving defect visibility and software delivery efficiency."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Root-cause analysis",
+      "Change management"
+    ],
+    "Operations": [
+      "Intake workflow management",
+      "Approval governance",
+      "Program execution tracking",
+      "Risk mitigation",
+      "Business continuity readiness"
+    ],
+    "Analytics": [
+      "KPI reporting",
+      "Data-flow validation",
+      "Defect reporting",
+      "QBR insight synthesis",
+      "Test script execution"
+    ],
+    "Systems & Stack": [
+      "CRM process readiness",
+      "SaaS product operations",
+      "Business systems validation",
+      "AI workflow readiness",
+      "Implementation handoff governance"
+    ],
+    "Tools": [
+      "JIRA",
+      "SharePoint",
+      "Azure DevOps",
+      "Tableau",
+      "Excel"
+    ]
+  }
+}

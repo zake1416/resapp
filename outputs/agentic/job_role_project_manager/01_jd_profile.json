@@ -1,6 +1,24 @@
 {
   "role_title": "Job Role: Project Manager",
   "company_name": "",
+  "role_families": [
+    "implementation",
+    "program",
+    "business_systems",
+    "process_improvement"
+  ],
+  "target_evidence_types": [
+    "program_governance",
+    "stakeholder_management",
+    "risk_mitigation",
+    "business_systems",
+    "implementation",
+    "analytics_reporting",
+    "compliance_controls",
+    "digital_transformation",
+    "process_improvement",
+    "solutions"
+  ],
   "core_competencies": [
     "Tool Integration & Flow",
     "Workflow Improvement",

@@ -1,0 +1,87 @@
+{
+  "summary": "Business operations and program analyst with experience in executive reporting, project coordination, stakeholder engagement, workflow improvement, automation governance, and analytics-driven delivery across revenue operations, SaaS, financial modeling, and business systems environments.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Coordinated reporting inputs, timelines, documentation, and governance requirements to improve leadership visibility across enterprise initiatives.",
+        "Strengthened business systems flow across Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service, clarifying ownership across 13 teams.",
+        "Built portfolio governance and milestone trackers, sustaining 85% of supported deliverables in green status.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, and operational risks into strategic roadmaps supporting cash flow, compliance, automation, and customer experience.",
+        "Developed executive roadmap for financial control automation, creating repeatable pathways for new control requirements.",
+        "Coordinated approved BPI implementations with operations leaders, Systems teams, reporting partners, SMEs, process owners, and frontline stakeholders to reduce execution friction."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Translated executive priorities into project plans, aligning technical teams with company goals and delivery risks.",
+        "Supported project coordination and executive operations by expanding from analyst intern to project manager across business analysis, product execution, and strategic initiatives.",
+        "Created reports and visualizations from property analysis, improving decision support for internal teams and clients."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Coordinated cross-functional execution across development, sales, marketing, and leadership teams to accelerate initiatives.",
+        "Supported SaaS operating systems across product, finance, internal workflows, and growth initiatives, improving execution structure in a fast-paced startup environment.",
+        "Analyzed property data with SQL, improving listing alignment and contributing to 22% customer retention growth."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Managed scope, budgets, resources, timelines, and delivery risks while negotiating priorities with executive leadership.",
+        "Owned product execution by defining requirements, prioritizing roadmaps, coordinating development, and tracking JIRA milestones for a scalable analytics platform.",
+        "Improved client experience by aligning product workflows, analytics outputs, and service communication with client needs.",
+        "Led sprint planning, backlog prioritization, and JIRA execution tracking to improve delivery visibility and keep development aligned with business priorities."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Led Agile SDLC coordination, backlog prioritization, Scrum practices, and risk tracking, improving efficiency 60%.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices to improve traceability across application delivery cycles.",
+        "Built Tableau visualizations and root cause analyses to clarify system issues, bottlenecks, and quality trends.",
+        "Connected performance insights to business outcomes, identifying improvement opportunities that contributed to a projected $1M client revenue increase."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Scrum practices",
+      "Backlog prioritization",
+      "Roadmap planning",
+      "Risk management"
+    ],
+    "Operations": [
+      "Executive reporting",
+      "Project coordination",
+      "Revenue operations",
+      "Portfolio governance",
+      "Process improvement"
+    ],
+    "Analytics": [
+      "Dashboard reporting",
+      "Root cause analysis",
+      "Data visualization",
+      "SQL analysis",
+      "Quality trend analysis"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "Business systems",
+      "Revenue operations stack",
+      "SaaS operating workflows",
+      "Automation governance"
+    ],
+    "Tools": [
+      "JIRA",
+      "Tableau",
+      "SQL",
+      "Salesforce",
+      "CRM"
+    ]
+  }
+}

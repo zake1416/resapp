@@ -1,0 +1,88 @@
+{
+  "summary": "Business operations analyst with experience in revenue operations, portfolio governance, workflow improvement, financial analysis, reporting, AI-enabled automation, and stakeholder partnership across complex business systems, helping leaders improve visibility, execution discipline, and operational performance.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Managed progressively complex revenue operations governance, translating leadership priorities into roadmaps that improved portfolio visibility.",
+        "Built trust with senior leaders by presenting roadmaps, audit findings, risks, dependencies, recommendations, and support needs for clearer operational decision-making.",
+        "Sustained AR portfolio governance, keeping approximately 85% of supported deliverables in green status.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, and operational risks into measurable initiatives focused on cash flow, compliance, automation, and scalability.",
+        "Established post-implementation controls measuring adoption, KPI improvement, policy adherence, compliance, and benefits realization.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service stakeholders to clarify ownership and keep enterprise AR initiatives moving."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Supported complex operational planning through revenue, expense, and profitability analysis for senior leadership decisions.",
+        "Built trusted reporting and visualizations from property-data analysis, helping internal teams and clients interpret insights, make decisions, and improve operational efficiency.",
+        "Aligned technology infrastructure, product workflows, and internal systems with evolving business needs.",
+        "Helped guide a tech-driven operating pivot by connecting leadership priorities, workflow optimization, and scalable systems planning with long-term growth needs."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Supported complex business planning by modeling revenue, expenses, and profitability for strategic initiatives.",
+        "Analyzed property data using SQL to identify trends, improve customer-listing alignment, and contribute to a 22% increase in customer retention.",
+        "Partnered with CTO and CSO leaders to align roadmap execution with business priorities."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Advanced operational modernization by connecting AI, analytics, automation, and client-service improvements into scalable workflows.",
+        "Owned roadmap execution by defining requirements, prioritizing backlog, coordinating development, and tracking delivery milestones through JIRA for a scalable analytics platform.",
+        "Refined automated workflows to simplify internal and client interactions with the analytics platform.",
+        "Improved client experience by aligning product workflows, analytics outputs, and communication strategies with client needs, usability expectations, and decision-making behaviors."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Improved operational execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Connected quality engineering, root-cause analysis, and performance insights to client outcomes, contributing to a projected $1M revenue increase.",
+        "Prioritized business-critical defects, improving client satisfaction by 20% in a financially sensitive environment.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices to improve consistency, traceability, and delivery discipline across application cycles."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Roadmap planning",
+      "Backlog prioritization",
+      "Sprint planning",
+      "Risk management",
+      "Stakeholder alignment"
+    ],
+    "Operations": [
+      "Revenue operations",
+      "Portfolio governance",
+      "Process improvement",
+      "Customer experience",
+      "Financial operations"
+    ],
+    "Analytics": [
+      "KPI reporting",
+      "Financial modeling",
+      "Trend analysis",
+      "Data visualization",
+      "Root-cause analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Revenue reporting systems",
+      "Business intelligence workflows",
+      "AI-enabled automation",
+      "Implementation governance"
+    ],
+    "Tools": [
+      "SQL",
+      "Jira",
+      "Tableau",
+      "Salesforce",
+      "Excel"
+    ]
+  }
+}

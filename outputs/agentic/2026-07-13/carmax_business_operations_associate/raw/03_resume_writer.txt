@@ -1,0 +1,87 @@
+{
+  "summary": "Business operations analyst with experience in workflow improvement, data accuracy, documentation controls, system validation, reporting, and cross-functional execution across revenue operations, analytics platforms, and business systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Applied advanced PC, reporting, and data-validation discipline to align AOV inputs, definitions, and stakeholder requirements.",
+        "Audited revenue operations documentation, SOX ELC.8 controls, and governance reviews, strengthening compliance readiness while reducing control risk across financial operating processes and leadership reporting accuracy.",
+        "Reconciled documented procedures with actual operations through interviews, shadowing, sampling, validation, mapping, and control testing.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service teams to clarify ownership, resolve dependencies, and sustain enterprise AR execution.",
+        "Established a continuous-improvement rhythm across discovery, auditing, solution development, implementation, and monitoring workstreams.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, risks, and leadership objectives into roadmaps, measurable initiatives, governance requirements, and cash-flow-focused portfolio decisions."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Validated data accuracy, system functionality, and platform reliability through test scripts, strengthening product confidence.",
+        "Supported multi-department operations by aligning technology infrastructure, product workflows, internal systems, and leadership priorities with evolving business needs for scalable tech-driven execution and clearer operating structure.",
+        "Created property-data reports and visualizations that improved operating visibility for internal teams and clients."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Validated system accuracy, data flows, calculations, and platform functionality through repeatable QA scripts.",
+        "Mapped workflow charts and identified process optimization opportunities, reducing operational complexity while improving execution consistency across internal teams and business system processes.",
+        "Analyzed property-data trends with SQL, improving customer-listing alignment and retention by 22%."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Managed JIRA-tracked requirements, backlog priorities, milestones, and sprint planning for analytics platform delivery.",
+        "Refined and automated platform workflows for internal teams and external clients, reducing manual friction while improving usability and end-to-end service experience.",
+        "Improved client experience by aligning product workflows, analytics outputs, and communications with customer needs.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, feasibility, and execution capacity."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Standardized validation documentation, defect reports, and testing practices to improve traceability and process consistency.",
+        "Led ETL testing during migration to identify data inconsistencies, system defects, and risks, improving defect detection by 60% and strengthening post-migration confidence.",
+        "Modernized QA workflows using Azure DevOps, Tableau, Citrix, VB, and Compare for stronger visibility.",
+        "Developed Tableau visualizations and root-cause analysis for client system issues, bottlenecks, and quality trends, supporting targeted improvements tied to $1M impact."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Process mapping",
+      "Requirements gathering",
+      "Control testing",
+      "Sprint planning",
+      "Root cause analysis"
+    ],
+    "Operations": [
+      "Revenue operations",
+      "Workflow improvement",
+      "Compliance controls",
+      "Product operations",
+      "Client service delivery"
+    ],
+    "Analytics": [
+      "Data validation",
+      "Dashboarding",
+      "KPI reporting",
+      "Trend analysis",
+      "Defect analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Business systems",
+      "SaaS platforms",
+      "Workflow automation",
+      "Data quality controls"
+    ],
+    "Tools": [
+      "Microsoft Office",
+      "SQL",
+      "JIRA",
+      "Tableau",
+      "Azure DevOps"
+    ]
+  }
+}

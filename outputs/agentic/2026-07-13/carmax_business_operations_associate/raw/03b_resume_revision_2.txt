@@ -1,0 +1,112 @@
+{
+  "summary": "Business operations analyst with experience in process improvement, data validation, compliance documentation, reporting, systems coordination, and cross-functional execution across revenue operations, analytics platforms, and business systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Applied advanced PC, reporting, and data-entry discipline to align AOV inputs, definitions, and stakeholder requirements.",
+        "Processed and audited revenue operations documentation, SOX ELC.8 controls, and governance reviews, strengthening compliance readiness while reducing control risk across enterprise financial reporting routines.",
+        "Reconciled documented procedures with actual operations through interviews, shadowing, sampling, validation, mapping, and control testing.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service teams to clarify ownership, resolve dependencies, and sustain enterprise AR execution rhythm.",
+        "Established continuous-improvement sequencing across discovery, auditing, solution development, implementation, and monitoring workstreams.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, risks, and leadership objectives into roadmaps, measurable initiatives, governance requirements, and cash-flow-focused portfolio decisions supporting documented controls."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Validated platform data, calculations, and product reliability through test scripts, strengthening user confidence.",
+        "Supported multi-department operations by aligning technology infrastructure, product flows, internal systems, and leadership priorities with evolving business needs for scalable execution and clearer structure.",
+        "Created property-data reports and visualizations that improved operating visibility for internal teams and clients."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Performed data entry validation across system accuracy, data flows, calculations, and platform functionality using QA scripts.",
+        "Mapped operating charts and identified process optimization opportunities, reducing workflow complexity while improving execution consistency across internal teams, business systems, and recurring platform support routines.",
+        "Analyzed property-data trends with SQL, improving customer-listing alignment and retention by 22%."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Managed requirements, backlog priorities, milestones, and sprint planning in JIRA for analytics platform delivery.",
+        "Refined platform workflows for internal teams and external clients, reducing manual friction while improving usability, service consistency, and clearer end-to-end user experience across interactions.",
+        "Improved client experience by aligning product flows, analytics outputs, and communications with customer decision needs.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating priorities with executive leadership to balance business needs, technical feasibility, execution capacity, and delivery discipline."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Standardized validation documentation, defect reports, and testing practices to improve traceability and process consistency.",
+        "Led ETL testing during migration to identify data inconsistencies, system defects, and migration risks, improving defect detection by 60% and strengthening post-migration performance confidence.",
+        "Modernized QA validation using Azure DevOps, Tableau, Citrix, VB, and Compare for stronger defect visibility.",
+        "Developed Tableau visualizations and root-cause analysis for client system issues, performance bottlenecks, and quality trends, supporting targeted application improvements tied to $1M impact."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Process mapping",
+      "Requirements gathering",
+      "Control testing",
+      "Sprint planning",
+      "Root cause analysis"
+    ],
+    "Operations": [
+      "Revenue operations",
+      "Process improvement",
+      "Compliance controls",
+      "Product operations",
+      "Client service delivery"
+    ],
+    "Analytics": [
+      "Data validation",
+      "Dashboarding",
+      "KPI reporting",
+      "Trend analysis",
+      "Defect analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Business systems",
+      "SaaS platforms",
+      "Lifecycle automation",
+      "Data quality controls"
+    ],
+    "Tools": [
+      "Microsoft Office",
+      "SQL",
+      "JIRA",
+      "Tableau",
+      "Azure DevOps"
+    ]
+  }
+}

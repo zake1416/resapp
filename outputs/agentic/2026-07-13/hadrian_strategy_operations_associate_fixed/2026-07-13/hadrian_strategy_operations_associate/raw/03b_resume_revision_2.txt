@@ -1,0 +1,112 @@
+{
+  "summary": "Strategy and operations analyst experienced in defining scope, building business systems, translating ambiguous inputs into measurable mechanisms, and using analytics, automation, stakeholder cadence, and execution discipline to improve visibility, data quality, client value, and scalable operating outcomes.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Defined AR Operations scope, milestones, risks, success measures, and stakeholder cadence across Finance and Revenue Operations.",
+        "Translated net-new AOV ambiguity into governed reporting inputs, performance definitions, and decision outputs, improving Credit and Collections visibility while reducing metric inconsistency for stakeholders.",
+        "Established post-launch controls tracking KPI improvement, policy adherence, compliance, adoption, and sustained benefits realization.",
+        "Converted V2MOM priorities, PAM findings, QBR insights, risks, and leadership objectives into roadmaps focused on cash flow, compliance, automation, and scalability to guide portfolio decisions.",
+        "Activated sponsors and people leaders to clarify ownership, address resistance, and reinforce process launches.",
+        "Led AR Approval Matrix improvement from discovery and root-cause analysis through HULA executive readout, leadership approval, implementation planning, monitoring, and control reinforcement across stakeholders."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Built SharePoint operating cadence for communication, documentation, project visibility, and cross-functional collaboration.",
+        "Designed a sustained collaboration system with centralized inputs, document ownership, and project tracking, reducing information silos and improving day-to-day execution across departments.",
+        "Identified predictive modeling and sentiment analysis opportunities to expand analytics capability and client insight."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Improved platform usability by aligning stakeholder feedback with client expectations, raising user experience 20%.",
+        "Analyzed commercial real estate property data using SQL to identify trends, strengthen customer-listing alignment, and contribute to a 22% increase in retention outcomes.",
+        "Built a 0-to-1 SharePoint workspace for documents, communication, and project tracking across GTM teams."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Connected AI, analytics, automation, and client-service routines into a more scalable operating model.",
+        "Owned product execution by defining requirements, prioritizing backlog, leading sprint planning, and tracking delivery through JIRA to convert an opportunity into an analytics platform.",
+        "Aligned product routines, analytics outputs, and communication strategies with client needs to improve usability.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities to balance business needs, technical feasibility, execution capacity, tradeoffs, and leadership visibility for sustained delivery discipline."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Led sprint planning, backlog prioritization, Scrum practices, and risk management, improving efficiency 60%.",
+        "Connected root-cause analysis, Tableau reporting, and performance insights to system bottlenecks, improving application performance and contributing to a projected $1M client revenue increase.",
+        "Standardized testing documentation, validation routines, defect reports, and quality practices across delivery cycles.",
+        "Validated ETL processes, migration accuracy, and data reconciliation across 22 projects using Azure DevOps, improving data integrity and protecting transition readiness for the new environment."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Scrum practices",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Root-cause analysis"
+    ],
+    "Operations": [
+      "Operating cadence design",
+      "Project governance",
+      "Revenue operations",
+      "Process improvement",
+      "Risk management"
+    ],
+    "Analytics": [
+      "SQL analysis",
+      "KPI tracking",
+      "Data validation",
+      "Reporting consistency",
+      "Trend analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Business systems",
+      "Collaboration systems",
+      "Data migration",
+      "Automation planning"
+    ],
+    "Tools": [
+      "SQL",
+      "JIRA",
+      "SharePoint",
+      "Azure DevOps",
+      "CRM platforms"
+    ]
+  }
+}

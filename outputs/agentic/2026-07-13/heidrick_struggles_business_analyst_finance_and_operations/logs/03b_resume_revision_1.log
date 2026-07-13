@@ -1,0 +1,3007 @@
+STDOUT:
+{
+  "summary": "Business Analyst with finance operations, analytics reporting, stakeholder partnership, and AI-enabled workflow experience across SaaS, financial modeling, client services, and business-critical systems. Skilled at improving analyses, governance, dashboards, adoption, and execution cadence while adapting quickly to change.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analysis visibility by translating V2MOM, PAM, and QBR insights into governed cash-flow roadmaps.",
+        "Strengthened deadline-driven operating discipline by establishing post-implementation controls tracking adoption, KPI improvement, policy adherence, compliance, and benefits realization across changing workflows for leadership visibility and sustainable execution.",
+        "Drove customer journey adoption through referral workflows, dashboards, and teams, generating 50,000 logins in two months.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service stakeholders to resolve dependencies, clarify ownership, and keep enterprise AR initiatives moving.",
+        "Enabled AI, Data Cloud, AWS, UAT, and Tableau readiness through cross-functional training coordination.",
+        "Led global Billing Portal execution from initiation through post-launch support, aligning scope, controls, adoption, dependencies, and 14 go-live communications across customer-facing and internal audiences."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analytics workflows by translating stakeholder needs into specifications, raising user experience 20%.",
+        "Strengthened change-ready analytics planning by identifying predictive modeling and sentiment analysis opportunities to expand client insights, product capabilities, future revenue potential, and roadmap direction without claiming delivery ownership.",
+        "Built actionable reports and visualizations that improved operating visibility and client decision support."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Continuously improved analytics-platform usability by aligning functionality to client expectations, raising user experience 20%.",
+        "Protected data quality and release readiness by developing test scripts validating system accuracy, data flows, calculations, and platform functionality for reliable client experiences across changing product workflows cycles.",
+        "Identified predictive modeling and sentiment analysis use cases to expand analytics roadmap value."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved operating-model scalability by connecting AI, analytics, automation, and client-service workflows.",
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable insights, helping clients interpret response-quality risks and make more confident business decisions.",
+        "Improved client journeys by aligning product workflows, analytics outputs, and communication strategies to user needs.",
+        "Managed roadmap execution through requirements definition, backlog prioritization, sprint planning, milestones, and JIRA tracking to convert a business opportunity into a scalable analytics platform."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Improved execution cadence through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Aligned testing priorities to client needs and financial risk, prioritizing high-impact defects for a reinsurance application, improving client satisfaction by 20% while protecting quality expectations.",
+        "Connected performance insights to business outcomes, contributing to projected $1M client revenue growth.",
+        "Owned quality assurance for a business-critical reinsurance application, ensuring reliability, functional accuracy, defect management, release readiness, client-facing delivery continuity, and financially sensitive system quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Requirements gathering",
+      "Risk management"
+    ],
+    "Operations": [
+      "Finance operations",
+      "Revenue operations",
+      "Workflow automation",
+      "Program governance",
+      "Client service operations"
+    ],
+    "Analytics": [
+      "KPI tracking",
+      "Dashboard reporting",
+      "Data visualization",
+      "Financial analysis improvement",
+      "Quality assurance testing"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "SaaS implementation",
+      "AI workflow enablement",
+      "Business systems validation",
+      "Data-quality governance"
+    ],
+    "Tools": [
+      "Excel",
+      "Tableau",
+      "JIRA",
+      "AWS",
+      "Data Cloud"
+    ]
+  }
+}
+
+STDERR:
+OpenAI Codex v0.142.5
+--------
+workdir: C:\Users\Abhishek\Downloads\resapp
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 019f5d30-79d3-7822-9cec-674077532155
+--------
+user
+
+Revise this resume JSON to fix the validation issues. Return ONLY valid JSON in the same shape.
+
+Keep the same selected evidence. Do not invent claims. Preserve strong JD alignment.
+Short bullets must be 13-18 words. Long bullets must be 24-30 words.
+Required counts must be exact. Summary must be 45 words or fewer.
+Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities.
+Remove any unsupported direct tool claims flagged in validation. If HubSpot or another JD tool is unsupported by selected evidence, convert it to truthful transferable language such as CRM automation, lead routing, lifecycle workflows, reporting, data quality, integrations, or revenue operations.
+Keep skills in exactly five human resume categories only: Methods, Operations, Analytics, Systems & Stack, Tools. Keep exactly five items per category.
+
+VALIDATION ISSUES:
+{
+  "status": "needs_review",
+  "summary_word_count": 39,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      16,
+      29,
+      17,
+      25,
+      14,
+      27
+    ],
+    "marketmaker_pm": [
+      14,
+      23,
+      13
+    ],
+    "marketmaker_ba": [
+      15,
+      23,
+      13
+    ],
+    "vista": [
+      13,
+      26,
+      15,
+      24
+    ],
+    "ltimindtree": [
+      13,
+      23,
+      13,
+      22
+    ]
+  },
+  "issues": [
+    "marketmaker_pm bullet 2 has 23 words; target is 28.",
+    "marketmaker_ba bullet 2 has 23 words; target is 28.",
+    "ltimindtree bullet 2 has 23 words; target is 28.",
+    "ltimindtree bullet 4 has 22 words; target is 28."
+  ]
+}
+
+JD PROFILE:
+{
+  "role_title": "Business Analyst, Finance and Operations",
+  "company_name": "Heidrick & Struggles",
+  "role_families": [
+    "program",
+    "solutions"
+  ],
+  "target_evidence_types": [
+    "stakeholder_management",
+    "ai_operations",
+    "analytics_reporting",
+    "business_operations",
+    "change_enablement",
+    "client_facing",
+    "customer_value",
+    "product_roadmap",
+    "program_governance",
+    "solutions"
+  ],
+  "core_competencies": [
+    "Tool Integration & Flow",
+    "AI & Automation",
+    "Stakeholder Partnership",
+    "Analytics & Reporting"
+  ],
+  "required_tools_keywords": [
+    "Power BI",
+    "Excel"
+  ],
+  "keywords": [
+    "ability",
+    "analysis",
+    "leadership",
+    "business",
+    "models",
+    "clients",
+    "finance",
+    "financial",
+    "heidrick",
+    "operations",
+    "struggles",
+    "talent",
+    "develop",
+    "executive",
+    "help",
+    "more",
+    "organizations",
+    "other",
+    "related",
+    "search",
+    "services",
+    "skills",
+    "solutions",
+    "strong",
+    "world",
+    "years",
+    "ad",
+    "advisory",
+    "analyst",
+    "capital",
+    "change",
+    "client",
+    "company",
+    "deadlines",
+    "development",
+    "efficiencies",
+    "efficiency",
+    "excel",
+    "firm",
+    "global",
+    "hoc",
+    "human",
+    "identify",
+    "improve",
+    "leaders"
+  ],
+  "responsibility_phrases": [
+    "Develop, maintain, and continuously improve financial analyses.",
+    "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+  ],
+  "priority_jd_responsibilities": [
+    "Develop, maintain, and continuously improve financial analyses.",
+    "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+  ],
+  "metric_themes": [
+    "visibility",
+    "manual effort reduction",
+    "tool adoption",
+    "delivery acceleration",
+    "workflow consistency"
+  ]
+}
+
+SELECTED EVIDENCE:
+{
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "target_count": 6,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Develop, maintain, and continuously improve financial analyses.",
+        "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+      ],
+      "selected_points": [
+        {
+          "id": "SFC_002",
+          "legacy_id": "SFDC_STRATEGY_002",
+          "duplicate_of": "",
+          "point_title": "Strategy-to-Roadmap Translation",
+          "base_resume_point": "Translated V2MOM priorities, PAM findings, quarterly business-review insights, operational risks, and leadership objectives into strategic roadmaps, measurable initiatives, governance requirements, and portfolio decisions focused on cash flow, compliance, customer experience, automation, and scalability.",
+          "core_competency": [
+            "Strategic Planning",
+            "Portfolio Governance",
+            "Performance Insights",
+            "Revenue Operations Strategy",
+            "Project Management",
+            "Project Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Risk Management",
+            "Risk Mitigation",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "Project Status Reporting",
+            "Executive Reporting",
+            "AI-Enabled Operations",
+            "Automation Governance"
+          ],
+          "functional_skill": [
+            "Roadmap development",
+            "PAM insight synthesis",
+            "QBR analysis",
+            "Risk interpretation",
+            "Governance requirement definition",
+            "Portfolio decision support",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "Status reporting",
+            "Executive update preparation",
+            "KPI and health reporting",
+            "AI use-case discovery",
+            "Automation prioritization",
+            "AI readiness assessment"
+          ],
+          "business_outcome": [
+            "Improved strategic alignment",
+            "Focused resources on business priorities",
+            "Strengthened cash-flow and compliance focus",
+            "Improved automation and scalability planning",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved leadership visibility",
+            "Strengthened status transparency",
+            "Improved automation readiness",
+            "Strengthened AI governance discipline"
+          ],
+          "evidence_proof": [
+            "Translated V2MOM priorities into roadmaps",
+            "Used PAM findings and QBR insights",
+            "Incorporated operational risks and leadership objectives",
+            "Defined measurable initiatives and governance requirements",
+            "Focused decisions on cash flow, compliance, customer experience, automation, and scalability"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Strategy & Operations Associate",
+            "Business Operations Associate",
+            "Revenue Operations Analyst",
+            "Program Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "GTM Operations Analyst",
+            "Process Improvement Analyst",
+            "Customer Value Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "AI Transformation Project Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "risk_mitigation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "strategy_operations": 5,
+              "business_operations": 5,
+              "revenue_operations": 5,
+              "program": 5,
+              "product_operations": 3,
+              "gtm_operations": 3,
+              "process_improvement": 3,
+              "customer_value": 3,
+              "ai_transformation": 3,
+              "business_systems": 2,
+              "digital_transformation": 2,
+              "implementation": 2
+            },
+            "evidence_types": [
+              "strategy_planning",
+              "customer_value",
+              "ai_operations",
+              "analytics_reporting",
+              "automation",
+              "business_systems",
+              "client_facing",
+              "compliance_controls",
+              "customer_success",
+              "product_roadmap",
+              "program_governance",
+              "revenue_operations",
+              "risk_mitigation",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as translating leadership priorities into roadmaps and decisions.",
+            "For Revenue Operations Analyst roles, frame as linking PAM/QBR insights to cash flow and compliance outcomes.",
+            "For Product Operations Analyst roles, frame as turning insights into measurable initiatives and portfolio priorities.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For Project Manager roles, frame as clear status reporting, portfolio health communication, leadership escalations, and decision support.",
+            "For technology transformation roles, frame as AI-enabled operations planning, automation prioritization, governance, and responsible rollout readiness."
+          ],
+          "score": 91.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "development",
+            "executive",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "ai_operations",
+            "analytics_reporting",
+            "client_facing",
+            "customer_value",
+            "product_roadmap",
+            "program_governance",
+            "solutions"
+          ]
+        },
+        {
+          "id": "SFC_029",
+          "legacy_id": "SFDC_BPI_009",
+          "duplicate_of": "",
+          "point_title": "Post-Implementation Control and Monitoring Plans",
+          "base_resume_point": "Established post-implementation control and monitoring plans measuring adoption, KPI improvement, policy adherence, control effectiveness, compliance, operational sustainability, and sustained benefits realization.",
+          "core_competency": [
+            "Post-Implementation Monitoring",
+            "Control Governance",
+            "Benefits Realization",
+            "Performance Management",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Continuous Process Improvement",
+            "Workflow Improvement",
+            "Project Status Reporting",
+            "Executive Reporting",
+            "Change Management",
+            "Adoption and Enablement",
+            "AI-Enabled Operations",
+            "Automation Governance"
+          ],
+          "functional_skill": [
+            "Control-plan design",
+            "Adoption measurement",
+            "KPI tracking",
+            "Policy adherence monitoring",
+            "Compliance monitoring",
+            "Benefits realization tracking",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Process improvement facilitation",
+            "Workflow analysis",
+            "Current-state and future-state mapping",
+            "Status reporting",
+            "Executive update preparation",
+            "KPI and health reporting",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery",
+            "AI use-case discovery",
+            "Automation prioritization",
+            "AI readiness assessment"
+          ],
+          "business_outcome": [
+            "Improved sustained adoption",
+            "Strengthened compliance",
+            "Improved KPI visibility",
+            "Protected realized benefits",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved workflow consistency",
+            "Reduced process friction",
+            "Improved leadership visibility",
+            "Strengthened status transparency",
+            "Improved adoption readiness",
+            "Reduced change saturation risk",
+            "Improved automation readiness",
+            "Strengthened AI governance discipline"
+          ],
+          "evidence_proof": [
+            "Established post-implementation control plans",
+            "Measured adoption and KPI improvement",
+            "Measured policy adherence and control effectiveness",
+            "Tracked compliance and operational sustainability",
+            "Measured sustained benefits realization"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Process Improvement Analyst",
+            "Program Analyst",
+            "Business Operations Associate",
+            "Implementation Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Revenue Operations Analyst",
+            "Business Systems Analyst",
+            "Strategy & Operations Associate",
+            "Product Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Process Improvement Project Manager",
+            "Change Implementation Manager",
+            "AI Transformation Project Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "program_governance_compliance",
+            "continuous_process_improvement"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "process_improvement": 5,
+              "program": 5,
+              "business_operations": 5,
+              "implementation": 5,
+              "revenue_operations": 3,
+              "business_systems": 3,
+              "strategy_operations": 3,
+              "product_operations": 3,
+              "ai_transformation": 3,
+              "digital_transformation": 2
+            },
+            "evidence_types": [
+              "compliance_controls",
+              "ai_enablement",
+              "ai_operations",
+              "analytics_reporting",
+              "change_enablement",
+              "customer_value",
+              "implementation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Process Improvement Analyst roles, frame as monitoring adoption, controls, and sustained benefits.",
+            "For Program Analyst roles, frame as post-launch performance tracking.",
+            "For Revenue Operations Analyst roles, frame as tracking KPI improvement and policy adherence across AR workflows.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For process-improvement-heavy PM roles, frame as translating process gaps into governed improvement plans, implementation actions, and measurable operating improvements.",
+            "For Project Manager roles, frame as clear status reporting, portfolio health communication, leadership escalations, and decision support.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout.",
+            "For technology transformation roles, frame as AI-enabled operations planning, automation prioritization, governance, and responsible rollout readiness."
+          ],
+          "score": 75.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "change",
+            "executive",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "analytics_reporting",
+            "change_enablement",
+            "customer_value"
+          ]
+        },
+        {
+          "id": "SFC_010",
+          "legacy_id": "SFDC_TRANSFORMATION_002",
+          "duplicate_of": "",
+          "point_title": "Billing Portal Employee-Referral Adoption Strategy",
+          "base_resume_point": "Designed and executed an employee-referral adoption strategy that generated more than 50,000 Billing Portal logins within two months through unique links, internal competition, customer-facing teams, stakeholder engagement, and weekly performance dashboards.",
+          "core_competency": [
+            "Adoption Strategy",
+            "Customer Enablement",
+            "Performance Tracking",
+            "Change Management",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Project Status Reporting",
+            "Executive Reporting",
+            "Adoption and Enablement",
+            "AI-Enabled Operations",
+            "Automation Governance"
+          ],
+          "functional_skill": [
+            "Referral strategy design",
+            "Adoption campaign execution",
+            "Dashboard tracking",
+            "Stakeholder engagement",
+            "Internal competition design",
+            "Customer-facing team activation",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Status reporting",
+            "Executive update preparation",
+            "KPI and health reporting",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery",
+            "AI use-case discovery",
+            "Automation prioritization",
+            "AI readiness assessment"
+          ],
+          "business_outcome": [
+            "Increased portal adoption",
+            "Improved customer digital engagement",
+            "Created measurable adoption visibility",
+            "Activated employees as adoption drivers",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved leadership visibility",
+            "Strengthened status transparency",
+            "Improved adoption readiness",
+            "Reduced change saturation risk",
+            "Improved automation readiness",
+            "Strengthened AI governance discipline"
+          ],
+          "evidence_proof": [
+            "Designed employee-referral adoption strategy",
+            "Executed strategy using unique referral links",
+            "Engaged customer-facing teams",
+            "Used weekly performance dashboards",
+            "Generated more than 50,000 Billing Portal logins within two months"
+          ],
+          "metrics": [
+            "50",
+            "000",
+            "2"
+          ],
+          "best_fit_roles": [
+            "Customer Success Operations Analyst",
+            "Customer Value Analyst",
+            "Digital Transformation Analyst",
+            "Business Operations Associate",
+            "Enterprise Project Manager",
+            "Implementation Project Manager",
+            "Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Program Analyst",
+            "Product Operations Analyst",
+            "GTM Operations Analyst",
+            "Strategy & Operations Associate",
+            "Enterprise Software Project Manager",
+            "Change Implementation Manager",
+            "AI Transformation Project Manager"
+          ],
+          "target_role_alignment": [
+            "enterprise_software_implementation",
+            "cross_functional_stakeholder_management"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_success_ops": 5,
+              "customer_value": 5,
+              "digital_transformation": 5,
+              "business_operations": 5,
+              "program": 5,
+              "product_operations": 3,
+              "gtm_operations": 3,
+              "strategy_operations": 3,
+              "implementation": 3,
+              "ai_transformation": 3,
+              "revenue_operations": 2
+            },
+            "evidence_types": [
+              "client_facing",
+              "ai_enablement",
+              "analytics_reporting",
+              "change_enablement",
+              "customer_value",
+              "revenue_operations",
+              "stakeholder_management",
+              "strategy_planning"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Customer Success Operations Analyst roles, frame as customer adoption and engagement acceleration.",
+            "For Customer Value Analyst roles, frame as measurable portal usage growth and self-service value.",
+            "For Digital Transformation Analyst roles, frame as adoption strategy for a digital customer platform.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For Project Manager roles, frame as clear status reporting, portfolio health communication, leadership escalations, and decision support.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout.",
+            "For technology transformation roles, frame as AI-enabled operations planning, automation prioritization, governance, and responsible rollout readiness."
+          ],
+          "score": 86.0,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "change",
+            "executive",
+            "leadership",
+            "more",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "analytics_reporting",
+            "change_enablement",
+            "client_facing",
+            "customer_value"
+          ]
+        },
+        {
+          "id": "SFC_098",
+          "legacy_id": "SFDC_MA_010",
+          "duplicate_of": "",
+          "point_title": "Trusted Cross-Functional Connector Across Enterprise Teams",
+          "base_resume_point": "Coordinated cross-functional execution across Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service teams to resolve dependencies, clarify ownership, and keep enterprise AR initiatives moving.",
+          "core_competency": [
+            "Cross-Functional Leadership",
+            "Stakeholder Management",
+            "Enterprise Operations",
+            "Revenue Operations Coordination",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Project Status Reporting",
+            "Executive Reporting",
+            "Change Management",
+            "Adoption and Enablement"
+          ],
+          "functional_skill": [
+            "Cross-functional coordination",
+            "Stakeholder communication",
+            "Enterprise team alignment",
+            "Operational dependency management",
+            "Finance and RevOps collaboration",
+            "Systems and audit coordination",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Status reporting",
+            "Executive update preparation",
+            "KPI and health reporting",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery"
+          ],
+          "business_outcome": [
+            "Improved enterprise alignment",
+            "Reduced functional silos",
+            "Strengthened cross-team execution",
+            "Improved operational dependency visibility",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved leadership visibility",
+            "Strengthened status transparency",
+            "Improved adoption readiness",
+            "Reduced change saturation risk"
+          ],
+          "evidence_proof": [
+            "Connected Finance and Revenue Operations",
+            "Worked across Systems, Sales Operations, and M&A",
+            "Coordinated with Change Management, Reporting, and Audit",
+            "Connected Collections and Customer Service stakeholders",
+            "Supported Provisioning and Entitlements, Order Management, and Adjustments alignment"
+          ],
+          "metrics": [
+            "13"
+          ],
+          "best_fit_roles": [
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Program Analyst",
+            "Revenue Operations Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Program Coordinator",
+            "Business Systems Analyst",
+            "GTM Operations Analyst",
+            "Customer Success Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Change Implementation Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_operations": 5,
+              "strategy_operations": 5,
+              "program": 5,
+              "revenue_operations": 5,
+              "business_systems": 3,
+              "gtm_operations": 3,
+              "customer_success_ops": 3,
+              "implementation": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "revenue_operations",
+              "stakeholder_management",
+              "analytics_reporting",
+              "business_operations",
+              "change_enablement",
+              "client_facing",
+              "compliance_controls",
+              "digital_transformation",
+              "gtm_operations",
+              "process_improvement"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Operations Associate roles, frame as cross-functional operating connector across enterprise teams.",
+            "For Strategy & Operations Associate roles, frame as reducing silos and aligning teams around enterprise priorities.",
+            "For Program Analyst roles, frame as coordinating stakeholders, dependencies, and execution across functions.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For Project Manager roles, frame as clear status reporting, portfolio health communication, leadership escalations, and decision support.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout."
+          ],
+          "score": 74.0,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "change",
+            "executive",
+            "finance",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "analytics_reporting",
+            "business_operations",
+            "change_enablement",
+            "client_facing"
+          ]
+        },
+        {
+          "id": "SFC_088",
+          "legacy_id": "SFDC_CHANGE_011",
+          "duplicate_of": "",
+          "point_title": "Cross-Functional Enablement for Data Cloud, AWS, AI, UAT, and Tableau",
+          "base_resume_point": "Coordinated enablement for Data Cloud One, AWS Private Offers, Project Lotus R5 user-acceptance testing, internal AI resources, and a three-day Tableau cross-training program.",
+          "core_competency": [
+            "Cross-Functional Enablement",
+            "Technical Training Coordination",
+            "UAT Readiness",
+            "Digital Transformation",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Testing and Validation Governance",
+            "Release Readiness",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Change Management",
+            "Adoption and Enablement",
+            "AI-Enabled Operations",
+            "Automation Governance"
+          ],
+          "functional_skill": [
+            "Data Cloud One enablement",
+            "AWS Private Offers enablement",
+            "UAT enablement support",
+            "Internal AI resource enablement",
+            "Tableau cross-training coordination",
+            "Technical program coordination",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Testing coordination",
+            "UAT support",
+            "Validation tracking",
+            "Defect and issue follow-up",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery",
+            "AI use-case discovery",
+            "Automation prioritization",
+            "AI readiness assessment"
+          ],
+          "business_outcome": [
+            "Improved technical readiness",
+            "Strengthened cross-functional learning",
+            "Supported UAT preparedness",
+            "Expanded analytics and AI enablement",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Improved testing traceability",
+            "Strengthened release confidence",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved adoption readiness",
+            "Reduced change saturation risk",
+            "Improved automation readiness",
+            "Strengthened AI governance discipline"
+          ],
+          "evidence_proof": [
+            "Coordinated Data Cloud One enablement",
+            "Coordinated AWS Private Offers enablement",
+            "Supported Project Lotus R5 user-acceptance testing",
+            "Enabled internal AI resources",
+            "Coordinated three-day Tableau cross-training program"
+          ],
+          "metrics": [
+            "3"
+          ],
+          "best_fit_roles": [
+            "Program Coordinator",
+            "Implementation Analyst",
+            "Digital Transformation Analyst",
+            "AI Enablement Analyst",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Program Analyst",
+            "Business Operations Associate",
+            "Business Systems Analyst",
+            "Product Operations Analyst",
+            "Enterprise Software Project Manager",
+            "Change Implementation Manager",
+            "AI Transformation Project Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "testing_release_readiness",
+            "cross_functional_stakeholder_management"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "implementation": 5,
+              "digital_transformation": 5,
+              "ai_enablement": 5,
+              "business_operations": 3,
+              "business_systems": 3,
+              "product_operations": 3,
+              "ai_transformation": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "change_enablement",
+              "program_governance",
+              "ai_enablement",
+              "analytics_reporting",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Implementation Analyst roles, frame as coordinating enablement for UAT and technical readiness.",
+            "For AI Enablement Analyst roles, frame as enabling internal AI resources and technical learning programs.",
+            "For Digital Transformation Analyst roles, frame as supporting Data Cloud, AWS, Tableau, and AI enablement.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For implementation PM roles, frame as coordinating validation, UAT readiness, issue tracking, and release confidence.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout.",
+            "For technology transformation roles, frame as AI-enabled operations planning, automation prioritization, governance, and responsible rollout readiness."
+          ],
+          "score": 76.5,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "change",
+            "executive",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "analytics_reporting",
+            "change_enablement",
+            "program_governance"
+          ]
+        },
+        {
+          "id": "SFC_009",
+          "legacy_id": "SFDC_TRANSFORMATION_001",
+          "duplicate_of": "",
+          "point_title": "Global Billing Portal Program Leadership",
+          "base_resume_point": "Led the global Billing Portal program from initiation through post-launch support, aligning scope, systems delivery, operational readiness, customer experience, controls, adoption, dependencies, and cross-functional execution while coordinating 11 customer-facing and three internal go-live communications.",
+          "core_competency": [
+            "Program Leadership",
+            "Digital Transformation",
+            "Customer Experience",
+            "Operational Readiness",
+            "Project Management",
+            "Project Governance",
+            "Portfolio Governance",
+            "Enterprise Software Implementation",
+            "Implementation Governance",
+            "Implementation Readiness",
+            "Risk Management",
+            "Risk Mitigation",
+            "Governance and Compliance",
+            "Compliance Requirement Management",
+            "Stakeholder Management",
+            "Cross-Functional Team Coordination",
+            "Executive Communication",
+            "Change Management",
+            "Adoption and Enablement"
+          ],
+          "functional_skill": [
+            "Program initiation",
+            "Go-live planning",
+            "Post-launch support",
+            "Systems delivery alignment",
+            "Operational readiness",
+            "Cross-functional coordination",
+            "Project plan management",
+            "Timeline and milestone management",
+            "Deliverable tracking",
+            "Implementation planning",
+            "Release readiness coordination",
+            "Cutover readiness tracking",
+            "Risk mitigation planning",
+            "Issue escalation",
+            "Blocker resolution tracking",
+            "Governance communication",
+            "Compliance requirement tracking",
+            "Control documentation",
+            "Cross-functional team coordination",
+            "Executive stakeholder communication",
+            "Decision-log management",
+            "Change readiness planning",
+            "Adoption reinforcement",
+            "Enablement delivery"
+          ],
+          "business_outcome": [
+            "Improved launch readiness",
+            "Strengthened customer communication",
+            "Reduced post-launch risk",
+            "Improved cross-functional execution",
+            "Improved project visibility",
+            "Strengthened delivery accountability",
+            "Improved implementation readiness",
+            "Reduced software onboarding risk",
+            "Reduced delivery risk",
+            "Improved issue resolution speed",
+            "Strengthened compliance readiness",
+            "Reduced governance gaps",
+            "Improved stakeholder alignment",
+            "Accelerated cross-functional decision-making",
+            "Improved adoption readiness",
+            "Reduced change saturation risk"
+          ],
+          "evidence_proof": [
+            "Led global Billing Portal program",
+            "Managed initiation through post-launch support",
+            "Aligned scope, systems delivery, readiness, controls, adoption, and dependencies",
+            "Coordinated 11 customer-facing go-live communications",
+            "Coordinated three internal go-live communications"
+          ],
+          "metrics": [
+            "11",
+            "3"
+          ],
+          "best_fit_roles": [
+            "Program Analyst",
+            "Digital Transformation Analyst",
+            "Customer Success Operations Analyst",
+            "Business Operations Associate",
+            "Enterprise Project Manager",
+            "Project Manager",
+            "Implementation Project Manager"
+          ],
+          "secondary_fit_roles": [
+            "Implementation Analyst",
+            "Product Operations Analyst",
+            "Strategy & Operations Associate",
+            "Customer Value Analyst",
+            "Enterprise Software Project Manager",
+            "Change Implementation Manager"
+          ],
+          "target_role_alignment": [
+            "project_planning_execution",
+            "enterprise_software_implementation",
+            "risk_mitigation",
+            "program_governance_compliance",
+            "cross_functional_stakeholder_management"
+          ],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "digital_transformation": 5,
+              "customer_success_ops": 5,
+              "business_operations": 5,
+              "implementation": 3,
+              "product_operations": 3,
+              "strategy_operations": 3,
+              "customer_value": 3,
+              "revenue_operations": 2
+            },
+            "evidence_types": [
+              "business_systems",
+              "change_enablement",
+              "client_facing",
+              "implementation",
+              "stakeholder_management",
+              "ai_enablement",
+              "compliance_controls",
+              "customer_success",
+              "customer_value",
+              "product_roadmap",
+              "program_governance",
+              "revenue_operations"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Program Analyst roles, frame as full lifecycle program governance from initiation to post-launch.",
+            "For Digital Transformation Analyst roles, frame as customer-facing digital portal transformation.",
+            "For Customer Success Operations Analyst roles, frame as improving customer readiness, communication, and adoption.",
+            "For Enterprise Project Manager roles, frame as project planning, milestone governance, delivery tracking, and executive-ready status communication.",
+            "For enterprise software implementation roles, frame as readiness planning, cross-functional execution, risk tracking, and delivery governance across system or workflow changes.",
+            "For Project Manager roles, frame as proactive risk identification, mitigation planning, escalation, and schedule protection.",
+            "For regulated program environments, frame as governance discipline, compliance tracking, audit readiness, and documented decision control.",
+            "For Project Manager roles, frame as coordinating business, systems, executive, and operational stakeholders around timelines, risks, decisions, and delivery ownership.",
+            "For implementation roles, frame as change readiness, adoption reinforcement, enablement planning, and stakeholder communication during rollout."
+          ],
+          "score": 70.0,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "change",
+            "executive",
+            "global",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "change_enablement",
+            "client_facing",
+            "customer_value",
+            "product_roadmap",
+            "program_governance"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "title": "Automation, Product & Operations Analyst",
+      "target_count": 3,
+      "jd_first_slots": 2,
+      "priority_jd_responsibilities": [
+        "Develop, maintain, and continuously improve financial analyses.",
+        "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_PROMO_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Business Requirements and Platform Usability Improvement",
+          "base_resume_point": "Gathered and defined business requirements for MarketMaker’s flagship real estate data analytics platform, translating stakeholder needs into functional specifications that improved usability and helped buyers and sellers make more informed decisions.",
+          "core_competency": [
+            "Business Analysis",
+            "Requirements Gathering",
+            "Product Discovery",
+            "Stakeholder Alignment"
+          ],
+          "functional_skill": [
+            "Requirements documentation",
+            "Stakeholder interviews",
+            "Functional specification writing",
+            "User-needs analysis",
+            "Client-developer translation"
+          ],
+          "business_outcome": [
+            "Improved platform usability",
+            "Better product alignment",
+            "Stronger client decision-making",
+            "Enhanced user experience"
+          ],
+          "evidence_proof": [
+            "Gathered business requirements for flagship analytics platform",
+            "Translated user needs into functional specifications",
+            "Improved platform usability",
+            "Contributed to 20% enhancement in user experience"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Product Operations Analyst",
+            "Implementation Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Customer Success Operations Analyst",
+            "Program Analyst",
+            "Customer Value Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "product_operations": 5,
+              "implementation": 5,
+              "solutions": 5,
+              "business_operations": 3,
+              "customer_success_ops": 3,
+              "program": 3,
+              "customer_value": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "client_facing",
+              "customer_value",
+              "gtm_operations",
+              "research_operations",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as translating stakeholder needs into platform requirements.",
+            "For Product Operations Analyst roles, frame as improving product usability through requirements alignment.",
+            "For Solutions Analyst roles, frame as connecting user problems to platform capabilities."
+          ],
+          "score": 73.5,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "more",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program",
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "client_facing",
+            "customer_value",
+            "solutions"
+          ]
+        },
+        {
+          "id": "MMCRE_PROMO_015",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Future Product Analytics Roadmap",
+          "base_resume_point": "Identified future analytics opportunities, including predictive modeling and sentiment analysis, to expand product capabilities, deepen client insights, and create potential new revenue opportunities.",
+          "core_competency": [
+            "Product Strategy",
+            "Advanced Analytics",
+            "Innovation Planning",
+            "AI Roadmapping"
+          ],
+          "functional_skill": [
+            "Predictive modeling planning",
+            "Sentiment analysis planning",
+            "Roadmap ideation",
+            "Analytics use-case design",
+            "Opportunity identification"
+          ],
+          "business_outcome": [
+            "Future revenue potential",
+            "Stronger product differentiation",
+            "Expanded analytics capability",
+            "Deeper client insight"
+          ],
+          "evidence_proof": [
+            "Planned future analytics features",
+            "Identified predictive modeling opportunity",
+            "Identified sentiment analysis opportunity",
+            "Focused on enhancing product offerings and client insights"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "AI Transformation Analyst",
+            "Product Operations Analyst",
+            "Digital Transformation Analyst",
+            "Strategy & Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "AI Enablement Analyst",
+            "Program Associate, AI",
+            "Solutions Analyst",
+            "Customer Value Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "ai_transformation": 5,
+              "product_operations": 5,
+              "digital_transformation": 5,
+              "strategy_operations": 5,
+              "ai_enablement": 3,
+              "program_ai": 3,
+              "solutions": 3,
+              "customer_value": 3,
+              "operations_ai": 2
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "ai_operations",
+              "analytics_reporting",
+              "client_facing",
+              "customer_value",
+              "research_operations"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For AI Transformation Analyst roles, frame as identifying AI-enabled product expansion opportunities.",
+            "For Product Operations Analyst roles, frame as roadmap planning and feature expansion.",
+            "For Strategy & Operations Associate roles, frame as future growth and revenue opportunity identification.",
+            "Do not present this as completed unless it was actually built or launched."
+          ],
+          "score": 55.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "client",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "analytics_reporting",
+            "client_facing",
+            "customer_value",
+            "product_roadmap"
+          ]
+        },
+        {
+          "id": "MMCRE_PROMO_004",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Actionable Reporting and Data Visualization",
+          "base_resume_point": "Created clear reports and data visualizations from property-data analysis to help internal teams and clients interpret insights, make informed decisions, and improve overall operational efficiency.",
+          "core_competency": [
+            "Data Visualization",
+            "Executive Reporting",
+            "Strategic Analysis",
+            "Decision Support"
+          ],
+          "functional_skill": [
+            "Visual reporting",
+            "Dashboarding",
+            "Data storytelling",
+            "Insight presentation",
+            "Leadership communication"
+          ],
+          "business_outcome": [
+            "Improved operational efficiency",
+            "Stronger insight visibility",
+            "Better decision-making",
+            "Clearer business direction"
+          ],
+          "evidence_proof": [
+            "Created actionable reports",
+            "Created data visualizations",
+            "Supported internal teams with insights",
+            "Helped clients leverage data for decision-making"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Strategy & Operations Associate",
+            "Business Operations Associate",
+            "Customer Value Analyst",
+            "Research Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Product Operations Analyst",
+            "GTM Operations Analyst",
+            "Revenue Operations Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "strategy_operations": 5,
+              "business_operations": 5,
+              "customer_value": 5,
+              "research_operations": 5,
+              "business_systems": 3,
+              "product_operations": 3,
+              "gtm_operations": 3,
+              "revenue_operations": 3
+            },
+            "evidence_types": [
+              "analytics_reporting",
+              "customer_value",
+              "client_facing",
+              "digital_transformation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Strategy & Operations Associate roles, frame as turning analysis into decision support.",
+            "For Business Operations Associate roles, frame as improving operating visibility.",
+            "For Customer Value Analyst roles, frame as helping clients understand and act on insights."
+          ],
+          "score": 39.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "clients",
+            "efficiency",
+            "executive",
+            "help",
+            "improve",
+            "leadership",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [],
+          "matched_evidence_types": [
+            "analytics_reporting",
+            "client_facing",
+            "customer_value"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "target_count": 3,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Develop, maintain, and continuously improve financial analyses.",
+        "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+      ],
+      "selected_points": [
+        {
+          "id": "MMCRE_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "User Experience and Product Alignment Improvement",
+          "base_resume_point": "Improved product usability by aligning platform functionality with client expectations, using stakeholder feedback and business requirements to make the real estate analytics platform more intuitive and user-centered.",
+          "core_competency": [
+            "Product Operations",
+            "User Experience Improvement",
+            "Client Alignment",
+            "Product Optimization"
+          ],
+          "functional_skill": [
+            "User feedback analysis",
+            "Product requirement refinement",
+            "Usability improvement",
+            "Stakeholder collaboration",
+            "Feature alignment"
+          ],
+          "business_outcome": [
+            "Improved user experience",
+            "Stronger product adoption potential",
+            "Better client satisfaction",
+            "Reduced usability friction"
+          ],
+          "evidence_proof": [
+            "Helped shape platform functionality around client expectations",
+            "Used stakeholder feedback to improve product alignment",
+            "Contributed to 20% improvement in user experience"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "best_fit_roles": [
+            "Product Operations Analyst",
+            "Customer Value Analyst",
+            "Customer Success Operations Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Business Operations Associate",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "product_operations": 5,
+              "customer_value": 5,
+              "customer_success_ops": 5,
+              "solutions": 5,
+              "business_systems": 3,
+              "implementation": 3,
+              "business_operations": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "client_facing",
+              "product_roadmap",
+              "research_operations",
+              "solutions",
+              "stakeholder_management"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, frame as improving client outcomes through usability.",
+            "For product operations, frame as turning feedback into product improvements.",
+            "For implementation roles, frame as making the platform easier to adopt and use."
+          ],
+          "score": 67.5,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "improve",
+            "more",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "client_facing",
+            "product_roadmap",
+            "solutions"
+          ]
+        },
+        {
+          "id": "MMCRE_005",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Software Testing and Quality Assurance",
+          "base_resume_point": "Developed and executed test scripts to validate system accuracy, data flows, calculations, and platform functionality, helping maintain a reliable and error-free SaaS product experience for clients.",
+          "core_competency": [
+            "Quality Assurance",
+            "System Validation",
+            "Product Reliability",
+            "Business Systems Support"
+          ],
+          "functional_skill": [
+            "Test script development",
+            "Functional testing",
+            "Data-flow validation",
+            "Calculation validation",
+            "QA execution"
+          ],
+          "business_outcome": [
+            "Improved platform reliability",
+            "Reduced product errors",
+            "Smoother client experience",
+            "Stronger product quality"
+          ],
+          "evidence_proof": [
+            "Developed test scripts",
+            "Executed test scripts",
+            "Validated system accuracy",
+            "Validated data flows",
+            "Validated calculations",
+            "Validated platform functionality"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Product Operations Analyst",
+            "Process Improvement Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Solutions Analyst",
+            "Customer Success Operations Analyst",
+            "Program Analyst",
+            "Business Operations Associate"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "implementation": 5,
+              "product_operations": 5,
+              "process_improvement": 5,
+              "solutions": 3,
+              "customer_success_ops": 3,
+              "program": 3,
+              "business_operations": 3
+            },
+            "evidence_types": [
+              "business_systems",
+              "ai_operations",
+              "client_facing",
+              "data_quality",
+              "product_roadmap"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For Business Systems Analyst roles, frame as validating systems and data accuracy.",
+            "For Implementation Analyst roles, frame as ensuring launch readiness.",
+            "For Product Operations Analyst roles, frame as maintaining product quality across release cycles."
+          ],
+          "score": 57.5,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "client",
+            "clients",
+            "development",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program",
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "client_facing",
+            "product_roadmap"
+          ]
+        },
+        {
+          "id": "MMCRE_015",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Future Product Analytics Roadmap",
+          "base_resume_point": "Identified future analytics opportunities, including predictive modeling and sentiment analysis, to expand product capabilities, deepen client insights, and create potential new revenue opportunities.",
+          "core_competency": [
+            "Product Strategy",
+            "Advanced Analytics",
+            "Innovation Planning",
+            "AI Roadmapping"
+          ],
+          "functional_skill": [
+            "Predictive modeling planning",
+            "Sentiment analysis planning",
+            "Roadmap ideation",
+            "Analytics use-case design",
+            "Opportunity identification"
+          ],
+          "business_outcome": [
+            "Future revenue potential",
+            "Stronger product differentiation",
+            "Expanded analytics capability",
+            "Deeper client insight"
+          ],
+          "evidence_proof": [
+            "Planned future analytics features intended to enhance client insight",
+            "Planned future analytics features intended to expand product value"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "AI Transformation Analyst",
+            "Product Operations Analyst",
+            "Digital Transformation Analyst",
+            "Strategy & Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "AI Enablement Analyst",
+            "Program Associate, AI",
+            "Solutions Analyst",
+            "Customer Value Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "ai_transformation": 5,
+              "product_operations": 5,
+              "digital_transformation": 5,
+              "strategy_operations": 5,
+              "ai_enablement": 3,
+              "program_ai": 3,
+              "solutions": 3,
+              "customer_value": 3,
+              "operations_ai": 2
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "ai_operations",
+              "analytics_reporting",
+              "client_facing",
+              "customer_value",
+              "research_operations"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For AI Transformation Analyst roles, frame as identifying AI-enabled product expansion opportunities.",
+            "For Product Operations Analyst roles, frame as roadmap planning.",
+            "For Strategy & Operations Associate roles, frame as future growth and revenue opportunity identification.",
+            "Do not present this as completed unless it was actually built or launched."
+          ],
+          "score": 55.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "client",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "analytics_reporting",
+            "client_facing",
+            "customer_value",
+            "product_roadmap"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Develop, maintain, and continuously improve financial analyses.",
+        "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+      ],
+      "selected_points": [
+        {
+          "id": "VISTA_012",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Tech-Driven Business Model Transformation",
+          "base_resume_point": "Helped shift Vista toward a more technology-driven business model by connecting AI, analytics, workflow automation, and client-service improvements into a scalable operating approach for future growth.",
+          "core_competency": [
+            "Business Transformation",
+            "Operating Model Improvement",
+            "AI Strategy",
+            "Scalable Operations"
+          ],
+          "functional_skill": [
+            "Transformation planning",
+            "Operating model design",
+            "Technology integration",
+            "Workflow improvement",
+            "Strategic alignment"
+          ],
+          "business_outcome": [
+            "Stronger scalability",
+            "Improved workflow efficiency",
+            "Better alignment with modern tools and technologies"
+          ],
+          "evidence_proof": [
+            "Supported company pivot toward a tech-driven model through AI product development",
+            "Supported company pivot toward a tech-driven model through automation",
+            "Supported company pivot toward a tech-driven model through analytics",
+            "Supported company pivot toward a tech-driven model through executive advisory"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "AI Transformation Analyst",
+            "Digital Transformation Analyst",
+            "Strategy & Operations Associate",
+            "Business Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "AI Operations Analyst",
+            "Product Operations Analyst",
+            "Operations Associate, AI",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "ai_transformation": 5,
+              "digital_transformation": 5,
+              "strategy_operations": 5,
+              "business_operations": 5,
+              "ai_operations": 3,
+              "product_operations": 3,
+              "operations_ai": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "ai_operations",
+              "automation",
+              "client_facing",
+              "digital_transformation",
+              "process_improvement",
+              "product_roadmap",
+              "research_operations",
+              "stakeholder_management"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For transformation roles, emphasize modernization and business-model shift.",
+            "For strategy ops, emphasize scalable operating model.",
+            "For AI ops, emphasize operationalizing AI and analytics into repeatable business workflows."
+          ],
+          "score": 60.5,
+          "matched_keywords": [
+            "advisory",
+            "analyst",
+            "business",
+            "client",
+            "company",
+            "development",
+            "efficiency",
+            "executive",
+            "more",
+            "operations",
+            "services"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "ai_operations",
+            "client_facing",
+            "product_roadmap"
+          ]
+        },
+        {
+          "id": "VISTA_004",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Client-Facing Analytics and Visualization",
+          "base_resume_point": "Built client-facing data visualizations that translated fraud-detection outputs and survey analytics into clear, actionable insights, enabling clients to interpret response-quality risks and make more confident business decisions.",
+          "core_competency": [
+            "Data Visualization",
+            "Client Analytics",
+            "Insight Generation",
+            "Decision Support"
+          ],
+          "functional_skill": [
+            "Dashboarding",
+            "Visual storytelling",
+            "Data interpretation",
+            "Client reporting",
+            "Analytics communication"
+          ],
+          "business_outcome": [
+            "Better client decision-making",
+            "Improved insight visibility",
+            "Stronger value delivery"
+          ],
+          "evidence_proof": [
+            "Created visualizations for fraud detection",
+            "Created visualizations for survey-response insights"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Customer Value Analyst",
+            "Solutions Analyst",
+            "Research Operations Associate",
+            "Business Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "AI Operations Analyst",
+            "Product Operations Analyst",
+            "Customer Success Operations Analyst",
+            "Implementation Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_value": 5,
+              "solutions": 5,
+              "research_operations": 5,
+              "business_operations": 5,
+              "ai_operations": 3,
+              "product_operations": 3,
+              "customer_success_ops": 3,
+              "implementation": 3,
+              "operations_ai": 2
+            },
+            "evidence_types": [
+              "research_operations",
+              "customer_value",
+              "risk_mitigation",
+              "ai_operations",
+              "analytics_reporting",
+              "client_facing",
+              "digital_transformation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, frame as insight delivery and client decision support.",
+            "For solutions roles, frame as translating technical outputs into usable client-facing solutions.",
+            "For AI roles, frame as making AI outputs interpretable and actionable."
+          ],
+          "score": 60.5,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "clients",
+            "more",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "AI & Automation",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "analytics_reporting",
+            "client_facing",
+            "customer_value"
+          ]
+        },
+        {
+          "id": "VISTA_013",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Client-Centric Product and Service Improvement",
+          "base_resume_point": "Applied a customer-first approach to improve platform usability, service delivery, and client experience by aligning product workflows, analytics outputs, and communication strategies with client needs and decision-making behaviors.",
+          "core_competency": [
+            "Customer Value",
+            "Product Operations",
+            "Client Experience",
+            "Service Optimization"
+          ],
+          "functional_skill": [
+            "Client-needs analysis",
+            "User experience improvement",
+            "Workflow refinement",
+            "Service alignment",
+            "Feedback interpretation"
+          ],
+          "business_outcome": [
+            "Improved client satisfaction",
+            "Stronger retention potential",
+            "Better product adoption"
+          ],
+          "evidence_proof": [
+            "Simplified user experience",
+            "Improved product usability",
+            "Managed client relationships",
+            "Created client-facing insights"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Customer Value Analyst",
+            "Customer Success Operations Analyst",
+            "Product Operations Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Implementation Analyst",
+            "GTM Operations Analyst",
+            "AI Operations Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_value": 5,
+              "customer_success_ops": 5,
+              "product_operations": 5,
+              "solutions": 5,
+              "business_operations": 3,
+              "implementation": 3,
+              "gtm_operations": 3,
+              "ai_operations": 3,
+              "process_improvement": 2
+            },
+            "evidence_types": [
+              "client_facing",
+              "customer_value",
+              "analytics_reporting",
+              "process_improvement",
+              "product_roadmap",
+              "research_operations",
+              "solutions"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, emphasize client outcomes and value realization.",
+            "For product ops, emphasize usability and adoption.",
+            "For implementation roles, emphasize making the platform easier for users to adopt and operate."
+          ],
+          "score": 71.0,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "improve",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "analytics_reporting",
+            "client_facing",
+            "customer_value",
+            "product_roadmap",
+            "solutions"
+          ]
+        },
+        {
+          "id": "VISTA_002",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Product Roadmap and Execution Ownership",
+          "base_resume_point": "Owned end-to-end product execution by defining requirements, prioritizing the roadmap, coordinating development activities, and managing delivery milestones to convert a business opportunity into a scalable analytics platform.",
+          "core_competency": [
+            "Product Operations",
+            "Program Execution",
+            "Roadmap Management",
+            "Cross-Functional Delivery"
+          ],
+          "functional_skill": [
+            "Requirements definition",
+            "Backlog prioritization",
+            "Milestone tracking",
+            "Sprint planning",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster execution",
+            "Better product alignment",
+            "Stronger delivery discipline"
+          ],
+          "evidence_proof": [
+            "Managed product roadmap",
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Managed timelines",
+            "Tracked execution through JIRA"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Product Operations Analyst",
+            "Program Analyst",
+            "Program Coordinator",
+            "Business Systems Analyst"
+          ],
+          "secondary_fit_roles": [
+            "AI Operations Analyst",
+            "Implementation Analyst",
+            "Operations Associate, AI",
+            "Strategy & Operations Associate"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "product_operations": 5,
+              "program": 5,
+              "business_systems": 5,
+              "ai_operations": 3,
+              "implementation": 3,
+              "operations_ai": 3,
+              "strategy_operations": 3
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "business_operations",
+              "business_systems",
+              "program_governance",
+              "research_operations",
+              "solutions",
+              "strategy_planning"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For program roles, emphasize milestones, dependencies, and delivery tracking.",
+            "For product operations, emphasize roadmap execution and backlog management.",
+            "For business systems roles, emphasize requirements and system workflows."
+          ],
+          "score": 70.5,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "development",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "AI & Automation",
+            "Stakeholder Partnership",
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "business_operations",
+            "product_roadmap",
+            "program_governance",
+            "solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "target_count": 4,
+      "jd_first_slots": 1,
+      "priority_jd_responsibilities": [
+        "Develop, maintain, and continuously improve financial analyses.",
+        "Strong attention to detail, with the ability to meet deadlines and adapt quickly to change."
+      ],
+      "selected_points": [
+        {
+          "id": "LTIM_008",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Agile SDLC and Scrum Process Improvement",
+          "base_resume_point": "Supported Agile SDLC execution by leading sprint planning, backlog prioritization, Scrum practices, and risk management activities, improving delivery rhythm, stakeholder alignment, and overall process efficiency.",
+          "core_competency": [
+            "Agile Delivery",
+            "SDLC Optimization",
+            "Scrum Execution",
+            "Program Coordination"
+          ],
+          "functional_skill": [
+            "Sprint planning",
+            "Backlog prioritization",
+            "Scrum practices",
+            "Risk management",
+            "Stakeholder coordination"
+          ],
+          "business_outcome": [
+            "Faster development cycles",
+            "Improved process efficiency",
+            "Stronger delivery alignment",
+            "Better cross-functional execution"
+          ],
+          "evidence_proof": [
+            "Led sprint planning",
+            "Handled backlog prioritization",
+            "Led risk management activities",
+            "Implemented Scrum practices",
+            "Improved process efficiency by 60%"
+          ],
+          "metrics": [
+            "60%",
+            "60"
+          ],
+          "best_fit_roles": [
+            "Program Analyst",
+            "Program Coordinator",
+            "Product Operations Analyst",
+            "Implementation Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Business Operations Associate",
+            "Strategy & Operations Associate",
+            "Business Systems Analyst",
+            "Process Improvement Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "program": 5,
+              "product_operations": 5,
+              "implementation": 5,
+              "business_operations": 3,
+              "strategy_operations": 3,
+              "business_systems": 3,
+              "process_improvement": 3
+            },
+            "evidence_types": [
+              "product_roadmap",
+              "process_improvement",
+              "risk_mitigation",
+              "stakeholder_management",
+              "strategy_planning"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For program roles, frame as sprint coordination, risk tracking, and execution cadence.",
+            "For product operations, frame as backlog prioritization and delivery rhythm.",
+            "For process improvement, frame as SDLC workflow optimization."
+          ],
+          "score": 55.0,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "development",
+            "efficiency",
+            "operations"
+          ],
+          "matched_core_competencies": [
+            "Tool Integration & Flow",
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program"
+          ],
+          "matched_evidence_types": [
+            "stakeholder_management",
+            "product_roadmap"
+          ]
+        },
+        {
+          "id": "LTIM_007",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Client-Aligned Testing and Business Risk Prioritization",
+          "base_resume_point": "Aligned testing priorities with client needs and business risk by identifying high-impact defects, prioritizing critical issues, and ensuring the reinsurance application met quality expectations in a financially sensitive operating environment.",
+          "core_competency": [
+            "Client Alignment",
+            "Risk Prioritization",
+            "Business-Critical Systems",
+            "Quality Strategy"
+          ],
+          "functional_skill": [
+            "Client communication",
+            "Defect prioritization",
+            "Business impact analysis",
+            "Risk assessment",
+            "Stakeholder alignment"
+          ],
+          "business_outcome": [
+            "Improved client satisfaction",
+            "Reduced business risk",
+            "Stronger application reliability",
+            "Better issue prioritization"
+          ],
+          "evidence_proof": [
+            "Collaborated directly with client",
+            "Prioritized critical bugs where downtime or errors could have financial consequences",
+            "Improved client satisfaction by 20%"
+          ],
+          "metrics": [
+            "20%",
+            "20"
+          ],
+          "best_fit_roles": [
+            "Customer Success Operations Analyst",
+            "Customer Value Analyst",
+            "Business Systems Analyst",
+            "Solutions Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Implementation Analyst",
+            "Business Operations Associate",
+            "Product Operations Analyst",
+            "Program Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_success_ops": 5,
+              "customer_value": 5,
+              "business_systems": 5,
+              "solutions": 5,
+              "implementation": 3,
+              "business_operations": 3,
+              "product_operations": 3,
+              "program": 3
+            },
+            "evidence_types": [
+              "risk_mitigation",
+              "ai_operations",
+              "client_facing",
+              "product_roadmap",
+              "solutions",
+              "strategy_planning"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer success roles, frame as protecting client experience and satisfaction.",
+            "For business systems roles, frame as aligning system quality with business-critical needs.",
+            "For solutions roles, frame as translating client risk into technical priorities."
+          ],
+          "score": 65.5,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "financial",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Stakeholder Partnership"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program",
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "client_facing",
+            "product_roadmap",
+            "solutions"
+          ]
+        },
+        {
+          "id": "LTIM_011",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Revenue-Linked Quality and Performance Improvement",
+          "base_resume_point": "Connected quality engineering, root cause analysis, and performance insights to client business outcomes by identifying system bottlenecks and improvement opportunities that contributed to stronger application performance and projected revenue growth.",
+          "core_competency": [
+            "Business Impact Analysis",
+            "Quality Strategy",
+            "Performance Optimization",
+            "Value Realization"
+          ],
+          "functional_skill": [
+            "Root cause analysis",
+            "Performance analysis",
+            "Tableau reporting",
+            "Issue prioritization",
+            "Client insight delivery"
+          ],
+          "business_outcome": [
+            "Projected revenue growth",
+            "Improved application performance",
+            "Stronger client value",
+            "Better operational decision-making"
+          ],
+          "evidence_proof": [
+            "Presented insights on system issues and bottlenecks",
+            "Contributed to projected $1M revenue increase for the client"
+          ],
+          "metrics": [
+            "$1M"
+          ],
+          "best_fit_roles": [
+            "Customer Value Analyst",
+            "Strategy & Operations Associate",
+            "Business Operations Associate",
+            "Product Operations Analyst"
+          ],
+          "secondary_fit_roles": [
+            "Revenue Operations Analyst",
+            "Customer Success Operations Analyst",
+            "Solutions Analyst",
+            "Business Systems Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "customer_value": 5,
+              "strategy_operations": 5,
+              "business_operations": 5,
+              "product_operations": 5,
+              "revenue_operations": 3,
+              "customer_success_ops": 3,
+              "solutions": 3,
+              "business_systems": 3,
+              "program": 2
+            },
+            "evidence_types": [
+              "ai_operations",
+              "analytics_reporting",
+              "business_systems",
+              "client_facing",
+              "customer_value",
+              "program_governance",
+              "risk_mitigation"
+            ],
+            "strength": "high",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For customer value roles, frame as connecting technical improvements to business outcomes.",
+            "For strategy roles, frame as insight-driven operational improvement.",
+            "For RevOps, frame carefully as revenue impact influenced by quality and performance improvements, not direct sales ownership."
+          ],
+          "score": 60.5,
+          "matched_keywords": [
+            "analysis",
+            "analyst",
+            "business",
+            "client",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [
+            "Analytics & Reporting"
+          ],
+          "matched_jd_phrases": [],
+          "matched_tools": [],
+          "matched_role_families": [
+            "program",
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "analytics_reporting",
+            "client_facing",
+            "customer_value",
+            "program_governance"
+          ]
+        },
+        {
+          "id": "LTIM_001",
+          "legacy_id": "",
+          "duplicate_of": "",
+          "point_title": "Enterprise Application Quality Ownership",
+          "base_resume_point": "Owned quality assurance for a critical reinsurance-based web application, ensuring application reliability, functional accuracy, and user satisfaction across testing, defect management, release readiness, and client-facing delivery activities.",
+          "core_competency": [
+            "Quality Engineering",
+            "Application Reliability",
+            "Business Systems Support",
+            "Operational Excellence"
+          ],
+          "functional_skill": [
+            "Functional testing",
+            "Regression testing",
+            "Defect validation",
+            "Release support",
+            "Application quality assurance"
+          ],
+          "business_outcome": [
+            "Improved application reliability",
+            "Stronger user satisfaction",
+            "Reduced production risk",
+            "Smoother product releases"
+          ],
+          "evidence_proof": [
+            "Supported reinsurance web application for Marsh and McLennan under Guy Carpenter",
+            "Ensured quality and performance of a business-critical platform"
+          ],
+          "metrics": [],
+          "best_fit_roles": [
+            "Business Systems Analyst",
+            "Implementation Analyst",
+            "Process Improvement Analyst",
+            "Business Operations Associate"
+          ],
+          "secondary_fit_roles": [
+            "Product Operations Analyst",
+            "Program Analyst",
+            "Program Coordinator",
+            "Solutions Analyst"
+          ],
+          "target_role_alignment": [],
+          "selection_profile": {
+            "role_family_scores": {
+              "business_systems": 5,
+              "implementation": 5,
+              "process_improvement": 5,
+              "business_operations": 5,
+              "product_operations": 3,
+              "program": 3,
+              "solutions": 3
+            },
+            "evidence_types": [
+              "implementation",
+              "ai_operations",
+              "business_operations",
+              "business_systems",
+              "client_facing",
+              "data_quality",
+              "digital_transformation",
+              "risk_mitigation"
+            ],
+            "strength": "medium",
+            "resume_use": "primary"
+          },
+          "adaptation_direction": [
+            "For business systems roles, frame as application support and system quality.",
+            "For implementation roles, frame as release readiness and defect validation.",
+            "For operations roles, frame as reliability, issue tracking, and business continuity."
+          ],
+          "score": 44.0,
+          "matched_keywords": [
+            "analyst",
+            "business",
+            "operations",
+            "solutions"
+          ],
+          "matched_core_competencies": [],
+          "matched_jd_phrases": [],
+          "matched_tools": [
+            "Excel"
+          ],
+          "matched_role_families": [
+            "program",
+            "solutions"
+          ],
+          "matched_evidence_types": [
+            "ai_operations",
+            "business_operations",
+            "client_facing"
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+CURRENT RESUME JSON:
+{
+  "summary": "Business Analyst with finance operations, analytics reporting, stakeholder partnership, and AI-enabled workflow experience across SaaS, financial modeling, client services, and business-critical systems. Skilled at improving analyses, governance, dashboards, adoption, and execution cadence while adapting quickly to change.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analysis visibility by translating V2MOM, PAM, and QBR insights into governed cash-flow roadmaps.",
+        "Strengthened deadline-driven operating discipline by establishing post-implementation controls tracking adoption, KPI improvement, policy adherence, compliance, and benefits realization across changing workflows for leadership visibility and sustainable execution.",
+        "Drove customer journey adoption through referral workflows, dashboards, and teams, generating 50,000 logins in two months.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service stakeholders to resolve dependencies, clarify ownership, and keep enterprise AR initiatives moving.",
+        "Enabled AI, Data Cloud, AWS, UAT, and Tableau readiness through cross-functional training coordination.",
+        "Led global Billing Portal execution from initiation through post-launch support, aligning scope, controls, adoption, dependencies, and 14 go-live communications across customer-facing and internal audiences."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analytics workflows by translating stakeholder needs into specifications, raising user experience 20%.",
+        "Strengthened change-ready analytics planning by identifying predictive modeling and sentiment analysis opportunities to expand client insights, product capabilities, and future revenue potential.",
+        "Built actionable reports and visualizations that improved operating visibility and client decision support."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Continuously improved analytics-platform usability by aligning functionality to client expectations, raising user experience 20%.",
+        "Protected data quality and release readiness by developing test scripts validating system accuracy, data flows, calculations, and platform functionality for reliable client experiences.",
+        "Identified predictive modeling and sentiment analysis use cases to expand analytics roadmap value."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved operating-model scalability by connecting AI, analytics, automation, and client-service workflows.",
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable insights, helping clients interpret response-quality risks and make more confident business decisions.",
+        "Improved client journeys by aligning product workflows, analytics outputs, and communication strategies to user needs.",
+        "Managed roadmap execution through requirements definition, backlog prioritization, sprint planning, milestones, and JIRA tracking to convert a business opportunity into a scalable analytics platform."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Improved execution cadence through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Aligned testing priorities to client needs and financial risk, prioritizing high-impact defects for a reinsurance application and improving client satisfaction by 20%.",
+        "Connected performance insights to business outcomes, contributing to projected $1M client revenue growth.",
+        "Owned quality assurance for a business-critical reinsurance application, ensuring reliability, functional accuracy, defect management, release readiness, and client-facing delivery continuity."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Requirements gathering",
+      "Risk management"
+    ],
+    "Operations": [
+      "Finance operations",
+      "Revenue operations",
+      "Workflow automation",
+      "Program governance",
+      "Client service operations"
+    ],
+    "Analytics": [
+      "KPI tracking",
+      "Dashboard reporting",
+      "Data visualization",
+      "Financial analysis improvement",
+      "Quality assurance testing"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "SaaS implementation",
+      "AI workflow enablement",
+      "Business systems validation",
+      "Data-quality governance"
+    ],
+    "Tools": [
+      "Excel",
+      "Tableau",
+      "JIRA",
+      "AWS",
+      "Data Cloud"
+    ]
+  }
+}
+
+codex
+{
+  "summary": "Business Analyst with finance operations, analytics reporting, stakeholder partnership, and AI-enabled workflow experience across SaaS, financial modeling, client services, and business-critical systems. Skilled at improving analyses, governance, dashboards, adoption, and execution cadence while adapting quickly to change.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "AI Enablement & Finance Operations Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analysis visibility by translating V2MOM, PAM, and QBR insights into governed cash-flow roadmaps.",
+        "Strengthened deadline-driven operating discipline by establishing post-implementation controls tracking adoption, KPI improvement, policy adherence, compliance, and benefits realization across changing workflows for leadership visibility and sustainable execution.",
+        "Drove customer journey adoption through referral workflows, dashboards, and teams, generating 50,000 logins in two months.",
+        "Coordinated Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service stakeholders to resolve dependencies, clarify ownership, and keep enterprise AR initiatives moving.",
+        "Enabled AI, Data Cloud, AWS, UAT, and Tableau readiness through cross-functional training coordination.",
+        "Led global Billing Portal execution from initiation through post-launch support, aligning scope, controls, adoption, dependencies, and 14 go-live communications across customer-facing and internal audiences."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Automation, Product & Operations Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved financial analytics workflows by translating stakeholder needs into specifications, raising user experience 20%.",
+        "Strengthened change-ready analytics planning by identifying predictive modeling and sentiment analysis opportunities to expand client insights, product capabilities, future revenue potential, and roadmap direction without claiming delivery ownership.",
+        "Built actionable reports and visualizations that improved operating visibility and client decision support."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Workflow Automation Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Continuously improved analytics-platform usability by aligning functionality to client expectations, raising user experience 20%.",
+        "Protected data quality and release readiness by developing test scripts validating system accuracy, data flows, calculations, and platform functionality for reliable client experiences across changing product workflows cycles.",
+        "Identified predictive modeling and sentiment analysis use cases to expand analytics roadmap value."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "AI Product, Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Improved operating-model scalability by connecting AI, analytics, automation, and client-service workflows.",
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable insights, helping clients interpret response-quality risks and make more confident business decisions.",
+        "Improved client journeys by aligning product workflows, analytics outputs, and communication strategies to user needs.",
+        "Managed roadmap execution through requirements definition, backlog prioritization, sprint planning, milestones, and JIRA tracking to convert a business opportunity into a scalable analytics platform."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Automation, BI & Quality Transformation Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Improved execution cadence through sprint planning, backlog prioritization, Scrum practices, and risk management.",
+        "Aligned testing priorities to client needs and financial risk, prioritizing high-impact defects for a reinsurance application, improving client satisfaction by 20% while protecting quality expectations.",
+        "Connected performance insights to business outcomes, contributing to projected $1M client revenue growth.",
+        "Owned quality assurance for a business-critical reinsurance application, ensuring reliability, functional accuracy, defect management, release readiness, client-facing delivery continuity, and financially sensitive system quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Requirements gathering",
+      "Risk management"
+    ],
+    "Operations": [
+      "Finance operations",
+      "Revenue operations",
+      "Workflow automation",
+      "Program governance",
+      "Client service operations"
+    ],
+    "Analytics": [
+      "KPI tracking",
+      "Dashboard reporting",
+      "Data visualization",
+      "Financial analysis improvement",
+      "Quality assurance testing"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "SaaS implementation",
+      "AI workflow enablement",
+      "Business systems validation",
+      "Data-quality governance"
+    ],
+    "Tools": [
+      "Excel",
+      "Tableau",
+      "JIRA",
+      "AWS",
+      "Data Cloud"
+    ]
+  }
+}
+tokens used
+29,746

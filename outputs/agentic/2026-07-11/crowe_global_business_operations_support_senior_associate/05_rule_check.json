@@ -1,0 +1,46 @@
+{
+  "status": "needs_review",
+  "summary_word_count": 35,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      14,
+      24,
+      13,
+      29,
+      14,
+      25
+    ],
+    "marketmaker_pm": [
+      13,
+      24,
+      14
+    ],
+    "marketmaker_ba": [
+      14,
+      25,
+      14
+    ],
+    "vista": [
+      19,
+      24,
+      14,
+      29
+    ],
+    "ltimindtree": [
+      13,
+      24,
+      13,
+      26
+    ]
+  },
+  "issues": [
+    "vista bullet 1 has 19 words; target is 15."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "summary": "Strategy and operations analyst with experience defining operating cadences, improving business systems, translating ambiguous inputs into measurable workflows, and using analytics, automation, and cross-functional execution to improve visibility, quality, and scalable outcomes.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Defined AR Operations scope, milestones, risks, and stakeholder cadences across Finance and Revenue Operations.",
+        "Translated net-new AOV ambiguity into governed reporting inputs, performance definitions, and decision workflows, improving Credit and Collections visibility and reducing metric inconsistency for stakeholders.",
+        "Established post-launch controls tracking KPI improvement, policy adherence, compliance, and sustained benefits realization.",
+        "Converted V2MOM priorities, PAM findings, QBR insights, risks, and leadership objectives into roadmaps focused on cash flow, compliance, automation, and scalability to guide portfolio decisions.",
+        "Activated sponsors and people leaders to clarify ownership, address resistance, and reinforce process launches.",
+        "Led AR Approval Matrix improvement from discovery and root-cause analysis through HULA executive readout, leadership approval, implementation, monitoring, and control reinforcement."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Built SharePoint operating cadence for communication, documentation, project visibility, and cross-functional collaboration.",
+        "Designed a sustained collaboration system with centralized inputs, document ownership, and project tracking, reducing information silos and improving day-to-day execution across departments.",
+        "Identified predictive modeling and sentiment analysis opportunities to expand analytics capability and client insight."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Improved platform usability by aligning stakeholder feedback with client expectations, raising user experience 20%.",
+        "Analyzed commercial real estate property data using SQL to identify trends, strengthen customer-listing alignment, and contribute to a 22% increase in retention.",
+        "Built a 0-to-1 SharePoint workspace for documents, communication, and project tracking across GTM teams."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Connected AI, analytics, automation, and client-service workflows into a more scalable operating model.",
+        "Owned product execution by defining requirements, prioritizing backlog, leading sprint planning, and tracking delivery through JIRA to convert opportunity into an analytics platform.",
+        "Aligned product workflows, analytics outputs, and communication strategies with client needs to improve usability.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities to balance business needs, technical feasibility, and execution capacity."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Led sprint planning, backlog prioritization, Scrum practices, and risk management, improving efficiency 60%.",
+        "Connected root-cause analysis and performance insights to system bottlenecks, improving application performance and contributing to a projected $1M client revenue increase.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices across delivery cycles.",
+        "Validated ETL processes and migration accuracy across 22 projects using Azure DevOps, improving data integrity and protecting transition readiness."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Scrum practices",
+      "Sprint planning",
+      "Backlog prioritization",
+      "Root-cause analysis"
+    ],
+    "Operations": [
+      "Operating cadence design",
+      "Project governance",
+      "Revenue operations",
+      "Workflow improvement",
+      "Risk management"
+    ],
+    "Analytics": [
+      "SQL analysis",
+      "KPI tracking",
+      "Data validation",
+      "Reporting consistency",
+      "Trend analysis"
+    ],
+    "Systems & Stack": [
+      "CRM processes",
+      "Business systems",
+      "Collaboration systems",
+      "Data migration",
+      "Workflow automation"
+    ],
+    "Tools": [
+      "SQL",
+      "JIRA",
+      "SharePoint",
+      "Azure DevOps",
+      "Tableau"
+    ]
+  }
+}

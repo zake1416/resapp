@@ -1,0 +1,112 @@
+{
+  "summary": "Business operations and program analyst with experience in executive reporting, project coordination, stakeholder engagement, workflow improvement, automation governance, and analytics-driven delivery across revenue operations, SaaS, financial modeling, and business systems environments.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Coordinated reporting inputs, timelines, documentation, and governance requirements to improve leadership visibility across enterprise initiatives.",
+        "Improved business systems flow across Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service, clarifying ownership and dependencies across 13 enterprise initiatives.",
+        "Built portfolio governance and milestone trackers, sustaining 85% of supported deliverables in green status.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, and operational risks into strategic roadmaps, measurable initiatives, and governance decisions supporting cash flow, compliance, automation, and customer experience.",
+        "Developed executive roadmap for financial control automation, creating repeatable pathways for new control requirements.",
+        "Coordinated approved BPI implementations with operations leaders, Systems teams, reporting partners, SMEs, process owners, and frontline stakeholders to strengthen execution clarity and reduce process friction."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Translated executive priorities into project plans, aligning technical teams with company goals and delivery risks.",
+        "Supported project coordination and executive operations by expanding from analyst intern to project manager across business analysis, product execution, cross-functional ownership, and strategic startup initiatives.",
+        "Created reports and visualizations from property analysis, improving decision support for internal teams and clients."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Coordinated cross-functional execution across development, sales, marketing, and leadership teams to accelerate initiatives.",
+        "Supported SaaS operating systems across product, finance, internal workflows, and growth initiatives, strengthening execution structure, business analysis coverage, and scalable delivery in a startup environment.",
+        "Analyzed property data with SQL, improving listing alignment and contributing to 22% customer retention growth."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Managed scope, budgets, resources, timelines, and delivery risks while negotiating priorities with executive leadership.",
+        "Owned product execution by defining requirements, prioritizing roadmaps, coordinating development activities, and tracking JIRA milestones to convert a business opportunity into a scalable analytics platform.",
+        "Improved client experience by aligning product workflows, analytics outputs, and service communication with client needs.",
+        "Led sprint planning, backlog prioritization, and JIRA execution tracking to strengthen delivery visibility, coordinate development activity, and keep product work aligned with business priorities."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Led Agile SDLC coordination, backlog prioritization, Scrum practices, and risk tracking, improving efficiency 60%.",
+        "Standardized testing processes through repeatable documentation, validation workflows, defect reports, and quality practices, improving consistency, traceability, and control across application delivery cycles for client-facing release readiness.",
+        "Built Tableau visualizations and root cause analyses to clarify system issues, bottlenecks, and quality trends.",
+        "Connected quality engineering, root cause analysis, and performance insights to business outcomes, identifying system improvements that contributed to a projected $1M client revenue increase."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Scrum practices",
+      "Backlog prioritization",
+      "Roadmap planning",
+      "Risk management"
+    ],
+    "Operations": [
+      "Executive reporting",
+      "Project coordination",
+      "Revenue operations",
+      "Portfolio governance",
+      "Process improvement"
+    ],
+    "Analytics": [
+      "Dashboard reporting",
+      "Root cause analysis",
+      "Data visualization",
+      "SQL analysis",
+      "Quality trend analysis"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "Business systems",
+      "Revenue operations stack",
+      "SaaS operating workflows",
+      "Automation governance"
+    ],
+    "Tools": [
+      "JIRA",
+      "Tableau",
+      "SQL",
+      "Salesforce",
+      "CRM"
+    ]
+  }
+}

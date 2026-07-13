@@ -1,0 +1,91 @@
+{
+  "summary": "Project Manager with experience in enterprise implementation readiness, risk mitigation, governance communication, Agile delivery, workflow improvement, testing coordination, and stakeholder alignment across software, finance operations, analytics platforms, and business systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Led implementation readiness planning for PAYGO and UE+ expansion, coordinating systems dependencies across $180M ACV.",
+        "Monitored transformation risks across dual-system operations, fragmented data, manual workarounds, skill gaps, and competing programs, improving readiness and reducing delivery disruption for enterprise software changes.",
+        "Drove governance for Org62-to-OrgSS migration, surfacing dependencies, controls, adoption needs, and stakeholder requirements.",
+        "Coordinated approved BPI implementations with operations leaders, Business and Systems teams, SMEs, and frontline stakeholders, strengthening ownership, adoption readiness, and execution visibility across process-improvement workstreams.",
+        "Validated Credit and Collections continuity readiness, ownership, dependencies, recovery requirements, and stakeholder responsibilities.",
+        "Developed data-backed BPI recommendations, process maps, controls, implementation plans, success measures, and executive readouts aligned with SOX, operating priorities, and scalability requirements for stronger decision quality."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Led JIRA-based sprint planning and project tracking, aligning stakeholders on timelines, deliverables, risks, and goals.",
+        "Monitored delivery risks through JIRA and centralized SharePoint communication, improving governance, documentation, project visibility, and cross-functional collaboration across strategic initiatives for smoother execution across departments.",
+        "Coordinated product, development, sales, marketing, and leadership teams around priorities, timelines, risks, and strategy."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Led JIRA-based project lifecycles from conception to execution, tracking milestones, deliverables, deadlines, and teams.",
+        "Translated stakeholder feedback and business requirements into platform usability improvements, aligning real estate analytics workflows with client expectations and improving user experience 20% overall.",
+        "Executed test scripts validating data flows, calculations, system accuracy, and functionality for reliable SaaS delivery."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Led roadmap planning, sprint execution, backlog prioritization, and JIRA tracking for scalable analytics-platform delivery.",
+        "Managed scope, budget, resources, timelines, and delivery risks while negotiating executive priorities, improving governance, resource alignment, and decision quality under execution constraints for product workstreams.",
+        "Built Python and Streamlit fraud-detection controls flagging duplicate responses, straight-lining, short durations, and anomalies.",
+        "Aligned product workflows, analytics outputs, and client communication with user needs, improving platform usability, service delivery, client relationships, and adoption potential across research operations."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Led migration QA across 22 projects, validating ETL accuracy, data quality, and transition readiness.",
+        "Monitored Agile delivery risks through sprint planning, backlog prioritization, Scrum practices, and stakeholder coordination, improving SDLC process efficiency by 60% and strengthening implementation cadence.",
+        "Standardized testing documentation, validation workflows, defect reports, and quality practices for traceable application delivery.",
+        "Owned quality assurance for a business-critical reinsurance web application, supporting functional accuracy, defect management, release readiness, and reliable client-facing delivery for Marsh and McLennan."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Scrum practices",
+      "Risk mitigation",
+      "Stakeholder coordination",
+      "Roadmap planning",
+      "Process mapping",
+      "Change readiness"
+    ],
+    "Operations": [
+      "Enterprise software implementation",
+      "Project governance",
+      "Business systems",
+      "Revenue operations",
+      "Finance operations",
+      "Data migration",
+      "Business continuity",
+      "Release readiness",
+      "Workflow improvement"
+    ],
+    "Analytics": [
+      "Project status reporting",
+      "Data validation",
+      "ETL testing",
+      "QA testing",
+      "Defect tracking",
+      "Success measures",
+      "Fraud detection",
+      "Executive readouts"
+    ],
+    "Tools": [
+      "JIRA",
+      "Excel",
+      "SharePoint",
+      "Azure DevOps",
+      "Python",
+      "Streamlit"
+    ]
+  }
+}

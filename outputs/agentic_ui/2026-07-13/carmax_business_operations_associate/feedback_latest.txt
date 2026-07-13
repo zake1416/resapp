@@ -1,0 +1,23 @@
+Match Score: 93/100
+Where Points Were Deducted (-7 Points)
+While this is a significant improvement that leans heavily into CarMax's structural operational needs, you still lose a few points regarding the localized, brick-and-mortar reality of running a physical storefront:
+
+1. Missing Physical & Localized Store Operations (-3 Points)
+The job description explicitly includes "cash management tasks, including receiving payments, preparing deposits, and maintaining security protocols," alongside physical stamina requirements (lifting up to 20 lbs and working on your feet).
+
+The Gap: Your financial experience is still highly focused on enterprise systems (SOX controls, AR execution, AOV metrics). There is no explicit mention of localized cash handling, drawer reconciliation, or managing physical asset security protocols.
+
+2. Lack of Automotive/Dealership-Specific Document Terms (-2 Points)
+CarMax specifically looks for an associate to process transactional vehicle paperwork including deal jackets, titles, payoffs, and DMV documentation.
+
+The Gap: You have phenomenal experience with complex financial compliance records, but missing localized transactional keywords like "titles" or "licensing/DMV" keeps your resume looking slightly more corporate-SaaS heavy than necessary.
+
+3. Peer Mentorship/Training Scope (-2 Points)
+The role requires you to "train and mentor new associates" to keep store operations moving fluidly during peak hours.
+
+The Gap: You mention establishing a "continuous-improvement cadence across business units" and "clarifying owners," but you haven't explicitly used words like training, mentoring, or onboarding peers within your core bullet points to showcase this exact responsibility.
+
+What You Improved Exceptionally Well
+Traffic Balancing: Your addition under Salesforce—"Coordinated overflow dependencies across 13 enterprise Finance... and Customer Service teams"—perfectly demonstrates your ability to handle what CarMax calls "balancing overflow traffic" during high-volume periods.
+
+Flawless Compliance Framing: Highlighting “audit-ready documentation by maintaining SOX ELC.8 controls through governance reviews [and] self-inspection” beautifully satisfies their requirement for absolute data integrity and confidentiality.
