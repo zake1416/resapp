@@ -1,0 +1,9 @@
+Executive Stakeholder Exposure (-3 Points)
+Why: The role requires 2 years of experience working with executive stakeholders. While your resume notes that you "aligned technical roadmaps with CTO and CSO priorities" at Market Maker CRE and "advised leadership" at Vista, your Salesforce bullets focus heavily on functional cross-functional alignment (Finance, Systems, Audit) rather than explicit executive-level storytelling or direct briefing.
+
+The Fix: For your Salesforce or Vista experience, explicitly mention if your synthesized insights, QBR support, or dashboards were delivered directly to VP or C-suite leadership.
+
+3. Missing Industry Context (Sales/Digital Media) (-4 Points)
+Why: This role sits within Google Customer Solutions (GCS), focusing heavily on small- and medium-sized business (SMB) growth, sales strategies, and digital media/advertising environments. Your resume has an exceptional focus on Revenue Operations (RevOps) and FinTech/SaaS workflows (Billing Portals, AR initiatives), but it lacks terminology related to sales pipelines, go-to-market ad strategies, or SMB ecosystems.
+
+The Fix: Under your Market Maker or Vista experience, weave in keywords like "go-to-market (GTM) strategy alignment," "client portfolio growth," or "sales enablement metrics" to mirror the GCS language.

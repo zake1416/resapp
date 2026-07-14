@@ -1,0 +1,47 @@
+{
+  "status": "needs_review",
+  "summary_word_count": 32,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      17,
+      26,
+      14,
+      25,
+      13,
+      25
+    ],
+    "marketmaker_pm": [
+      16,
+      25,
+      14
+    ],
+    "marketmaker_ba": [
+      14,
+      23,
+      17
+    ],
+    "vista": [
+      15,
+      25,
+      15,
+      25
+    ],
+    "ltimindtree": [
+      14,
+      25,
+      13,
+      24
+    ]
+  },
+  "issues": [
+    "marketmaker_pm bullet 3 is too similar to marketmaker_ba bullet 2; shared terms: communication, intranet, project, sharepoint, to-1, tracking.",
+    "marketmaker_ba bullet 2 has 23 words; target is 28."
+  ]
+}

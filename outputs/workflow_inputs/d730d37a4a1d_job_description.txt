@@ -1,0 +1,38 @@
+Company:University of Illinois Hospital & Health Sciences System (UI Health)
+Role:  Business iNtelligence
+
+The University of Illinois Hospital & Health Sciences System (UI Health) provides comprehensive care, education, and research to the people of Illinois and beyond. A part of the University of Illinois Chicago (UIC), UI Health comprises a clinical enterprise that includes a Joint Commission-accredited tertiary care hospital and outpatient clinics, and the Mile Square Health Center network of federally qualified health centers. It also includes the seven UIC health science colleges: the College of Applied Health Sciences; the College of Dentistry; the School of Public Health; the Jane Addams College of Social Work; and the Colleges of Medicine, Pharmacy, and Nursing, including regional campuses in Peoria, Quad Cities, Rockford, Springfield, and Urbana. UI Health is dedicated to the pursuit of health equity. Learn more: https://hospital.uillinois.edu/about-ui-health
+
+This position is intended to be eligible for benefits. This includes Health, Dental, Vision, Life Insurance, a Retirement Plan, Paid time Off, and Tuition waivers for employees and dependents.
+
+Position Summary
+The IT Technical Associate (Business Intelligence Developer) under general direction and as part of a collaborative team, develops, modifies, distributes, and tests reports, metrics, dashboards, and self-service reporting capabilities based on specifications. Serves as a subject matter expert in the business Intelligence suite of tools and applications, which includes Electronic Health Record systems, specifically Epic clinical applications and integrating systems. Engages directly with business units to define requirements and supports various business intelligence initiatives.
+
+Duties & Responsibilities
+
+Collaborate with clinical application analysts and operational subject matter experts to design, test, and validate business intelligence content
+Write optimized SQL queries and extracts with respect to performance to pull data from various business intelligence data sources
+Create ad-hoc SQL queries to review data, determine requirements, and resolve data errors
+Deliver data, reports, metrics, and dashboards through utilization of tools in the business intelligence suite of applications
+Assess impact of clinical application software upgrades on business intelligence content and implement necessary updates and changes to coincide with upgrade timelines
+Maintain business intelligence catalog of content
+Adhere to defined style guidelines when developing custom reports and dashboards
+Participate in the development and maintenance of training content as part of the business intelligence training program
+Utilize ITSM application and defined ITIL processes to fulfill requests, resolve incidents, and submit requests for change
+Perform other related duties and participate in special projects as assigned.
+ 
+
+Minimum Qualifications
+
+Bachelor Degree - Computer Science, Engineering, Information Systems Management, related information management field or a clinical area of study.
+Minimum of one (1) year professional level IT experience within Data Analytics & Integration which includes demonstrated experience in designing, implementing, and supporting clinical application interfaces, as well as developing, modifying, distributing, and testing reports, metrics, dashboards, and self-service reporting capabilities in the business intelligence suite of tools and applications.
+Certification in one of the following Epic business intelligence track(s)/application(s) or related certification area:
+Cogito Access Data Model
+Cogito Clinical Data Model
+Cogito Revenue Data Model
+Preferred Knowledge and Skills
+
+Working knowledge of business intelligence tools and applications which may include SAP Business Objects, Crystal Reports, Tableau, or Microsoft SQL Server Integration Services, as well as electronic health records applications, such as Epic.
+Knowledge of system management principles, business intelligence development and testing strategies, and data warehousing concepts such as relational models, star and snow flake schemas, indexing, partitioning, and ETL.
+Strong analytical, interpersonal, and communications skills.
+Demonstrated ability to multi-task, meet commitments, and balance work demands.

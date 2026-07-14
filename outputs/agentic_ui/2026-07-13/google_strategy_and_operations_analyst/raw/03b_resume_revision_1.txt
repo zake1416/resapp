@@ -1,0 +1,112 @@
+{
+  "summary": "Strategy and operations analyst with experience generating insights, defining roadmaps, aligning cross-functional stakeholders, improving workflows, and guiding implementation of change initiatives across revenue operations, product analytics, AI enablement, reporting, and customer-facing systems.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Revenue Operations, Governance & Controls Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Synthesized business insights from PAM findings, QBRs, KPIs, and controls to guide cash-flow and compliance decisions.",
+        "Defined actionable roadmaps from V2MOM priorities and leadership objectives, aligning Finance, Revenue Operations, Systems, Sales Operations, M&A, Audit, and Customer Service around governed change initiatives.",
+        "Drove referral strategy with unique links and dashboards, producing 50,000+ Billing Portal logins within two months.",
+        "Orchestrated global Billing Portal rollout from initiation through post-launch support, coordinating 11 customer-facing and three internal communications across scope, readiness, controls, dependencies, and execution.",
+        "Monitored Innovation Days solutions against success measures, strengthening benefits realization, control effectiveness, and operational sustainability.",
+        "Coordinated execution across 13 enterprise stakeholder groups, clarifying ownership and dependencies for AR initiatives spanning finance, systems, sales operations, audit, service workstreams, and priorities."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Revenue Strategy & Financial Analysis Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Synthesized property-data analysis and stakeholder requirements into product insights, improving platform usability and user experience by 20%.",
+        "Defined analytics roadmap opportunities for predictive modeling and sentiment analysis, expanding planned product capabilities while surfacing client insight and future revenue options for leadership.",
+        "Built reports and visualizations that guided clients and internal teams through property-data decisions."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Revenue Data Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Aligned technical roadmaps with CTO and CSO priorities, connecting product development, go-to-market needs, and strategy.",
+        "Shaped future product planning around predictive modeling and sentiment analysis, framing AI-enabled enhancements as unlaunched opportunities for stronger differentiation and revenue potential for leadership.",
+        "Analyzed SQL property-data trends to improve customer-listing alignment, contributing to 22% higher customer retention."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Analytics, Automation & Operations Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Translated fraud-detection outputs and survey analytics into client-facing insights for clearer response-quality risk decisions.",
+        "Promoted analytics and research services with clients, aligning needs to product capabilities and strengthening engagement, trust, and long-term partnership opportunities for GTM growth support.",
+        "Briefed Vista leadership on AI use cases and analytics integration, improving transformation readiness.",
+        "Refined client experience by simplifying usability, analytics outputs, and communication strategies, helping users interpret services faster and improving product-value realization across research workflow delivery."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "BI, Data Quality & Systems Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Guided sprint plans, backlog priorities, and Scrum cadence, improving stakeholder alignment and process efficiency by 60%.",
+        "Strengthened release readiness by validating defects, coordinating issue resolution, and supporting test cycles so application changes met business and client quality standards before deployment.",
+        "Connected root-cause analysis to system bottlenecks and quality trends, contributing to projected $1M client revenue growth.",
+        "Developed Tableau visualizations for system issues, performance bottlenecks, and quality trends, giving clients clearer decision support for targeted application improvements and operational prioritization choices."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile",
+      "Scrum",
+      "Roadmapping",
+      "Requirements",
+      "Stakeholder Mapping"
+    ],
+    "Operations": [
+      "Revenue Operations",
+      "Product Operations",
+      "GTM Operations",
+      "Release Readiness",
+      "Control Governance"
+    ],
+    "Analytics": [
+      "SQL Analysis",
+      "KPI Reporting",
+      "Data Visualization",
+      "Root-Cause Analysis",
+      "Benefits Tracking"
+    ],
+    "Systems & Stack": [
+      "CRM Workflows",
+      "SaaS Platforms",
+      "Revenue Stack",
+      "AI Workflows",
+      "Implementation Stack"
+    ],
+    "Tools": [
+      "SQL",
+      "Tableau",
+      "Billing Portal",
+      "MarketMaker Platform",
+      "Fraud Detection Platform"
+    ]
+  }
+}

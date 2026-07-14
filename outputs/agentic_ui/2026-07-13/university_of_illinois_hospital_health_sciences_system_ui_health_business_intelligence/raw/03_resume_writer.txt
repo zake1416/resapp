@@ -1,0 +1,87 @@
+{
+  "summary": "Business intelligence and systems analyst with experience delivering dashboards, data-quality controls, BI enablement, workflow automation, testing, and training content across Salesforce, Tableau, SQL, SharePoint, JIRA, and Azure DevOps environments.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "bullets": [
+        "Resolved data-quality requirements by embedding integrity, review, approval, fallback, and monitoring controls into AI-agent workflows.",
+        "Delivered business intelligence enablement across Tableau, Data Cloud, AWS Private Offers, AI resources, and UAT, coordinating a three-day cross-training program that improved technical readiness.",
+        "Maintained AI content readiness by improving documentation, metadata, tagging, duplication controls, and retrieval quality.",
+        "Established post-implementation monitoring plans for KPI improvement, policy adherence, compliance, control effectiveness, and benefits realization, strengthening visibility into sustained operational performance across Finance Operations workflows.",
+        "Standardized AR, Credit, and Collections workflows across Salesforce ecosystem tools, improving reporting visibility.",
+        "Translated V2MOM priorities, PAM findings, QBR insights, operational risks, and leadership objectives into measurable roadmaps focused on cash flow, compliance, customer experience, automation, and scalability."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "bullets": [
+        "Delivered actionable reports and data visualizations from property analysis, improving insight visibility for teams and clients.",
+        "Validated system functionality and data accuracy by developing and executing test scripts, improving platform reliability and confidence in real estate analytics outputs.",
+        "Launched a 0-to-1 SharePoint intranet, centralizing documents, communication, project tracking, and collaboration."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "bullets": [
+        "Analyzed property data with SQL to improve listing alignment and increase customer retention 22%.",
+        "Built a 0-to-1 SharePoint intranet for product, sales, and marketing teams, centralizing document management, communication, and project tracking across departments.",
+        "Improved internal workflows by centralizing communication, document access, and project visibility through SharePoint."
+      ]
+    },
+    {
+      "key": "vista",
+      "bullets": [
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable business insights.",
+        "Defined requirements, prioritized roadmap work, led sprint planning, and tracked JIRA milestones to convert a business opportunity into a scalable analytics platform.",
+        "Advised executive leadership on AI use cases and analytics opportunities for Vista’s growth strategy.",
+        "Coordinated agile delivery through backlog prioritization, timeline tracking, and JIRA execution, keeping product development aligned with business priorities and delivery goals."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "bullets": [
+        "Developed Tableau visualizations and root-cause analysis for system issues, bottlenecks, and quality trends.",
+        "Led ETL testing during migration to identify data inconsistencies and system defects, improving defect detection by 60% and reducing post-migration risk.",
+        "Strengthened release readiness by validating defects, coordinating issue resolution, and supporting testing documentation.",
+        "Assured data migration quality across 22 projects in Azure DevOps, validating ETL processes, data accuracy, and migration correctness for smoother environment transitions."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "UAT coordination",
+      "Roadmap planning",
+      "Process mapping",
+      "Requirements definition"
+    ],
+    "Operations": [
+      "Business intelligence",
+      "Revenue operations",
+      "Research operations",
+      "Release readiness",
+      "Content governance"
+    ],
+    "Analytics": [
+      "Dashboarding",
+      "SQL analysis",
+      "ETL testing",
+      "Root-cause analysis",
+      "Data validation"
+    ],
+    "Systems & Stack": [
+      "CRM workflows",
+      "BI suites",
+      "Data migration",
+      "AI operations",
+      "Collaboration systems"
+    ],
+    "Tools": [
+      "Tableau",
+      "SQL",
+      "Salesforce",
+      "SharePoint",
+      "Azure DevOps"
+    ]
+  }
+}
