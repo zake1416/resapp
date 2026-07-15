@@ -1,0 +1,112 @@
+{
+  "summary": "Business operations lead experienced in product delivery, workflow consistency, cross-functional coordination, governance, business systems, analytics platforms, Agile delivery, customer-facing launches, and operational programs.",
+  "experiences": [
+    {
+      "key": "salesforce",
+      "company": "Salesforce",
+      "location": "USA",
+      "title": "Portfolio Governance & Process Improvement Analyst",
+      "dates": "Apr 2025 -- March 2026",
+      "continuation": false,
+      "bullets": [
+        "Drove product delivery by translating V2MOM priorities, PAM findings, and QBR insights into governed roadmaps.",
+        "Orchestrated cross-team coordination by assessing strategic value, capacity, risks, dependencies, and resources, guiding leaders on portfolio tradeoffs across business systems, operations initiatives, and controls.",
+        "Led global Billing Portal execution from initiation through post-launch support, aligning scope, controls, communications, and readiness.",
+        "Built AR Operations governance with roadmaps, milestone trackers, PMO alignment, executive reporting, backlog refinement, and biannual prioritization cycles, sustaining 85% green deliverables.",
+        "Developed capacity planning connecting project demand, implementation effort, SME constraints, dependencies, and BAU commitments.",
+        "Coordinated Systems and UAT execution as AR Operations liaison, aligning requirements, validation, issue resolution, readiness tracking, and stakeholders for smoother business-system releases."
+      ]
+    },
+    {
+      "key": "marketmaker_pm",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Product Operations & Program Analyst",
+      "dates": "Jan 2025 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Drove product delivery by expanding ownership across business analysis, product execution, and strategic initiatives.",
+        "Coordinated operating rhythm across development, product, sales, marketing, CTO, and CSO stakeholders to align timelines, priorities, risks, and company growth goals.",
+        "Validated data accuracy and platform functionality through test scripts, strengthening reliability for real estate analytics users."
+      ]
+    },
+    {
+      "key": "marketmaker_ba",
+      "company": "Market Maker CRE",
+      "location": "USA",
+      "title": "Business Systems & Product Analyst",
+      "dates": "Aug 2024 -- Dec 2024",
+      "continuation": true,
+      "bullets": [
+        "Advanced startup execution across product, finance, operations, internal systems, and technical growth initiatives.",
+        "Aligned development, sales, marketing, CTO, and CSO stakeholders around technical delivery and business priorities, accelerating new features and improving execution clarity.",
+        "Managed JIRA-based project lifecycles, sprint planning, milestones, deadlines, and deliverables across multiple initiatives."
+      ]
+    },
+    {
+      "key": "vista",
+      "company": "Vista Research Services",
+      "location": "USA",
+      "title": "Product Analytics & Automation Analyst",
+      "dates": "May 2024 -- Apr 2025",
+      "continuation": false,
+      "bullets": [
+        "Drove product delivery by defining requirements, prioritizing roadmaps, and managing delivery milestones.",
+        "Managed Agile cadence through JIRA sprint planning, backlog prioritization, timeline tracking, and execution coordination, aligning product development with business priorities and delivery goals.",
+        "Governed scope, budget, resources, timelines, and risks while negotiating priorities with Vista's president.",
+        "Built client-facing visualizations translating fraud-detection outputs and survey analytics into actionable insights, helping clients interpret response-quality risks and make confident decisions."
+      ]
+    },
+    {
+      "key": "ltimindtree",
+      "company": "LTIMindtree",
+      "location": "India",
+      "title": "Agile Delivery, BI & Quality Analyst",
+      "dates": "Aug 2021 -- Aug 2023",
+      "continuation": false,
+      "bullets": [
+        "Drove release quality for a business-critical reinsurance web application supporting client-facing delivery.",
+        "Standardized validation workflows, defect reports, test cases, scenarios, and structured testing practices, improving consistency, traceability, and quality across application delivery cycles.",
+        "Strengthened release readiness by validating defects, coordinating fixes, and reducing production deployment risk.",
+        "Improved Agile SDLC efficiency by 60% through sprint planning, backlog prioritization, Scrum practices, risk management, and stronger delivery rhythm across stakeholders."
+      ]
+    }
+  ],
+  "skills": {
+    "Methods": [
+      "Agile delivery",
+      "Sprint planning",
+      "Backlog priority",
+      "Roadmap planning",
+      "Risk management"
+    ],
+    "Operations": [
+      "Product ops",
+      "Business ops",
+      "Portfolio governance",
+      "Release readiness",
+      "Customer comms"
+    ],
+    "Analytics": [
+      "KPI reporting",
+      "Dashboarding",
+      "Data quality",
+      "Test validation",
+      "Executive reporting"
+    ],
+    "Systems & Stack": [
+      "Business systems",
+      "SaaS ops",
+      "Workflow automation",
+      "Implementation governance",
+      "Analytics platforms"
+    ],
+    "Tools": [
+      "JIRA",
+      "Billing Portal",
+      "Reinsurance web app",
+      "Analytics platform",
+      "No-code workflows"
+    ]
+  }
+}

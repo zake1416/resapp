@@ -13,6 +13,7 @@ Flow:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
@@ -102,6 +103,18 @@ STOPWORDS = {
     "you", "your", "we", "will", "work", "role", "team", "teams", "experience", "support",
     "across", "using", "including", "through", "within", "about", "job", "description",
 }
+
+JD_GENERIC_TERMS = STOPWORDS | {
+    "ability", "able", "applicant", "business", "candidate", "company", "coordinate",
+    "coordinating", "coordination", "cross", "department", "departments", "delivery",
+    "employee", "employees", "engineer", "engineers", "ensure", "function", "functional",
+    "job", "lead", "leads", "manager", "operations", "operational", "opportunity",
+    "partner", "partners", "people", "process", "product", "products", "project",
+    "projects", "responsibilities", "responsibility", "stakeholder", "stakeholders",
+    "team", "technical", "work", "working",
+}
+
+MIN_DIRECT_MAPPING_SCORE = 32
 
 TOOL_HINTS = [
     "HubSpot", "ServiceNow", "Azure DevOps", "Power BI", "Tableau", "JIRA", "SharePoint", "Salesforce",
@@ -212,6 +225,27 @@ def clean_text(value: Any) -> str:
 def tokens(text: str) -> list[str]:
     raw = re.findall(r"[A-Za-z][A-Za-z0-9+#.-]*", text.lower())
     return [t.strip(".,;:!?()[]{}") for t in raw if t not in STOPWORDS and len(t) > 1]
+
+
+def important_terms(text: str) -> set[str]:
+    return {token for token in tokens(text) if token not in JD_GENERIC_TERMS and len(token) > 2}
+
+
+def phrase_match_strength(phrase: str, point_terms: set[str], point_text: str) -> tuple[float, list[str]]:
+    phrase_lower = phrase.lower()
+    phrase_terms = important_terms(phrase_lower)
+    if not phrase_terms:
+        return 0.0, []
+    if phrase_lower in point_text:
+        return 1.0, sorted(phrase_terms)
+    overlap = sorted(phrase_terms & point_terms)
+    if not overlap:
+        return 0.0, []
+    coverage = len(overlap) / len(phrase_terms)
+    needed = 2 if len(phrase_terms) <= 4 else min(5, max(3, len(phrase_terms) // 3))
+    if len(overlap) < needed and coverage < 0.55:
+        return 0.0, []
+    return coverage, overlap
 
 
 def word_count(text: str) -> int:
@@ -357,20 +391,42 @@ def extract_metrics(text: str) -> list[str]:
     return unique(found, 8)
 
 
+def is_jd_responsibility_phrase(text: str) -> bool:
+    lower = text.lower()
+    if re.search(r"\b\d{5}(?:-\d{4})?\b", text) and re.search(r"\b(?:rd|road|st|street|ave|avenue|frontage|blvd|drive|dr)\b", lower):
+        return False
+    if re.match(r"^\d+\s*[-,]", text.strip()):
+        return False
+    if any(term in lower for term in ["equal opportunity", "background check", "drug screen", "visa sponsorship", "w2", "work authorization"]):
+        return False
+    responsibility_verbs = {
+        "analyze", "audit", "build", "coach", "coordinate", "create", "define", "deliver",
+        "design", "develop", "document", "drive", "enable", "ensure", "execute", "follow",
+        "handle", "identify", "improve", "lead", "manage", "map", "measure", "mentor",
+        "monitor", "optimize", "own", "partner", "perform", "plan", "prioritize", "process",
+        "report", "resolve", "standardize", "support", "track", "train", "translate",
+        "validate",
+    }
+    first_word = re.match(r"^\s*([A-Za-z]+)", text)
+    if first_word and first_word.group(1).lower() in responsibility_verbs:
+        return True
+    return any(k in lower for k in [
+        "connect", "visibility", "reduce", "single view", "governance", "ai", "automation",
+        "adoption", "training", "templates", "partner", "workflow", "dashboard", "intake", "delivery",
+        "planning", "roadmaps", "execution", "dependencies", "risks", "progress", "scope",
+        "metrics", "exit criteria", "deliverables", "system", "inputs", "decisions", "outputs",
+        "ambiguity", "v1", "pilot", "requirements", "documentation", "tradeoffs", "data entry",
+        "reconciliation", "cash management", "appraisal", "auction", "paperwork",
+    ])
+
+
 def extract_jd_phrases(jd_text: str) -> list[str]:
     phrases: list[str] = []
     for line in jd_text.splitlines():
         clean = re.sub(r"\s+", " ", line).strip(" -?\t")
         clean = strip_leading_marker(clean)
         if 4 <= len(clean.split()) <= 32:
-            lower = clean.lower()
-            if any(k in lower for k in [
-                "connect", "visibility", "reduce", "single view", "governance", "ai", "automation",
-                "adoption", "training", "templates", "partner", "workflow", "dashboard", "intake", "delivery",
-                "planning", "roadmaps", "execution", "dependencies", "risks", "progress", "scope",
-                "metrics", "exit criteria", "deliverables", "system", "inputs", "decisions", "outputs",
-                "ambiguity", "v1", "pilot", "requirements", "documentation", "tradeoffs",
-            ]):
+            if is_jd_responsibility_phrase(clean):
                 phrases.append(clean)
     return unique(phrases, 35)
 
@@ -460,6 +516,7 @@ def analyze_jd(jd_text: str) -> dict[str, Any]:
     role_families = infer_role_families_from_text(jd_text)
     target_evidence_types = infer_evidence_types_from_text(jd_text)
     return {
+        "jd_fingerprint": hashlib.sha256(jd_text.encode("utf-8")).hexdigest()[:12],
         "role_title": title,
         "company_name": company_name,
         "role_families": role_families[:6],
@@ -606,8 +663,9 @@ def load_experience_points(experience_dir: Path, config: dict[str, Any]) -> list
 def score_point(point: dict[str, Any], jd_profile: dict[str, Any]) -> dict[str, Any]:
     point_text = point["searchable"].lower()
     point_tokens = set(tokens(point_text))
-    jd_tokens = set(jd_profile["keywords"])
-    overlap = sorted(point_tokens & jd_tokens)
+    point_important_terms = important_terms(point_text)
+    jd_tokens = {token for token in jd_profile["keywords"] if token not in JD_GENERIC_TERMS}
+    overlap = sorted(point_important_terms & jd_tokens)
     score = len(overlap) * 1.5
     matched_competencies = []
     for comp in jd_profile["core_competencies"]:
@@ -617,11 +675,16 @@ def score_point(point: dict[str, Any], jd_profile: dict[str, Any]) -> dict[str, 
             score += 8
             matched_competencies.append(comp)
     matched_phrases = []
+    matched_phrase_terms: list[str] = []
+    priority_phrases = set(jd_profile.get("priority_jd_responsibilities", []) or [])
     for phrase in jd_profile["responsibility_phrases"]:
-        phrase_tokens = set(tokens(phrase))
-        if len(phrase_tokens & point_tokens) >= max(1, min(3, len(phrase_tokens) // 2)):
-            score += 4
+        strength, matched_terms = phrase_match_strength(phrase, point_important_terms, point_text)
+        if strength > 0:
+            score += 3 + (strength * 7)
+            if phrase in priority_phrases:
+                score += 4
             matched_phrases.append(phrase)
+            matched_phrase_terms.extend(matched_terms)
     matched_tools = []
     for tool in jd_profile["required_tools_keywords"]:
         if tool.lower() in point_text:
@@ -674,6 +737,7 @@ def score_point(point: dict[str, Any], jd_profile: dict[str, Any]) -> dict[str, 
         "matched_keywords": overlap[:20],
         "matched_core_competencies": unique(matched_competencies, 8),
         "matched_jd_phrases": unique(matched_phrases, 8),
+        "matched_phrase_terms": unique(matched_phrase_terms, 12),
         "matched_tools": unique(matched_tools, 8),
         "matched_role_families": unique(matched_role_families, 8),
         "matched_evidence_types": unique(matched_evidence_types, 10),
@@ -761,32 +825,91 @@ def select_balanced_points(scored: list[dict[str, Any]], count: int, jd_profile:
     return selected[:count]
 
 
+def mapping_quality(point: dict[str, Any]) -> str:
+    score = float(point.get("score", 0) or 0)
+    signal_count = sum(
+        len(point.get(field, []) or [])
+        for field in [
+            "matched_core_competencies",
+            "matched_jd_phrases",
+            "matched_tools",
+            "matched_role_families",
+            "matched_evidence_types",
+        ]
+    )
+    if score >= MIN_DIRECT_MAPPING_SCORE and signal_count >= 3:
+        return "strong"
+    if score >= 18 and signal_count >= 2:
+        return "moderate"
+    return "weak"
+
+
+def assigned_jd_responsibilities(jd_profile: dict[str, Any], exp_index: int, slots: int) -> list[str]:
+    priorities = list(jd_profile.get("priority_jd_responsibilities", []) or [])
+    if not priorities:
+        priorities = list(jd_profile.get("responsibility_phrases", []) or [])
+    if not priorities or slots <= 0:
+        return []
+    assigned: list[str] = []
+    start = exp_index % len(priorities)
+    for offset in range(slots):
+        assigned.append(priorities[(start + offset) % len(priorities)])
+    return unique(assigned, slots)
+
+
+def needs_custom_jd_bullets(chosen: list[dict[str, Any]], jd_slots: int) -> bool:
+    direct_points = chosen[:jd_slots]
+    if not direct_points:
+        return bool(jd_slots)
+    return any(
+        point.get("mapping_quality") == "weak" or not point.get("matched_jd_phrases")
+        for point in direct_points
+    )
+
+
 def select_evidence(jd_profile: dict[str, Any], experience_dir: Path) -> dict[str, Any]:
     selected: list[dict[str, Any]] = []
-    for config in EXPERIENCES:
+    for exp_index, config in enumerate(EXPERIENCES):
         scored = []
         for point in load_experience_points(experience_dir, config):
             score = score_point(point, jd_profile)
-            scored.append({**point, **score})
+            scored_point = {**point, **score}
+            scored_point["mapping_quality"] = mapping_quality(scored_point)
+            scored.append(scored_point)
         scored.sort(key=lambda p: p["score"], reverse=True)
         chosen = select_balanced_points(scored, config["count"], jd_profile)
+        jd_slots = int(config.get("jd_first_slots", 0) or 0)
+        assigned = assigned_jd_responsibilities(jd_profile, exp_index, jd_slots)
         selected.append({
             "key": config["key"],
             "company": config["company"],
             "title": resolve_experience_title(config, jd_profile),
             "target_count": config["count"],
-            "jd_first_slots": config.get("jd_first_slots", 0),
+            "jd_first_slots": jd_slots,
             "priority_jd_responsibilities": jd_profile.get("priority_jd_responsibilities", []),
+            "assigned_jd_responsibilities": assigned,
+            "custom_jd_bullet_required": needs_custom_jd_bullets(chosen, jd_slots),
+            "custom_jd_bullet_rule": (
+                "For weak direct mappings, create a custom bullet from the assigned JD responsibility "
+                "and anchor it in this experience's selected evidence, metrics, tools, and outcomes. "
+                "Do not copy unsupported JD tools or invent new facts."
+            ),
             "selected_points": [
                 {k: v for k, v in point.items() if k != "searchable"}
                 for point in chosen
             ],
         })
-    return {"experiences": selected}
+    return {
+        "jd_fingerprint": jd_profile.get("jd_fingerprint", ""),
+        "mapping_threshold": MIN_DIRECT_MAPPING_SCORE,
+        "experiences": selected,
+    }
 
 
 def point_selection_reason(point: dict[str, Any]) -> str:
     reasons: list[str] = []
+    if point.get("mapping_quality"):
+        reasons.append(f"{point['mapping_quality']} JD mapping")
     if point.get("matched_core_competencies"):
         reasons.append("matches core competencies: " + ", ".join(map(str, point["matched_core_competencies"][:3])))
     if point.get("matched_evidence_types"):
@@ -828,6 +951,9 @@ def render_evidence_markdown(jd_profile: dict[str, Any], selected_evidence: dict
     for exp in selected_evidence.get("experiences", []) or []:
         lines.extend([
             f"## {markdown_escape(exp.get('company'))} - {markdown_escape(exp.get('title'))}",
+            "",
+            f"- Assigned JD responsibilities: {markdown_escape('; '.join(exp.get('assigned_jd_responsibilities', []) or [])) or 'None'}",
+            f"- Custom JD fallback required: {markdown_escape(exp.get('custom_jd_bullet_required'))}",
             "",
             "| ID | Score | Point Title | Why selected | Resume source point |",
             "|---|---:|---|---|---|",
@@ -1066,6 +1192,7 @@ Goal:
 - Use the job description's responsibilities, keywords, tools, and core competencies.
 - Use only the selected truthful evidence from the candidate JSONs.
 - Rewrite each selected point into a strong resume bullet.
+- If a selected point has weak JD mapping, create a custom JD-derived bullet from the assigned JD responsibility and the experience's truthful evidence instead of recycling the old base point.
 
 Bullet formula:
 Strong action verb + JD-aligned impact + quantification/metric when available + business result.
@@ -1088,7 +1215,10 @@ JD-direct bullet rules:
 - Salesforce bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by Salesforce evidence.
 - Market Maker CRE PM bullets 1 and 2 must be built directly from the most important JD responsibilities, then backed by MarketMaker PM evidence.
 - MarketMaker BA, Vista, and LTIMindtree bullet 1 must be built directly from the most important JD responsibility, then backed by that experience's evidence.
+- Use each experience's assigned_jd_responsibilities for its JD-direct bullet slots. Do not reuse the same assigned responsibility unless there are fewer JD priorities than direct slots.
 - "Direct from JD" means start with the JD responsibility/competency as the sentence idea, then attach truthful evidence and metrics. Do not start those bullets from the old base resume wording.
+- If custom_jd_bullet_required is true, at least one JD-direct bullet for that experience must be custom-written from the assigned JD responsibility, selected evidence_proof, functional_skill, business_outcome, and metrics.
+- Custom bullets may introduce JD language only as a framing of proven work; they may not invent employers, tools, certifications, industries, locations, dates, or metrics.
 - For direct JD bullets, mirror a diverse responsibility mix: scope/metrics/exit criteria, system inputs and owners, v1 launch/pilots, cross-functional execution, executive documentation, analysis/data quality, adoption/handoff, operating cadence.
 - Do not force the same JD phrase into multiple experiences. Across the whole resume, use "adoption" in at most 3 bullets and "handoff" in at most 2 bullets.
 - Do not write phrases like "Led HubSpot Automation" unless selected evidence explicitly proves HubSpot. Use "strengthened CRM automation workflows" or "improved lead-management operating cadence" instead.
@@ -1151,6 +1281,7 @@ Keep the same selected evidence. Do not invent claims. Preserve strong JD alignm
 Short bullets must be 13-18 words. Long bullets must be 24-30 words.
 Required counts must be exact. Summary must be 45 words or fewer.
 Preserve the JD-direct bullet rules: Salesforce first 2, MarketMaker PM first 2, and first bullet for all remaining experiences must start from priority JD responsibilities, using a diverse mix of responsibilities instead of repeating adoption/handoff.
+Use each experience's assigned_jd_responsibilities for those direct slots. If custom_jd_bullet_required is true, custom-write at least one direct bullet from assigned JD responsibility plus selected evidence instead of reusing an old base point.
 Fix repeated wording, overlapping bullets, and awkward AI phrases. Across the whole resume, use "adoption" in at most 3 bullets and "handoff" in at most 2 bullets.
 Every bullet must start with a strong action verb. Avoid weak starts like Applied, Used, Utilized, Helped, Assisted, Responsible for, Worked on, or Performed.
 Quantification must include high-impact context beyond percentages when evidence supports it: dollar values, counts, scale, teams, projects, workflows, controls, platforms, risk, compliance, or customer impact.
@@ -1185,6 +1316,7 @@ Keep the resume truthful, concise, and ATS-friendly.
 Implement the user's requested changes unless they conflict with evidence or resume quality.
 If feedback asks for stronger alignment, use the JD profile and selected evidence to improve wording.
 If feedback asks to remove something, remove or replace it with a defensible evidence-backed point.
+Use each experience's assigned_jd_responsibilities for JD-direct slots. If custom_jd_bullet_required is true, custom-write the direct bullet from assigned JD responsibility plus selected evidence instead of reusing an old base point.
 Preserve required bullet counts unless the user explicitly asks for a different count.
 Keep summary at 45 words or fewer.
 Keep skills in exactly five categories: Methods, Operations, Analytics, Systems & Stack, Tools.
@@ -1438,7 +1570,8 @@ def build_output_dir(base_output_dir: Path, jd_profile: dict[str, Any], run_date
     run_date = run_date or date.today().isoformat()
     company = jd_profile.get("company_name") or "company_not_provided"
     role = jd_profile.get("role_title") or "role_not_provided"
-    run_name = slugify("_".join([company, role]))
+    fingerprint = jd_profile.get("jd_fingerprint") or "nohash"
+    run_name = slugify("_".join([company, role, str(fingerprint)[:8]]))
     return base_output_dir / run_date / run_name
 
 

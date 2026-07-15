@@ -1,0 +1,50 @@
+{
+  "status": "needs_review",
+  "summary_word_count": 25,
+  "bullet_counts": {
+    "salesforce": 6,
+    "marketmaker_pm": 3,
+    "marketmaker_ba": 3,
+    "vista": 4,
+    "ltimindtree": 4
+  },
+  "bullet_word_counts": {
+    "salesforce": [
+      15,
+      28,
+      17,
+      26,
+      14,
+      25
+    ],
+    "marketmaker_pm": [
+      14,
+      24,
+      16
+    ],
+    "marketmaker_ba": [
+      13,
+      24,
+      14
+    ],
+    "vista": [
+      14,
+      25,
+      14,
+      25
+    ],
+    "ltimindtree": [
+      14,
+      23,
+      13,
+      24
+    ]
+  },
+  "issues": [
+    "salesforce bullet 1 should start with a stronger action verb; found 'Powered'.",
+    "marketmaker_pm bullet 1 should start with a stronger action verb; found 'Powered'.",
+    "marketmaker_ba bullet 1 should start with a stronger action verb; found 'Powered'.",
+    "vista bullet 1 should start with a stronger action verb; found 'Powered'.",
+    "ltimindtree bullet 2 has 23 words; target is 28."
+  ]
+}

@@ -1,0 +1,62 @@
+Company: Prelim
+Role: Business Operations Lead
+
+About Prelim
+At Prelim, we are on a mission to revolutionize the way financial institutions onboard new customers. We believe that the customer onboarding process should be fast, efficient, and user-friendly. As a member of our team, you will have the opportunity to work with cutting-edge technology and make a real impact on the financial industry.
+
+Our no-code platform allows banks and financial institutions to digitalize their services, streamline account opening processes, and improve customer experience. By joining our team, you will be a part of a fast-paced, innovative, and dynamic work environment where you can learn and grow your skills.
+
+Our team is made up of a diverse group of individuals with a wide range of experience and expertise. We value collaboration, creativity, and a passion for problem-solving. As a member of our team, you will have the opportunity to work with experts in the field, and be challenged to think outside the box.
+
+In addition, we offer a comprehensive benefits package, flexible working hours, and a great work-life balance. We are constantly evolving and growing, and we are looking for talented individuals who share our vision and are excited to be a part of our journey. If you're passionate about fintech and want to be a part of a team that is making a real impact in the industry, then Prelim is the place for you.
+
+About the role
+Power the engine behind product delivery
+
+Prelim is growing 2-3x annually and our platform powers account opening and onboarding for banks across the country. Our team is at a turning point: the informal systems that got us here won’t scale with where we’re headed next.
+
+Right now, the work of coordinating across teams, tracking projects, and keeping the company’s operational rhythm running falls on engineers, designers, and product leads. That’s not sustainable, and we know it.
+
+As our first Business Operations hire, you’ll build the operational infrastructure from scratch. There’s no playbook, no existing business ops team, and no predecessor in the role. You’ll decide what to systematize first, build processes that scale, and ensure nothing falls through the cracks while the company continues to grow rapidly.
+
+If you want to shape how a fintech startup scales, this is your chance to make a huge impact.
+
+What You'll Own
+
+Cross-team coordination. You'll maintain the picture of who's working on what across product, design, engineering, and implementations. When a new bank comes in, you're the person who looks at current allocation, identifies who has capacity, and presents staffing options, not the founder doing it from memory in a Slack DM.
+Workload visibility and risk tracking. You’ll build and run a lightweight system so leadership has a weekly view of team load, active work, and delivery risk. You surface early warning signs like stalled projects, overloaded teams, or unanswered customer concerns. The goal is to surface problems before they become emergencies.
+Operational rhythm. Leads syncs have agendas. Cycle kickoffs happen on schedule. Action items from meetings get tracked and followed up on. OOO plans are documented. 90-day reviews get scheduled. You own the cadence that keeps the company running smoothly.
+Staffing and project coordination. When projects need to be reassigned, when someone goes on PTO, when a customer escalation needs routing, you're the person who makes sure the handoff happens and nothing gets dropped. You maintain the map of who covers what, and you update it in real time.
+Vendor and logistics management. Office space coordination, software contracts, expense approvals, travel booking for offsites and team meetups in collaboration with People Operations. This work is real, it takes real hours, and it currently lands on people who should be building product.
+What You Won't Own
+
+You're not a people manager, team leads manage their own reports. You're not making product decisions, the founder and product leads own the roadmap. You're not doing the work itself, you're making sure the people who do have what they need and that nothing falls through cracks.
+
+What We're Looking For
+
+3-6 years of experience at a startup that scaled through the 15-to-80 person range. You've lived through the transition from "everyone does everything" to "we need real structure," and you know what works and what's overkill at each stage.
+You've held a role where you were responsible for cross-functional coordination. Titles you might have held include ops manager, business operations, chief of staff, program manager, or a senior role at a consulting firm. The title matters less than whether you were the person who kept the trains running.
+You're a strong writer and communicator. You'll create the operational documentation that doesn't exist yet, staffing plans, project trackers, meeting agendas, status reports, process docs. If you can't write clearly and concisely, everything you produce will be ignored.
+You're relentlessly organized without being bureaucratic. You add just enough structure that things don't fall through cracks, but you know the difference between useful process and process for its own sake.
+You're comfortable with ambiguity. In the first month, you might be updating a project board, chasing down a dropped support ticket, organizing travel for an offsite, and building a staffing spreadsheet, all in the same day. If that mix of variety and ownership sounds exciting, you'll feel right at home here.
+You're direct and unintimidated. You'll need to tell a team lead "your team is overloaded and we need to cut something" and tell the founder "you committed to something we don't have capacity for." This role requires comfort with giving direct and thoughtful feedback.
+Nice to Have, Not Required
+
+Experience in B2B, enterprise software, or fintech
+Familiarity with tools like Linear, Notion, Pylon, Mixpanel
+Experience supporting a technical team (engineering, design, product)
+What You Won't Find in This Role
+
+This isn't a back-office position. You'll work directly with the founder and team leads daily. You'll have visibility into every part of the company. The decisions you enable and the problems you catch will directly affect whether this company scales well or burns out its best people.
+
+How You'll Know It's Working
+
+A month in, the founder stops being the person who's asked "who's covering this." Two months in, there's a weekly snapshot of team load that didn't exist before. Three months in, problems get surfaced in a regular report before they become emergencies. Six months in, a new bank comes in and the staffing conversation takes fifteen minutes instead of a week of ad hoc huddles.
+
+About Prelim
+
+Prelim is a San Francisco and New York City-based startup that operates with fully remote positions across the US, helping banks onboard their customers. Our platform is designed to streamline the account opening process for both consumers and businesses, accelerating speed-to-market and enhancing the customer experience for financial institutions. If you’re excited to help shape the future of the banking industry, we encourage you to apply and join our team at Prelim. We are seeking individuals who are driven, ambitious, and eager to make a real impact in a traditional industry ready for technological innovation.
+
+We offer equity, a sponsored 401K, parental leave, and fully paid health, vision, and dental insurance. Additional benefits include unlimited PTO, a remote work stipend, a life-style stipend, and twice-yearly company retreats. This role would also attend periodic team meetups in NYC and SF.
+
+Prelim values diversity and inclusion; people of all backgrounds are welcome to join our mission to transform banking.
